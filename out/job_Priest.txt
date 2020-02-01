@@ -179,5 +179,5 @@ REF Priest Habit.jpg|Catholic nuns with different variations of habit.
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-01 21:50:36.245174
+* Automatic generated at 2020-02-01 23:06:14.862546
 {{PageProgress|2}}

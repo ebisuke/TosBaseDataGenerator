@@ -150,6 +150,7 @@ def generateListView(job:TosStructure.Job):
         else:
             typ=" . "
             desc=s.description
+
         vv="{{ListViewSkill|"+s.name+"|"+typ+"|"+replacenl(rb(desc))+"|"+str(s.maxlv)+"}}\n"
         listview+=vv
     return listview
@@ -182,6 +183,8 @@ def generateAttribute(job:TosStructure.Job):
                 else:
                     attrname = a.name
                 desc = replacenl(a.description)
+                attrname = re.sub("[:|：]", " - ", attrname)
+                attreffect = re.sub("[:|：]", " - ", attreffect)
                 att += "{{ListViewAttribute|" + attrname + "|" + attreffect + "|" + str(a.reqlv) + "|" + str(
                     a.maxlv) + "|" + rb(replacenl(desc)) + "}}\n"
 
@@ -192,7 +195,7 @@ def generateArtsAttribute(job:TosStructure.Job):
         a:TosStructure.Attribute = at
         if(a.arts==True):
             an=a.name.replace("[アーツ]","")
-            an=an.replace("："," - ")
+            an=re.sub("[:|：]"," - ",an)
             desc=replacenl(a.description)
             att+="{{ListViewArts|"+an+"|"+replacenl(rb(desc)) +"}}\n"
     for sk in job.skills:
@@ -200,7 +203,7 @@ def generateArtsAttribute(job:TosStructure.Job):
         for a in s.attributes:
             if (a.arts == True):
                 an = a.name.replace("[アーツ]", "")
-                an = an.replace("：", " - ")
+                an=re.sub("[:|：]"," - ",an)
                 desc = replacenl(a.description)
                 att += "{{ListViewArts|" + an + "|" + replacenl(rb(desc)) + "}}\n"
 

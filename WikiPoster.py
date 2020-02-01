@@ -22,7 +22,7 @@ class WikiPoster:
             "action": "login",
             "lgname": username,
             "lgpassword": password,
-            "lgtoken": "7a082dab71390385539c02fda24c72a8+",
+            "lgtoken": "",
 
         })
 
@@ -31,7 +31,7 @@ class WikiPoster:
             "action": "edit",
             "title": "Sandbox",
             "text":"testtest",
-            "token":"7a082dab71390385539c02fda24c72a8+"
+            "token":""
         })
         data = ret.json()
         print(str(ret))

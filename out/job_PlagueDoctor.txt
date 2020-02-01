@@ -63,7 +63,7 @@ List View=
 
 {| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="width: 800px;"
 {{ListViewAttribute}}
-{{ListViewAttribute|ヒーリングファクター:PTメンバー適用||200|1|[ヒーリングファクター]をPTメンバーの誰かに使用すると全てのPTメンバーに適用され、回復周期が2.5秒に短縮される代わりに持続時間が10秒になる<br/> <br/>自分を除いたPTメンバーに適用される治癒係数は60%で適用}}
+{{ListViewAttribute|ヒーリングファクター - PTメンバー適用||200|1|[ヒーリングファクター]をPTメンバーの誰かに使用すると全てのPTメンバーに適用され、回復周期が2.5秒に短縮される代わりに持続時間が10秒になる<br/> <br/>自分を除いたPTメンバーに適用される治癒係数は60%で適用}}
 {{ListViewAttribute|インシネレーション|強化|1|100|[インシネレーション]のスキル係数が特性レベル1につき0.5%アップ<br/><br/>最高レベルになるとさらに10%アップ}}
 {{ListViewAttribute|インシネレーション|伝染|300|5|[インシネレーション]で敵が死亡時、持っていたデバフが他の敵に転移<br/><br/>特性レベル1につき対象数が1体増加<br/><br/>SP消耗40%アップ}}
 {{ListViewAttribute|インシネレーション|高速対応|350|1|スキル[インシネレーション]のダメージ連打周期が0.2秒短縮<br/><br/>SP消耗30%増加}}
@@ -112,5 +112,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-01 21:50:36.281413
+* Automatic generated at 2020-02-01 23:06:14.897440
 {{PageProgress|2}}

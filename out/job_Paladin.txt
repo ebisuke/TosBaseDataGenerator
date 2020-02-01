@@ -112,5 +112,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-01 21:50:36.273285
+* Automatic generated at 2020-02-01 23:06:14.890441
 {{PageProgress|2}}
