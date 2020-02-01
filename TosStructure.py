@@ -45,7 +45,7 @@ class Skill:
     clsid=0
     name=""
     maxlv=None
-    unlocklv=0
+    reqlv=0
     attributes=[]
 class Attribute:
     name=""
@@ -61,33 +61,42 @@ class Attribute:
 def generateAttribute(conv:DicConverter,job:Job,attrdata:Attribute):
     attr=Attribute()
     if(not job.engname in conv.skilltable.abilityjob):
-        return attr;
+        return None
     jobattrdata=conv.skilltable.abilityjob[job.engname]
 
     attr.clsid=attrdata["ClassID"]
     attr.classname=attrdata["ClassName"]
     byclassname=jobattrdata[jobattrdata["ClassName"]==attr.classname]
+    if(len(byclassname)==0):
+        return None
     attr.description=conv.dictable.krtojp(attrdata["Desc"])
     attr.addspend = conv.dictable.krtojp(attrdata["AddSpend"])
     attr.name=conv.dictable.krtojp(attrdata["Name"])
-    attr.reqlv=byclassname["UnlockArgNum"]
-    attr.maxlv =byclassname["MaxLevel"]
+    attr.reqlv=byclassname["UnlockArgNum"].item()
+    attr.maxlv =byclassname["MaxLevel"].item()
 
     if(len(byclassname)>0 and "HIDDENABIL" in byclassname["ScrCalcPrice"].iloc[0]):
         attr.arts=True
     return attr
 def generateSkills(conv:DicConverter,job:Job,skillname:str):
-    skill=conv.skilltable.skill[conv.skilltable.skill["ClassName"]==skillname]
-    skilltree = conv.skilltable.skill[conv.skilltable.skilltree["SkillName"] == skillname]
-    skill.description=skill[conv.dictable.krtojp(skill["Caption"])]
-    skill.caption2 = skill[conv.dictable.krtojp(skill["Caption2"])]
-    skill.classname=skill["ClassName"]
-    skill.clsid=skill["ClassID"]
-    skill.maxlv=conv.skilltable.skilltree["MaxLevel"]
-    skill.reqlv=conv.skilltable.skilltree["UnlockClassLevel"]
-    for attr in conv.skilltable.ability.iterrows():
-        if(attr[1]["SkillCategory"]==skillname):
-            skill.attributes.append(generateAttribute(conv,job,attr[1]))
+
+    pa=conv.skilltable.skill[conv.skilltable.skill["ClassName"]==skillname]
+    pt=conv.skilltable.skilltree[conv.skilltable.skilltree["SkillName"]==skillname].head(1)
+    skill=Skill()
+    skill.description=conv.dictable.krtojp(pa["Caption"].item())
+    skill.caption2 = conv.dictable.krtojp(pa["Caption2"].item())
+    skill.classname=pa["ClassName"].item()
+    skill.clsid=pa["ClassID"].item()
+    skill.maxlv=pt["MaxLevel"].item()
+    skill.reqlv=pt["UnlockClassLevel"].item()
+    skill.name= conv.dictable.krtojp(pa["Name"].item())
+    skill.attributes=[]
+    for attr in conv.skilltable.ability[conv.skilltable.ability["SkillCategory"]==skillname].iterrows():
+
+        att=generateAttribute(conv,job,attr[1])
+        if att is not None:
+            print(skillname)
+            skill.attributes.append(att)
     return skill
 def removebrace(arg):
     return re.sub("\{.*?\}","",arg,)
@@ -98,7 +107,7 @@ def generateJob(conv: DicConverter, jobdata:Job):
     job=Job()
     job.clsid = jobdata["ClassID"]
     job.classname = jobdata["ClassName"]
-    job.name = conv.dictable.krtojp(jobdata["Name"])
+    job.name = re.sub("\{.*?\}","",conv.dictable.krtojp(jobdata["Name"]))
     job.engname = jobdata["EngName"]
     job.STR = jobdata["STR"]
     job.CON = jobdata["CON"]
@@ -117,23 +126,24 @@ def generateJob(conv: DicConverter, jobdata:Job):
         job.description=removebrace(desc)
         job.lores=""
 
-    # override
-    ovr=conv.opttable.opt[conv.opttable.opt["ClassName"]==job.engname]["Lores"]
-    if(ovr==ovr):
-        job.lores=ovr
 
     print(job.description+".."+job.lores)
     # job attributes
+    job.attributes=[]
     for attr in conv.skilltable.ability.iterrows():
         if(attr[1]["SkillCategory"]=="All"):
-            job.attributes.append(generateAttribute(conv,job,attr[1]))
+            att=generateAttribute(conv,job,attr[1])
+            if(att is not None):
+                job.attributes.append(att)
+    job.skills=[]
     # skills
-    for skillintree in conv.skilltable.skilltree[conv.skilltable.skilltree["ClassName"]==job.classname].iterrows():
-        job.skills.append(generateSkills(conv,job[1],skillintree["SkillName"]))
+    for skillintree in filter(lambda x:re.match("^"+job.classname+"_",x[1]["ClassName"]),conv.skilltable.skilltree.iterrows()):
+        job.skills.append(generateSkills(conv,job,skillintree[1]["SkillName"]))
     return job
 def generateJobTree(conv:DicConverter):
     tree=JobTree()
     for j in conv.skilltable.job.iterrows():
         print(j[1]["EngName"])
         tree.jobs.append(generateJob(conv,j[1]))
+
     return tree

@@ -25,6 +25,11 @@ class DicTable:
                     l+=1
                     if( m is not None):
                         self.dicidtojp[m.group(1)]=m.group(2)
+                    m = re.search("(.*?)\t(.*?)\t(.*?)(\t|$)", line)
+                    if( m is not None):
+                        self.dicidtokr[m.group(1)]=m.group(3)
+                        self.krtodicid[m.group(3)] = m.group(1)
+
     def parseKrDic(self):
         tree = ET.parse(self.path+"/"+"wholeDicID.xml")
         root = tree.getroot()
@@ -42,6 +47,10 @@ class DicTable:
             self.krtodicid[data.attrib["kr"]]=txt
             self.dicidtokr[txt] = data.attrib["kr"]
     def krtojp(self,kr):
+        if(isinstance(kr,pandas.Series)):
+            if(pandas.Series.isnull(kr)):
+                return ""
+
         if(kr==kr):
             if(kr in self.krtodicid ):
                 return self.dicidtojp[self.krtodicid[kr]]

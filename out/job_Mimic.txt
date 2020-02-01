@@ -1,0 +1,77 @@
+{{Infobox Class|5|||||nan|nan
+| str=3 
+| dex=4 
+| con=3 
+| int=8 
+| spr=7 
+}}
+ミミック
+
+==伝承==
+
+
+==背景==
+nan
+==アイコンとコスチューム==
+nan
+==スキルと特性==
+<tabber>
+Tree View=
+{| class="wikitable"
+|+
+!Unlock
+
+|-
+
+|-
+{{TreeViewRow|}}
+
+|}
+|-|
+List View=
+{| class="wikitable"
+
+|}
+
+{| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="width: 800px;"
+{{ListViewAttribute}}
+
+|-
+{{ListViewArts}}
+
+|}
+</tabber>
+
+==クラス関係==
+<tabber>
+適合=
+{{ClassTable|nan}}
+|-|
+部分的に適合=
+{{ClassTable|nan}}
+|-|
+特殊作用=
+{{ClassTable|nan}}
+|-|
+類似=
+{{ClassTable|nan}}
+</tabber>
+
+==Tipsと戦略==
+nan
+
+==ギャラリー==
+nan
+
+==トリビア==
+nan
+
+==参照==
+{{Reflist}}
+
+==外部リンク==
+nan
+{{ClassFooter|5}}
+==履歴==
+* Automatic generated at 2020-02-01 18:27:15.348500
+{{PageProgress|2}}

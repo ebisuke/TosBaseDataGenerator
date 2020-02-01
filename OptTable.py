@@ -10,4 +10,4 @@ class OptTable:
 
     def __init__(self, path):
         self.path = path
-        self.opt=pandas.read_excel(path+"/opts.xlsx",dtype=str,na_values="")
+        self.opt=pandas.read_excel(path+"/opts.xlsx",dtype=str,keep_default_na=False, na_values="")

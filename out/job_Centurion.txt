@@ -1,0 +1,104 @@
+{{Infobox Class|4|||||nan|nan
+| str=1 
+| dex=1 
+| con=1 
+| int=1 
+| spr=1 
+}}
+センチュリオンはフォーメーションを使って戦いを指揮するクラスです。状況に応じて様々な陣形を巧みに操り、仲間たちを指揮します。
+
+==伝承==
+
+
+==背景==
+nan
+==アイコンとコスチューム==
+nan
+==スキルと特性==
+<tabber>
+Tree View=
+{| class="wikitable"
+|+
+!Unlock
+
+|-
+|-
+! Lv1
+{{TreeViewCell|コンスクリプト}}<br/><br/>
+{{TreeViewCell|ファランクス|スロー}}<br/><br/>
+{{TreeViewCell|テルシオ|フォーメーション変更}}<br/><br/>
+{{TreeViewCell|ウィング|フォーメーション変更}}<br/><br/>
+{{TreeViewCell|ウェッジ}}<br/><br/>
+{{TreeViewCell|シルトロン|ヒーリングタイム}}<br/><br/>
+{{TreeViewCell|テストゥード|移動適応}}<br/><br/>
+{{TreeViewCell|ローテート}}<br/><br/>
+{{TreeViewCell|特戦隊型}}<br/><br/>
+
+|-
+{{TreeViewRow|}}
+
+|}
+|-|
+List View=
+{| class="wikitable"
+{{ListViewSkill|1}}
+|-
+{{ListViewSkill|コンスクリプト| . |部隊員を招集するフォーメーションを生成します。|5}}
+{{ListViewSkill|ファランクス| . |ファランクスフォーメーションに転換します。全部隊員のブロック能力を最前列の3人に集中させます。|0}}
+{{ListViewSkill|テルシオ| . |テルシオフォーメーションに転換します。全ての部隊員の防御力を最前列の3人に集中させ、敵の注意を引き付けます。|0}}
+{{ListViewSkill|ウィング| . |ウィングフォーメーションに転換します。フォーメーション内に入った敵は防御力がダウンし、リーダーめがけて突進します。|0}}
+{{ListViewSkill|ウェッジ| . |ウェッジフォーメーションに転換します。全部隊員の攻撃力を先頭に立った部隊員1人に集中させます。|0}}
+{{ListViewSkill|シルトロン| . |シルトロンフォーメーションに転換します。全部隊員が武器を構えて止まり、敵の突進を防ぎます。|0}}
+{{ListViewSkill|テストゥード| . |テストゥードフォーメーションに転換します。部隊員全員の防御力をアップさせ、ゆっくり移動します。|0}}
+{{ListViewSkill|ローテート| . |フォーメーションの方向をリーダーの視線の方向に合わせて整えます。|0}}
+{{ListViewSkill|特戦隊型| . |隊員を招集するフォーメーションになります。フォーメーションに入った隊員はしばらくの間クールタイムが半分になります。持続時間はスキルレベル、メンバー数によって増加します。|0}}
+
+|}
+
+{| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="width: 800px;"
+{{ListViewAttribute}}
+{{ListViewAttribute|ファランクス|スロー|1|4|[ファランクス]陣営の時、敵の攻撃がブロックされたら、該当の敵はスロー状態、スローデバフの持続時間は特性レベル1につき4秒アップ}}
+{{ListViewAttribute|テルシオ|フォーメーション変更|1|1|[テルシオ]の陣形を変更します。 4番と6番の位置が中央から遠くなります。}}
+{{ListViewAttribute|ウィング|フォーメーション変更|1|1|[ウィング]の陣形を変更します。 より深く誘引する形になります。}}
+{{ListViewAttribute|シルトロン|ヒーリングタイム|1|5|*[シルトロン]陣営の時、部隊員のHP回復時間が特性レベル1につき2秒減少 *SP消耗20%アップ}}
+{{ListViewAttribute|テストゥード|移動適応|1|5|[テストゥード]の陣形に変更する時、部隊員たちの移動速度が特性レベル1につき5%ダウン量が減ります。}}
+
+|-
+{{ListViewArts}}
+
+|}
+</tabber>
+
+==クラス関係==
+<tabber>
+適合=
+{{ClassTable|nan}}
+|-|
+部分的に適合=
+{{ClassTable|nan}}
+|-|
+特殊作用=
+{{ClassTable|nan}}
+|-|
+類似=
+{{ClassTable|nan}}
+</tabber>
+
+==Tipsと戦略==
+nan
+
+==ギャラリー==
+nan
+
+==トリビア==
+nan
+
+==参照==
+{{Reflist}}
+
+==外部リンク==
+nan
+{{ClassFooter|4}}
+==履歴==
+* Automatic generated at 2020-02-01 18:27:15.267500
+{{PageProgress|2}}

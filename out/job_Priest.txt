@@ -1,0 +1,183 @@
+{{Infobox Class|2|||||nan|nan
+| str=0 
+| dex=0 
+| con=30 
+| int=40 
+| spr=130 
+}}
+プリーストは聖物を使って仲間に祝福を与え、聖なる力で死者を復活させるクレリック系クラスです。
+
+==伝承==
+プリーストは主に王国首都で活動した者が多く、神樹の日に最も被害を受けたクレリックです。神樹の日以前にプリーストになった者の中で、生き残った最年長のプリーストはまだ30代です。
+
+==背景==
+Tree of Saviorの'''プリースト'''」はカトリックの司祭を基にしており、人々が言葉と恵みを分かち合うことで、救世主と人類の間の架け橋となっている人たちです。
+<ref>[https://www.vocationcentre.org.au/home/what-is-a-vocation/priesthood/what-is-a-catholic-priest/ Vocation Center - What is a Catholic Priest?]</ref> 
+説教、洗礼、献身的な告白、献身的な指導、貧者や病人の援助、結婚式や葬式の称賛などの職務を行います。
+<ref>[https://www.vocationcentre.org.au/home/what-is-a-vocation/priesthood/what-does-a-priest-do/ Vocation Center - What does a Priest do?]</ref>
+教会に奉仕することを希望し、カトリックの教区またはコミュニティによって後援されている学士号を持つ男性は、聖職者になるために神学校に参加する資格があります。
+<ref>[https://learn.org/articles/Catholic_Seminary_Your_Questions_Answered.html Catholic Seminary Training Q&A]</ref>
+神学校は大学と同様に運営されており、哲学と神学の分野の正式なアカデミックを含む、人間、スピリチュアル、知的、牧師の知識の形成を提供しています。
+<ref>
+[https://nypriest.com/what-is-seminary-like NYPriest - What is Seminary like?]</ref>
+1世紀から2世紀の間に僧職が始まったと考えられています
+<ref>[https://www.britannica.com/topic/presbyter Encyclopedia Britannica - Christian Presbyster]</ref>
+<ref>[https://www.britannica.com/topic/priest-Christianity Encyclopedia Britannica - Christian Priest]</ref>
+司教はしばしば部下の助祭を不在のときの代わりとして委任していました。キリスト教がヨーロッパ全土に広まり、各地に教区教会が建てられると、役割は司教に限定されたより多くの機能と権限を持つようになりました。そのため、'''プリースト'''は、過渡期としては助祭の上位に位置し、カトリック序列の最下位の序列として位置づけられる。
+<ref>[https://www.hierarchystructure.com/roman-catholic-church-hierarchy/ Hierarchy Structure - Catholic Church]</ref>
+古い伝統によると、男だけが聖職者となることができます。修道女は一般的に女性の聖職者とされているが、彼女らはその役割には適格ではなく、キリスト教に人生を捧げているが聖職者の訓練を受けておらず、公式には'''プリースト'''のほとんどの職務を行うことが認められていません。
+<ref>[https://www.romancatholicwomenpriests.org/ RCWP]</ref> 
+<!--
+Tree of Savior '''Priests''' are based on catholic priests, those are men that act as bridge between it and mankind sharing its words and grace,<ref>[https://www.vocationcentre.org.au/home/what-is-a-vocation/priesthood/what-is-a-catholic-priest/ Vocation Center - What is a Catholic Priest?]</ref> performing duties such as preaching, baptism, take devotes confessions, offer devotes guidance, aid the poor and ill, commend weddings and funerals. <ref>[https://www.vocationcentre.org.au/home/what-is-a-vocation/priesthood/what-does-a-priest-do/ Vocation Center - What does a Priest do?]</ref> Any men with a bachelor degree that wishes to serve the church, and is sponsored by a catholic diocese or community, is eligible to join the seminary in order to become a priest.<ref>[https://learn.org/articles/Catholic_Seminary_Your_Questions_Answered.html Catholic Seminary Training Q&A]</ref> The seminary operates similarly to an university, offering formation in human, spiritual, intellectual and pastoral knowledge, including the formal academics in philosophy and theology fields of study. <ref>
+
+[https://nypriest.com/what-is-seminary-like NYPriest - What is Seminary like?]</ref> It's believed that priesthood started between the 1st and 2nd century,<ref>[https://www.britannica.com/topic/presbyter Encyclopedia Britannica - Christian Presbyster]</ref><ref>[https://www.britannica.com/topic/priest-Christianity Encyclopedia Britannica - Christian Priest]</ref> as bishops would often delegate a subordinate deacon as a replacement in their absence. As christianism spread through Europe, and parish churches were build across the land, the role was expanded gaining more functions and powers that were limited to bishops. Due to that, '''Priests''' are allocated as the lowest hierarchy rank in the catholic order, being only above deacon as a transitional state.<ref>[https://www.hierarchystructure.com/roman-catholic-church-hierarchy/ Hierarchy Structure - Catholic Church]</ref>
+
+According to old traditions only men can ingress priesthood. Nuns are commonly associated as the female counterpart for priests but they aren't qualified for their role, those women that dedicate their lives to the christian faith but have no training in priesthood, not being officially allowed to perform most of '''Priest's''' functions.<ref>[https://www.romancatholicwomenpriests.org/ RCWP]</ref> 
+-->
+==アイコンとコスチューム==
+
+'''プリースト'''のアイコンは十字とそれに続く上下2対の翼で構成されており、最初のシンボルはキリストの死を表すキリスト教の第一のアイコンであり、後者はキリスト教の神の直接の奉仕者としての蛇、4羽と6羽の翼のある天使を指しています。
+[[File:REF_Priest_Vestment.jpg|200px|left|caption=Anglican variation with Alb, Surplice and Stole]]
+
+'''プリースト''' の伝統的なベストは、時によって異なりますが、ゲームで見られるものは、アルブ、ストールおよびチャスブルの3つの成分で構成されるミサを祝うために使用されるものです。アルブは全身を覆う丈の長いチュニックで、最初に着用され、その後、長いスカーフのようなピースとして、首の後ろにぶら下がっていて、前に平行になっているストールが続きます。伝統にのっとって、肩を覆う小さなケープ 「アミス」 が期待されていましたが、クラス衣装ではデフォルト衣装の視認性から外された可能性があります。しかし、スペシャルコスチュームにはには存在します。
+<ref>[http://catholicstraightanswers.com/what-is-the-origin-and-meaning-of-the-vestments-the-priest-wears-at-mass/ What is the origin and meaning of the vestments the priest wears at Mass?]</ref> 
+
+チャズブルのローマバージョンはfiddleback chasubleとしても知られており、肩甲骨に似たより長方形の形をしていますが、これが技術的な限界のために歴史的な正確さに基づいて選択されたのか、または全体的に優れた視覚的な読みに基づいて選択されたのかは明らかではありません。最終的な形からすると、ストールはシャスブルの下にデフォルトのレイヤーがあるため、見えるようにマージされているように見えます。衣装の大きな違いとして、女性版はアルブの上に習慣のバリエーションがあるので、これは伝統的に女性は'''プリースト'''になることができず、それに対応する最も近いのは修道女であるという事実へのコールバックです。
+
+スペシャルコスチュームでは、アルブはダークなチュニックで覆われ、シャスブルはアミスで置き換えられています。ストールがより目立つようになり、現在では女性の衣装の一部となっていますが、男性版は背中の部分に見られるように2枚目のストールが付いているよう誇張されています。
+
+<!--
+'''Priest's''' icon is composed of a cross followed by two pairs of wings on top and bottom, the first symbol is the primary icon of christianism as represents the death of Christ as the latter can be a reference to seraphs, four and six winged angels as direct servants of christian god<ref>[https://www.britannica.com/topic/seraph Encyclopedia Britannica - Seraph]</ref>, sharing the same thematic notes with the class identity.
+
+[[File:REF_Priest_Vestment.jpg|200px|left|caption=Anglican variation with Alb, Surplice and Stole]]
+
+'''Priest's''' traditional vests may vary on the occasion but the one seen in game is one used in celebration of mass being composed by three components - alb, stole and chasuble. Alb is a long tunic that covers the whole body and is the first piece to be wear, then it is followed by the stole as a long scarf like piece that hangs on the back of the neck and lays parallel on the front, as the last component the chasuble is a poncho-like cape in conical shape. Sticking to traditions it would be expected to have amice, a small cape that cover the shoulders, but for the class costume it was likely discarded due visibility on the default costume, it is present on the special variant however.<ref>[http://catholicstraightanswers.com/what-is-the-origin-and-meaning-of-the-vestments-the-priest-wears-at-mass/ What is the origin and meaning of the vestments the priest wears at Mass?]</ref> 
+
+The roman variant of the chasuble, also known as fiddleback chasuble, has a more rectangular shape similar to a scapular, it isn't clear if this was chosen based on historical accuracy, for technical limitations or overall better visual reading. From the final shape it appears that the stole was merged in order to be visible as the default layering is underneath the chasuble, it isn't as odd as some chasuble designs have the central pattern as in a stripe. As a major difference between costumes the female version has a variant of habit on top of the alb, this is a callback for the fact that traditionally women cannot become '''Priests''' and the closest counterpart to it are nuns.
+
+For the special costume the alb is covered by a dark tunic and has the chasuble replaced by an amice. Stole becomes way more visible and is now part of the female costume, however the male version is exaggerated gaining an second stole as seen on the back part.
+-->
+==スキルと特性==
+<tabber>
+Tree View=
+{| class="wikitable"
+|+
+!Unlock
+
+|-
+|-
+! Lv1
+{{TreeViewCell|アスパーション|強化}}<br/><br/>
+{{TreeViewCell|モンストランス|強化}}<br/><br/>
+{{TreeViewCell|ブレッシング|強化|追加バフ}}<br/><br/>
+{{TreeViewCell|リザレクション|再生促進}}<br/><br/>
+{{TreeViewCell|ターンアンデッド|強化|上級強化}}<br/><br/>
+|-
+! Lv16
+{{TreeViewCell|サクラメント|闇属性抵抗|強化}}<br/><br/>
+{{TreeViewCell|リバイブ|持続時間}}<br/><br/>
+|-
+! Lv31
+{{TreeViewCell|マスヒール|強化|上級強化}}<br/><br/>
+
+|-
+{{TreeViewRow|}}
+
+|}
+|-|
+List View=
+{| class="wikitable"
+{{ListViewSkill|1}}
+|-
+{{ListViewSkill|アスパーション| . |聖水を撒いて自分と仲間の物理防御力をアップさせます。|15}}
+{{ListViewSkill|モンストランス| . |前方にいる敵の回避をダウンさせます。|15}}
+{{ListViewSkill|ブレッシング| . |PTメンバーと仲間の攻撃に追加ダメージを付与する祝福を与えます。|10}}
+{{ListViewSkill|リザレクション| . |戦闘不能状態に陥った対象を回復させます。チームバトルリーグでは、1ラウンドにつき1回復活可能です。|5}}
+{{ListViewSkill|ターンアンデッド| . |前方の敵に神聖属性魔法ダメージを与え、確率でキャラクターおよびボスモンスターを除いた変異型または悪魔型敵を一度に片付けます。マレウスマレフィカームデバフにかかった変異型または悪魔型がターンアンデッドに当たると3秒間スタン状態になります。エンクラテイアバフ適用中は、ターンアンデッドの広域攻撃比率が50%増加します。|15}}
+{{ListViewSkill|2}}
+|-
+{{ListViewSkill|サクラメント| . |自分とPTメンバーの基本攻撃に一時的に神聖属性を付与します。ラストライツバフを受けた状態ではサクラメントバフが適用されません。敵に基本攻撃した際、聖属性追加攻撃が発動されます。|10}}
+{{ListViewSkill|リバイブ| . |戦闘不能状態を一度防ぎます。[ファナティシズム：殉教]特性がONの状態でファナティシズムバフが活性化中ならばリバイブの効果は適用されず、[ファナティシズム：殉教]効果が優先適用されます。|5}}
+{{ListViewSkill|3}}
+|-
+{{ListViewSkill|マスヒール| . |周辺の仲間たちのHPを回復させます。|5}}
+
+|}
+
+{| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="width: 800px;"
+{{ListViewAttribute}}
+{{ListViewAttribute|最大重量アップ||1|10|*キャラクターインベントリの持ち運べる重さが特性レベルにつき20アップ}}
+{{ListViewAttribute|アスパーション|強化|1|100|*[アスパーション]の物理防御力増加効果が特性レベル1につき0.5%増加  *最高レベルマスター時10%追加で増加}}
+{{ListViewAttribute|モンストランス|強化|1|100|*[モンストランス]の回避減少効果が特性レベル1につき0.5%増加  *最高レベルマスター時10%追加で増加}}
+{{ListViewAttribute|ブレッシング|強化|1|100|*特性レベル1につき[ブレッシング]の追加ダメージが0.5%増加  *最高レベルマスター時10%追加で増加}}
+{{ListViewAttribute|ブレッシング|追加バフ|1|5|*[ブレッシング]の対象の数が特性レベル1につき1アップ *SP消耗10%アップ}}
+{{ListViewAttribute|ターンアンデッド|強化|1|100|*[ターンアンデッド]のスキル係数が特性レベルごとに0.5％増加  *最高レベルマスター時10％追加で増加}}
+{{ListViewAttribute|サクラメント|闇属性抵抗|1|5|*[サクラメント]が活性化している間、闇属性抵抗が特性レベル1につき5アップ *SP消耗10%アップ}}
+{{ListViewAttribute|サクラメント|強化|1|100|*[サクラメント]の神聖属性追加攻撃のダメージが特性レベル1につき0.5%増加  *最高レベルマスター時10%追加で増加}}
+{{ListViewAttribute|リバイブ|持続時間|1|5|*[リバイブ]の持続時間が特性レベル1につき7秒ずつアップ *チームバトルリーグと総合ギルドバトルでは適用されない *SP消耗20%アップ}}
+{{ListViewAttribute|マスヒール|強化|1|100|*[マスヒール]の治癒係数が特性レベル1につき0.5%増加  *最高レベルマスター時10%追加で増加}}
+
+|-
+{{ListViewArts}}
+{{ListViewArts|リザレクション - 再生促進|* [リザレクション]で復活すると、回復するHP分シールドが10秒間追加され、10秒間対象が受ける回復量が100%増加します。 * 以下のシールド類バフと重複されず、リザレクションで与えられるシールドの量が多い場合、新しいシールド類バフは適用されません。 - テンプラー[シールドチャージャー] - ペルタスト[ハイガード]のシールド効果 - [ガベニの保護]効果 - [アルマオスカード]効果}}
+{{ListViewArts|ターンアンデッド - 上級強化|* [ターンアンデッド]のスキル係数が特性レベル1につき1.25%アップ}}
+{{ListViewArts|マスヒール - 上級強化|* [マスヒール]のスキル係数が特性レベル1につき1.25%アップ}}
+
+|}
+</tabber>
+
+==クラス関係==
+<tabber>
+適合=
+{{ClassTable|nan}}
+|-|
+部分的に適合=
+{{ClassTable|nan}}
+|-|
+特殊作用=
+{{ClassTable|nan}}
+|-|
+類似=
+{{ClassTable|nan}}
+</tabber>
+
+==Tipsと戦略==
+* 多くのクラスが癒すことができますが、''' {{PAGENAME}} '''は中立オブジェクトを癒す自然な能力を持つ唯一のものです。これは、NPCの生存を必要とするエンドゲームコンテンツの素晴らしいクラスになります。
+* '''{{PAGENAME}}'''は強力な防御クラスであるため、{{TextLink|ジーロット|2}}と組み合わせてリスクを減らすことができますが、それぞれのクラスが主に成長するステータスが異なるという問題があります。
+* [[精神]] は '''{{PAGENAME}}'''の中心となるステータスで、[[バフ]]の効果を増強します。
+* '''{{PAGENAME}}''''の攻撃的な可能性を利用するなら、攻撃が複数ヒットするクラスもしくは攻撃速度基準のクラスを推奨します。
+<!--
+* Many classes can heal, but '''{{PAGENAME}}''' is the only one with the natural ability to heal neutral objects, this makes it a great class for endgame content that requires NPC survival.
+* As '''{{PAGENAME}}''' is a powerful defensive class it can be paired with {{TextLink|Zealot|2}} to reduce its risks, doing so will split the stats out of both class interest however.
+* [[SPR]] is a major stat of interest for '''{{PAGENAME}}''', improving all [[buff]]s effectiveness.
+* To make use of '''{{PAGENAME}}''''s offensive potential it is recommended to take multi hit classes or attack speed based classes.
+-->
+
+==ギャラリー==
+<gallery widths="160" orientation="none" captionalign="center" position="left">
+REF Priest Seraph.jpg|Seraph found in The Chapel of Tears in Mont Sainte-Odile
+REF Priest Vesting for Mass.gif|Priest clothing diagram.
+REF Priest Chasuble.jpg|White and gold Chasuble.
+REF Priest Alb.jpg|Regular Alb.
+REF Priest Stole.jpg|White Stole with red cross.
+REF Priest Habit.jpg|Catholic nuns with different variations of habit.
+</gallery>
+
+==トリビア==
+*'''プリースト'''という言葉は、神聖な儀式を行い、人類と神の間を仲介することを許可された特定の宗教の聖職者を表すために使用される一般的な用語です。<ref>[https://www.merriam-webster.com/dictionary/priest Merrian-Webster Dictionary - Priest]</ref>
+*'''{{PAGENAME}}'''は、現在の日付と年齢に基づいている歴史的グループの数少ない職業の1つです。 実際、女性、文化、国を除き、人々が就くことができるまれなケースの1つでもあります。
+*男性の排他的グループに基づいているにもかかわらず、職業の昇進に関する性別の制限はありませんでした。
+*昔の[[ランクとサークル|ランク・サークルシステム]]に戻ると、'''{{PAGENAME}}'''は専用の隠しクラスである {{TextLink|チャプレン|2}}のスキルを拡張する唯一のクラスでした。
+*Re:Buildまでは、 '''{{PAGENAME}}'''はプレイするうえでの最悪のクラスの1つでした。 これは、触媒の消費や難しさのために意味がなかったためではなく、メインとなる3種類の'''{{PAGENAME}}'''バフが{{TextLink|パードナー|2}}の{{TextLink|スペルショップ|2}}を通じて購入できるという事実によるものです。当時、[[バフ]]は重複適用されませんでしたが、どの[[バフ]]の効果が高いかに関係なく、{{TextLink|パードナー|2}}のそれが優先されました。
+*'''{{PAGENAME}}''' は、複数の触媒を持っていますが、複数のスキルで同一の触媒アイテムを使用しない唯一のクラスです。これらの触媒はすべて、{{TextLink|チャプレン|2}}、{{TextLink | クリヴィス| 2}}、{{TextLink | パラディン|2}}および{{TextLink|パードナー|2}}などの他のクラスでも使用されます。 。
+* ゲームのリリース以降、[https://tos.guru/itos/database/equipment/203203 Attila]という名前の未使用のメイスが多くの司祭プレイヤーに求められました。 その特殊効果の1つ '''すべてのプリーストスキルレベル +2''' ｇは '''{{PAGENAME}}''' [[バフ]]による超強化を防ぐためにAttilaが導入されたことはないと考えられています。
+
+==参照==
+{{Reflist}}
+
+==外部リンク==
+nan
+{{ClassFooter|2}}
+==履歴==
+* Automatic generated at 2020-02-01 18:27:15.432500
+{{PageProgress|2}}

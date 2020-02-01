@@ -1,0 +1,91 @@
+{{Infobox Class|2|||||nan|nan
+| str=5 
+| dex=3 
+| con=6 
+| int=4 
+| spr=7 
+}}
+GMです
+
+==伝承==
+
+
+==背景==
+nan
+==アイコンとコスチューム==
+nan
+==スキルと特性==
+<tabber>
+Tree View=
+{| class="wikitable"
+|+
+!Unlock
+
+|-
+|-
+! Lv1
+{{TreeViewCell|HP、SP回復力アップ}}<br/><br/>
+{{TreeViewCell|ステータスアップ}}<br/><br/>
+{{TreeViewCell|クールタイム減少}}<br/><br/>
+{{TreeViewCell|攻撃力アップ}}<br/><br/>
+{{TreeViewCell|防御力アップ}}<br/><br/>
+
+|-
+{{TreeViewRow|}}
+
+|}
+|-|
+List View=
+{| class="wikitable"
+{{ListViewSkill|1}}
+|-
+{{ListViewSkill|HP、SP回復力アップ| . |HP、SP回復能力がアップします。|1}}
+{{ListViewSkill|ステータスアップ| . |全てのステータス能力値がアップします。|1}}
+{{ListViewSkill|クールタイム減少| . |スキルクールタイムがダウンします。|1}}
+{{ListViewSkill|攻撃力アップ| . |物理攻撃力、魔法攻撃力がアップします。|1}}
+{{ListViewSkill|防御力アップ| . |物理防御力、魔法防御力がアップします。|1}}
+
+|}
+
+{| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="width: 800px;"
+{{ListViewAttribute}}
+
+|-
+{{ListViewArts}}
+
+|}
+</tabber>
+
+==クラス関係==
+<tabber>
+適合=
+{{ClassTable|nan}}
+|-|
+部分的に適合=
+{{ClassTable|nan}}
+|-|
+特殊作用=
+{{ClassTable|nan}}
+|-|
+類似=
+{{ClassTable|nan}}
+</tabber>
+
+==Tipsと戦略==
+nan
+
+==ギャラリー==
+nan
+
+==トリビア==
+nan
+
+==参照==
+{{Reflist}}
+
+==外部リンク==
+nan
+{{ClassFooter|2}}
+==履歴==
+* Automatic generated at 2020-02-01 18:27:15.528500
+{{PageProgress|2}}
