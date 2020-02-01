@@ -80,7 +80,7 @@ List View=
 {{PageProgress|2}}
 """
 def replacenl(s):
-    return s.replace("\n"," ").replace("{nl}","\n")
+    return s.replace("\n","<br/>").replace("{nl}","<br/>")
 def rb(s):
     return re.sub("{.*?}","",s)
 

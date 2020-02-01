@@ -46,6 +46,7 @@ class Skill:
     name=""
     maxlv=None
     reqlv=0
+    iconname=""
     attributes=[]
 class Attribute:
     name=""
@@ -56,7 +57,7 @@ class Attribute:
     reqlv=None
     maxlv=0
     arts=False
-
+    iconname=""
 
 def generateAttribute(conv:DicConverter,job:Job,attrdata:Attribute):
     attr=Attribute()
@@ -69,12 +70,12 @@ def generateAttribute(conv:DicConverter,job:Job,attrdata:Attribute):
     byclassname=jobattrdata[jobattrdata["ClassName"]==attr.classname]
     if(len(byclassname)==0):
         return None
-    attr.description=conv.dictable.krtojp(attrdata["Desc"])
+    attr.description=re.sub("\*","\n",conv.dictable.krtojp(attrdata["Desc"])).strip()
     attr.addspend = conv.dictable.krtojp(attrdata["AddSpend"])
     attr.name=conv.dictable.krtojp(attrdata["Name"])
     attr.reqlv=byclassname["UnlockArgNum"].item()
     attr.maxlv =byclassname["MaxLevel"].item()
-
+    attr.iconname=attrdata["Icon"]
     if(len(byclassname)>0 and "HIDDENABIL" in byclassname["ScrCalcPrice"].iloc[0]):
         attr.arts=True
     return attr
@@ -89,13 +90,14 @@ def generateSkills(conv:DicConverter,job:Job,skillname:str):
     skill.clsid=pa["ClassID"].item()
     skill.maxlv=pt["MaxLevel"].item()
     skill.reqlv=pt["UnlockClassLevel"].item()
+    skill.iconname="icon_"+pa["Icon"].item()
     skill.name= conv.dictable.krtojp(pa["Name"].item())
     skill.attributes=[]
     for attr in conv.skilltable.ability[conv.skilltable.ability["SkillCategory"]==skillname].iterrows():
 
         att=generateAttribute(conv,job,attr[1])
         if att is not None:
-            print(skillname)
+            #print(skillname)
             skill.attributes.append(att)
     return skill
 def removebrace(arg):
@@ -143,7 +145,7 @@ def generateJob(conv: DicConverter, jobdata:Job):
 def generateJobTree(conv:DicConverter):
     tree=JobTree()
     for j in conv.skilltable.job.iterrows():
-        print(j[1]["EngName"])
+        #print(j[1]["EngName"])
         tree.jobs.append(generateJob(conv,j[1]))
 
     return tree
