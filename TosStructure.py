@@ -1,6 +1,15 @@
 from DicConverter import DicConverter
 import pandas
 import re
+
+ctrltype={
+    "Warrior":4,
+    "Scout":3,
+    "Wizard":5,
+    "Cleric":2,
+    "Archer":1,
+}
+
 class JobTree:
     jobs=[]
 
@@ -21,13 +30,14 @@ class Job:
     SPR=0
     DEX=0
     jobtype=0
+    rank=0
     fullcompatibilityclasses=""
     partialcompatibilityclasses=""
     similarclasses=""
     specialeffectclasses=""
     trivia=""
     costumeandoutfits=""
-
+    ctrltype=""
 class Skill:
     description=""
     caption2=""
@@ -95,7 +105,8 @@ def generateJob(conv: DicConverter, jobdata:Job):
     job.INT = jobdata["INT"]
     job.SPR = jobdata["MNA"]
     job.DEX = jobdata["DEX"]
-
+    job.rank= jobdata["Rank"]
+    job.ctrltype=ctrltype[jobdata["CtrlType"]]
     desc=conv.dictable.krtojp(jobdata["Caption1"])
     m = re.search("(.*)\{nl\}(.*?)$", desc)
     if(m is not None):
@@ -105,6 +116,12 @@ def generateJob(conv: DicConverter, jobdata:Job):
     else:
         job.description=removebrace(desc)
         job.lores=""
+
+    # override
+    ovr=conv.opttable.opt[conv.opttable.opt["ClassName"]==job.engname]["Lores"]
+    if(ovr==ovr):
+        job.lores=ovr
+
     print(job.description+".."+job.lores)
     # job attributes
     for attr in conv.skilltable.ability.iterrows():
