@@ -38,13 +38,7 @@ nan
 *[[シールド]]
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -71,34 +65,12 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|スラスト| . |10|47|敵を武器の先で強く突き後ろに押し出します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|277%|286%|295%|304%|313%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}
-}}
-|5}}
-{{ListViewSkill|バッシュ| . |10|49|強い攻撃で敵にダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|197%|203%|210%|216%|223%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}
-}}
-|5}}
-{{ListViewSkill|デアデビル| . |60|168|覚悟を決めて一時的に自分の物理攻撃のダメージをアップさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|物理攻撃ダメージ|+2%|+4%|+6%|+8%|+10%}}
-}}
-|5}}
-{{ListViewSkill|ベアー| . |60|168|覚悟を決めて一時的に自分が受けるダメージをダウンさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|受けるダメージ|-2%|-4%|-6%|-8%|-10%}}
-}}
-|5}}
-{{ListViewSkill|ペインバリア| . |30|134|一定時間体が硬直せず、押されたり倒れなくなります。使用直後に一時的にスタン、アレスト、移動不可、呪い、氷結、石化を除いた一般解除可能な全てのデバフにかからなくなり、ペインバリアの持続時間中は状態異常に対する効果抵抗の確率が増加します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|ペインバリアの持続時間|10秒|15秒|20秒|25秒|30秒}}
-}}
-|5}}
-{{ListViewSkill|リベレート| . |60|180|一時的に力を解放して周辺の敵の目に付くようになります。バフ持続時間中は自分の攻撃でモンスターに適用されるヘイト値がアップします。|1}}
+{{ListViewSkill|スラスト| . |47|5|10|敵を武器の先で強く突き後ろに押し出します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|277%|286%|295%|304%|313%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}<br/>}}<br/>|5}}
+{{ListViewSkill|バッシュ| . |49|5|10|強い攻撃で敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|197%|203%|210%|216%|223%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}<br/>}}<br/>|5}}
+{{ListViewSkill|デアデビル| . |168|1|60|覚悟を決めて一時的に自分の物理攻撃のダメージをアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|物理攻撃ダメージ|+ 2%|+ 4%|+ 6%|+ 8%|+10%}}<br/>}}<br/>|5}}
+{{ListViewSkill|ベアー| . |168|1|60|覚悟を決めて一時的に自分が受けるダメージをダウンさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|- 2%|- 4%|- 6%|- 8%|-10%}}<br/>}}<br/>|5}}
+{{ListViewSkill|ペインバリア| . |134|1|30|一定時間体が硬直せず、押されたり倒れなくなります。使用直後に一時的にスタン、アレスト、移動不可、呪い、氷結、石化を除いた一般解除可能な全てのデバフにかからなくなり、ペインバリアの持続時間中は状態異常に対する効果抵抗の確率が増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ペインバリアの持続時間|10秒|15秒|20秒|25秒|30秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|リベレート| . |180|1|60|一時的に力を解放して周辺の敵の目に付くようになります。バフ持続時間中は自分の攻撃でモンスターに適用されるヘイト値がアップします。|1}}
 
 |}
 
@@ -199,5 +171,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.843085
+* Automatic generated at 2020-02-02 20:52:44.567151
 {{PageProgress|2}}

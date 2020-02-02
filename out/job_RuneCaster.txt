@@ -19,13 +19,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -56,49 +50,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|氷のルーン| . |15|166|氷球を飛ばして敵にダメージを与えます。[氷結]状態の敵に使用時、最大クリティカル確率が適用されます。デバフ状態の敵を氷のルーンで攻撃すると、敵は3秒間氷結状態に陥ります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|450%x 2回|525%x 2回|600%x 2回|675%x 2回|750%x 2回|825%x 2回|901%x 2回|976%x 2回|1051%x 2回|1126%x 2回|1201%x 2回|1277%x 2回|1352%x 2回|1427%x 2回|1502%x 2回}}
-{{SkillAdditionalInfoTemplate|キャスティング時間|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒}}
-}}
-|15}}
-{{ListViewSkill|巨人のルーン| . |120|327|自分または仲間を一時的に巨人化させます。 巨人化したキャラクターは大型と判定され、代わりに防御力及び体力が増加します。スキル使用時、自分の召喚獣の中にショゴスがいればショゴスも30秒間巨人のルーン効果を受けます。巨人のルーンの効果でジャンプ攻撃をする時、一定の確率でアースクエイクが発動します。(アースクエイクを習得していない場合は基本攻撃ダメージが適用されます。)バフスキルは使用でき、攻撃スキルは使用できません。ただし、次のスキルは使用可能です。スワッシュバックリング、エナジーボルト、レサジー、マジックシールド、アースクエイク、マジックミサイル、クイックキャスト、クリーピングデス、コーリングストーム、氷のルーン、破壊のルーン、正義のルーン、保護のルーン、隕石のルーン{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|巨人化持続時間|30秒|60秒|90秒|120秒|150秒|180秒|210秒|240秒|270秒|300秒|330秒|360秒|390秒|420秒|450秒}}
-{{SkillAdditionalInfoTemplate|防御力、最大体力|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%}}
-{{SkillAdditionalInfoTemplate|移動速度|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20}}
-}}
-|15}}
-{{ListViewSkill|正義のルーン| . |30|196|正面に向けて直線状に長い神聖魔法攻撃を行います。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|473%x 5回|551%x 5回|630%x 5回|709%x 5回|788%x 5回|867%x 5回|946%x 5回|1025%x 5回|1104%x 5回|1183%x 5回|1262%x 5回|1340%x 5回|1419%x 5回|1498%x 5回|1577%x 5回}}
-{{SkillAdditionalInfoTemplate|キャスティング時間|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒}}
-}}
-|15}}
+{{ListViewSkill|氷のルーン| . |166|2|15|氷球を飛ばして敵にダメージを与えます。[氷結]状態の敵に使用時、最大クリティカル確率が適用されます。デバフ状態の敵を氷のルーンで攻撃すると、敵は3秒間氷結状態に陥ります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|450%x 2回|525%x 2回|600%x 2回|675%x 2回|750%x 2回|825%x 2回|901%x 2回|976%x 2回|1051%x 2回|1126%x 2回|1201%x 2回|1277%x 2回|1352%x 2回|1427%x 2回|1502%x 2回}}<br/>{{SkillAdditionalInfoTemplate|キャスティング時間| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|巨人のルーン| . |327|1|120|自分または仲間を一時的に巨人化させます。 巨人化したキャラクターは大型と判定され、代わりに防御力及び体力が増加します。スキル使用時、自分の召喚獣の中にショゴスがいればショゴスも30秒間巨人のルーン効果を受けます。巨人のルーンの効果でジャンプ攻撃をする時、一定の確率でアースクエイクが発動します。(アースクエイクを習得していない場合は基本攻撃ダメージが適用されます。)バフスキルは使用でき、攻撃スキルは使用できません。ただし、次のスキルは使用可能です。スワッシュバックリング、エナジーボルト、レサジー、マジックシールド、アースクエイク、マジックミサイル、クイックキャスト、クリーピングデス、コーリングストーム、氷のルーン、破壊のルーン、正義のルーン、保護のルーン、隕石のルーン{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|巨人化持続時間|30秒|60秒|90秒|120秒|150秒|180秒|210秒|240秒|270秒|300秒|330秒|360秒|390秒|420秒|450秒}}<br/>{{SkillAdditionalInfoTemplate|防御力、最大体力|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%|+20%}}<br/>{{SkillAdditionalInfoTemplate|移動速度|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20|+20}}<br/>}}<br/>|15}}
+{{ListViewSkill|正義のルーン| . |196|2|30|正面に向けて直線状に長い神聖魔法攻撃を行います。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|473%x 5回|551%x 5回|630%x 5回|709%x 5回|788%x 5回|867%x 5回|946%x 5回|1025%x 5回|1104%x 5回|1183%x 5回|1262%x 5回|1340%x 5回|1419%x 5回|1498%x 5回|1577%x 5回}}<br/>{{SkillAdditionalInfoTemplate|キャスティング時間| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|保護のルーン| . |60|271|キャスティング中のダメージが減少する効果を付与します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|キャスティング中にダメージダウン|2%|4%|6%|8%|10%|12%|14%|16%|18%|20%}}
-{{SkillAdditionalInfoTemplate|持続時間|30分|30分|30分|30分|30分|30分|30分|30分|30分|30分}}
-{{SkillAdditionalInfoTemplate|キャスティング時間|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒}}
-}}
-|10}}
-{{ListViewSkill|破壊のルーン| . |30|215|指定した位置にいる多数の敵に強力なダメージを与えます。 攻撃された敵たちは魔法を互いに反射して周辺にいる他の敵に追加ダメージを与え、魔法防御力が減少します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|467%|588%|709%|830%|951%|1072%|1193%|1314%|1435%|1556%}}
-{{SkillAdditionalInfoTemplate|魔法防御力|-5%|-10%|-15%|-20%|-25%|-30%|-35%|-40%|-45%|-50%}}
-{{SkillAdditionalInfoTemplate|キャスティング時間|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒|2秒}}
-}}
-|10}}
+{{ListViewSkill|保護のルーン| . |271|1|60|キャスティング中のダメージが減少する効果を付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|キャスティング中にダメージダウン| 2%| 4%| 6%| 8%|10%|12%|14%|16%|18%|20%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|30分|30分|30分|30分|30分|30分|30分|30分|30分|30分}}<br/>{{SkillAdditionalInfoTemplate|キャスティング時間| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|破壊のルーン| . |215|1|30|指定した位置にいる多数の敵に強力なダメージを与えます。 攻撃された敵たちは魔法を互いに反射して周辺にいる他の敵に追加ダメージを与え、魔法防御力が減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|467%|588%|709%|830%|951%|1072%|1193%|1314%|1435%|1556%}}<br/>{{SkillAdditionalInfoTemplate|魔法防御力|- 5%|-10%|-15%|-20%|-25%|-30%|-35%|-40%|-45%|-50%}}<br/>{{SkillAdditionalInfoTemplate|キャスティング時間| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒| 2秒}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|隕石のルーン| . |40|224|空から巨大な隕石を5つ落として敵にダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|712%|1424%|2136%|2848%|3560%}}
-{{SkillAdditionalInfoTemplate|キャスティング時間|2秒|2秒|2秒|2秒|2秒}}
-}}
-|5}}
+{{ListViewSkill|隕石のルーン| . |224|1|40|空から巨大な隕石を5つ落として敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|712%|1424%|2136%|2848%|3560%}}<br/>{{SkillAdditionalInfoTemplate|キャスティング時間| 2秒| 2秒| 2秒| 2秒| 2秒}}<br/>}}<br/>|5}}
 
 |}
 
@@ -156,5 +117,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.962082
+* Automatic generated at 2020-02-02 20:52:44.688152
 {{PageProgress|2}}

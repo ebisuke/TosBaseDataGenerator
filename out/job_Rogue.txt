@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -56,51 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|フェイント| . |25|106|敵を騙して油断させます。前方の敵は一時的に回避率が低くなり、3秒間移動と方向転換が不可能になります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|回避率|-3%|-6%|-9%|-12%|-15%|-18%|-21%|-24%|-27%|-30%|-33%|-36%|-39%|-42%|-45%}}
-}}
-|15}}
-{{ListViewSkill|ラクリメイター| . |60|145|指定した位置に催涙弾を投げます。 催涙弾に当たった対象は[暗黒]デバフにかかって、[攻撃不可]状態に陥ります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|催涙弾の持続時間|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒|21秒|22秒}}
-}}
-|15}}
-{{ListViewSkill|バックスタッブ| . |10|62|対象を短剣で連続攻撃します。2連打攻撃でクリティカル率が高まり、同時に気絶状態にすることもできます。また、敵の後方を攻撃してクリティカルが発生すると、追加ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|376% x2回|438% x2回|501% x2回|564% x2回|627% x2回|690% x2回|753% x2回|816% x2回|879% x2回|942% x2回|1005% x2回|1067% x2回|1130% x2回|1193% x2回|1256% x2回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3}}
-{{SkillAdditionalInfoTemplate|[スタン]持続時間|0.6秒(後方から攻撃時、持続時間1.5倍)|0.7秒(後方から攻撃時、持続時間1.5倍)|0.8秒(後方から攻撃時、持続時間1.5倍)|0.9秒(後方から攻撃時、持続時間1.5倍)|1秒(後方から攻撃時、持続時間1.5倍)|1.1秒(後方から攻撃時、持続時間1.5倍)|1.2000000000000002秒(後方から攻撃時、持続時間1.5倍)|1.3秒(後方から攻撃時、持続時間1.5倍)|1.4秒(後方から攻撃時、持続時間1.5倍)|1.5秒(後方から攻撃時、持続時間1.5倍)|1.6秒(後方から攻撃時、持続時間1.5倍)|1.7000000000000002秒(後方から攻撃時、持続時間1.5倍)|1.8秒(後方から攻撃時、持続時間1.5倍)|1.9000000000000001秒(後方から攻撃時、持続時間1.5倍)|2秒(後方から攻撃時、持続時間1.5倍)}}
-{{SkillAdditionalInfoTemplate|クリティカル率|+52%|+54%|+56%|+58%|+60%|+62%|+64%|+66%|+68%|+70%|+72%|+74%|+76%|+78%|+80%}}
-}}
-|15}}
-{{ListViewSkill|バロー| . |40|156|地中に潜って自分の姿を隠します。姿を現した時、敵にクリティカルを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|1500%|1750%|2000%|2250%|2500%|2750%|3000%|3250%|3500%|3750%|4000%|4250%|4500%|4750%|5000%}}
-}}
-|15}}
+{{ListViewSkill|フェイント| . |106|1|25|敵を騙して油断させます。前方の敵は一時的に回避率が低くなり、3秒間移動と方向転換が不可能になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|回避率|- 3%|- 6%|- 9%|-12%|-15%|-18%|-21%|-24%|-27%|-30%|-33%|-36%|-39%|-42%|-45%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ラクリメイター| . |145|1|60|指定した位置に催涙弾を投げます。 催涙弾に当たった対象は[暗黒]デバフにかかって、[攻撃不可]状態に陥ります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|催涙弾の持続時間| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒|21秒|22秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|バックスタッブ| . |62|3|10|対象を短剣で連続攻撃します。2連打攻撃でクリティカル率が高まり、同時に気絶状態にすることもできます。また、敵の後方を攻撃してクリティカルが発生すると、追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|376% x2回|438% x2回|501% x2回|564% x2回|627% x2回|690% x2回|753% x2回|816% x2回|879% x2回|942% x2回|1005% x2回|1067% x2回|1130% x2回|1193% x2回|1256% x2回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3}}<br/>{{SkillAdditionalInfoTemplate|[スタン]持続時間|0.6秒(後方から攻撃時、持続時間1.5倍)|0.7秒(後方から攻撃時、持続時間1.5倍)|0.8秒(後方から攻撃時、持続時間1.5倍)|0.9秒(後方から攻撃時、持続時間1.5倍)| 1秒(後方から攻撃時、持続時間1.5倍)|1.1秒(後方から攻撃時、持続時間1.5倍)|1.2秒(後方から攻撃時、持続時間1.5倍)|1.3秒(後方から攻撃時、持続時間1.5倍)|1.4秒(後方から攻撃時、持続時間1.5倍)|1.5秒(後方から攻撃時、持続時間1.5倍)|1.6秒(後方から攻撃時、持続時間1.5倍)|1.7秒(後方から攻撃時、持続時間1.5倍)|1.8秒(後方から攻撃時、持続時間1.5倍)|1.9秒(後方から攻撃時、持続時間1.5倍)| 2秒(後方から攻撃時、持続時間1.5倍)}}<br/>{{SkillAdditionalInfoTemplate|クリティカル率|+52%|+54%|+56%|+58%|+60%|+62%|+64%|+66%|+68%|+70%|+72%|+74%|+76%|+78%|+80%}}<br/>}}<br/>|15}}
+{{ListViewSkill|バロー| . |156|1|40|地中に潜って自分の姿を隠します。姿を現した時、敵にクリティカルを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1500%|1750%|2000%|2250%|2500%|2750%|3000%|3250%|3500%|3750%|4000%|4250%|4500%|4750%|5000%}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|スニークヒット| . |70|179|一時的に敵の後方から攻撃すると、クリティカル率がアップする状態になります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|クリティカル率|+32%|+34%|+36%|+38%|+40%|+42%|+44%|+46%|+48%|+50%}}
-{{SkillAdditionalInfoTemplate|持続時間|34秒|38秒|42秒|46秒|50秒|54秒|58秒|62秒|66秒|70秒}}
-}}
-|10}}
-{{ListViewSkill|イヴェイジョン| . |50|156|自分の回避率を大幅にアップさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|回避率|+50%|+100%|+150%|+200%|+250%|+300%|+350%|+400%|+450%|+500%}}
-}}
-|10}}
+{{ListViewSkill|スニークヒット| . |179|1|70|一時的に敵の後方から攻撃すると、クリティカル率がアップする状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル率|+32%|+34%|+36%|+38%|+40%|+42%|+44%|+46%|+48%|+50%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|34秒|38秒|42秒|46秒|50秒|54秒|58秒|62秒|66秒|70秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|イヴェイジョン| . |156|1|50|自分の回避率を大幅にアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|回避率|+50%|+100%|+150%|+200%|+250%|+300%|+350%|+400%|+450%|+500%}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ナイフスローイング| . |15|91|ナイフを投擲して敵に[標的]デバフを付与します。[標的]デバフにかかった敵はクリティカル抵抗とブロックが減少し、近接物理攻撃の回避ができなくなり、突攻撃に弱くなります。[スウェルボディ]適用対象にはナイフスローインググが無条件で命中します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|628%|1256%|1884%|2512%|3140%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}
-{{SkillAdditionalInfoTemplate|[標的]適用時間|6秒|7秒|8秒|9秒|10秒}}
-}}
-|5}}
+{{ListViewSkill|ナイフスローイング| . |91|2|19|ナイフを投擲して敵に[標的]デバフを付与します。[標的]デバフにかかった敵はクリティカル抵抗とブロックが減少し、近接物理攻撃の回避ができなくなり、突攻撃に弱くなります。[スウェルボディ]適用対象にはナイフスローインググが無条件で命中します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|628%|1256%|1884%|2512%|3140%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}<br/>{{SkillAdditionalInfoTemplate|[標的]適用時間| 6秒| 7秒| 8秒| 9秒|10秒}}<br/>}}<br/>|5}}
 
 |}
 
@@ -158,5 +118,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.125083
+* Automatic generated at 2020-02-02 20:52:44.853152
 {{PageProgress|2}}

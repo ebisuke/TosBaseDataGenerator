@@ -2,6 +2,7 @@ import TosStructure
 import OptTable
 import re
 import datetime
+import TosFunc as tf
 docbase="""{{Infobox Class|%ctrltype%||%classmaster%|||%classtype%|%attackproperty%
 | str=%str% 
 | dex=%dex% 
@@ -22,13 +23,7 @@ docbase="""{{Infobox Class|%ctrltype%||%classmaster%|||%classtype%|%attackproper
 %addit1%
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -163,8 +158,8 @@ def generateListView(job:TosStructure.Job):
         else:
             typ=" . "
             desc=s.description
-        cd="%g" % s.cd
-        sp="%s" % s.sp
+
+        oh="%s" % s.oh
         # render sfr
         sfrdesc=""
         if(len(s.variables)>0):
@@ -177,11 +172,23 @@ def generateListView(job:TosStructure.Job):
                 for value in range(0,len(vary.value)):
                     sfrdesc += "|" + vary.tostr(value)
                 sfrdesc+="}}\n"
+            # # sp consumption
+            # sfrdesc += "{{SkillAdditionalInfoTemplate|" + "消費SP"
+            # for value in s.sp:
+            #     sfrdesc += "|" + "{:0g}".format(value)
+            # sfrdesc += "}}\n"
+            # # cd
+            # sfrdesc += "{{SkillAdditionalInfoTemplate|" + "クールダウン"
+            # for value in s.cd:
+            #     sfrdesc += "|" + "{:0g}".format(value)
+            # sfrdesc += "}}\n"
+
+            # end of infobox
             sfrdesc += "}}\n"
 
-            vv = "{{ListViewSkill|" + s.name + "|" + typ+"|"+cd+"|"+sp + "|" + replacenl(rb(desc))+sfrdesc + "|" + str(s.maxlv) + "}}\n"
+            vv = "{{ListViewSkill|" + s.name + "|" + typ+"|"+str(s.sp[0])+ "|"+oh + "|"+"{:1g}".format(s.cd[0])+ "|" + replacenl(rb(desc))+replacenl(sfrdesc) + "|" + str(s.maxlv) + "}}\n"
         else:
-            vv="{{ListViewSkill|"+s.name+"|"+typ+"|"+cd+"|"+sp+"|"+replacenl(rb(desc))+"|"+str(s.maxlv)+"}}\n"
+            vv="{{ListViewSkill|"+s.name+"|"+typ+"|"+str(s.sp[0])+ "|"+oh + "|"+"{:1g}".format(s.cd[0])+"|"+replacenl(rb(desc))+"|"+str(s.maxlv)+"}}\n"
         listview+=vv
     return listview
 def generateAttribute(job:TosStructure.Job):

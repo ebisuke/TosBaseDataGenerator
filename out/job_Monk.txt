@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -57,59 +51,18 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|鉄布衫| . |60|225|全身の皮膚を鋼鉄のように硬くし、一定時間敵から受ける物理攻撃ダメージをダウンさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|物理攻撃ダメージ|-1%|-2%|-3%|-4%|-5%|-6%|-7%|-8%|-9%|-10%|-11%|-12%|-13%|-14%|-15%}}
-}}
-|15}}
-{{ListViewSkill|双鎖功| . |0|0|強く鍛えられた両腕で敵を連続攻撃する姿勢を取ります。基本攻撃が両手攻撃で適用されます。体力が40%以下になると聖属性の追加攻撃が発動します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|55%x 2回|61%x 2回|68%x 2回|75%x 2回|82%x 2回|89%x 2回|95%x 2回|102%x 2回|109%x 2回|116%x 2回|123%x 2回|129%x 2回|136%x 2回|143%x 2回|150%x 2回}}
-{{SkillAdditionalInfoTemplate|基本攻撃速度|+20|+40|+60|+80|+100|+120|+140|+160|+180|+200|+220|+240|+260|+280|+300}}
-{{SkillAdditionalInfoTemplate|聖属性追加攻撃+|45|90|135|180|225|270|315|360|405|450|495|540|585|630|675}}
-}}
-|15}}
-{{ListViewSkill|鉄砂掌| . |20|86|鍛えられた手の先で敵の内部を強く攻撃し、内傷を与えます。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|1013%|1181%|1350%|1519%|1688%|1857%|2026%|2195%|2364%|2533%|2701%|2870%|3039%|3208%|3377%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|6|6|6|6|6|6|6|6|6|6|6|6|6|6|6}}
-{{SkillAdditionalInfoTemplate|敵の防御力|2%無視|4%無視|6%無視|8%無視|10%無視|12%無視|14%無視|16%無視|18%無視|20%無視|22%無視|24%無視|26%無視|28%無視|30%無視}}
-}}
-|15}}
-{{ListViewSkill|観音掌| . |0|111|対象を手刀で強く打ち下ろし、ダメージを与えます。鉄砂掌使用後、観音掌を使用することができます。敵の精神に比例して追加ダメージを与えます。(追加ダメージはキャラクターの最大攻撃力以上にはなりません。){{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|1}}|
-{{SkillAdditionalInfoTemplate|スキル係数|3961%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|10}}
-}}
-|1}}
+{{ListViewSkill|鉄布衫| . |225|1|60|全身の皮膚を鋼鉄のように硬くし、一定時間敵から受ける物理攻撃ダメージをダウンさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|物理攻撃ダメージ|- 1%|- 2%|- 3%|- 4%|- 5%|- 6%|- 7%|- 8%|- 9%|-10%|-11%|-12%|-13%|-14%|-15%}}<br/>}}<br/>|15}}
+{{ListViewSkill|双鎖功| . |0|1|0|強く鍛えられた両腕で敵を連続攻撃する姿勢を取ります。基本攻撃が両手攻撃で適用されます。体力が40%以下になると聖属性の追加攻撃が発動します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|55%x 2回|61%x 2回|68%x 2回|75%x 2回|82%x 2回|89%x 2回|95%x 2回|102%x 2回|109%x 2回|116%x 2回|123%x 2回|129%x 2回|136%x 2回|143%x 2回|150%x 2回}}<br/>{{SkillAdditionalInfoTemplate|基本攻撃速度|+20|+40|+60|+80|+100|+120|+140|+160|+180|+200|+220|+240|+260|+280|+300}}<br/>{{SkillAdditionalInfoTemplate|聖属性追加攻撃+|45|90|135|180|225|270|315|360|405|450|495|540|585|630|675}}<br/>}}<br/>|15}}
+{{ListViewSkill|鉄砂掌| . |86|4|20|鍛えられた手の先で敵の内部を強く攻撃し、内傷を与えます。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1013%|1181%|1350%|1519%|1688%|1857%|2026%|2195%|2364%|2533%|2701%|2870%|3039%|3208%|3377%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6}}<br/>{{SkillAdditionalInfoTemplate|敵の防御力| 2%無視| 4%無視| 6%無視| 8%無視|10%無視|12%無視|14%無視|16%無視|18%無視|20%無視|22%無視|24%無視|26%無視|28%無視|30%無視}}<br/>}}<br/>|15}}
+{{ListViewSkill|観音掌| . |111|1|0|対象を手刀で強く打ち下ろし、ダメージを与えます。鉄砂掌使用後、観音掌を使用することができます。敵の精神に比例して追加ダメージを与えます。(追加ダメージはキャラクターの最大攻撃力以上にはなりません。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|3961%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10}}<br/>}}<br/>|1}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|陽光手| . |20|0|気を集めて前方に発射します。当たった敵は後ろに吹き飛ばされダメージを受けます。ディヴァインスティグマデバフにかかった敵は陽光手の打撃数が2倍に増えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|1打あたりのスキル係数|150%|160%|170%|180%|190%|200%|210%|220%|230%|240%}}
-{{SkillAdditionalInfoTemplate|1秒ごとにSP |36消費|37消費|38消費|39消費|40消費|41消費|42消費|43消費|44消費|45消費}}
-}}
-|10}}
-{{ListViewSkill|寸勁| . |20|84|密着した距離で拳を短く伸ばし、敵の内部を破壊します。詠唱者の精神ステータスと敵の精神ステータスに基づいて敵のSPを消耗し、持続的なダメージを受けます。金鐘罩バフ中には敵の消耗したSPの25%を吸収します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|307%|386%|466%|546%|625%|705%|785%|864%|944%|1024%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1}}
-{{SkillAdditionalInfoTemplate|持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒}}
-}}
-|10}}
-{{ListViewSkill|弾指神通| . |25|80|指先で敵にコインを投げ、ダメージを与えます。弾指神通による攻撃を受けた敵は10秒間打属性攻撃の追加ダメージを受けます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|591%|744%|897%|1050%|1203%|1356%|1510%|1663%|1816%|1969%}}
-{{SkillAdditionalInfoTemplate|シルバー|1消費|1消費|1消費|1消費|1消費|1消費|1消費|1消費|1消費|1消費}}
-}}
-|10}}
+{{ListViewSkill|陽光手| . |0|1|20|気を集めて前方に発射します。当たった敵は後ろに吹き飛ばされダメージを受けます。ディヴァインスティグマデバフにかかった敵は陽光手の打撃数が2倍に増えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|1打あたりのスキル係数|150%|160%|170%|180%|190%|200%|210%|220%|230%|240%}}<br/>{{SkillAdditionalInfoTemplate|1秒ごとにSP |36消費|37消費|38消費|39消費|40消費|41消費|42消費|43消費|44消費|45消費}}<br/>}}<br/>|10}}
+{{ListViewSkill|寸勁| . |84|4|20|密着した距離で拳を短く伸ばし、敵の内部を破壊します。詠唱者の精神ステータスと敵の精神ステータスに基づいて敵のSPを消耗し、持続的なダメージを受けます。金鐘罩バフ中には敵の消耗したSPの25%を吸収します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|307%|386%|466%|546%|625%|705%|785%|864%|944%|1024%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1}}<br/>{{SkillAdditionalInfoTemplate|持続時間| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|弾指神通| . |80|4|25|指先で敵にコインを投げ、ダメージを与えます。弾指神通による攻撃を受けた敵は10秒間打属性攻撃の追加ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|591%|744%|897%|1050%|1203%|1356%|1510%|1663%|1816%|1969%}}<br/>{{SkillAdditionalInfoTemplate|シルバー| 1消費| 1消費| 1消費| 1消費| 1消費| 1消費| 1消費| 1消費| 1消費| 1消費}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|金鐘罩| . |60|225|使用時即時にモンクスキルのクールタイムを初期化し、一定時間モンクスキルのダメージが増加します。バフ中には一般解除可能な全てのデバフ無効状態になります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|モンクスキルダメージ|+10%|+20%|+30%|+40%|+50%}}
-}}
-|5}}
+{{ListViewSkill|金鐘罩| . |225|1|60|使用時即時にモンクスキルのクールタイムを初期化し、一定時間モンクスキルのダメージが増加します。バフ中には一般解除可能な全てのデバフ無効状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|モンクスキルダメージ|+10%|+20%|+30%|+40%|+50%}}<br/>}}<br/>|5}}
 
 |}
 
@@ -172,5 +125,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.059082
+* Automatic generated at 2020-02-02 20:52:44.786153
 {{PageProgress|2}}

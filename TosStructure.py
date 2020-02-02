@@ -13,7 +13,11 @@ ctrltype={
 
 class JobTree:
     jobs=[]
-
+    def getJobByName(self,s):
+        for j in self.jobs:
+            if(j.name==s):
+                return s
+        return None
 class Job:
     classname=""
     clsid=0
@@ -79,15 +83,16 @@ class SkillCaption:
                 self.suffix=m.group(3)
     def tostr(self,idx):
         if(self.caption2==None):
-            return self.prefix+str(self.value[idx])+self.suffix
+            return self.prefix+"{:2g}".format(self.value[idx])+self.suffix
         else:
-            return self.prefix + str(self.value[idx]) + self.prefix2 + str(self.value2[idx]) + self.suffix
+            return self.prefix + "{:2g}".format(self.value[idx]) + self.prefix2 + "{:2g}".format(self.value2[idx]) + self.suffix
 
 class Skill:
     description=""
     caption2=""
-    sp=0
-    cd=0
+    sp=[]
+    cd=[]
+    oh=0
     classname=""
     clsid=0
     name=""
@@ -139,7 +144,8 @@ def generateSkills(conv:DicConverter,job:Job,skillname:str):
     skill=Skill()
     skill.description=conv.dictable.krtojp(pa["Caption"].item())
     skill.caption2 = conv.dictable.krtojp(pa["Caption2"].item())
-
+    skill.sp = []
+    skill.cd = []
     skill.classname=pa["ClassName"].item()
     skill.clsid=pa["ClassID"].item()
     skill.maxlv=pt["MaxLevel"].item()

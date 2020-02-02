@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="766,2658.5" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1187,3695" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
       <x:String>System.Activities</x:String>
@@ -43,7 +43,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ウェブ" sap:VirtualizedContainerService.HintSize="746,2598.5" sap2010:WorkflowViewState.IdRef="Sequence_6">
+  <Sequence DisplayName="ウェブ" sap:VirtualizedContainerService.HintSize="1167,3635" sap2010:WorkflowViewState.IdRef="Sequence_6">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="list" />
     </Sequence.Variables>
@@ -52,14 +52,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadCsvFile DataTable="[list]" Delimitator="Comma" DisplayName="Read CSV" Encoding="utf-8" FilePath="..\..\\out\joblist.txt" sap:VirtualizedContainerService.HintSize="704,59" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
-    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[list]" DisplayName="繰り返し (各行)" sap:VirtualizedContainerService.HintSize="704,2407.5" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ReadCsvFile DataTable="[list]" Delimitator="Comma" DisplayName="Read CSV" Encoding="utf-8" FilePath="..\..\\out\joblist.txt" sap:VirtualizedContainerService.HintSize="1125,59" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
+    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[list]" DisplayName="繰り返し (各行)" sap:VirtualizedContainerService.HintSize="1125,3444" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="シーケンス" sap:VirtualizedContainerService.HintSize="654,2252" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="シーケンス" sap:VirtualizedContainerService.HintSize="1075,3288.5" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="content" />
             </Sequence.Variables>
@@ -68,14 +68,14 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ReadTextFile Content="[content]" DisplayName="テキストファイルを読み込む" Encoding="utf-8" FileName="[&quot;..\..\out\&quot;+row(&quot;filename&quot;).ToString()]" sap:VirtualizedContainerService.HintSize="612,59" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="612,2061" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <ui:ReadTextFile Content="[content]" DisplayName="テキストファイルを読み込む" Encoding="utf-8" FileName="[&quot;..\..\out\&quot;+row(&quot;filename&quot;).ToString()]" sap:VirtualizedContainerService.HintSize="1033,59" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1033,3097.5" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="ウェブ" sap:VirtualizedContainerService.HintSize="570,1969" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence DisplayName="ウェブ" sap:VirtualizedContainerService.HintSize="991,3005.5" sap2010:WorkflowViewState.IdRef="Sequence_3">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="ui:Browser" Name="browser" />
                 </Sequence.Variables>
@@ -84,37 +84,40 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:OpenBrowser BrowserType="Chrome" DisplayName="https://treeofsavior.fandom.com/ja/wiki/Sandbox を開く" Hidden="False" sap:VirtualizedContainerService.HintSize="528,1877" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Private="False" UiBrowser="[browser]" Url="[&quot;https://treeofsavior.fandom.com/ja/wiki/&quot;+row(&quot;jobname&quot;).ToString()+&quot;?action=edit&quot;]">
+                <ui:OpenBrowser BrowserType="Chrome" DisplayName="https://treeofsavior.fandom.com/ja/wiki/Sandbox を開く" Hidden="False" sap:VirtualizedContainerService.HintSize="949,2913.5" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Private="False" UiBrowser="[browser]" Url="[&quot;https://treeofsavior.fandom.com/ja/wiki/&quot;+row(&quot;jobname&quot;).ToString()+&quot;?action=edit&quot;]">
                   <ui:OpenBrowser.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="494,1778" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="915,2814.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="ウィンドウにアタッチ 'chrome.exe 編集中:'" sap:VirtualizedContainerService.HintSize="452,1686" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="dbe5d5a54b3d8338c622593ea0adaec5" Selector="&lt;html app='chrome.exe' omit:title='編集中: アサシン | ツリーオブセイヴアー Wiki | Fandom' /&gt;">
+                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="ウィンドウにアタッチ 'chrome.exe 編集中:'" sap:VirtualizedContainerService.HintSize="873,2722.5" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="dbe5d5a54b3d8338c622593ea0adaec5" Selector="&lt;html app='chrome.exe' omit:title='編集中: アサシン | ツリーオブセイヴアー Wiki | Fandom' /&gt;">
                           <ui:WindowScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="418,1540" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="839,2576.5" sap2010:WorkflowViewState.IdRef="Sequence_7">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1448" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="797,2484.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                                  <Sequence.Variables>
+                                    <Variable x:TypeArguments="ui:UiElement" Name="elem" />
+                                  </Sequence.Variables>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="クリック 'editable text  ソースモード'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="クリック 'editable text  ソースモード'" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
                                     <ui:Click.CursorPosition>
                                       <ui:CursorPosition OffsetX="44" OffsetY="4" Position="TopLeft" />
                                     </ui:Click.CursorPosition>
@@ -122,8 +125,8 @@
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="89423ed479e7bea2f3344468478627ea" Selector="&lt;html app='chrome.exe' omit:title='編集中: Sandbox | ツリーオブセイヴアー Wiki | Fandom' /&gt;&lt;webctrl id='cke_26_label' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
                                     </ui:Click.Target>
                                   </ui:Click>
-                                  <ui:SetToClipboard DisplayName="クリップボードに設定" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="SetToClipboard_1" Text="[content]" />
-                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="クリック 'TEXTAREA  wpTextbox1'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                  <ui:SetToClipboard DisplayName="クリップボードに設定" sap:VirtualizedContainerService.HintSize="755,59" sap2010:WorkflowViewState.IdRef="SetToClipboard_1" Text="[content]" />
+                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="クリック 'TEXTAREA  wpTextbox1'" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                     <ui:Click.CursorPosition>
                                       <ui:CursorPosition Position="Center">
                                         <ui:CursorPosition.OffsetX>
@@ -138,22 +141,22 @@
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="02fdf7138a7eba5c9ef89be8baaeddf7" Selector="&lt;webctrl parentid='cke_1_contents' tag='TEXTAREA' /&gt;" WaitForReady="COMPLETE" />
                                     </ui:Click.Target>
                                   </ui:Click>
-                                  <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="False" ClickBeforeTyping="False" DisplayName="ホットキーを押下 'editable text  false'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,156.5" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="a" KeyModifiers="Ctrl" SendWindowMessages="False" SpecialKey="False">
+                                  <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="False" ClickBeforeTyping="False" DisplayName="ホットキーを押下 'editable text  false'" EmptyField="False" sap:VirtualizedContainerService.HintSize="755,156.5" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="a" KeyModifiers="Ctrl" SendWindowMessages="False" SpecialKey="False">
                                     <ui:SendHotkey.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="7b2645eca7e935e2bdf6545602d4b2ac" Selector="&lt;webctrl parentid='cke_1_contents' tag='TEXTAREA' /&gt;" WaitForReady="COMPLETE" />
                                     </ui:SendHotkey.Target>
                                   </ui:SendHotkey>
-                                  <ui:SendHotkey DelayBefore="{x:Null}" DelayMS="{x:Null}" Activate="False" ClickBeforeTyping="False" DelayBetweenKeys="30" DisplayName="ホットキーを押下 'editable text  false'" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,156.5" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="v" KeyModifiers="Ctrl" SendWindowMessages="False" SpecialKey="False">
+                                  <ui:SendHotkey DelayBefore="{x:Null}" DelayMS="{x:Null}" Activate="False" ClickBeforeTyping="False" DelayBetweenKeys="30" DisplayName="ホットキーを押下 'editable text  false'" EmptyField="False" sap:VirtualizedContainerService.HintSize="755,156.5" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="v" KeyModifiers="Ctrl" SendWindowMessages="False" SpecialKey="False">
                                     <ui:SendHotkey.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="ecd0c880d2085fd0318fa27acd905360" Selector="&lt;html app='chrome.exe' omit:title='編集中: Sandbox | ツリーオブセイヴアー Wiki | Fandom' /&gt;&lt;webctrl parentid='cke_1_contents' tag='TEXTAREA' /&gt;" WaitForReady="COMPLETE" />
                                     </ui:SendHotkey.Target>
                                   </ui:SendHotkey>
-                                  <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="アクション 文字を入力 'editable text  編集内容の要約'" EmptyField="True" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" SendWindowMessages="False" SimulateType="False" Text="Autobot Create">
+                                  <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="アクション 文字を入力 'editable text  編集内容の要約'" EmptyField="True" sap:VirtualizedContainerService.HintSize="755,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" SendWindowMessages="False" SimulateType="False" Text="Autobot Create">
                                     <ui:TypeInto.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="2931c6a2411280d7526126ade6c6b243" Selector="&lt;html app='chrome.exe' omit:title='編集中: ハイランダー | ツリーオブセイヴアー Wiki | Fandom' /&gt;&lt;webctrl id='wpSummary' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                                     </ui:TypeInto.Target>
                                   </ui:TypeInto>
-                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="クリック 'push button  保存'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="クリック 'push button  保存'" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                     <ui:Click.CursorPosition>
                                       <ui:CursorPosition OffsetX="63" OffsetY="6" Position="TopLeft" />
                                     </ui:Click.CursorPosition>
@@ -161,12 +164,73 @@
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8036b7339d6b96485d40a001568cf749" Selector="&lt;html app='chrome.exe' omit:title='編集中: Sandbox | ツリーオブセイヴアー Wiki | Fandom' /&gt;&lt;webctrl id='wpSave' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                                     </ui:Click.Target>
                                   </ui:Click>
-                                  <ui:WaitUiElementAppear FoundElement="{x:Null}" DisplayName="要素を探す 'IMG'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2" WaitActive="False" WaitVisible="True">
+                                  <ui:WaitUiElementAppear ContinueOnError="True" DisplayName="要素を探す 'LI'" FoundElement="[elem]" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_3" WaitActive="False" WaitVisible="False">
+                                    <ui:WaitUiElementAppear.Target>
+                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="94602d0efb45c2d151ee2abf57b34dd4" Selector="&lt;webctrl parentid='NotificationsLink' tag='SPAN' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
+                                    </ui:WaitUiElementAppear.Target>
+                                  </ui:WaitUiElementAppear>
+                                  <TryCatch DisplayName="トライ キャッチ" sap:VirtualizedContainerService.HintSize="755,850.5" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                                    <TryCatch.Try>
+                                      <While DisplayName="繰り返し (前判定)" sap:VirtualizedContainerService.HintSize="484,611" sap2010:WorkflowViewState.IdRef="While_1" Condition="[elem IsNot Nothing]">
+                                        <Sequence DisplayName="シーケンス" sap:VirtualizedContainerService.HintSize="376,449" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="クリック 'INPUT  wpSave'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                            <ui:Click.CursorPosition>
+                                              <ui:CursorPosition Position="Center">
+                                                <ui:CursorPosition.OffsetX>
+                                                  <InArgument x:TypeArguments="x:Int32" />
+                                                </ui:CursorPosition.OffsetX>
+                                                <ui:CursorPosition.OffsetY>
+                                                  <InArgument x:TypeArguments="x:Int32" />
+                                                </ui:CursorPosition.OffsetY>
+                                              </ui:CursorPosition>
+                                            </ui:Click.CursorPosition>
+                                            <ui:Click.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="a7f6d8e0127e8731293cbaad3cdcaf05" Selector="&lt;webctrl id='wpSave' tag='INPUT' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
+                                            </ui:Click.Target>
+                                          </ui:Click>
+                                          <Assign DisplayName="代入" sap:VirtualizedContainerService.HintSize="334,65" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="ui:UiElement">[elem]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="ui:UiElement">[Nothing]</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                          <ui:WaitUiElementAppear ContinueOnError="True" DisplayName="要素を探す 'LI'" FoundElement="[elem]" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_5" WaitActive="False" WaitVisible="False">
+                                            <ui:WaitUiElementAppear.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="94602d0efb45c2d151ee2abf57b34dd4" Selector="&lt;webctrl parentid='NotificationsLink' tag='SPAN' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
+                                            </ui:WaitUiElementAppear.Target>
+                                          </ui:WaitUiElementAppear>
+                                        </Sequence>
+                                      </While>
+                                    </TryCatch.Try>
+                                    <TryCatch.Catches>
+                                      <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="488,23.5" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ActivityAction x:TypeArguments="s:Exception">
+                                          <ActivityAction.Argument>
+                                            <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                          </ActivityAction.Argument>
+                                        </ActivityAction>
+                                      </Catch>
+                                    </TryCatch.Catches>
+                                  </TryCatch>
+                                  <ui:WaitUiElementAppear FoundElement="{x:Null}" DisplayName="要素を探す 'IMG'" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_4" WaitActive="False" WaitVisible="True">
                                     <ui:WaitUiElementAppear.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4ee9764fbc1ae371595fc9cf6e3a3648" Selector="&lt;webctrl id='ca-ve-edit' tag='A' /&gt;" WaitForReady="COMPLETE" />
                                     </ui:WaitUiElementAppear.Target>
                                   </ui:WaitUiElementAppear>
-                                  <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="ウィンドウを閉じる 'chrome.exe ハイランダー'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="de6b1b42d20faf53c1f60d14ed288ac6" WaitForReady="INTERACTIVE" />
+                                  <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="ウィンドウを閉じる 'chrome.exe ハイランダー'" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="de6b1b42d20faf53c1f60d14ed288ac6" WaitForReady="INTERACTIVE" />
                                 </Sequence>
                               </Sequence>
                             </ActivityAction>

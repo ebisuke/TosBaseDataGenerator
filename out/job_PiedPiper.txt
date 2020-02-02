@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -57,50 +51,18 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ディソナンツ| . |50|170|周辺の敵をスタン状態にする演奏をします。隠れた敵に使用すると効果が解除されてスタンデバフにかかります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|1}}|
-{{SkillAdditionalInfoTemplate|1秒当たりのスキル係数|318%}}
-{{SkillAdditionalInfoTemplate|[スタン]持続時間|5秒}}
-}}
-|1}}
-{{ListViewSkill|ヴィーゲンリート| . |45|150|笛を吹いて周辺の敵を眠らせます。眠った敵は回避とブロックができなくなり、無条件でクリティカルダメージを受けます。眠っている時、または持続時間が終了して目覚めると一定時間命中がダウンする夢うつつデバフにかかります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|夢うつつ持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}
-{{SkillAdditionalInfoTemplate|命中|-7%|-9%|-11%|-13%|-15%|-17%|-19%|-21%|-23%|-25%|-27%|-29%|-31%|-33%|-35%}}
-}}
-|15}}
-{{ListViewSkill|ヒプノティックフルート| . |50|157|周辺モンスターに催眠をかける演奏をします。催眠にかかったモンスターはキャラクターを追尾し、回避とブロックができなくなります。一般モンスターのみ適用されます。ヒプノティックフルート使用中はノックバックとノックダウンしません。スキル使用が終わると敵は混乱デバフにかかります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|催眠適用対象数|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18}}
-}}
-|15}}
-{{ListViewSkill|ハーメルンナゲティア| . |35|138|一部のパイドパイパースキルによってネズミの召喚後、このスキルを使用すると、指定した敵をネズミで攻撃することができます。ネズミは最大5体まで召喚可能で、5体以上は召喚されません。バフが切れると全てのネズミが消えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|177%|182%|188%|194%|200%|206%|212%|218%|224%|230%|236%|241%|247%|253%|259%}}
-}}
-|15}}
+{{ListViewSkill|ディソナンツ| . |170|1|50|周辺の敵をスタン状態にする演奏をします。隠れた敵に使用すると効果が解除されてスタンデバフにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|1秒当たりのスキル係数|318%}}<br/>{{SkillAdditionalInfoTemplate|[スタン]持続時間| 5秒}}<br/>}}<br/>|1}}
+{{ListViewSkill|ヴィーゲンリート| . |150|1|45|笛を吹いて周辺の敵を眠らせます。眠った敵は回避とブロックができなくなり、無条件でクリティカルダメージを受けます。眠っている時、または持続時間が終了して目覚めると一定時間命中がダウンする夢うつつデバフにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|夢うつつ持続時間| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}<br/>{{SkillAdditionalInfoTemplate|命中|- 7%|- 9%|-11%|-13%|-15%|-17%|-19%|-21%|-23%|-25%|-27%|-29%|-31%|-33%|-35%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ヒプノティックフルート| . |157|1|50|周辺モンスターに催眠をかける演奏をします。催眠にかかったモンスターはキャラクターを追尾し、回避とブロックができなくなります。一般モンスターのみ適用されます。ヒプノティックフルート使用中はノックバックとノックダウンしません。スキル使用が終わると敵は混乱デバフにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|催眠適用対象数| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|16|17|18}}<br/>}}<br/>|15}}
+{{ListViewSkill|ハーメルンナゲティア| . |138|1|35|一部のパイドパイパースキルによってネズミの召喚後、このスキルを使用すると、指定した敵をネズミで攻撃することができます。ネズミは最大5体まで召喚可能で、5体以上は召喚されません。バフが切れると全てのネズミが消えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|177%|182%|188%|194%|200%|206%|212%|218%|224%|230%|236%|241%|247%|253%|259%}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|フリデンスリート| . |40|144|5秒間周辺の味方と敵を踊らせる演奏をします。踊っている味方はダメージを受けず、踊った敵はバフが1つ解除されます。踊っている敵に付与されている[炎デバフ]の適用周期が速くなります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|適用対象数|5|6|7|8|9|10|11|12|13|14}}
-}}
-|10}}
-{{ListViewSkill|マシュレデスリート| . |60|209|自分とPTメンバーにノックバック、ノックダウン免疫バフを付与します。攻撃を受けると回数がダウンします。また、5秒間移動速度がアップし、PTメンバーにソードマン系がいると自身の防御回数がソードマン系のメンバーの数だけ追加でアップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|防御回数|11|12|13|14|15|16|17|18|19|20}}
-}}
-|10}}
+{{ListViewSkill|フリデンスリート| . |144|1|40|5秒間周辺の味方と敵を踊らせる演奏をします。踊っている味方はダメージを受けず、踊った敵はバフが1つ解除されます。踊っている敵に付与されている[炎デバフ]の適用周期が速くなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|適用対象数| 5| 6| 7| 8| 9|10|11|12|13|14}}<br/>}}<br/>|10}}
+{{ListViewSkill|マシュレデスリート| . |209|1|60|自分とPTメンバーにノックバック、ノックダウン免疫バフを付与します。攻撃を受けると回数がダウンします。また、5秒間移動速度がアップし、PTメンバーにソードマン系がいると自身の防御回数がソードマン系のメンバーの数だけ追加でアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|防御回数|11|12|13|14|15|16|17|18|19|20}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|リートデスベルトバウム| . |50|196|自分とPTメンバーの受けるダメージと与えるダメージが同時にアップするバフを付与し、一定回数敵の攻撃を無効にします。バフがかかった対象に敵が集まるようになります。バフ適用中、メルゲンの攻撃スキルの広域攻撃比率が+2追加されます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|与えるダメージ|+60%|+70%|+80%|+90%|+100%}}
-{{SkillAdditionalInfoTemplate|受けるダメージ|+60%|+70%|+80%|+90%|+100%}}
-{{SkillAdditionalInfoTemplate|持続時間|10秒|10秒|10秒|10秒|10秒}}
-}}
-|5}}
-{{ListViewSkill|シュテグライフシュフィル| . |70|183|一定確率で自分が習得したパイドパイパーのスキルの一つがランダムで発動します。演奏に失敗してもスキルは発動しますが、効果はダウンします。発動したスキルは各スキルのクールタイムに影響を与えません。|1}}
+{{ListViewSkill|リートデスベルトバウム| . |196|1|50|自分とPTメンバーの受けるダメージと与えるダメージが同時にアップするバフを付与し、一定回数敵の攻撃を無効にします。バフがかかった対象に敵が集まるようになります。バフ適用中、メルゲンの攻撃スキルの広域攻撃比率が+2追加されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|与えるダメージ|+60%|+70%|+80%|+90%|+100%}}<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|+60%|+70%|+80%|+90%|+100%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|10秒|10秒|10秒|10秒|10秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|シュテグライフシュフィル| . |183|1|70|一定確率で自分が習得したパイドパイパーのスキルの一つがランダムで発動します。演奏に失敗してもスキルは発動しますが、効果はダウンします。発動したスキルは各スキルのクールタイムに影響を与えません。|1}}
 
 |}
 
@@ -156,5 +118,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.007085
+* Automatic generated at 2020-02-02 20:52:44.734151
 {{PageProgress|2}}

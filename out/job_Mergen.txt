@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -55,41 +49,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|スプレッドショット| . |20|83|五つの矢を一度に発射して範囲内の敵にダメージを与えます。 矢はダメージ対象の近くの敵に跳ね返り、ダメージを与えます。恐怖状態の敵に50%追加ダメージを加えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|381% X 5回|454% X 5回|527% X 5回|600% X 5回|673% X 5回|746% X 5回|819% X 5回|892% X 5回|965% X 5回|1038% X 5回|1111% X 5回|1184% X 5回|1257% X 5回|1330% X 5回|1403% X 5回}}
-}}
-|15}}
-{{ListViewSkill|トリプルアロー| . |20|109|前方に爆発する3本の矢を発射します。一定確率で矢は敵に当たると爆発し、追加ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|258% x 3回|292% x 3回|326% x 3回|361% x 3回|395% x 3回|430% x 3回|464% x 3回|498% x 3回|533% x 3回|567% x 3回|602% x 3回|636% x 3回|670% x 3回|705% x 3回|739% x 3回}}
-}}
-|15}}
-{{ListViewSkill|ダウンフォール| . |20|111|複数の矢を上空に向けて放ち、指定した単一の敵に矢を降り注がせます。自分と敵が一定距離以上離れると攻撃が当たらなくなります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate||0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%}}
-{{SkillAdditionalInfoTemplate|持続時間|3.5秒|4秒|4.5秒|5秒|5.5秒|6秒|6.5秒|7秒|7.5秒|8秒|8.5秒|9秒|9.5秒|10秒|10.5秒}}
-}}
-|15}}
+{{ListViewSkill|スプレッドショット| . |83|3|20|五つの矢を一度に発射して範囲内の敵にダメージを与えます。 矢はダメージ対象の近くの敵に跳ね返り、ダメージを与えます。恐怖状態の敵に50%追加ダメージを加えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|381% X 5回|454% X 5回|527% X 5回|600% X 5回|673% X 5回|746% X 5回|819% X 5回|892% X 5回|965% X 5回|1038% X 5回|1111% X 5回|1184% X 5回|1257% X 5回|1330% X 5回|1403% X 5回}}<br/>}}<br/>|15}}
+{{ListViewSkill|トリプルアロー| . |109|2|20|前方に爆発する3本の矢を発射します。一定確率で矢は敵に当たると爆発し、追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|258% x 3回|292% x 3回|326% x 3回|361% x 3回|395% x 3回|430% x 3回|464% x 3回|498% x 3回|533% x 3回|567% x 3回|602% x 3回|636% x 3回|670% x 3回|705% x 3回|739% x 3回}}<br/>}}<br/>|15}}
+{{ListViewSkill|ダウンフォール| . |111|2|20|複数の矢を上空に向けて放ち、指定した単一の敵に矢を降り注がせます。自分と敵が一定距離以上離れると攻撃が当たらなくなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate||0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%|0.2秒当たりのスキル係数225%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|3.5秒| 4秒|4.5秒| 5秒|5.5秒| 6秒|6.5秒| 7秒|7.5秒| 8秒|8.5秒| 9秒|9.5秒|10秒|10.5秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ホーミングアロー| . |25|118|敵に向かって複数の矢を発射し、命中させます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|777% X 5回|884% X 5回|991% X 5回|1099% X 5回|1206% X 5回|1314% X 5回|1421% X 5回|1528% X 5回|1636% X 5回|1743% X 5回}}
-}}
-|10}}
-{{ListViewSkill|アローレイン| . |40|157|複数の矢を上空に向けて放ち、一定時間範囲内に矢を降り注がせます。範囲内の敵は持続的にダメージを受けます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|76% x 打撃回数|110% x 打撃回数|144% x 打撃回数|178% x 打撃回数|212% x 打撃回数|246% x 打撃回数|280% x 打撃回数|314% x 打撃回数|348% x 打撃回数|382% x 打撃回数}}
-}}
-|10}}
+{{ListViewSkill|ホーミングアロー| . |118|3|25|敵に向かって複数の矢を発射し、命中させます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|777% X 5回|884% X 5回|991% X 5回|1099% X 5回|1206% X 5回|1314% X 5回|1421% X 5回|1528% X 5回|1636% X 5回|1743% X 5回}}<br/>}}<br/>|10}}
+{{ListViewSkill|アローレイン| . |157|1|40|複数の矢を上空に向けて放ち、一定時間範囲内に矢を降り注がせます。範囲内の敵は持続的にダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|76% x 打撃回数|110% x 打撃回数|144% x 打撃回数|178% x 打撃回数|212% x 打撃回数|246% x 打撃回数|280% x 打撃回数|314% x 打撃回数|348% x 打撃回数|382% x 打撃回数}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ゼニス| . |35|131|自分を中心に円形の範囲内にいる敵を貫通する矢を飛ばします。近くにいる敵に対して、より多くの連打を与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|580% x 最大10回|844% x 最大10回|1109% x 最大10回|1374% x 最大10回|1639% x 最大10回}}
-}}
-|5}}
+{{ListViewSkill|ゼニス| . |131|2|35|自分を中心に円形の範囲内にいる敵を貫通する矢を飛ばします。近くにいる敵に対して、より多くの連打を与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|580% x 最大10回|844% x 最大10回|1109% x 最大10回|1374% x 最大10回|1639% x 最大10回}}<br/>}}<br/>|5}}
 
 |}
 
@@ -151,5 +120,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.025085
+* Automatic generated at 2020-02-02 20:52:44.751151
 {{PageProgress|2}}

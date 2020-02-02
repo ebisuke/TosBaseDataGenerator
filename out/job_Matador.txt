@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -56,51 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|カポーテ| . |30|134|周辺の敵を挑発し、自分を追わせます。周辺にボスモンスターがいる場合はボスモンスターを最優先に挑発します。挑発された対象は命中と回避がダウンします。挑発状態になったモンスターは移動速度がアップし、30秒間挑発スキルの効果が適用されません。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|挑発対象命中時、回避|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%}}
-{{SkillAdditionalInfoTemplate|カポーテデバフ持続時間|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒|21秒|22秒|23秒|24秒|25秒}}
-}}
-|15}}
-{{ListViewSkill|ムレタ| . |10|93|腰あたりからマントを引き出し、自分を攻撃する敵に反撃します。反撃を受けた敵が野獣型の場合、最優先に攻撃します。反撃に成功するとダメージを受けなくなり、一定時間クリティカル発生率がアップします。反撃中は全ての近接物理攻撃をブロックします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|反撃スキル係数|356%|367%|379%|391%|403%|415%|426%|438%|450%|462%|474%|485%|497%|509%|521%}}
-{{SkillAdditionalInfoTemplate|反撃成功時クリティカル発生|+2%|+4%|+6%|+8%|+10%|+12%|+14%|+16%|+18%|+20%|+22%|+24%|+26%|+28%|+30%}}
-}}
-|15}}
-{{ListViewSkill|ファエナ| . |30|84|レイピアで前方の敵に連続攻撃を行います。攻撃回数はスキルレベルに比例します。大型の敵にはダメージが20%アップします。[シー・レッド]デバフにかかった敵に使用するとクリティカルが発生します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%}}
-{{SkillAdditionalInfoTemplate|攻撃回数最小|2回 ~ 最大3回|3回 ~ 最大4回|3回 ~ 最大5回|4回 ~ 最大6回|4回 ~ 最大7回|5回 ~ 最大8回|5回 ~ 最大9回|6回 ~ 最大10回|6回 ~ 最大11回|7回 ~ 最大12回|7回 ~ 最大13回|8回 ~ 最大14回|8回 ~ 最大15回|9回 ~ 最大16回|9回 ~ 最大17回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|5|5|5|5|5|5|5|5|5|5|5|5|5|5|5}}
-}}
-|15}}
-{{ListViewSkill|Ole| . |30|117|マントをなびかせながら周辺の注目を引きつけます。クリティカル発生率がアップし、敵のヘイト値が最大になるとクリティカル発生率が2倍アップします。既に自分が持っているヘイト値が最大の場合は、それ以上のヘイト値は増加しません。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|クリティカル発生|13%|16%|19%|22%|25%|28%|31%|34%|37%|40%|43%|46%|49%|52%|55%}}
-{{SkillAdditionalInfoTemplate|ヘイト値が最大になった敵へのクリティカル率|12%|14%|16%|18%|20%|22%|24%|26%|28%|30%|32%|34%|36%|38%|40%}}
-}}
-|15}}
+{{ListViewSkill|カポーテ| . |134|1|30|周辺の敵を挑発し、自分を追わせます。周辺にボスモンスターがいる場合はボスモンスターを最優先に挑発します。挑発された対象は命中と回避がダウンします。挑発状態になったモンスターは移動速度がアップし、30秒間挑発スキルの効果が適用されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|挑発対象命中時、回避|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%}}<br/>{{SkillAdditionalInfoTemplate|カポーテデバフ持続時間|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒|21秒|22秒|23秒|24秒|25秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|ムレタ| . |93|1|10|腰あたりからマントを引き出し、自分を攻撃する敵に反撃します。反撃を受けた敵が野獣型の場合、最優先に攻撃します。反撃に成功するとダメージを受けなくなり、一定時間クリティカル発生率がアップします。反撃中は全ての近接物理攻撃をブロックします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|反撃スキル係数|356%|367%|379%|391%|403%|415%|426%|438%|450%|462%|474%|485%|497%|509%|521%}}<br/>{{SkillAdditionalInfoTemplate|反撃成功時クリティカル発生|+ 2%|+ 4%|+ 6%|+ 8%|+10%|+12%|+14%|+16%|+18%|+20%|+22%|+24%|+26%|+28%|+30%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ファエナ| . |84|3|30|レイピアで前方の敵に連続攻撃を行います。攻撃回数はスキルレベルに比例します。大型の敵にはダメージが20%アップします。[シー・レッド]デバフにかかった敵に使用するとクリティカルが発生します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%|373%}}<br/>{{SkillAdditionalInfoTemplate|攻撃回数最小| 2回 ~ 最大 3回| 3回 ~ 最大 4回| 3回 ~ 最大 5回| 4回 ~ 最大 6回| 4回 ~ 最大 7回| 5回 ~ 最大 8回| 5回 ~ 最大 9回| 6回 ~ 最大10回| 6回 ~ 最大11回| 7回 ~ 最大12回| 7回 ~ 最大13回| 8回 ~ 最大14回| 8回 ~ 最大15回| 9回 ~ 最大16回| 9回 ~ 最大17回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5}}<br/>}}<br/>|15}}
+{{ListViewSkill|Ole| . |117|2|30|マントをなびかせながら周辺の注目を引きつけます。クリティカル発生率がアップし、敵のヘイト値が最大になるとクリティカル発生率が2倍アップします。既に自分が持っているヘイト値が最大の場合は、それ以上のヘイト値は増加しません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル発生|13%|16%|19%|22%|25%|28%|31%|34%|37%|40%|43%|46%|49%|52%|55%}}<br/>{{SkillAdditionalInfoTemplate|ヘイト値が最大になった敵へのクリティカル率|12%|14%|16%|18%|20%|22%|24%|26%|28%|30%|32%|34%|36%|38%|40%}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|パソドブレ| . |10|95|360度回転しながら周辺の敵を攻撃します。攻撃中はダメージを受けません。攻撃を受けた敵はその場に倒れます。敵攻撃時、自分のクリティカル発生率が増加します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|433% x 4回|512% x 4回|591% x 4回|670% x 4回|749% x 4回|828% x 4回|907% x 4回|986% x 4回|1065% x 4回|1144% x 4回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|8|8|8|8|8|8|8|8|8|8}}
-}}
-|10}}
-{{ListViewSkill|バックスライド| . |10|123|後ろへ一定距離移動します。スキルレベルがアップするにつれてクールタイムが減少します。バックスライド使用後は回避がアップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|クールタイム|-1秒|-2秒|-3秒|-4秒|-5秒|-6秒|-7秒|-8秒|-9秒|-10秒}}
-}}
-|10}}
+{{ListViewSkill|パソドブレ| . |95|1|10|360度回転しながら周辺の敵を攻撃します。攻撃中はダメージを受けません。攻撃を受けた敵はその場に倒れます。敵攻撃時、自分のクリティカル発生率が増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|433% x 4回|512% x 4回|591% x 4回|670% x 4回|749% x 4回|828% x 4回|907% x 4回|986% x 4回|1065% x 4回|1144% x 4回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 8| 8| 8| 8| 8| 8| 8| 8| 8| 8}}<br/>}}<br/>|10}}
+{{ListViewSkill|バックスライド| . |123|1|19|後ろへ一定距離移動します。スキルレベルがアップするにつれてクールタイムが減少します。バックスライド使用後は回避がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|クールタイム|- 1秒|- 2秒|- 3秒|- 4秒|- 5秒|- 6秒|- 7秒|- 8秒|- 9秒|-10秒}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|コリーダフィナーレ| . |30|123|牛が攻撃するように仕向けます。牛は敵を貫通して大きなダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|279% x 3回|306% x 3回|334% x 3回|362% x 3回|390% x 3回}}
-}}
-|5}}
+{{ListViewSkill|コリーダフィナーレ| . |123|1|30|牛が攻撃するように仕向けます。牛は敵を貫通して大きなダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|279% x 3回|306% x 3回|334% x 3回|362% x 3回|390% x 3回}}<br/>}}<br/>|5}}
 
 |}
 
@@ -164,5 +124,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.899082
+* Automatic generated at 2020-02-02 20:52:44.625151
 {{PageProgress|2}}

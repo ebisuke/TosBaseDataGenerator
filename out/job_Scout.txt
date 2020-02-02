@@ -32,13 +32,7 @@ nan
 * 盾
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -64,35 +58,11 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|クローキング| . |40|145|一時的に体を隠して敵に見えない状態になります。コンパニオンに搭乗した状態では移動速度が4減少し、コンパニオンも身を隠します。敵に与えるダメージがアップするバフが付与され、攻撃またはジャンプ時に効果が解除されます。チームバトルリーグ、水晶鉱山、コロニー戦では戦闘状態でクローキングを使用できません。それ以外の一般地域では戦闘状態でも使用できます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|敵攻撃時のダメージ|+12%|+14%|+16%|+18%|+20%}}
-{{SkillAdditionalInfoTemplate|持続時間|12秒|14秒|16秒|18秒|20秒}}
-}}
-|5}}
-{{ListViewSkill|ダガースラッシュ| . |10|62|手に持った短剣を左右に素早く二回振り回して敵にダメージを与えます。ダガースラッシュ使用時、3秒間[ダガースラッシュ:鋭利な刃]バフが適用されて短剣専用攻撃のダメージがバフスタック1につき7%アップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|154% x 2回|159% x 2回|164% x 2回|169% x 2回|174% x 2回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|3|3|3|3|3}}
-}}
-|5}}
-{{ListViewSkill|オブリークファイア| . |20|53|拳銃を発射して敵を攻撃します。当たった対象の近くにいる敵に跳弾し追加で攻撃します。[ジョリーロジャー]旗周囲ではオブリークファイアの跳弾が追加で発生します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|254%|262%|270%|279%|287%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1}}
-}}
-|5}}
-{{ListViewSkill|ダブルアタック| . |60|168|一定時間クリティカル発生率がアップし、補助武器で基本攻撃をすると一定確率で連打が発動します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|追加ダメージ |5%|10%|15%|20%|25%}}
-{{SkillAdditionalInfoTemplate|連打発動確率|40%|40%|40%|40%|40%}}
-}}
-|5}}
-{{ListViewSkill|フリーステップ| . |60|168|身のこなしを軽くし、一定時間回避がアップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|回避|+4%|+8%|+12%|+16%|+20%}}
-}}
-|5}}
+{{ListViewSkill|クローキング| . |145|1|40|一時的に体を隠して敵に見えない状態になります。コンパニオンに搭乗した状態では移動速度が4減少し、コンパニオンも身を隠します。敵に与えるダメージがアップするバフが付与され、攻撃またはジャンプ時に効果が解除されます。チームバトルリーグ、水晶鉱山、コロニー戦では戦闘状態でクローキングを使用できません。それ以外の一般地域では戦闘状態でも使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|敵攻撃時のダメージ|+12%|+14%|+16%|+18%|+20%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|12秒|14秒|16秒|18秒|20秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|ダガースラッシュ| . |62|3|10|手に持った短剣を左右に素早く二回振り回して敵にダメージを与えます。ダガースラッシュ使用時、3秒間[ダガースラッシュ:鋭利な刃]バフが適用されて短剣専用攻撃のダメージがバフスタック1につき7%アップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|154% x 2回|159% x 2回|164% x 2回|169% x 2回|174% x 2回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 3| 3| 3| 3| 3}}<br/>}}<br/>|5}}
+{{ListViewSkill|オブリークファイア| . |53|5|20|拳銃を発射して敵を攻撃します。当たった対象の近くにいる敵に跳弾し追加で攻撃します。[ジョリーロジャー]旗周囲ではオブリークファイアの跳弾が追加で発生します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|254%|262%|270%|279%|287%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1}}<br/>}}<br/>|5}}
+{{ListViewSkill|ダブルアタック| . |168|1|60|一定時間クリティカル発生率がアップし、補助武器で基本攻撃をすると一定確率で連打が発動します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|追加ダメージ | 5%|10%|15%|20%|25%}}<br/>{{SkillAdditionalInfoTemplate|連打発動確率|40%|40%|40%|40%|40%}}<br/>}}<br/>|5}}
+{{ListViewSkill|フリーステップ| . |168|1|60|身のこなしを軽くし、一定時間回避がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|回避|+ 4%|+ 8%|+12%|+16%|+20%}}<br/>}}<br/>|5}}
 
 |}
 
@@ -149,5 +119,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.096084
+* Automatic generated at 2020-02-02 20:52:44.823151
 {{PageProgress|2}}

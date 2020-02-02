@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -55,49 +49,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ハシサス| . |30|134|幻草薬を飲んで一時的に身体能力をアップさせます。基本攻撃速度とクリティカルダメージがアップし、使用者の最大HPと消耗した体力の比率がクリティカルダメージとして追加されます。副作用によってHPが持続的にダウンします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|基本攻撃速度|+45|+60|+75|+90|+105|+120|+135|+150|+165|+180|+195|+210|+225|+240|+255}}
-{{SkillAdditionalInfoTemplate|クリティカルダメージ|+0%|+0%|+0%|+0%|+0%|+0%|+0%|+0%|+0%|+0%|+0%|+0%|+0%|+0%|+0%}}
-{{SkillAdditionalInfoTemplate||-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ}}
-}}
-|15}}
-{{ListViewSkill|ビヘッド| . |20|114|短剣を使用し敵の首を攻撃します。攻撃された敵は[カト・ラシフ：出血]デバフにかかります。[カト・ラシフ：出血]でダメージを与える時はクローキングバフが解除されません。[カト・ラシフ：出血]のダメージは キャラクターの最小攻撃力を越しません。PVP時は敵の背後に移動して攻撃します。[クローキング]状態からカト・ラシフで攻撃時、敵に200%の追加ダメージを加えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|522%|609%|696%|783%|870%|957%|1044%|1131%|1218%|1305%|1392%|1480%|1567%|1654%|1741%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3}}
-}}
-|15}}
-{{ListViewSkill|インスタントアクセル| . |20|99|瞬間的に加速して通った経路上の敵を素早く切りつけます。アジリティバフがかかっているとトゥサール・リヒズインを使用した際に打撃数が増加します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|324%|378%|432%|486%|540%|595%|649%|703%|757%|811%|866%|920%|974%|1028%|1082%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|8|8|8|8|8|8|8|8|8|8|8|8|8|8|8}}
-}}
-|15}}
+{{ListViewSkill|ハシサス| . |134|1|30|幻草薬を飲んで一時的に身体能力をアップさせます。基本攻撃速度とクリティカルダメージがアップし、使用者の最大HPと消耗した体力の比率がクリティカルダメージとして追加されます。副作用によってHPが持続的にダウンします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|基本攻撃速度|+45|+60|+75|+90|+105|+120|+135|+150|+165|+180|+195|+210|+225|+240|+255}}<br/>{{SkillAdditionalInfoTemplate|クリティカルダメージ|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%|+ 0%}}<br/>{{SkillAdditionalInfoTemplate||-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ|-10秒当たりHP 1%ずつ}}<br/>}}<br/>|15}}
+{{ListViewSkill|ビヘッド| . |114|2|20|短剣を使用し敵の首を攻撃します。攻撃された敵は[カト・ラシフ：出血]デバフにかかります。[カト・ラシフ：出血]でダメージを与える時はクローキングバフが解除されません。[カト・ラシフ：出血]のダメージは キャラクターの最小攻撃力を越しません。PVP時は敵の背後に移動して攻撃します。[クローキング]状態からカト・ラシフで攻撃時、敵に200%の追加ダメージを加えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|522%|609%|696%|783%|870%|957%|1044%|1131%|1218%|1305%|1392%|1480%|1567%|1654%|1741%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3}}<br/>}}<br/>|15}}
+{{ListViewSkill|インスタントアクセル| . |99|2|20|瞬間的に加速して通った経路上の敵を素早く切りつけます。アジリティバフがかかっているとトゥサール・リヒズインを使用した際に打撃数が増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|324%|378%|432%|486%|540%|595%|649%|703%|757%|811%|866%|920%|974%|1028%|1082%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 8| 8| 8| 8| 8| 8| 8| 8| 8| 8| 8| 8| 8| 8| 8}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ハルシネーションスモーク| . |30|98|自分の周辺に幻覚を起こす煙を発生させ、敵の回避とクリティカル抵抗をダウンさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|回避|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%}}
-{{SkillAdditionalInfoTemplate|クリティカル抵抗|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%}}
-{{SkillAdditionalInfoTemplate|煙持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒}}
-}}
-|10}}
-{{ListViewSkill|ピアシングハート| . |10|56|敵の心臓を短剣で強く突きます。心臓を狙った攻撃は敵の防御力を一部無視し、攻撃を受けた敵は心肺停止デバフが適用され、HP回復ができない状態になります。[出血]状態の対象の心臓を強打すると[出血]の周期が早くなります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|422%|531%|641%|750%|860%|969%|1079%|1189%|1298%|1408%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1}}
-{{SkillAdditionalInfoTemplate|心肺停止持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}
-}}
-|10}}
+{{ListViewSkill|ハルシネーションスモーク| . |98|2|30|自分の周辺に幻覚を起こす煙を発生させ、敵の回避とクリティカル抵抗をダウンさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|回避|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%}}<br/>{{SkillAdditionalInfoTemplate|クリティカル抵抗|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%|-20%}}<br/>{{SkillAdditionalInfoTemplate|煙持続時間| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|ピアシングハート| . |56|3|10|敵の心臓を短剣で強く突きます。心臓を狙った攻撃は敵の防御力を一部無視し、攻撃を受けた敵は心肺停止デバフが適用され、HP回復ができない状態になります。[出血]状態の対象の心臓を強打すると[出血]の周期が早くなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|422%|531%|641%|750%|860%|969%|1079%|1189%|1298%|1408%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1}}<br/>{{SkillAdditionalInfoTemplate|心肺停止持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|アナイアレーション| . |35|128|自分の姿を隠し、周辺の敵を素早く斬りつけます。使用中は無敵状態になります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|322% x 14回|644% x 14回|967% x 14回|1290% x 14回|1613% x 14回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15}}
-}}
-|5}}
+{{ListViewSkill|アナイアレーション| . |128|1|35|自分の姿を隠し、周辺の敵を素早く斬りつけます。使用中は無敵状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|322% x 14回|644% x 14回|967% x 14回|1290% x 14回|1613% x 14回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15}}<br/>}}<br/>|5}}
 
 |}
 
@@ -165,5 +126,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.099082
+* Automatic generated at 2020-02-02 20:52:44.827153
 {{PageProgress|2}}

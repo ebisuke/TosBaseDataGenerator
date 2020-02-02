@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -56,49 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|スプリンクルサンド| . |15|105|相手の目に向けて砂を撒きます。砂に当たった敵は暗黒と沈黙デバフにかかります。暗黒デバフにかかった敵は命中と回避が減少します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|467%|482%|498%|513%|529%|544%|560%|575%|591%|606%|622%|637%|653%|668%|684%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}
-{{SkillAdditionalInfoTemplate|[沈黙]持続時間|0.2秒|0.4秒|0.6000000000000001秒|0.8秒|1秒|1.2000000000000002秒|1.4000000000000001秒|1.6秒|1.8秒|2秒|2.2秒|2.4000000000000004秒|2.6秒|2.8000000000000003秒|3秒}}
-}}
-|15}}
-{{ListViewSkill|ブレイクブリック| . |20|71|手に持ったレンガを敵の頭めがけて振り下ろします。 レンガを振り下ろされた敵は一定の確率でスタンデバフにかかります。敵の後ろから攻撃した場合、100%確率で[スタン]デバフが発生し、ハングマンズノットで集まった時に使用時クリティカル確率が2倍増加します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|371%|383%|395%|407%|420%|432%|444%|457%|469%|481%|494%|506%|518%|530%|543%}}
-}}
-|15}}
-{{ListViewSkill|マングル| . |15|89|短剣を振り回して目の前の敵を斬りつけます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|264% x 9回|272% x 9回|280% x 9回|288% x 9回|297% x 9回|305% x 9回|313% x 9回|322% x 9回|330% x 9回|338% x 9回|347% x 9回|355% x 9回|363% x 9回|371% x 9回|380% x 9回}}
-}}
-|15}}
+{{ListViewSkill|スプリンクルサンド| . |105|1|15|相手の目に向けて砂を撒きます。砂に当たった敵は暗黒と沈黙デバフにかかります。暗黒デバフにかかった敵は命中と回避が減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|467%|482%|498%|513%|529%|544%|560%|575%|591%|606%|622%|637%|653%|668%|684%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}<br/>{{SkillAdditionalInfoTemplate|[沈黙]持続時間|0.2秒|0.4秒|0.6秒|0.8秒| 1秒|1.2秒|1.4秒|1.6秒|1.8秒| 2秒|2.2秒|2.4秒|2.6秒|2.8秒| 3秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|ブレイクブリック| . |71|3|20|手に持ったレンガを敵の頭めがけて振り下ろします。 レンガを振り下ろされた敵は一定の確率でスタンデバフにかかります。敵の後ろから攻撃した場合、100%確率で[スタン]デバフが発生し、ハングマンズノットで集まった時に使用時クリティカル確率が2倍増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|371%|383%|395%|407%|420%|432%|444%|457%|469%|481%|494%|506%|518%|530%|543%}}<br/>}}<br/>|15}}
+{{ListViewSkill|マングル| . |89|3|15|短剣を振り回して目の前の敵を斬りつけます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|264% x 9回|272% x 9回|280% x 9回|288% x 9回|297% x 9回|305% x 9回|313% x 9回|322% x 9回|330% x 9回|338% x 9回|347% x 9回|355% x 9回|363% x 9回|371% x 9回|380% x 9回}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ファイアブラインドリー| . |30|111|立ちはだかる敵に向けて銃を乱射します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|250% x 8回|258% x 8回|266% x 8回|275% x 8回|283% x 8回|292% x 8回|300% x 8回|308% x 8回|317% x 8回|325% x 8回}}
-}}
-|10}}
-{{ListViewSkill|ブリー| . |60|168|多くの戦いの経験則から敵の攻撃を避けやすい状況になります。回避がアップし、ブリー使用中に敵の攻撃を回避すると敵のヘイト値がアップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|回避|+10%|+20%|+30%|+40%|+50%}}
-{{SkillAdditionalInfoTemplate|ヘイト値|+200|+400|+600|+800|+1000}}
-{{SkillAdditionalInfoTemplate|持続時間|60秒|60秒|60秒|60秒|60秒}}
-}}
-|5}}
-{{ListViewSkill|アグレス| . |30|112|相手に言いがかりをつけて挑発し、自分を最優先ターゲットとして認識させます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|挑発対象数|3|6|9|12|15|18|21|24|27|30}}
-}}
-|10}}
+{{ListViewSkill|ファイアブラインドリー| . |111|3|30|立ちはだかる敵に向けて銃を乱射します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|250% x 8回|258% x 8回|266% x 8回|275% x 8回|283% x 8回|292% x 8回|300% x 8回|308% x 8回|317% x 8回|325% x 8回}}<br/>}}<br/>|10}}
+{{ListViewSkill|ブリー| . |168|1|60|多くの戦いの経験則から敵の攻撃を避けやすい状況になります。回避がアップし、ブリー使用中に敵の攻撃を回避すると敵のヘイト値がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|回避|+10%|+20%|+30%|+40%|+50%}}<br/>{{SkillAdditionalInfoTemplate|ヘイト値|+200|+400|+600|+800|+1000}}<br/>{{SkillAdditionalInfoTemplate|持続時間|60秒|60秒|60秒|60秒|60秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|アグレス| . |112|1|30|相手に言いがかりをつけて挑発し、自分を最優先ターゲットとして認識させます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|挑発対象数| 3| 6| 9|12|15|18|21|24|27|30}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ランページ| . |50|145|怒りを爆発させ、周辺を破壊します。破壊中は敵の回避可能な攻撃を回避します。スタン、暗黒、出血デバフがかかっている敵に対してはダメージがダウンしますが2連打で適用されます。ランページ使用後、敵に与えるダメージと敵からのダメージのどちらもアップするバフが付与されます。バフがかかっている間は敵からのダメージを回避することができなくなります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|120% x 9回|132% x 9回|144% x 9回|156% x 9回|168% x 9回}}
-}}
-|5}}
+{{ListViewSkill|ランページ| . |145|1|50|怒りを爆発させ、周辺を破壊します。破壊中は敵の回避可能な攻撃を回避します。スタン、暗黒、出血デバフがかかっている敵に対してはダメージがダウンしますが2連打で適用されます。ランページ使用後、敵に与えるダメージと敵からのダメージのどちらもアップするバフが付与されます。バフがかかっている間は敵からのダメージを回避することができなくなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|120% x 9回|132% x 9回|144% x 9回|156% x 9回|168% x 9回}}<br/>}}<br/>|5}}
 
 |}
 
@@ -167,5 +129,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.103082
+* Automatic generated at 2020-02-02 20:52:44.831152
 {{PageProgress|2}}

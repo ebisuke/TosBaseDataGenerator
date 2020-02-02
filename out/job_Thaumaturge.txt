@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -55,42 +49,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|クイッケン| . |40|156|自分とPTメンバーの基本攻撃速度を一時的にアップさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|基本攻撃速度|+25|+35|+45|+55|+65|+75|+85|+95|+105|+115|+125|+135|+145|+155|+165}}
-{{SkillAdditionalInfoTemplate|持続時間|36秒|42秒|48秒|54秒|60秒|66秒|72秒|78秒|84秒|90秒|96秒|102秒|108秒|114秒|120秒}}
-{{SkillAdditionalInfoTemplate|魔法の粉 |1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}
-}}
-|15}}
-{{ListViewSkill|シュリンクボディ| . |25|112|モンスターの体を小さくします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|適用対象|3|4|4|5|5|6|6|7|7|8|8|9|9|10|10}}
-{{SkillAdditionalInfoTemplate|持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}
-}}
-|15}}
-{{ListViewSkill|スウェルボディ| . |25|112|モンスターの体を大きくします。対象は最大体力が2倍になり、経験値、ドロップするアイテムの数が2倍になります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|適用対象|3|4|4|5|5|6|6|7|7|8|8|9|9|10|10}}
-{{SkillAdditionalInfoTemplate|持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}
-}}
-|15}}
+{{ListViewSkill|クイッケン| . |156|1|40|自分とPTメンバーの基本攻撃速度を一時的にアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|基本攻撃速度|+25|+35|+45|+55|+65|+75|+85|+95|+105|+115|+125|+135|+145|+155|+165}}<br/>{{SkillAdditionalInfoTemplate|持続時間|36秒|42秒|48秒|54秒|60秒|66秒|72秒|78秒|84秒|90秒|96秒|102秒|108秒|114秒|120秒}}<br/>{{SkillAdditionalInfoTemplate|魔法の粉 | 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費}}<br/>}}<br/>|15}}
+{{ListViewSkill|シュリンクボディ| . |112|2|25|モンスターの体を小さくします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|適用対象| 3| 4| 4| 5| 5| 6| 6| 7| 7| 8| 8| 9| 9|10|10}}<br/>{{SkillAdditionalInfoTemplate|持続時間| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|スウェルボディ| . |112|2|25|モンスターの体を大きくします。対象は最大体力が2倍になり、経験値、ドロップするアイテムの数が2倍になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|適用対象| 3| 4| 4| 5| 5| 6| 6| 7| 7| 8| 8| 9| 9|10|10}}<br/>{{SkillAdditionalInfoTemplate|持続時間| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|リバーシ| . |40|96|敵が召喚した魔法陣の主を自分に変更します。|1}}
-{{ListViewSkill|スウェルハンズ| . |60|179|自分とPTメンバーの両手を一時的に大きくして最大物理攻撃力と、最大魔法攻撃力を上昇させます。 左手に補助武器を着用している時、補助武器攻撃力が上昇し、盾を着用している時は物理防御力が上昇します。スウェルハンズズバフ中にブレイクブリック使用時、敵の兜を外すことができます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|最大攻撃力|+57|+87|+117|+146|+176|+206|+236|+265|+295|+325}}
-{{SkillAdditionalInfoTemplate|魔法の粉|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費}}
-}}
-|10}}
+{{ListViewSkill|リバーシ| . |96|3|40|敵が召喚した魔法陣の主を自分に変更します。|1}}
+{{ListViewSkill|スウェルハンズ| . |179|1|60|自分とPTメンバーの両手を一時的に大きくして最大物理攻撃力と、最大魔法攻撃力を上昇させます。 左手に補助武器を着用している時、補助武器攻撃力が上昇し、盾を着用している時は物理防御力が上昇します。スウェルハンズズバフ中にブレイクブリック使用時、敵の兜を外すことができます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|最大攻撃力|+57|+87|+117|+146|+176|+206|+236|+265|+295|+325}}<br/>{{SkillAdditionalInfoTemplate|魔法の粉| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|スウェルブレイン| . |60|173|自分とPTメンバーの頭を大きくし、一定時間ルーティングチャンスをアップさせます。ルーティングチャンスがアップするほど未鑑定装備アイテムのドロップ率が上がります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|ルーティングチャンス|+100|+200|+300|+400|+500}}
-{{SkillAdditionalInfoTemplate|魔法の粉|2個消費|2個消費|2個消費|2個消費|2個消費}}
-}}
-|5}}
+{{ListViewSkill|スウェルブレイン| . |173|1|60|自分とPTメンバーの頭を大きくし、一定時間ルーティングチャンスをアップさせます。ルーティングチャンスがアップするほど未鑑定装備アイテムのドロップ率が上がります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ルーティングチャンス|+100|+200|+300|+400|+500}}<br/>{{SkillAdditionalInfoTemplate|魔法の粉| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費}}<br/>}}<br/>|5}}
 
 |}
 
@@ -144,5 +112,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.115083
+* Automatic generated at 2020-02-02 20:52:44.843152
 {{PageProgress|2}}

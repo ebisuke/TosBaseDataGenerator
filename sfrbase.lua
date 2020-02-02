@@ -31,6 +31,8 @@ function GetSkill(self,clsid,level)
                BasicPoison=tonumber(self:getSkillArgByName(clsid,"BasicPoison")),
                BasicCoolDown=tonumber(self:getSkillArgByName(clsid,"BasicCoolDown")),
                MinCoolDown=tonumber(self:getSkillArgByName(clsid,"MinCoolDown")),
+               BasicSta=tonumber(self:getSkillArgByName(clsid,"BasicSta")),
+               SklUseOverHeat=tonumber(self:getSkillArgByName(clsid,"SklUseOverHeat")),
           }
      else
 
@@ -140,11 +142,12 @@ end
 function CalcCaption(self,caption,clsid,level)
      -- acq sfr
      local sfrscr=self:getSkillArgByName(clsid,caption)
+    globalself=self
      --local tooltipattr=self:getSkillArgByName(clsid,"Tooltip_Attr")
      if(sfrscr==nil)then
           return nil
      end
-     globalself=self
+
      return _G[sfrscr](GetSkill(self,clsid,level))
 
 
@@ -152,12 +155,18 @@ end
 function CalcValue(self,prop,clsid,level)
      -- acq sfr
      local sfrscr=self:getSkillArgByName(clsid,prop)
-
-     if(sfrscr==nil)then
-          return 0
-     end
      globalself=self
+     if(sfrscr==nil or sfrscr=="" or sfrscr=="nan")then
+          return nil
+     end
      return _G[sfrscr](GetSkill(self,clsid,level))
-
-
+end
+function CalcOH(self,clsid,level)
+     -- acq sfr
+     local sfrscr=self:getSkillArgByName(clsid,"OverHeatScp")
+     globalself=self
+     if(sfrscr==nil or sfrscr=="" or sfrscr=="nan")then
+          return GetSkill(self,clsid,level).SklUseOverHeat
+     end
+     return _G[sfrscr](GetSkill(self,clsid,level))
 end

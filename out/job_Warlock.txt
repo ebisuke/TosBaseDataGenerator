@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -56,42 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|インヴォケーション| . |60|247|退治した敵から悪霊を召喚するか、周期的に悪霊が召喚されます。召喚された悪霊はフィールドに残って命令を待ちます。悪霊によって退治された敵からも悪霊を召喚できます。召喚できる悪霊は合計10体に制限されます。[イーブルサクリファイス]で対象を指定してダメージを与えることができます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|悪霊スキル係数|291%|300%|310%|320%|329%|339%|349%|358%|368%|378%|388%|397%|407%|417%|426%}}
-}}
-|15}}
-{{ListViewSkill|ダークサージ| . |20|170|悪霊を召喚して自分の周辺を回りながら命令を待つようにします。[イーブルサクリファイス]で近くの敵にダメージを与えることができます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|悪霊スキル係数|127%x 1回|148%x 1回|169%x 1回|191%x 1回|212%x 1回|234%x 1回|255%x 1回|276%x 1回|298%x 1回|319%x 1回|341%x 1回|362%x 1回|383%x 1回|405%x 1回|426%x 1回}}
-}}
-|15}}
-{{ListViewSkill|イーブルサクリファイス| . |0|37|周辺の敵を悪霊への供物として捧げます。悪霊たちは近くの敵のところへ飛んで行き、ダメージを与えます。|1}}
-{{ListViewSkill|サバス| . |10|149|召喚されている悪霊を詠唱者の後ろに並ばせます。チャネリング終了後3秒間ダメージアップ効果が持続します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|悪霊ダメージアップ|44%|48%|52%|56%|60%|64%|68%|72%|76%|80%|84%|88%|92%|96%|100%}}
-}}
-|15}}
+{{ListViewSkill|インヴォケーション| . |247|1|60|退治した敵から悪霊を召喚するか、周期的に悪霊が召喚されます。召喚された悪霊はフィールドに残って命令を待ちます。悪霊によって退治された敵からも悪霊を召喚できます。召喚できる悪霊は合計10体に制限されます。[イーブルサクリファイス]で対象を指定してダメージを与えることができます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|悪霊スキル係数|291%|300%|310%|320%|329%|339%|349%|358%|368%|378%|388%|397%|407%|417%|426%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ダークサージ| . |170|1|20|悪霊を召喚して自分の周辺を回りながら命令を待つようにします。[イーブルサクリファイス]で近くの敵にダメージを与えることができます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|悪霊スキル係数|127%x  1回|148%x  1回|169%x  1回|191%x  1回|212%x  1回|234%x  1回|255%x  1回|276%x  1回|298%x  1回|319%x  1回|341%x  1回|362%x  1回|383%x  1回|405%x  1回|426%x  1回}}<br/>}}<br/>|15}}
+{{ListViewSkill|イーブルサクリファイス| . |37|1|0|周辺の敵を悪霊への供物として捧げます。悪霊たちは近くの敵のところへ飛んで行き、ダメージを与えます。|1}}
+{{ListViewSkill|サバス| . |149|1|10|召喚されている悪霊を詠唱者の後ろに並ばせます。チャネリング終了後3秒間ダメージアップ効果が持続します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|悪霊ダメージアップ|44%|48%|52%|56%|60%|64%|68%|72%|76%|80%|84%|88%|92%|96%|100%}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ポールオブアゴニー| . |30|224|接触した敵に持続的に苦痛を与える闇の柱を召喚します。柱から逃げても一定時間持続ダメージを受けますが、時間の経過と共にダメージはダウンします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|227%|286%|345%|404%|463%|522%|581%|640%|699%|758%}}
-{{SkillAdditionalInfoTemplate||14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ}}
-}}
-|10}}
-{{ListViewSkill|マステマ| . |30|230|敵に憎悪悪魔の呪いをかけます。[烙印]が押された敵は詠唱者を優先攻撃の対象にすることができ、イーブルサクリファイスを使用すると悪霊はその対象を優先攻撃します。[烙印]が押された対象は神聖属性スキルで追加ダメージを受けます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|1647%|2074%|2501%|2928%|3355%|3782%|4209%|4636%|5063%|5490%}}
-}}
-|10}}
+{{ListViewSkill|ポールオブアゴニー| . |224|1|30|接触した敵に持続的に苦痛を与える闇の柱を召喚します。柱から逃げても一定時間持続ダメージを受けますが、時間の経過と共にダメージはダウンします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|227%|286%|345%|404%|463%|522%|581%|640%|699%|758%}}<br/>{{SkillAdditionalInfoTemplate||14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ|14秒間追加ダメージ}}<br/>}}<br/>|10}}
+{{ListViewSkill|マステマ| . |230|1|30|敵に憎悪悪魔の呪いをかけます。[烙印]が押された敵は詠唱者を優先攻撃の対象にすることができ、イーブルサクリファイスを使用すると悪霊はその対象を優先攻撃します。[烙印]が押された対象は神聖属性スキルで追加ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1647%|2074%|2501%|2928%|3355%|3782%|4209%|4636%|5063%|5490%}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|デーモンスクラッチ| . |20|163|前方に悪魔の腕を召喚する魔法陣を生成します。 召喚された悪魔は前方の敵を引き寄せた後消えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数 |270%|540%|811%|1082%|1353%}}
-}}
-|5}}
+{{ListViewSkill|デーモンスクラッチ| . |163|2|20|前方に悪魔の腕を召喚する魔法陣を生成します。 召喚された悪魔は前方の敵を引き寄せた後消えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |270%|540%|811%|1082%|1353%}}<br/>}}<br/>|5}}
 
 |}
 
@@ -152,5 +121,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.954082
+* Automatic generated at 2020-02-02 20:52:44.680152
 {{PageProgress|2}}

@@ -19,13 +19,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -56,47 +50,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|御幣| . |12|69|御幣を振り回し攻撃します。前方にいる仲間にかかった一般解除可能なデバフを除去し、敵にかかったバフを除去します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|123% x 2回|127% x 2回|131% x 2回|135% x 2回|139% x 2回|143% x 2回|147% x 2回|151% x 2回|155% x 2回|159% x 2回|164% x 2回|168% x 2回|172% x 2回|176% x 2回|180% x 2回}}
-}}
-|15}}
-{{ListViewSkill|破魔矢| . |35|172|破魔矢を手に取り指定された位置に投じます。悪魔型に強靭なダメージを与えます。破魔矢に射られた周辺は浄化され、一時的に敵に神聖ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|1秒ごとにスキル係数|220%|231%|243%|254%|266%|277%|289%|300%|312%|323%|335%|346%|358%|369%|381%}}
-{{SkillAdditionalInfoTemplate|持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}
-}}
-|15}}
-{{ListViewSkill|拍手| . |35|187|その場で2回拍手します。自分の周辺にいる味方の[設置物]の持続時間がアップします。(アイスウォール、スパイクシューターを除く)拍手の効果をすでに受けている設置物には効果が適用されません。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|持続時間|+5秒|+10秒|+15秒|+20秒|+25秒|+30秒|+35秒|+40秒|+45秒|+50秒|+55秒|+60秒|+65秒|+70秒|+75秒}}
-}}
-|15}}
+{{ListViewSkill|御幣| . |69|2|12|御幣を振り回し攻撃します。前方にいる仲間にかかった一般解除可能なデバフを除去し、敵にかかったバフを除去します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|123% x 2回|127% x 2回|131% x 2回|135% x 2回|139% x 2回|143% x 2回|147% x 2回|151% x 2回|155% x 2回|159% x 2回|164% x 2回|168% x 2回|172% x 2回|176% x 2回|180% x 2回}}<br/>}}<br/>|15}}
+{{ListViewSkill|破魔矢| . |172|1|35|破魔矢を手に取り指定された位置に投じます。悪魔型に強靭なダメージを与えます。破魔矢に射られた周辺は浄化され、一時的に敵に神聖ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|1秒ごとにスキル係数|220%|231%|243%|254%|266%|277%|289%|300%|312%|323%|335%|346%|358%|369%|381%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|拍手| . |187|1|35|その場で2回拍手します。自分の周辺にいる味方の[設置物]の持続時間がアップします。(アイスウォール、スパイクシューターを除く)拍手の効果をすでに受けている設置物には効果が適用されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|+ 5秒|+10秒|+15秒|+20秒|+25秒|+30秒|+35秒|+40秒|+45秒|+50秒|+55秒|+60秒|+65秒|+70秒|+75秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|掃除| . |35|187|浄化された神霊のほうきで掃除することで周辺が聖地と化します。聖地はしばらくの間維持され、聖地内で使われる魔法陣のスキルレベルが1段階高くなります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|最大掃除持続時間|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒}}
-{{SkillAdditionalInfoTemplate|聖地の持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒}}
-}}
-|10}}
-{{ListViewSkill|おみくじ| . |15|217|おみくじを引いてその結果によってバフを付与します。大吉、中吉、小吉、小凶、大凶が出ます。それぞれの確率は次の通りです。*大吉：5%*中吉：20%*小吉：50%*小凶：20%*大凶：5%{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}
-{{SkillAdditionalInfoTemplate|大吉：クリティカル発生|+20%|+40%|+60%|+80%|+100%|+120%|+140%|+160%|+180%|+200%}}
-{{SkillAdditionalInfoTemplate|中吉：クリティカル発生|+10%|+20%|+30%|+40%|+50%|+60%|+70%|+80%|+90%|+100%}}
-{{SkillAdditionalInfoTemplate|小吉：クリティカル発生|+5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}
-}}
-|10}}
+{{ListViewSkill|掃除| . |187|1|35|浄化された神霊のほうきで掃除することで周辺が聖地と化します。聖地はしばらくの間維持され、聖地内で使われる魔法陣のスキルレベルが1段階高くなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|最大掃除持続時間| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒}}<br/>{{SkillAdditionalInfoTemplate|聖地の持続時間| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|おみくじ| . |217|1|15|おみくじを引いてその結果によってバフを付与します。大吉、中吉、小吉、小凶、大凶が出ます。それぞれの確率は次の通りです。*大吉：5%*中吉：20%*小吉：50%*小凶：20%*大凶：5%{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>{{SkillAdditionalInfoTemplate|大吉：クリティカル発生|+20%|+40%|+60%|+80%|+100%|+120%|+140%|+160%|+180%|+200%}}<br/>{{SkillAdditionalInfoTemplate|中吉：クリティカル発生|+10%|+20%|+30%|+40%|+50%|+60%|+70%|+80%|+90%|+100%}}<br/>{{SkillAdditionalInfoTemplate|小吉：クリティカル発生|+ 5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|神楽| . |20|0|神に奉納するため奏される舞を舞って、周辺の仲間に祝福を与えます。このスキルの影響を受ける敵に魔法攻撃時、ダメージがアップします。スキルボタンを押している間、有効になります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|最大持続時間|10秒|10秒|10秒|10秒|10秒}}
-{{SkillAdditionalInfoTemplate|1秒ごとにSP消費量|72|74|76|78|80}}
-{{SkillAdditionalInfoTemplate|魔法ダメージ|+10%|+20%|+30%|+40%|+50%}}
-}}
-|5}}
+{{ListViewSkill|神楽| . |0|1|40|神に奉納するため奏される舞を舞って、周辺の仲間に祝福を与えます。このスキルの影響を受ける敵に魔法攻撃時、ダメージがアップします。スキルボタンを押している間、有効になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|最大持続時間|10秒|10秒|10秒|10秒|10秒}}<br/>{{SkillAdditionalInfoTemplate|1秒ごとにSP消費量|72|74|76|78|80}}<br/>{{SkillAdditionalInfoTemplate|魔法ダメージ|+10%|+20%|+30%|+40%|+50%}}<br/>}}<br/>|5}}
 
 |}
 
@@ -151,5 +114,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.085083
+* Automatic generated at 2020-02-02 20:52:44.812152
 {{PageProgress|2}}

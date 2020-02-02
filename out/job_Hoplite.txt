@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -56,50 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ピアス| . |30|60|槍で敵を強く突いてダメージを与えます。 敵が大きいほど連打ボーナスが適用されます。[ドラグーンヘルメット]または[コメンス]バフが適用中の場合、ピアススキルの連打数が1回増加します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|262%|305%|349%|393%|436%|480%|524%|567%|611%|655%|699%|742%|786%|830%|873%}}
-}}
-|15}}
-{{ListViewSkill|シンクロスラスト| . |15|68|武器と盾を同時に使って敵を攻撃します。シンクロスラスト使用中は敵の物理攻撃をブロックし、カウンターが発動します。カウンターが的中するとクリティカルが適用され、敵を2秒間[スタン]状態にします。打撃攻撃は自分が着用した盾の防御力とキャラクターの基本防御力に比例した数値が攻撃力として適用されます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|204%|225%|246%|267%|288%|309%|330%|351%|372%|393%|414%|435%|456%|477%|498%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}}
-}}
-|15}}
-{{ListViewSkill|シャープスピア| . |60|168|一時的に槍先を鋭くします。槍で敵を攻撃してクリティカルが発生すると、敵に与える最終ダメージがアップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|クリティカル時最終ダメージ |+6%|+7%|+8%|+9%|+10%|+11%|+12%|+13%|+14%|+15%|+16%|+17%|+18%|+19%|+20%}}
-}}
-|15}}
-{{ListViewSkill|ジャベリン| . |10|102|槍を投げて敵を攻撃します。槍に当たった敵はノックダウンし、衝撃状態になります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|244% x 3回|284% x 3回|325% x 3回|366% x 3回|407% x 3回|448% x 3回|489% x 3回|530% x 3回|571% x 3回|612% x 3回|653% x 3回|693% x 3回|734% x 3回|775% x 3回|816% x 3回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|16|16|16|16|16|16|16|16|16|16|16|16|16|16|16}}
-}}
-|15}}
+{{ListViewSkill|ピアス| . |60|5|30|槍で敵を強く突いてダメージを与えます。 敵が大きいほど連打ボーナスが適用されます。[ドラグーンヘルメット]または[コメンス]バフが適用中の場合、ピアススキルの連打数が1回増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|262%|305%|349%|393%|436%|480%|524%|567%|611%|655%|699%|742%|786%|830%|873%}}<br/>}}<br/>|15}}
+{{ListViewSkill|シンクロスラスト| . |68|3|15|武器と盾を同時に使って敵を攻撃します。シンクロスラスト使用中は敵の物理攻撃をブロックし、カウンターが発動します。カウンターが的中するとクリティカルが適用され、敵を2秒間[スタン]状態にします。打撃攻撃は自分が着用した盾の防御力とキャラクターの基本防御力に比例した数値が攻撃力として適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|204%|225%|246%|267%|288%|309%|330%|351%|372%|393%|414%|435%|456%|477%|498%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1}}<br/>}}<br/>|15}}
+{{ListViewSkill|シャープスピア| . |168|1|60|一時的に槍先を鋭くします。槍で敵を攻撃してクリティカルが発生すると、敵に与える最終ダメージがアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル時最終ダメージ |+ 6%|+ 7%|+ 8%|+ 9%|+10%|+11%|+12%|+13%|+14%|+15%|+16%|+17%|+18%|+19%|+20%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ジャベリン| . |102|2|10|槍を投げて敵を攻撃します。槍に当たった敵はノックダウンし、衝撃状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|244% x 3回|284% x 3回|325% x 3回|366% x 3回|407% x 3回|448% x 3回|489% x 3回|530% x 3回|571% x 3回|612% x 3回|653% x 3回|693% x 3回|734% x 3回|775% x 3回|816% x 3回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|16|16|16|16|16|16|16|16|16|16|16|16|16|16|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|スピアランジ| . |20|52|前方の敵を突いてダメージを与え、突き攻撃に弱い状態にします。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|309%|389%|469%|549%|629%|709%|789%|869%|949%|1029%}}
-}}
-|10}}
-{{ListViewSkill|フィネストラ| . |50|156|槍で積極的に攻撃するスタンスに転換します。回避がダウンする代わりに槍で敵を攻撃するとクリティカル発生率が追加で適用されます。フィネストラバフ中に槍ではない他の武器に変更するとバフが解除されます。盾を着用していると、ブロック率がアップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|クリティカル発生|+3%|+6%|+9%|+12%|+15%|+18%|+21%|+24%|+27%|+30%}}
-{{SkillAdditionalInfoTemplate|盾着用中、ブロック率|+5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}
-{{SkillAdditionalInfoTemplate|持続時間|33秒|36秒|39秒|42秒|45秒|48秒|51秒|54秒|57秒|60秒}}
-}}
-|10}}
+{{ListViewSkill|スピアランジ| . |52|5|20|前方の敵を突いてダメージを与え、突き攻撃に弱い状態にします。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|309%|389%|469%|549%|629%|709%|789%|869%|949%|1029%}}<br/>}}<br/>|10}}
+{{ListViewSkill|フィネストラ| . |156|1|50|槍で積極的に攻撃するスタンスに転換します。回避がダウンする代わりに槍で敵を攻撃するとクリティカル発生率が追加で適用されます。フィネストラバフ中に槍ではない他の武器に変更するとバフが解除されます。盾を着用していると、ブロック率がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル発生|+ 3%|+ 6%|+ 9%|+12%|+15%|+18%|+21%|+24%|+27%|+30%}}<br/>{{SkillAdditionalInfoTemplate|盾着用中、ブロック率|+ 5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|33秒|36秒|39秒|42秒|45秒|48秒|51秒|54秒|57秒|60秒}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|スタビング| . |15|106|敵を連続して突き、ダメージを与えます。連続で突くほど敵に与えるダメージが増加します。[ドラグーンヘルメット]または[コメンス]バフが適用中の場合、最大打撃回数が3回増加します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|310% x 15回|341% x 15回|372% x 15回|403% x 15回|434% x 15回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1}}
-}}
-|5}}
+{{ListViewSkill|スタビング| . |106|1|15|敵を連続して突き、ダメージを与えます。連続で突くほど敵に与えるダメージが増加します。[ドラグーンヘルメット]または[コメンス]バフが適用中の場合、最大打撃回数が3回増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|310% x 15回|341% x 15回|372% x 15回|403% x 15回|434% x 15回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1}}<br/>}}<br/>|5}}
 
 |}
 
@@ -158,5 +119,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.856082
+* Automatic generated at 2020-02-02 20:52:44.580151
 {{PageProgress|2}}

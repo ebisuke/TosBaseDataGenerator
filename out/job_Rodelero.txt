@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -57,59 +51,18 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|シールドチャージ| . |30|123|盾を持って敵を押しながら走ります。 近くにいる敵は盾にぶつかって倒れます。 シールドチャージ中、ブロック率と物理防御力が増加します。スプリントバフが適用中の場合、攻撃を受けた敵は移動速度が減少します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|739%|862%|985%|1108%|1231%|1354%|1478%|1601%|1724%|1847%|1970%|2094%|2217%|2340%|2463%}}
-{{SkillAdditionalInfoTemplate|ブロック、物理防御力|+16%|+22%|+28%|+34%|+40%|+46%|+52%|+58%|+64%|+70%|+76%|+82%|+88%|+94%|+100%}}
-}}
-|15}}
-{{ListViewSkill|モンタノ| . |10|101|敵の下部を強く攻撃します。敵は一時的にスローデバフにかかります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|1434%|1673%|1912%|2151%|2390%|2629%|2868%|3107%|3346%|3585%|3825%|4064%|4303%|4542%|4781%}}
-{{SkillAdditionalInfoTemplate|[スロー]持続時間|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒}}
-}}
-|15}}
-{{ListViewSkill|タージスマッシュ| . |20|55|盾で敵を強く打ち下ろして、ダメージを与えます。衝撃状態になった敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|490%|571%|653%|735%|817%|899%|981%|1063%|1145%|1227%|1309%|1390%|1472%|1554%|1636%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|12|12|12|12|12|12|12|12|12|12|12|12|12|12|12}}
-}}
-|15}}
-{{ListViewSkill|シールドプッシュ| . |15|68|盾で敵の行動を妨害し、アンバランスデバフをかけます。アンバランスデバフにかかった敵は攻撃を受けると一定の確率でノックダウンされ、物理防御力が減少します。敵の後方を攻撃するとダメージが増加します。アンバランスデバフにかかった敵は基本攻撃とスキルを使用できません。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|516%|602%|688%|774%|860%|946%|1032%|1118%|1204%|1290%|1376%|1462%|1548%|1634%|1720%}}
-{{SkillAdditionalInfoTemplate|防御力|-1%|-2%|-3%|-4%|-5%|-6%|-7%|-8%|-9%|-10%|-11%|-12%|-13%|-14%|-15%}}
-}}
-|15}}
+{{ListViewSkill|シールドチャージ| . |123|1|30|盾を持って敵を押しながら走ります。 近くにいる敵は盾にぶつかって倒れます。 シールドチャージ中、ブロック率と物理防御力が増加します。スプリントバフが適用中の場合、攻撃を受けた敵は移動速度が減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|739%|862%|985%|1108%|1231%|1354%|1478%|1601%|1724%|1847%|1970%|2094%|2217%|2340%|2463%}}<br/>{{SkillAdditionalInfoTemplate|ブロック、物理防御力|+16%|+22%|+28%|+34%|+40%|+46%|+52%|+58%|+64%|+70%|+76%|+82%|+88%|+94%|+100%}}<br/>}}<br/>|15}}
+{{ListViewSkill|モンタノ| . |101|1|10|敵の下部を強く攻撃します。敵は一時的にスローデバフにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1434%|1673%|1912%|2151%|2390%|2629%|2868%|3107%|3346%|3585%|3825%|4064%|4303%|4542%|4781%}}<br/>{{SkillAdditionalInfoTemplate|[スロー]持続時間| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒| 5秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|タージスマッシュ| . |55|5|20|盾で敵を強く打ち下ろして、ダメージを与えます。衝撃状態になった敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|490%|571%|653%|735%|817%|899%|981%|1063%|1145%|1227%|1309%|1390%|1472%|1554%|1636%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|12|12|12|12|12|12|12|12|12|12|12|12|12|12|12}}<br/>}}<br/>|15}}
+{{ListViewSkill|シールドプッシュ| . |68|3|15|盾で敵の行動を妨害し、アンバランスデバフをかけます。アンバランスデバフにかかった敵は攻撃を受けると一定の確率でノックダウンされ、物理防御力が減少します。敵の後方を攻撃するとダメージが増加します。アンバランスデバフにかかった敵は基本攻撃とスキルを使用できません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|516%|602%|688%|774%|860%|946%|1032%|1118%|1204%|1290%|1376%|1462%|1548%|1634%|1720%}}<br/>{{SkillAdditionalInfoTemplate|防御力|- 1%|- 2%|- 3%|- 4%|- 5%|- 6%|- 7%|- 8%|- 9%|-10%|-11%|-12%|-13%|-14%|-15%}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|シールドシャビング| . |10|62|盾で敵の行動を妨害します。攻撃された敵は後ろを向き、一時的に行動が制限されます。攻撃を受けた敵はしばらく打属性攻撃に弱くなります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|667%|840%|1013%|1186%|1359%|1532%|1706%|1879%|2052%|2225%}}
-}}
-|10}}
-{{ListViewSkill|スリザリング| . |20|109|キーを押している間、姿勢を低くして前進します。スリザリング中にはノックバックまたはノックダウンせず、ブロック率が増加し敵から受けるダメージと回避率が減少します。移動が終わった直後に敵を攻撃します。スプリントバフが適用中の場合、スリザリングの移動速度低下が半減し、攻撃を受けた敵は後ろを向きます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|777%|777%|777%|777%|777%|777%|777%|777%|777%|777%}}
-{{SkillAdditionalInfoTemplate|ブロック|+10%|+20%|+30%|+40%|+50%|+60%|+70%|+80%|+90%|+100%}}
-{{SkillAdditionalInfoTemplate|ダメージ減少|5%|10%|15%|20%|25%|30%|35%|40%|45%|50%}}
-{{SkillAdditionalInfoTemplate|回避減少|1%|2%|3%|4%|5%|6%|7%|8%|9%|10%}}
-}}
-|10}}
+{{ListViewSkill|シールドシャビング| . |62|3|10|盾で敵の行動を妨害します。攻撃された敵は後ろを向き、一時的に行動が制限されます。攻撃を受けた敵はしばらく打属性攻撃に弱くなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|667%|840%|1013%|1186%|1359%|1532%|1706%|1879%|2052%|2225%}}<br/>}}<br/>|10}}
+{{ListViewSkill|スリザリング| . |109|1|20|キーを押している間、姿勢を低くして前進します。スリザリング中にはノックバックまたはノックダウンせず、ブロック率が増加し敵から受けるダメージと回避率が減少します。移動が終わった直後に敵を攻撃します。スプリントバフが適用中の場合、スリザリングの移動速度低下が半減し、攻撃を受けた敵は後ろを向きます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|777%|777%|777%|777%|777%|777%|777%|777%|777%|777%}}<br/>{{SkillAdditionalInfoTemplate|ブロック|+10%|+20%|+30%|+40%|+50%|+60%|+70%|+80%|+90%|+100%}}<br/>{{SkillAdditionalInfoTemplate|ダメージ減少| 5%|10%|15%|20%|25%|30%|35%|40%|45%|50%}}<br/>{{SkillAdditionalInfoTemplate|回避減少| 1%| 2%| 3%| 4%| 5%| 6%| 7%| 8%| 9%|10%}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|シールドバッシュ| . |30|127|盾を使って敵のブロックを無視して攻撃します。攻撃を受けた敵は衝撃状態になります。防御タイプがプレートの敵に対してダメージがアップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|1724%|3448%|5172%|6896%|8620%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|12|12|12|12|12}}
-}}
-|5}}
-{{ListViewSkill|シューティングスター| . |25|101|敵に剣と盾を使った連続攻撃を行います。 攻撃が的中すれば物理攻撃力に盾の物理防御力30%が追加適用されます。敵が[シールドシャビング]で行動を制限された状態ならば[スキルレベル] * 10%の追加ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|207% x 4回|414% x 4回|622% x 4回|830% x 4回|1038% x 4回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15}}
-}}
-|5}}
+{{ListViewSkill|シールドバッシュ| . |127|1|30|盾を使って敵のブロックを無視して攻撃します。攻撃を受けた敵は衝撃状態になります。防御タイプがプレートの敵に対してダメージがアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1724%|3448%|5172%|6896%|8620%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|12|12|12|12|12}}<br/>}}<br/>|5}}
+{{ListViewSkill|シューティングスター| . |101|3|25|敵に剣と盾を使った連続攻撃を行います。 攻撃が的中すれば物理攻撃力に盾の物理防御力30%が追加適用されます。敵が[シールドシャビング]で行動を制限された状態ならば[スキルレベル] * 10%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|207% x 4回|414% x 4回|622% x 4回|830% x 4回|1038% x 4回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15}}<br/>}}<br/>|5}}
 
 |}
 
@@ -172,5 +125,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.875082
+* Automatic generated at 2020-02-02 20:52:44.600151
 {{PageProgress|2}}

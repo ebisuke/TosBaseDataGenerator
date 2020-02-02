@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -57,57 +51,18 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|クラッシュ| . |10|95|前方の敵へ槍を突き刺して攻撃します。攻撃された敵は一時的に物理、魔法、防御力が減少します。[スロー]にかかった敵に使用時、1.5秒間[スタン]を付与します。敵の召喚物を攻撃すれば位置を移動させることができます。敵のシールド型バフを即解除します。解除バフ：サブゼロシールド、玄武甲、マジックシールド、ハードシールド、ガベニ、シールドチャージャー、ハイガードシールドバフ{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|580%|676%|773%|870%|966%|1063%|1160%|1256%|1353%|1450%|1546%|1643%|1740%|1837%|1933%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}}
-{{SkillAdditionalInfoTemplate|物理、魔法防御力|-1%|-2%|-3%|-4%|-5%|-6%|-7%|-8%|-9%|-10%|-11%|-12%|-13%|-14%|-15%}}
-}}
-|15}}
-{{ListViewSkill|ジャウスト| . |30|127|突進しながら槍で突き攻撃を行い、敵の魔法陣を破壊します。攻撃を受けた敵は沈黙状態になり、基本攻撃やスキルの使用ができなくなります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|863% x 2回|1006% x 2回|1150% x 2回|1294% x 2回|1438% x 2回|1582% x 2回|1726% x 2回|1870% x 2回|2014% x 2回|2158% x 2回|2301% x 2回|2445% x 2回|2589% x 2回|2733% x 2回|2877% x 2回}}
-}}
-|15}}
-{{ListViewSkill|スピルアタック| . |45|93|槍を取り直して上から一気に突き下ろします。コンパニオンに乗っている相手を叩き落とします。コンパニオンに搭乗している敵、野獣型の敵に追加ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|679%|701%|724%|746%|769%|791%|814%|836%|859%|881%|904%|926%|949%|971%|994%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}}
-}}
-|15}}
-{{ListViewSkill|クインテイン| . |20|72|槍を大きく伸ばして攻撃します。クラッシュ状態の敵には追加ダメージを与え、クインテインを連続で使用すると、打撃回数が最大3回まで増加します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|460%|475%|490%|505%|520%|536%|551%|566%|581%|596%|612%|627%|642%|657%|672%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}}
-}}
-|15}}
-{{ListViewSkill|コメンス| . |60|168|戦闘の開始に先立って戦意を固めます。敵のブロック貫通率がアップし、自分の物理攻撃力に比例した数値分敵の防御力を無視します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|ブロック貫通|+10%|+20%|+30%|+40%|+50%}}
-{{SkillAdditionalInfoTemplate|[物理攻撃力] x |5%分敵の防御力を無視|10%分敵の防御力を無視|15%分敵の防御力を無視|20%分敵の防御力を無視|25%分敵の防御力を無視}}
-}}
-|5}}
+{{ListViewSkill|クラッシュ| . |95|2|10|前方の敵へ槍を突き刺して攻撃します。攻撃された敵は一時的に物理、魔法、防御力が減少します。[スロー]にかかった敵に使用時、1.5秒間[スタン]を付与します。敵の召喚物を攻撃すれば位置を移動させることができます。敵のシールド型バフを即解除します。解除バフ：サブゼロシールド、玄武甲、マジックシールド、ハードシールド、ガベニ、シールドチャージャー、ハイガードシールドバフ{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|580%|676%|773%|870%|966%|1063%|1160%|1256%|1353%|1450%|1546%|1643%|1740%|1837%|1933%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1}}<br/>{{SkillAdditionalInfoTemplate|物理、魔法防御力|- 1%|- 2%|- 3%|- 4%|- 5%|- 6%|- 7%|- 8%|- 9%|-10%|-11%|-12%|-13%|-14%|-15%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ジャウスト| . |127|1|30|突進しながら槍で突き攻撃を行い、敵の魔法陣を破壊します。攻撃を受けた敵は沈黙状態になり、基本攻撃やスキルの使用ができなくなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|863% x 2回|1006% x 2回|1150% x 2回|1294% x 2回|1438% x 2回|1582% x 2回|1726% x 2回|1870% x 2回|2014% x 2回|2158% x 2回|2301% x 2回|2445% x 2回|2589% x 2回|2733% x 2回|2877% x 2回}}<br/>}}<br/>|15}}
+{{ListViewSkill|スピルアタック| . |93|3|45|槍を取り直して上から一気に突き下ろします。コンパニオンに乗っている相手を叩き落とします。コンパニオンに搭乗している敵、野獣型の敵に追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|679%|701%|724%|746%|769%|791%|814%|836%|859%|881%|904%|926%|949%|971%|994%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1}}<br/>}}<br/>|15}}
+{{ListViewSkill|クインテイン| . |72|3|20|槍を大きく伸ばして攻撃します。クラッシュ状態の敵には追加ダメージを与え、クインテインを連続で使用すると、打撃回数が最大3回まで増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|460%|475%|490%|505%|520%|536%|551%|566%|581%|596%|612%|627%|642%|657%|672%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1}}<br/>}}<br/>|15}}
+{{ListViewSkill|コメンス| . |168|1|60|戦闘の開始に先立って戦意を固めます。敵のブロック貫通率がアップし、自分の物理攻撃力に比例した数値分敵の防御力を無視します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ブロック貫通|+10%|+20%|+30%|+40%|+50%}}<br/>{{SkillAdditionalInfoTemplate|[物理攻撃力] x | 5%分敵の防御力を無視|10%分敵の防御力を無視|15%分敵の防御力を無視|20%分敵の防御力を無視|25%分敵の防御力を無視}}<br/>}}<br/>|5}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|プリベント| . |45|168|移動を制約する[スロー][移動不可][アレスト]状態異常をすぐに解除し、持続時間は上記の状態異常にかからなくなります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|[スロー][移動不可][アレスト][スタン]無効持続時間|2秒|2秒|2秒|2秒|2秒}}
-{{SkillAdditionalInfoTemplate|クールタイム|-3秒|-6秒|-9秒|-12秒|-15秒}}
-}}
-|5}}
-{{ListViewSkill|ロンゴミアント| . |20|102|一定距離突進しぶつかった敵にダメージを与えます。ぶつかると移動を止めます。距離が遠いほど敵に与えるダメージが増加します。 ロンゴミアントスキル使用中はブロックと回避ができず、敵は2秒間スタン状態になります。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|699%|734%|769%|804%|839%|874%|909%|944%|979%|1014%}}
-}}
-|10}}
+{{ListViewSkill|プリベント| . |168|1|57|移動を制約する[スロー][移動不可][アレスト]状態異常をすぐに解除し、持続時間は上記の状態異常にかからなくなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|[スロー][移動不可][アレスト][スタン]無効持続時間| 2秒| 2秒| 2秒| 2秒| 2秒}}<br/>{{SkillAdditionalInfoTemplate|クールタイム|- 3秒|- 6秒|- 9秒|-12秒|-15秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|ロンゴミアント| . |102|1|20|一定距離突進しぶつかった敵にダメージを与えます。ぶつかると移動を止めます。距離が遠いほど敵に与えるダメージが増加します。 ロンゴミアントスキル使用中はブロックと回避ができず、敵は2秒間スタン状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|699%|734%|769%|804%|839%|874%|909%|944%|979%|1014%}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ギガンテマルーシャ| . |40|145|前方に突進する騎馬隊を召喚します。ノックダウンされた敵には100%の追加ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|176% x10回|352% x10回|529% x10回|706% x10回|883% x10回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15}}
-}}
-|5}}
+{{ListViewSkill|ギガンテマルーシャ| . |145|1|40|前方に突進する騎馬隊を召喚します。ノックダウンされた敵には100%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|176% x10回|352% x10回|529% x10回|706% x10回|883% x10回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15}}<br/>}}<br/>|5}}
 
 |}
 
@@ -173,5 +128,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.895083
+* Automatic generated at 2020-02-02 20:52:44.620152
 {{PageProgress|2}}

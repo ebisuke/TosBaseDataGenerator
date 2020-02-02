@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -56,55 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ストーンスキン| . |40|165|自分の皮膚を硬くして物理、魔法攻撃に対するダメージをダウンさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|ダメージ|-0.4%|-0.8%|-1.2000000000000002%|-1.6%|-2%|-2.4000000000000004%|-2.8000000000000003%|-3.2%|-3.6%|-4%|-4.4%|-4.800000000000001%|-5.2%|-5.6000000000000005%|-6%}}
-}}
-|15}}
-{{ListViewSkill|リストレーション| . |60|217|オーラを発動して、自身の周辺の仲間のHPを回復させます。パトロンセイントバフ中なら回復量が10%増加されます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|3秒当たり治癒係数|107%|113.2%|119.4%|125.6%|131.8%|138%|144.2%|150.4%|156.6%|162.8%|169%|175.2%|181.4%|187.60000000000002%|193.8%}}
-}}
-|15}}
-{{ListViewSkill|レジストエレメンツ| . |90|270|自分とPTメンバーの炎、氷、雷、毒、地属性抵抗力を一時的にアップさせ、該当属性攻撃のダメージをダウンさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|属性ダメージ|-12%|-14%|-16%|-18%|-20%|-22%|-24%|-26%|-28%|-30%|-32%|-34%|-36%|-38%|-40%}}
-{{SkillAdditionalInfoTemplate|持続時間|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒}}
-}}
-|15}}
-{{ListViewSkill|コンビクション| . |25|76|背教者に下す鉄槌で敵を攻撃します。攻撃された敵は火、氷、雷、地、毒属性のダメージが増加します。またスタン状態の敵には追加ダメージを与えます。デスヴァーディクトにかかった敵をコンビクションで倒すと、周辺にいる敵にダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|512% x 2回|597% x 2回|683% x 2回|768% x 2回|854% x 2回|939% x 2回|1025% x 2回|1110% x 2回|1196% x 2回|1281% x 2回|1367% x 2回|1452% x 2回|1538% x 2回|1623% x 2回|1709% x 2回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|4|4|4|4|4|4|4|4|4|4|4|4|4|4|4}}
-{{SkillAdditionalInfoTemplate|[コンビクション]デバフ中の属性攻撃ダメージ +|2%|4%|6%|8%|10%|12%|14%|16%|18%|20%|22%|24%|26%|28%|30%}}
-{{SkillAdditionalInfoTemplate|[コンビクション]持続時間|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒}}
-}}
-|15}}
+{{ListViewSkill|ストーンスキン| . |165|1|40|自分の皮膚を硬くして物理、魔法攻撃に対するダメージをダウンさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|ダメージ|-0.4%|-0.8%|-1.2%|-1.6%|- 2%|-2.4%|-2.8%|-3.2%|-3.6%|- 4%|-4.4%|-4.8%|-5.2%|-5.6%|- 6%}}<br/>}}<br/>|15}}
+{{ListViewSkill|リストレーション| . |217|1|60|オーラを発動して、自身の周辺の仲間のHPを回復させます。パトロンセイントバフ中なら回復量が10%増加されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|3秒当たり治癒係数|107%|113.2%|119.4%|125.6%|131.8%|138%|144.2%|150.4%|156.6%|162.8%|169%|175.2%|181.4%|187.6%|193.8%}}<br/>}}<br/>|15}}
+{{ListViewSkill|レジストエレメンツ| . |270|1|90|自分とPTメンバーの炎、氷、雷、毒、地属性抵抗力を一時的にアップさせ、該当属性攻撃のダメージをダウンさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|属性ダメージ|-12%|-14%|-16%|-18%|-20%|-22%|-24%|-26%|-28%|-30%|-32%|-34%|-36%|-38%|-40%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|コンビクション| . |76|5|25|背教者に下す鉄槌で敵を攻撃します。攻撃された敵は火、氷、雷、地、毒属性のダメージが増加します。またスタン状態の敵には追加ダメージを与えます。デスヴァーディクトにかかった敵をコンビクションで倒すと、周辺にいる敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|512% x 2回|597% x 2回|683% x 2回|768% x 2回|854% x 2回|939% x 2回|1025% x 2回|1110% x 2回|1196% x 2回|1281% x 2回|1367% x 2回|1452% x 2回|1538% x 2回|1623% x 2回|1709% x 2回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 4| 4| 4| 4| 4| 4| 4| 4| 4| 4| 4| 4| 4| 4| 4}}<br/>{{SkillAdditionalInfoTemplate|[コンビクション]デバフ中の属性攻撃ダメージ +| 2%| 4%| 6%| 8%|10%|12%|14%|16%|18%|20%|22%|24%|26%|28%|30%}}<br/>{{SkillAdditionalInfoTemplate|[コンビクション]持続時間|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|サンクチュアリ| . |40|0|範囲内の味方の物理防御力と魔法防御力をアップさせます。またアップした防御力分の神聖属性追加ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|物理防御力|+3%|+6%|+9%|+12%|+15%|+18%|+21%|+24%|+27%|+30%}}
-{{SkillAdditionalInfoTemplate|魔法防御力|+3%|+6%|+9%|+12%|+15%|+18%|+21%|+24%|+27%|+30%}}
-{{SkillAdditionalInfoTemplate|聖水|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費}}
-{{SkillAdditionalInfoTemplate|1秒ごとにSP |30消費|30消費|30消費|30消費|30消費|30消費|30消費|30消費|30消費|30消費}}
-}}
-|10}}
-{{ListViewSkill|デモリション| . |25|162|両手鈍器で敵を強く打ち下ろします。コンビクションデバフにかかった敵には追加ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|スキル係数|550% x 7回|692% x 7回|835% x 7回|978% x 7回|1121% x 7回|1264% x 7回|1407% x 7回|1550% x 7回|1693% x 7回|1836% x 7回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|12|12|12|12|12|12|12|12|12|12}}
-{{SkillAdditionalInfoTemplate|コンビクションデバフにかかった敵に追加ダメージ|2%|4%|6%|8%|10%|12%|14%|16%|18%|20%}}
-}}
-|10}}
+{{ListViewSkill|サンクチュアリ| . |0|1|40|範囲内の味方の物理防御力と魔法防御力をアップさせます。またアップした防御力分の神聖属性追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|物理防御力|+ 3%|+ 6%|+ 9%|+12%|+15%|+18%|+21%|+24%|+27%|+30%}}<br/>{{SkillAdditionalInfoTemplate|魔法防御力|+ 3%|+ 6%|+ 9%|+12%|+15%|+18%|+21%|+24%|+27%|+30%}}<br/>{{SkillAdditionalInfoTemplate|聖水|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費}}<br/>{{SkillAdditionalInfoTemplate|1秒ごとにSP |30消費|30消費|30消費|30消費|30消費|30消費|30消費|30消費|30消費|30消費}}<br/>}}<br/>|10}}
+{{ListViewSkill|デモリション| . |162|1|25|両手鈍器で敵を強く打ち下ろします。コンビクションデバフにかかった敵には追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|550% x 7回|692% x 7回|835% x 7回|978% x 7回|1121% x 7回|1264% x 7回|1407% x 7回|1550% x 7回|1693% x 7回|1836% x 7回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|12|12|12|12|12|12|12|12|12|12}}<br/>{{SkillAdditionalInfoTemplate|コンビクションデバフにかかった敵に追加ダメージ| 2%| 4%| 6%| 8%|10%|12%|14%|16%|18%|20%}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|バリア| . |30|187|周辺の敵を外に押し出してしばらく入って来られなくする防御の壁を建てます。壁の内側にいる味方の魔法防御力をアップさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|魔法防御力|+10%|+20%|+30%|+40%|+50%}}
-{{SkillAdditionalInfoTemplate|持続時間|4秒|8秒|12秒|16秒|20秒}}
-}}
-|5}}
+{{ListViewSkill|バリア| . |187|1|30|周辺の敵を外に押し出してしばらく入って来られなくする防御の壁を建てます。壁の内側にいる味方の魔法防御力をアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|魔法防御力|+10%|+20%|+30%|+40%|+50%}}<br/>{{SkillAdditionalInfoTemplate|持続時間| 4秒| 8秒|12秒|16秒|20秒}}<br/>}}<br/>|5}}
 
 |}
 
@@ -163,5 +119,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.066082
+* Automatic generated at 2020-02-02 20:52:44.793151
 {{PageProgress|2}}

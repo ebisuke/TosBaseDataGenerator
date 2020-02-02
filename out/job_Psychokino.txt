@@ -18,13 +18,7 @@ nan
 nan
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -55,44 +49,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|サイキックプレッシャー| . |25|0|指先に念力を集中させ、前方の敵に持続的なダメージを与えます。 変異型モンスターに対してダメージが50%増加します。一定の確率で敵にスタンデバフをかけます。アイスウォール打撃時、氷の破片が発射されます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|236%|275%|315%|354%|394%|433%|473%|512%|552%|591%|631%|670%|710%|749%|789%}}
-{{SkillAdditionalInfoTemplate|適用対象|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19}}
-{{SkillAdditionalInfoTemplate|1秒ごとにSP |42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費}}
-}}
-|15}}
-{{ListViewSkill|スワップ| . |20|205|指定した敵と自分の位置を入れ替えます。位置が変わった敵は束縛デバフにかかります。ボスモンスターと固定型モンスターには適用されません。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|適用対象|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15}}
-}}
-|15}}
-{{ListViewSkill|マグネティックフォース| . |25|193|指定した位置の対象を一か所に引きよせ、衝突させてダメージを与えます。変異型モンスターに対してダメージが50%アップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|15}}|
-{{SkillAdditionalInfoTemplate|スキル係数|1541%|1798%|2055%|2312%|2569%|2826%|3083%|3340%|3597%|3854%|4111%|4368%|4625%|4882%|5139%}}
-}}
-|15}}
+{{ListViewSkill|サイキックプレッシャー| . |0|1|25|指先に念力を集中させ、前方の敵に持続的なダメージを与えます。 変異型モンスターに対してダメージが50%増加します。一定の確率で敵にスタンデバフをかけます。アイスウォール打撃時、氷の破片が発射されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|236%|275%|315%|354%|394%|433%|473%|512%|552%|591%|631%|670%|710%|749%|789%}}<br/>{{SkillAdditionalInfoTemplate|適用対象| 5| 6| 7| 8| 9|10|11|12|13|14|15|16|17|18|19}}<br/>{{SkillAdditionalInfoTemplate|1秒ごとにSP |42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費|42消費}}<br/>}}<br/>|15}}
+{{ListViewSkill|スワップ| . |205|1|20|指定した敵と自分の位置を入れ替えます。位置が変わった敵は束縛デバフにかかります。ボスモンスターと固定型モンスターには適用されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|適用対象| 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15}}<br/>}}<br/>|15}}
+{{ListViewSkill|マグネティックフォース| . |193|1|25|指定した位置の対象を一か所に引きよせ、衝突させてダメージを与えます。変異型モンスターに対してダメージが50%アップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1541%|1798%|2055%|2312%|2569%|2826%|3083%|3340%|3597%|3854%|4111%|4368%|4625%|4882%|5139%}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ヘビーグラビティ| . |20|205|指定範囲に過重力を加え、敵に念属性ダメージを与えます。範囲内の空中型の敵は地上型に変わり、生成時に周辺のレイズ魔法陣を除去します。変異型モンスターに対してダメージが50%アップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|330%|415%|501%|587%|672%|758%|844%|929%|1015%|1101%}}
-}}
-|10}}
-{{ListViewSkill|レイズ| . |30|187|周辺の敵を空中へ突き上げます。突き上げられた敵は一時的に飛行型と判定されて攻撃を回避できなくなります。生成時に周辺のヘビーグラビティ魔法陣を除去します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|10}}|
-{{SkillAdditionalInfoTemplate|適用対象|1|2|3|4|5|6|7|8|9|10}}
-}}
-|10}}
+{{ListViewSkill|ヘビーグラビティ| . |205|1|20|指定範囲に過重力を加え、敵に念属性ダメージを与えます。範囲内の空中型の敵は地上型に変わり、生成時に周辺のレイズ魔法陣を除去します。変異型モンスターに対してダメージが50%アップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|330%|415%|501%|587%|672%|758%|844%|929%|1015%|1101%}}<br/>}}<br/>|10}}
+{{ListViewSkill|レイズ| . |187|1|30|周辺の敵を空中へ突き上げます。突き上げられた敵は一時的に飛行型と判定されて攻撃を回避できなくなります。生成時に周辺のヘビーグラビティ魔法陣を除去します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|適用対象| 1| 2| 3| 4| 5| 6| 7| 8| 9|10}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|グラビティポール| . |30|0|一直線の重力場を生成します。周辺の敵を引きよせ、一列に整列させてから攻撃します。変異型モンスターに対してダメージが50%アップします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|184%|368%|553%|738%|923%}}
-{{SkillAdditionalInfoTemplate|適用対象|11|12|13|14|15}}
-{{SkillAdditionalInfoTemplate|1秒ごとにSP |47消費|47消費|47消費|47消費|47消費}}
-}}
-|5}}
+{{ListViewSkill|グラビティポール| . |0|1|30|一直線の重力場を生成します。周辺の敵を引きよせ、一列に整列させてから攻撃します。変異型モンスターに対してダメージが50%アップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|184%|368%|553%|738%|923%}}<br/>{{SkillAdditionalInfoTemplate|適用対象|11|12|13|14|15}}<br/>{{SkillAdditionalInfoTemplate|1秒ごとにSP |47消費|47消費|47消費|47消費|47消費}}<br/>}}<br/>|5}}
 
 |}
 
@@ -152,5 +118,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.926084
+* Automatic generated at 2020-02-02 20:52:44.651152
 {{PageProgress|2}}

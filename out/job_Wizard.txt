@@ -33,13 +33,7 @@ nan
 * [[シールド]]
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -66,44 +60,12 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|エナジーボルト| . |5|144|力強い魔法エネルギーを集めて敵に発射します。 チャージ時間に比例したダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|224%x 2回|231%x 2回|238%x 2回|246%x 2回|253%x 2回}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1}}
-}}
-|5}}
-{{ListViewSkill|レサジー| . |30|224|敵を無気力状態にします。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|物理攻撃力|-2%|-4%|-6%|-8%|-10%}}
-{{SkillAdditionalInfoTemplate|魔法攻撃力|-2%|-4%|-6%|-8%|-10%}}
-{{SkillAdditionalInfoTemplate|回避|-1%|-2%|-3%|-4%|-5%}}
-{{SkillAdditionalInfoTemplate|[魔法陣], [範囲持続型]攻撃による受けるダメージ|+3%|+6%|+9%|+12%|+15%}}
-{{SkillAdditionalInfoTemplate|[レサジー]持続時間|20秒|20秒|20秒|20秒|20秒}}
-}}
-|5}}
-{{ListViewSkill|マジックシールド| . |60|0|自身に敵からの攻撃の一定量を吸収する防御膜を生成します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|受けるダメージ|-8%|-11%|-14%|-17%|-20%}}
-{{SkillAdditionalInfoTemplate|持続時間|30分|30分|30分|30分|30分}}
-{{SkillAdditionalInfoTemplate|防御する度に最大SPの|1%消費|1%消費|1%消費|1%消費|1%消費}}
-}}
-|5}}
-{{ListViewSkill|アースクエイク| . |10|156|強力な地震を起こして対象にダメージを与えます。[レサジー]にかかっている敵には打撃回数が2回適用されます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|372%|384%|396%|408%|421%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|4|4|4|4|4}}
-}}
-|5}}
-{{ListViewSkill|マジックミサイル| . |25|100|魔法の弾丸で敵を連続攻撃します。敵に当たると、新たな弾丸が生成、発射されます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|92% x 3回|95% x 3回|98% x 3回|101% x 3回|104% x 3回}}
-}}
-|5}}
-{{ListViewSkill|テレポーテーション| . |20|74|任意の位置にワープします。方向キーを操作すると移動する方向を選択でき、瞬間移動時に詠唱者をターゲッティングしていた一部のモンスターのヘイト値が初期化されます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|最大ワープ距離|120|140|160|180|200}}
-}}
-|5}}
+{{ListViewSkill|エナジーボルト| . |144|1|5|力強い魔法エネルギーを集めて敵に発射します。 チャージ時間に比例したダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|224%x 2回|231%x 2回|238%x 2回|246%x 2回|253%x 2回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1}}<br/>}}<br/>|5}}
+{{ListViewSkill|レサジー| . |224|1|30|敵を無気力状態にします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|物理攻撃力|- 2%|- 4%|- 6%|- 8%|-10%}}<br/>{{SkillAdditionalInfoTemplate|魔法攻撃力|- 2%|- 4%|- 6%|- 8%|-10%}}<br/>{{SkillAdditionalInfoTemplate|回避|- 1%|- 2%|- 3%|- 4%|- 5%}}<br/>{{SkillAdditionalInfoTemplate|[魔法陣], [範囲持続型]攻撃による受けるダメージ|+ 3%|+ 6%|+ 9%|+12%|+15%}}<br/>{{SkillAdditionalInfoTemplate|[レサジー]持続時間|20秒|20秒|20秒|20秒|20秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|マジックシールド| . |0|1|60|自身に敵からの攻撃の一定量を吸収する防御膜を生成します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|- 8%|-11%|-14%|-17%|-20%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|30分|30分|30分|30分|30分}}<br/>{{SkillAdditionalInfoTemplate|防御する度に最大SPの| 1%消費| 1%消費| 1%消費| 1%消費| 1%消費}}<br/>}}<br/>|5}}
+{{ListViewSkill|アースクエイク| . |156|1|10|強力な地震を起こして対象にダメージを与えます。[レサジー]にかかっている敵には打撃回数が2回適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|372%|384%|396%|408%|421%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 4| 4| 4| 4| 4}}<br/>}}<br/>|5}}
+{{ListViewSkill|マジックミサイル| . |100|5|25|魔法の弾丸で敵を連続攻撃します。敵に当たると、新たな弾丸が生成、発射されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|92% x 3回|95% x 3回|98% x 3回|101% x 3回|104% x 3回}}<br/>}}<br/>|5}}
+{{ListViewSkill|テレポーテーション| . |74|1|20|任意の位置にワープします。方向キーを操作すると移動する方向を選択でき、瞬間移動時に詠唱者をターゲッティングしていた一部のモンスターのヘイト値が初期化されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|最大ワープ距離|120|140|160|180|200}}<br/>}}<br/>|5}}
 
 |}
 
@@ -166,5 +128,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:29.915083
+* Automatic generated at 2020-02-02 20:52:44.640152
 {{PageProgress|2}}

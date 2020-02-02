@@ -38,13 +38,7 @@ nan
 '''[[両手鈍器]]''' は '''クレリック'''系統 のみが使用できます。
 
 ==スキルと特性==
-{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
-! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
-|-
-| ステータスに依存する係数は、以下の値を仮定しています。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
-消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
-|}
+{{NotifySkillNoteTemplate}}
 
 <tabber>
 Tree View=
@@ -70,32 +64,11 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ヒール| . |1|250|指定の対象のHPを回復します。詠唱者の治癒力によって回復量が異なります。ヒールを連続で使用するほど消費SPが増加しますが、最終的に精神ステータスに比例してSP消費が減少します。特定クラスが含まれていると付加効果が適用されます。(この効果は重複適用されます) *プリースト：SP消費量25ダウン、[ヒール：過負荷]持続時間0.3秒ダウン、治癒係数5%アップ *パードナー：SP消費量50ダウン *プレイグドクター：[ヒール：過負荷]持続時間0.7秒ダウン *カバリスト：治癒係数10%アップ{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|治癒係数|150%|253%|356%|459%|562%}}
-}}
-|5}}
-{{ListViewSkill|キュア| . |10|165|指定された対象の一般解除可能な全てのデバフを解除します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate||10%の確率でデバフ追加除去|20%の確率でデバフ追加除去|30%の確率でデバフ追加除去|40%の確率でデバフ追加除去|50%の確率でデバフ追加除去}}
-}}
-|5}}
-{{ListViewSkill|スマイト| . |12|65|敵を強く打ち下ろし、ダメージを与えます。悪魔型、変異型の敵には追加ダメージを与えます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|スキル係数|257%|265%|274%|282%|291%}}
-{{SkillAdditionalInfoTemplate|広域攻撃比率|4|4|4|4|4}}
-}}
-|5}}
-{{ListViewSkill|フェイド| . |30|180|モンスターの先制攻撃を受けなくなるように気配を消します。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|持続時間 |12秒|14秒|16秒|18秒|20秒}}
-}}
-|5}}
-{{ListViewSkill|パトロンセイント| . |60|225|詠唱者の治癒力をアップさせます。{{SkillInfoBoxTemplate|
-{{SkillLevelTemplate|5}}|
-{{SkillAdditionalInfoTemplate|治癒力|+5%|+10%|+15%|+20%|+25%}}
-}}
-|5}}
+{{ListViewSkill|ヒール| . |250|1|1|指定の対象のHPを回復します。詠唱者の治癒力によって回復量が異なります。ヒールを連続で使用するほど消費SPが増加しますが、最終的に精神ステータスに比例してSP消費が減少します。特定クラスが含まれていると付加効果が適用されます。(この効果は重複適用されます) *プリースト：SP消費量25ダウン、[ヒール：過負荷]持続時間0.3秒ダウン、治癒係数5%アップ *パードナー：SP消費量50ダウン *プレイグドクター：[ヒール：過負荷]持続時間0.7秒ダウン *カバリスト：治癒係数10%アップ{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|治癒係数|150%|253%|356%|459%|562%}}<br/>}}<br/>|5}}
+{{ListViewSkill|キュア| . |165|1|10|指定された対象の一般解除可能な全てのデバフを解除します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate||10%の確率でデバフ追加除去|20%の確率でデバフ追加除去|30%の確率でデバフ追加除去|40%の確率でデバフ追加除去|50%の確率でデバフ追加除去}}<br/>}}<br/>|5}}
+{{ListViewSkill|スマイト| . |65|5|12|敵を強く打ち下ろし、ダメージを与えます。悪魔型、変異型の敵には追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|257%|265%|274%|282%|291%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 4| 4| 4| 4| 4}}<br/>}}<br/>|5}}
+{{ListViewSkill|フェイド| . |180|1|30|モンスターの先制攻撃を受けなくなるように気配を消します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 |12秒|14秒|16秒|18秒|20秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|パトロンセイント| . |225|1|60|詠唱者の治癒力をアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|治癒力|+ 5%|+10%|+15%|+20%|+25%}}<br/>}}<br/>|5}}
 
 |}
 
@@ -155,5 +128,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:53:30.034085
+* Automatic generated at 2020-02-02 20:52:44.761151
 {{PageProgress|2}}
