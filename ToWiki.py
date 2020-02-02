@@ -18,7 +18,18 @@ docbase="""{{Infobox Class|%ctrltype%||%classmaster%|||%classtype%|%attackproper
 %background%
 ==アイコンとコスチューム==
 %iconandoutfits%
+
+%addit1%
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -44,6 +55,8 @@ List View=
 %listviewarts%
 |}
 </tabber>
+
+%addit2%
 
 ==クラス関係==
 <tabber>
@@ -150,8 +163,25 @@ def generateListView(job:TosStructure.Job):
         else:
             typ=" . "
             desc=s.description
+        cd="%g" % s.cd
+        sp="%s" % s.sp
+        # render sfr
+        sfrdesc=""
+        if(len(s.variables)>0):
+            sfrdesc+="{{SkillInfoBoxTemplate|\n" \
+                     "{{SkillLevelTemplate|"+str(s.maxlv)+"}}|\n"
 
-        vv="{{ListViewSkill|"+s.name+"|"+typ+"|"+replacenl(rb(desc))+"|"+str(s.maxlv)+"}}\n"
+            for vv in s.variables:
+                vary:TosStructure.SkillCaption = vv
+                sfrdesc += "{{SkillAdditionalInfoTemplate|" + vary.title
+                for value in range(0,len(vary.value)):
+                    sfrdesc += "|" + vary.tostr(value)
+                sfrdesc+="}}\n"
+            sfrdesc += "}}\n"
+
+            vv = "{{ListViewSkill|" + s.name + "|" + typ+"|"+cd+"|"+sp + "|" + replacenl(rb(desc))+sfrdesc + "|" + str(s.maxlv) + "}}\n"
+        else:
+            vv="{{ListViewSkill|"+s.name+"|"+typ+"|"+cd+"|"+sp+"|"+replacenl(rb(desc))+"|"+str(s.maxlv)+"}}\n"
         listview+=vv
     return listview
 def generateAttribute(job:TosStructure.Job):
@@ -228,12 +258,14 @@ def stringnizeJob(job:TosStructure.Job,opt:OptTable.OptTable):
     .replace("%lores%",job.lores)\
     .replace("%background%",str(op["Background"].item()))\
     .replace("%iconandoutfits%", str(op["IconAndOutfits"].item())) \
+    .replace("%addit1%", str(op["Addit1"].item())) \
     .replace("%treeviewlevels%", tlevel) \
     .replace("%treeviewcells%", tcell) \
     .replace("%treeviewrows%", trow) \
     .replace("%listviewskills%", listview) \
     .replace("%listviewattributes%", attrview) \
     .replace("%listviewarts%", artsview) \
+    .replace("%addit2%", str(op["Addit2"].item())) \
     .replace("%fullcompatibilityclasses%",str( op["FullCompatibilityClasses"].item()))\
     .replace("%partialcompatibilityclasses%",str( op["PartialCompatibilityClasses"].item()))\
     .replace("%specialeffectclasses%", str(op["SpecialEffectClasses"].item()))\
@@ -254,5 +286,5 @@ def exportJobTree(path,jobtree:TosStructure.JobTree,opt:OptTable.OptTable):
     with open(path+"/joblist.txt","w",encoding="utf-8") as f:
         f.write("jobname,filename\n")
         for job in jobtree.jobs:
-            if(job.rank==2):
-                f.write(job.name+","+"job_"+job.engname+".txt"+"\n")
+
+            f.write(job.name+","+"job_"+job.engname+".txt"+"\n")

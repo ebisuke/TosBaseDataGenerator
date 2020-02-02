@@ -1,7 +1,7 @@
 from DicConverter import DicConverter
 import pandas
 import re
-
+import TosFunc as tf
 ctrltype={
     "Warrior":4,
     "Scout":3,
@@ -9,6 +9,7 @@ ctrltype={
     "Cleric":2,
     "Archer":1,
 }
+
 
 class JobTree:
     jobs=[]
@@ -38,15 +39,65 @@ class Job:
     trivia=""
     costumeandoutfits=""
     ctrltype=""
+class SkillCaption:
+    prefix=""
+    title=""
+    caption=""
+    prefix2 = ""
+    caption2=None
+    suffix=""
+    value=[]
+    value2 = []
+    def __init__(self,title,caption,suffix):
+
+        title=re.sub("^\*","",title)
+
+        self.title=tf.removestuff(title)
+        self.caption = tf.removestuff(caption)
+        self.caption2=None
+        self.suffix = tf.removestuff(suffix)
+        self.value=[]
+        self.value2 = []
+        m=re.search("(.*?)(アップ|上昇|増加)",suffix)
+        if(m!=None):
+            self.prefix="+"
+            self.suffix=m.group(1)
+        m = re.search("(.*?)(ダウン|減少|下降)",suffix)
+        if(m!=None):
+            self.prefix = "-"
+            self.suffix = m.group(1)
+        m = re.search("^(.*?)#\{(.*?)\}#(.*)$",suffix)
+        if (m != None):
+            suf2=m.group(3)
+            if(len(suf2)>4):
+                self.prefix2 = m.group(1)+" n"+suf2
+                self.caption2 = m.group(2)
+                self.suffix = ""
+            else:
+                self.prefix2=m.group(1)
+                self.caption2 = m.group(2)
+                self.suffix=m.group(3)
+    def tostr(self,idx):
+        if(self.caption2==None):
+            return self.prefix+str(self.value[idx])+self.suffix
+        else:
+            return self.prefix + str(self.value[idx]) + self.prefix2 + str(self.value2[idx]) + self.suffix
+
 class Skill:
     description=""
     caption2=""
+    sp=0
+    cd=0
     classname=""
     clsid=0
     name=""
     maxlv=None
     reqlv=0
     iconname=""
+    captiontime=[]
+    captionratio=[]
+    captionratio2 = []
+    variables=[]
     attributes=[]
 class Attribute:
     name=""
@@ -57,6 +108,7 @@ class Attribute:
     reqlv=None
     maxlv=0
     arts=False
+
     iconname=""
 
 def generateAttribute(conv:DicConverter,job:Job,attrdata:Attribute):
@@ -72,10 +124,11 @@ def generateAttribute(conv:DicConverter,job:Job,attrdata:Attribute):
         return None
     attr.description=re.sub("\*","\n",conv.dictable.krtojp(attrdata["Desc"])).strip()
     attr.addspend = conv.dictable.krtojp(attrdata["AddSpend"])
-    attr.name=conv.dictable.krtojp(attrdata["Name"])
+    attr.name=tf.removestuff(conv.dictable.krtojp(attrdata["Name"]))
     attr.reqlv=byclassname["UnlockArgNum"].item()
     attr.maxlv =byclassname["MaxLevel"].item()
     attr.iconname=attrdata["Icon"]
+
     if(len(byclassname)>0 and "HIDDENABIL" in byclassname["ScrCalcPrice"].iloc[0]):
         attr.arts=True
     return attr
@@ -86,12 +139,19 @@ def generateSkills(conv:DicConverter,job:Job,skillname:str):
     skill=Skill()
     skill.description=conv.dictable.krtojp(pa["Caption"].item())
     skill.caption2 = conv.dictable.krtojp(pa["Caption2"].item())
+
     skill.classname=pa["ClassName"].item()
     skill.clsid=pa["ClassID"].item()
     skill.maxlv=pt["MaxLevel"].item()
     skill.reqlv=pt["UnlockClassLevel"].item()
     skill.iconname="icon_"+pa["Icon"].item()
     skill.name= conv.dictable.krtojp(pa["Name"].item())
+    skill.variables=[]
+    for s in skill.caption2.split("{nl}"):
+        m=re.search("^(.*?)#\{(.*?)\}#(.*)$",s)
+        if m!=None:
+            skill.variables.append(SkillCaption(m.group(1),m.group(2),m.group(3)))
+
     skill.attributes=[]
     for attr in conv.skilltable.ability[conv.skilltable.ability["SkillCategory"]==skillname].iterrows():
 
@@ -100,8 +160,6 @@ def generateSkills(conv:DicConverter,job:Job,skillname:str):
             #print(skillname)
             skill.attributes.append(att)
     return skill
-def removebrace(arg):
-    return re.sub("\{.*?\}","",arg,)
 def findMasterName(conv,jobjpname):
     for k,v in  conv.dictable.dicidtojp:
         m=re.search("")
@@ -109,7 +167,7 @@ def generateJob(conv: DicConverter, jobdata:Job):
     job=Job()
     job.clsid = jobdata["ClassID"]
     job.classname = jobdata["ClassName"]
-    job.name = re.sub("\{.*?\}","",conv.dictable.krtojp(jobdata["Name"]))
+    job.name = tf.removestuff(conv.dictable.krtojp(jobdata["Name"]))
     job.engname = jobdata["EngName"]
     job.STR = jobdata["STR"]
     job.CON = jobdata["CON"]
@@ -122,10 +180,10 @@ def generateJob(conv: DicConverter, jobdata:Job):
     m = re.search("(.*)\{nl\}(.*?)$", desc)
     if(m is not None):
 
-        job.description=removebrace(m.group(2))
-        job.lores=removebrace(m.group(1))
+        job.description=tf.removestuff(m.group(2))
+        job.lores=tf.removestuff(m.group(1))
     else:
-        job.description=removebrace(desc)
+        job.description=tf.removestuff(desc)
         job.lores=""
 
 
@@ -147,5 +205,5 @@ def generateJobTree(conv:DicConverter):
     for j in conv.skilltable.job.iterrows():
         #print(j[1]["EngName"])
         tree.jobs.append(generateJob(conv,j[1]))
-
+        break
     return tree

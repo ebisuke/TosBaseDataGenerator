@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -47,19 +57,60 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|パニッシュ| . |倒れた敵を剣で深く刺します。倒れた敵にのみダメージを与えます。|15}}
-{{ListViewSkill|ディーズオブヴァロー| . |敵に与えるダメージはアップしますが、自分が受けるダメージもアップします。|15}}
-{{ListViewSkill|スーツルーツハウ| . |武器を斜めに打ち下ろして攻撃します。敵の防御力を一部無視します。|15}}
-{{ListViewSkill|ツォルンハウ| . |全力で大きく斬り付け、敵にダメージを与えて衝撃状態に陥らせます。|5}}
-{{ListViewSkill|ツーケン| . |前方の敵を左右に数回斬り付けてダメージを与えます。 衝撃状態の敵にはダメージが増加されます。 ツォルンハウ使用後にツーケンを使うことができます。|5}}
-{{ListViewSkill|レーデル| . |武器を回して前方の敵に連続的にダメージを与えます。 出血状態の敵に対してダメージが増加します。 ツーケン使用後にレーデルを使うことができます。|5}}
+{{ListViewSkill|パニッシュ| . |倒れた敵を剣で深く刺します。倒れた敵にのみダメージを与えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|1269%|1480%|1692%|1903%|2115%|2327%|2538%|2750%|2961%|3173%|3385%|3596%|3808%|4019%|4231%}}
+}}
+|15}}
+{{ListViewSkill|ディーズオブヴァロー| . |敵に与えるダメージはアップしますが、自分が受けるダメージもアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|追加ダメージ|+5%|+7%|+9%|+11%|+13%|+15%|+17%|+19%|+21%|+23%|+25%|+27%|+29%|+31%|+33%}}
+{{SkillAdditionalInfoTemplate|受けるダメージ|+5%|+6%|+7%|+8%|+9%|+10%|+11%|+12%|+13%|+14%|+15%|+16%|+17%|+18%|+19%}}
+}}
+|15}}
+{{ListViewSkill|スーツルーツハウ| . |武器を斜めに打ち下ろして攻撃します。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|207% x 6回|241% x 6回|276% x 6回|310% x 6回|345% x 6回|379% x 6回|414% x 6回|449% x 6回|483% x 6回|518% x 6回|552% x 6回|587% x 6回|622% x 6回|656% x 6回|691% x 6回}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3}}
+}}
+|15}}
+{{ListViewSkill|ツォルンハウ| . |全力で大きく斬り付け、敵にダメージを与えて衝撃状態に陥らせます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|2212% x 1回|4424% x 1回|6636% x 1回|8848% x 1回|11060% x 1回}}
+}}
+|5}}
+{{ListViewSkill|ツーケン| . |前方の敵を左右に数回斬り付けてダメージを与えます。 衝撃状態の敵にはダメージが増加されます。 ツォルンハウ使用後にツーケンを使うことができます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|87% x 8回|175% x 8回|263% x 8回|351% x 8回|439% x 8回}}
+}}
+|5}}
+{{ListViewSkill|レーデル| . |武器を回して前方の敵に連続的にダメージを与えます。 出血状態の敵に対してダメージが増加します。 ツーケン使用後にレーデルを使うことができます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|73% x 10回|146% x 10回|219% x 10回|292% x 10回|365% x 10回}}
+}}
+|5}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ズバークハウ| . |片手で剣を大きく振り回し、前方の広範囲の敵にダメージを与えます。攻撃を受けた敵は出血デバフにかかります。|10}}
-{{ListViewSkill|ダブルペイアーン| . |ルーティングチャンスがアップするバフをかけます。自分が受けるダメージがアップします。|10}}
+{{ListViewSkill|ズバークハウ| . |片手で剣を大きく振り回し、前方の広範囲の敵にダメージを与えます。攻撃を受けた敵は出血デバフにかかります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数|1108% x 3回|1395% x 3回|1683% x 3回|1970% x 3回|2258% x 3回|2546% x 3回|2833% x 3回|3121% x 3回|3408% x 3回|3696% x 3回}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|3|3|3|3|3|3|3|3|3|3}}
+}}
+|10}}
+{{ListViewSkill|ダブルペイアーン| . |ルーティングチャンスがアップするバフをかけます。自分が受けるダメージがアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|ルーティングチャンス|+30|+60|+90|+120|+150|+180|+210|+240|+270|+300}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|サイクロン| . |遠心力を利用して素早く回転しながら敵に連続ダメージを与えます。フレンジーバフが10重複以上適用中の場合、サイクロンが終わった後該当の位置にいる敵は3秒間ダメージが持続します。|5}}
+{{ListViewSkill|サイクロン| . |遠心力を利用して素早く回転しながら敵に連続ダメージを与えます。フレンジーバフが10重複以上適用中の場合、サイクロンが終わった後該当の位置にいる敵は3秒間ダメージが持続します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|0.2秒ごとにスキル係数|101%|202%|303%|404%|506%}}
+{{SkillAdditionalInfoTemplate|持続時間|3.5秒|3.5秒|3.5秒|3.5秒|3.5秒}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|8|8|8|8|8}}
+}}
+|5}}
 
 |}
 
@@ -90,6 +141,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -122,5 +175,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.688971
+* Automatic generated at 2020-02-02 17:16:30.882446
 {{PageProgress|2}}

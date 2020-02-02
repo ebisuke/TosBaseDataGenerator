@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -47,19 +57,58 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|セブンフォールド| . |味方に女神の権能を付与します。バフ中は敵の攻撃から自分が受けるダメージを一部減少させ、減少したダメージ分を敵に反射します。一部ボスモンスターはダメージを受けず、バフは敵にダメージを反射した後消えます。おみくじバフが活性化中なら、セブンフォールド効果が発動される時敵に大凶デバフも一緒に付与します。|15}}
-{{ListViewSkill|アインソフ| . |対象に最大体力の限界を一時的に大幅に増やして最大HPをアップさせます。|15}}
-{{ListViewSkill|メルカバ| . |女神の車輪を召喚し、車輪に当たった敵にダメージを与えます。指定した位置に着いた車輪は爆発しながら周辺の敵を攻撃します。メルカバ周辺にいると一時的に聖属性を付与されて魔法防御力がアップします。|5}}
-{{ListViewSkill|ゲマトリア| . |敵の名前の文字を解体して数字に換えた後、足した数字を算出します。|1}}
-{{ListViewSkill|デュプリケイト| . |ゲマトリアで算出した数字の分だけ該当モンスターを複製します。複製されたモンスターを倒しても経験値は得られず、アイテムのみ獲得できます。また、元のモンスターや複製されたモンスターはそれ以上複製できません。|5}}
+{{ListViewSkill|セブンフォールド| . |味方に女神の権能を付与します。バフ中は敵の攻撃から自分が受けるダメージを一部減少させ、減少したダメージ分を敵に反射します。一部ボスモンスターはダメージを受けず、バフは敵にダメージを反射した後消えます。おみくじバフが活性化中なら、セブンフォールド効果が発動される時敵に大凶デバフも一緒に付与します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|持続時間|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒}}
+{{SkillAdditionalInfoTemplate|受けるダメージ|-3.5%|-7%|-10.5%|-14%|-17.5%|-21%|-24.5%|-28%|-31.5%|-35%|-38.5%|-42%|-45.5%|-49%|-52.5%}}
+}}
+|15}}
+{{ListViewSkill|アインソフ| . |対象に最大体力の限界を一時的に大幅に増やして最大HPをアップさせます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|持続時間|24秒|28秒|32秒|36秒|40秒|44秒|48秒|52秒|56秒|60秒|64秒|68秒|72秒|76秒|80秒}}
+{{SkillAdditionalInfoTemplate|最大HP |+30%|+30%|+30%|+30%|+30%|+30%|+30%|+30%|+30%|+30%|+30%|+30%|+30%|+30%|+30%}}
+}}
+|15}}
+{{ListViewSkill|メルカバ| . |女神の車輪を召喚し、車輪に当たった敵にダメージを与えます。指定した位置に着いた車輪は爆発しながら周辺の敵を攻撃します。メルカバ周辺にいると一時的に聖属性を付与されて魔法防御力がアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|92%|95%|98%|101%|104%}}
+}}
+|5}}
+{{ListViewSkill|ゲマトリア| . |敵の名前の文字を解体して数字に換えた後、足した数字を算出します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|1}}|
+{{SkillAdditionalInfoTemplate|最大|10人適用}}
+}}
+|1}}
+{{ListViewSkill|デュプリケイト| . |ゲマトリアで算出した数字の分だけ該当モンスターを複製します。複製されたモンスターを倒しても経験値は得られず、アイテムのみ獲得できます。また、元のモンスターや複製されたモンスターはそれ以上複製できません。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|複製されたモンスターの持続時間[算出した数x2] + |3秒|6秒|9秒|12秒|15秒}}
+}}
+|5}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ノタリコン| . |敵の名前の文字を解体して最初の文字と最後の文字を足した数字を算出します。|1}}
-{{ListViewSkill|ナハシ| . |カバラ魔法で地面に蛇を召喚して敵を攻撃し、味方の一般解除可能な全てのデバフを周期的に除去します。|10}}
+{{ListViewSkill|ノタリコン| . |敵の名前の文字を解体して最初の文字と最後の文字を足した数字を算出します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|1}}|
+{{SkillAdditionalInfoTemplate|最大|10人適用}}
+}}
+|1}}
+{{ListViewSkill|ナハシ| . |カバラ魔法で地面に蛇を召喚して敵を攻撃し、味方の一般解除可能な全てのデバフを周期的に除去します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|2秒当たりのスキル係数|210%|258%|307%|356%|405%|453%|502%|551%|600%|649%}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ゲブラ| . |自分の周辺の敵にゲマトリアで算出した数字の分だけゲブラが発動します。ゲブラ状態で攻撃された敵は、ゲブラの数だけダメージを受け、算出した数字の分だけ適用されます。ゲブラデバフにかかった敵は最大ダメージを超過してダメージを受けることができます。|10}}
-{{ListViewSkill|セフィロトの樹| . |セフィロトの樹の模様の陣を設置して周期的に味方のHPを回復させます。|5}}
+{{ListViewSkill|ゲブラ| . |自分の周辺の敵にゲマトリアで算出した数字の分だけゲブラが発動します。ゲブラ状態で攻撃された敵は、ゲブラの数だけダメージを受け、算出した数字の分だけ適用されます。ゲブラデバフにかかった敵は最大ダメージを超過してダメージを受けることができます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|ダメージアップ量 |20%|40%|60%|80%|100%|120%|140%|160%|180%|200%}}
+}}
+|10}}
+{{ListViewSkill|セフィロトの樹| . |セフィロトの樹の模様の陣を設置して周期的に味方のHPを回復させます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|0.5秒ごとに治癒係数|36%|52%|69%|86%|103%}}
+{{SkillAdditionalInfoTemplate|持続時間|10秒|10秒|10秒|10秒|10秒}}
+}}
+|5}}
 
 |}
 
@@ -87,6 +136,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -119,5 +170,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.902441
+* Automatic generated at 2020-02-02 17:16:31.085446
 {{PageProgress|2}}

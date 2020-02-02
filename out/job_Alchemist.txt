@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -27,7 +37,7 @@ Tree View=
 {{TreeViewCell|コンバスション|強化|上級強化}}<br/><br/>
 {{TreeViewCell|ディグ}}<br/><br/>
 {{TreeViewCell|アイテム覚醒}}<br/><br/>
-{{TreeViewCell|ティンクチャリング|高級秘薬(HP)|高級秘薬(SP)}}<br/><br/>
+{{TreeViewCell|ティンクチャリング|ブロックアップポーション|クリティカル攻撃力アップポーション|魔法増幅アップポーション|高級秘薬(HP)|高級秘薬(SP)}}<br/><br/>
 {{TreeViewCell|アルケミックミサイル|強化|上級強化}}<br/><br/>
 |-
 ! Lv16
@@ -47,28 +57,56 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|コンバスション| . |錬金工房に登録されたアイテムを爆発させて周辺の敵にダメージを与えます。|15}}
-{{ListViewSkill|ディグ| . |地面を掘って錬金術に必要な材料を獲得します。|15}}
+{{ListViewSkill|コンバスション| . |錬金工房に登録されたアイテムを爆発させて周辺の敵にダメージを与えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|823%|850%|877%|904%|931%|959%|986%|1013%|1040%|1067%|1095%|1122%|1149%|1176%|1203%}}
+}}
+|15}}
+{{ListViewSkill|ディグ| . |地面を掘って錬金術に必要な材料を獲得します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|掘る地面によって異なる材料を|1個獲得|2個獲得|3個獲得|4個獲得|5個獲得|6個獲得|7個獲得|8個獲得|9個獲得|10個獲得|11個獲得|12個獲得|13個獲得|14個獲得|15個獲得}}
+}}
+|15}}
 {{ListViewSkill|アイテム覚醒| . |アイテムの潜在性能を引き出す商店を開設します。隠されたオプションを使用できるようになりますが、その代わりにアイテムのポテンシャルがダウンします。|1}}
 {{ListViewSkill|ティンクチャリング| . |ハーブから液体を抽出して様々なポーションを作ります。|15}}
-{{ListViewSkill|アルケミックミサイル| . |魔法エネルギーを集めて敵に発射し、ダメージを与えます。|15}}
+{{ListViewSkill|アルケミックミサイル| . |魔法エネルギーを集めて敵に発射し、ダメージを与えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|274% x 2回|283% x 2回|292% x 2回|301% x 2回|310% x 2回|319% x 2回|328% x 2回|337% x 2回|346% x 2回|355% x 2回|365% x 2回|374% x 2回|383% x 2回|392% x 2回|401% x 2回}}
+}}
+|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|マグナムオーパス| . |錬金術の秘儀を使って新たなアイテムを創り出します。|5}}
-{{ListViewSkill|ジェムロースティング| . |ジェムを加熱して強化する商店を開設します。強化されたジェムはペナルティがダウンします。|15}}
-{{ListViewSkill|スプリンクルHPポーション| . |錬金工房に登録したHPポーションを周辺に撒いて自分とPTメンバーのHPを回復します。アルケミストが作ったポーションのみ登録できます。|5}}
+{{ListViewSkill|マグナムオーパス| . |錬金術の秘儀を使って新たなアイテムを創り出します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate||3X n 調合可能3|4X n 調合可能4|5X n 調合可能5|6X n 調合可能6|7X n 調合可能7}}
+}}
+|5}}
+{{ListViewSkill|ジェムロースティング| . |ジェムを加熱して強化する商店を開設します。強化されたジェムはペナルティがダウンします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|ジェムペナルティ|-1段階|-2段階|-3段階|-4段階|-5段階|-6段階|-7段階|-8段階|-9段階|-10段階|-11段階|-12段階|-13段階|-14段階|-15段階}}
+}}
+|15}}
+{{ListViewSkill|スプリンクルHPポーション| . |錬金工房に登録したHPポーションを周辺に撒いて自分とPTメンバーのHPを回復します。アルケミストが作ったポーションのみ登録できます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|回復量|4491.2|8982.4|13473.600000000002|17964.8|22456}}
+}}
+|5}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|スプリンクルSPポーション| . |錬金工房に登録したSPポーションを周辺に撒いて自分とPTメンバーのSPを回復します。アルケミストが作ったポーションのみ登録できます。|5}}
+{{ListViewSkill|スプリンクルSPポーション| . |錬金工房に登録したSPポーションを周辺に撒いて自分とPTメンバーのSPを回復します。アルケミストが作ったポーションのみ登録できます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|回復量|1030.4|2060.8|3091.2000000000003|4121.6|5152}}
+}}
+|5}}
 
 |}
 
 {| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="width: 800px;"
 {{ListViewAttribute}}
 {{ListViewAttribute|コンバスション|強化|1|100|[コンバスション]のスキル係数が特性レベル1につき0.5%アップ<br/><br/>最高レベルになるとさらに10%アップ}}
-{{ListViewAttribute|{s15}ティンクチャリング|ブロックアップポーション|350|15|[ティンクチャリング]で製造できるブロックアップポーションのレシピを獲得}}
-{{ListViewAttribute|{s14}ティンクチャリング|クリティカル攻撃力アップポーション|350|15|[ティンクチャリング]で製造できるクリティカル攻撃力アップポーションのレシピを獲得}}
-{{ListViewAttribute|{s15}ティンクチャリング|魔法増幅アップポーション|350|15|[ティンクチャリング]で製造できる魔法増幅アップポーションのレシピを獲得}}
+{{ListViewAttribute|ティンクチャリング|ブロックアップポーション|350|15|[ティンクチャリング]で製造できるブロックアップポーションのレシピを獲得}}
+{{ListViewAttribute|ティンクチャリング|クリティカル攻撃力アップポーション|350|15|[ティンクチャリング]で製造できるクリティカル攻撃力アップポーションのレシピを獲得}}
+{{ListViewAttribute|ティンクチャリング|魔法増幅アップポーション|350|15|[ティンクチャリング]で製造できる魔法増幅アップポーションのレシピを獲得}}
 {{ListViewAttribute|アルケミックミサイル|強化|1|100|[アルケミックミサイル]のスキル係数が特性レベル1につき<br/>0.5%アップ<br/><br/>最高レベルになるとさらに10%アップ}}
 
 |-
@@ -80,6 +118,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -112,5 +152,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.751153
+* Automatic generated at 2020-02-02 17:16:30.939446
 {{PageProgress|2}}

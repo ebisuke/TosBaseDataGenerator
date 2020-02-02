@@ -8,15 +8,30 @@ import ToWiki
 import TosImage
 import os
 import re
+import SFRCalc
 def dicprocess():
     dt = DicTable.DicTable("./data")
     st = SkillTable.SkillTable("./data")
     opt = OptTable.OptTable("./data")
+
     tree = TosStructure.generateJobTree(DicConverter.DicConverter(dt, st, opt))
+    sfrc = SFRCalc.SFRCalc(st)
+    # calc sfr
+    for j in tree.jobs:
+        print(j.name)
+        for s in j.skills:
+            s.cd=sfrc.CalcValue("CoolDown",s.clsid, s.maxlv)/1000.0
+            s.sp=sfrc.CalcValue("SpendSP",s.clsid,s.maxlv)
+            for c in s.variables:
+                for lv in range(1,s.maxlv+1):
+                    c.value.append(sfrc.CalcCaption(c.caption,s.clsid, lv))
+                    if(c.caption2!=None):
+                        c.value2.append(sfrc.CalcCaption(c.caption2, s.clsid, lv))
     ToWiki.exportJobTree("./out", tree, opt)
     return tree
 def ensure(name):
     return re.sub("\{.*?\}","",re.sub("\[アーツ\]","",re.sub("[\:|：]"," - ",name)))
+
 def imgprocess(tree):
     ti=[]
     #ti.extend(TosImage.parseTosImageXml("./data/itemicon.xml"))
@@ -33,22 +48,22 @@ def imgprocess(tree):
     # dictonary
     imdic={}
     for img in ti:
-        imdic[img.name]=img
+        imdic[img.name.lower()]=img
     for job in tree.jobs:
         for attr in job.attributes:
-            if attr.iconname in imdic:
-                img=imdic[attr.iconname]
+            if attr.iconname.lower() in imdic:
+                img=imdic[attr.iconname.lower()]
 
                 img.extractIcon("./data","./out/skillbyicon","ICO_"+ensure(attr.name))
                 print(attr.name)
         for skill in job.skills:
-            if skill.iconname in imdic:
-                img = imdic[skill.iconname]
+            if skill.iconname.lower() in imdic:
+                img = imdic[skill.iconname.lower()]
                 img.extractIcon("./data", "./out/skillbyicon", "ICO_" + ensure(skill.name))
                 print(skill.name)
             for attr in skill.attributes:
-                if attr.iconname in imdic:
-                    img = imdic[attr.iconname]
+                if attr.iconname.lower() in imdic:
+                    img = imdic[attr.iconname.lower()]
                     img.extractIcon("./data", "./out/skillbyicon", "ICO_" + ensure(attr.name))
                     print(attr.name)
 
@@ -57,8 +72,8 @@ def main():
         os.mkdir("./out")
     print("TosBaseDataGenerator by ebisuke")
     tree=dicprocess()
-    print("Extract Icons")
-    imgprocess(tree)
+    #print("Extract Icons")
+    #imgprocess(tree)
     print("Completed")
 if __name__ == "__main__":
     main()

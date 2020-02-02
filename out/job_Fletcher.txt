@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -44,16 +54,44 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ブロードヘッド| . |矢先が広いブロードヘッドを発射します。 この矢に当たった敵は出血状態になります。[出血]デバフ適用対象攻撃時[過多出血]デバフが発生します。|15}}
-{{ListViewSkill|ボドキンポイント| . |貫通力の高いボドキンを発射します。この矢に当たった敵は一時的に防御力がダウンし、敵を守っていた魔法が無効化します。|15}}
-{{ListViewSkill|バーブドアロー| . |鉤付きの矢を発射します。敵の防御タイプによって異なる打撃数が適用されます。[出血]状態の敵に50%の追加ダメージが適用されます。|15}}
+{{ListViewSkill|ブロードヘッド| . |矢先が広いブロードヘッドを発射します。 この矢に当たった敵は出血状態になります。[出血]デバフ適用対象攻撃時[過多出血]デバフが発生します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|1秒ごとにスキル係数|380%|443%|506%|570%|633%|697%|760%|823%|887%|950%|1014%|1077%|1140%|1204%|1267%}}
+{{SkillAdditionalInfoTemplate|出血持続時間|5.5秒|6秒|6.5秒|7秒|7.5秒|8秒|8.5秒|9秒|9.5秒|10秒|10.5秒|11秒|11.5秒|12秒|12.5秒}}
+}}
+|15}}
+{{ListViewSkill|ボドキンポイント| . |貫通力の高いボドキンを発射します。この矢に当たった敵は一時的に防御力がダウンし、敵を守っていた魔法が無効化します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|2190%|2555%|2920%|3285%|3650%|4015%|4380%|4745%|5110%|5475%|5840%|6205%|6570%|6935%|7300%}}
+{{SkillAdditionalInfoTemplate|物理防御力|-1%|-2%|-3%|-4%|-5%|-6%|-7%|-8%|-9%|-10%|-11%|-12%|-13%|-14%|-15%}}
+}}
+|15}}
+{{ListViewSkill|バーブドアロー| . |鉤付きの矢を発射します。敵の防御タイプによって異なる打撃数が適用されます。[出血]状態の敵に50%の追加ダメージが適用されます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|208%|242%|277%|312%|347%|381%|416%|451%|486%|521%|555%|590%|625%|660%|695%}}
+}}
+|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|クロスファイア| . |命中すると、対象にダメージを与えて十字に爆発する矢を発射します。攻撃を受けた敵は一定の確率で10秒間炎デバフがかかります。|10}}
-{{ListViewSkill|ボムアロー| . |矢に爆薬を取り付けて発射します。 敵にささった矢はしばらくして爆発して周辺にダメージを与えます。[炎デバフ]適用対象は50%の追加ダメージを受けます。|10}}
+{{ListViewSkill|クロスファイア| . |命中すると、対象にダメージを与えて十字に爆発する矢を発射します。攻撃を受けた敵は一定の確率で10秒間炎デバフがかかります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数|466%|586%|707%|828%|949%|1070%|1191%|1312%|1433%|1554%}}
+{{SkillAdditionalInfoTemplate|爆発係数|466%|586%|707%|828%|949%|1070%|1191%|1312%|1433%|1554%}}
+}}
+|10}}
+{{ListViewSkill|ボムアロー| . |矢に爆薬を取り付けて発射します。 敵にささった矢はしばらくして爆発して周辺にダメージを与えます。[炎デバフ]適用対象は50%の追加ダメージを受けます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数|585%|736%|888%|1040%|1191%|1343%|1495%|1646%|1798%|1950%}}
+{{SkillAdditionalInfoTemplate|爆発攻撃力|585%|736%|888%|1040%|1191%|1343%|1495%|1646%|1798%|1950%}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|マジックアロー| . |矢を放った場所から炎が上がり、対象にダメージを与えます。対象が炎の上にいると持続ダメージを与え、敵が炎から出ると1.5秒間[マジックアロー]デバフがかかり、周期的に50%のダメージを受けます。 |5}}
+{{ListViewSkill|マジックアロー| . |矢を放った場所から炎が上がり、対象にダメージを与えます。対象が炎の上にいると持続ダメージを与え、敵が炎から出ると1.5秒間[マジックアロー]デバフがかかり、周期的に50%のダメージを受けます。 {{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|0.5秒当たりのスキル係数|141%|283%|425%|567%|709%}}
+}}
+|5}}
 
 |}
 
@@ -81,6 +119,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -113,5 +153,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.829446
+* Automatic generated at 2020-02-02 17:16:31.013446
 {{PageProgress|2}}

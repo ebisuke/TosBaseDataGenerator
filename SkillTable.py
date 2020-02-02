@@ -12,6 +12,9 @@ class SkillTable:
     def __init__(self, path):
         self.path = path
         self.parse()
+
+    def getSkillArgByName(self,clsid,name):
+        return self.table[self.table["ClassID"]==clsid].item()[name]
     def parse(self):
         self.skill=pandas.read_csv(self.path+"/skill.ies",encoding="utf-8")
         self.job = pandas.read_csv(self.path + "/job.ies", encoding="utf-8")

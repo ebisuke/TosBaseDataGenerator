@@ -28,8 +28,9 @@ def parseTosImageXml(path):
     for imagelist in root:
         for image in imagelist:
             ti=TosImage()
-            ti.name=image.attrib["name"]
-            ti.file = image.attrib["file"]
+
+            ti.name=image.attrib["name"].lower()
+            ti.file = image.attrib["file"].lower()
             m=re.match("(\d+?)\s+?(\d+?)\s+?(\d+?)\s+?(\d+)",image.attrib["imgrect"])
             ti.bounds=(int(m.group(1)),int(m.group(2)),int(m.group(3)),int(m.group(4)))
             tosimages.append(ti)

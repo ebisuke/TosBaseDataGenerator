@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -41,6 +51,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -73,5 +85,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.770450
+* Automatic generated at 2020-02-02 17:16:30.957447
 {{PageProgress|2}}

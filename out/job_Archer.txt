@@ -8,13 +8,39 @@
 アーチャー系は基本攻撃中に移動可能で、基本移動速度が他の系統より速いため長い射程距離を利用して安全な場所から戦闘ができます。
 
 ==伝承==
-アーチャーは民間人と王国軍、そしてシャッフェンスター団員が入っています。アーチャーは完全に習得するのが難しいスキルであるにもかかわらず、長い間、アーチャーの志願者と習得に励む人の数は減りませんでした。
+アーチャーは民間人と王国軍、そしてシャッフェンスター団員が入っています。
+アーチャーは完全に習得するのが難しいスキルであるにもかかわらず、長い間、アーチャーの志願者と習得に励む人の数は減りませんでした。
 
 ==背景==
 nan
 ==アイコンとコスチューム==
 nan
+
+
+==ステータス倍率==
+'''アーチャー'''は以下に示すステータス倍率を持ちます。
+{{PercentageBar|HP|EE8811|70|width=450|fieldWidth=120}}
+{{PercentageBar|SP|1188EE|70|width=450|fieldWidth=120}}
+{{PercentageBar|命中|228822|150|width=450|fieldWidth=120}}
+{{PercentageBar|移動速度|11BB11|110|width=450|fieldWidth=120}}
+
+==武器==
+'''アーチャー'''は以下に示す武器を使用できます。:
+*弓
+*弩
+*マスケット
+*キャノン
+*ダガー
+*盾
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -40,12 +66,37 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|マルチショット| . |指定した位置に数発の矢を素早く発射します。|5}}
-{{ListViewSkill|オブリークショット| . |攻撃すると、近くにいる1体の敵に矢が飛んでいきます。オブリークショットに当たった敵は一定の確率でスロー状態になります。|5}}
-{{ListViewSkill|スウィフトステップ| . |素早く移動しながら攻撃できます。攻撃中の移動速度と回避が一時的にアップします。|5}}
-{{ListViewSkill|ツインアロー| . |敵に二本の矢を同時に発射します。|5}}
-{{ListViewSkill|コンセントレーション| . |集中して一時的に自分のクリティカル発生をアップさせます。|5}}
-{{ListViewSkill|後方跳躍| . |見ている方向の反対の方向へ跳躍します。跳躍中はダメージを受けず、跳躍直後は非戦闘状態になります。|5}}
+{{ListViewSkill|マルチショット| . |指定した位置に数発の矢を素早く発射します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|68% x 10回|70% x 10回|72% x 10回|74% x 10回|77% x 10回}}
+}}
+|5}}
+{{ListViewSkill|オブリークショット| . |攻撃すると、近くにいる1体の敵に矢が飛んでいきます。オブリークショットに当たった敵は一定の確率でスロー状態になります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|241%|249%|257%|265%|273%}}
+{{SkillAdditionalInfoTemplate|[スロー]確率|50%|50%|50%|50%|50%}}
+}}
+|5}}
+{{ListViewSkill|スウィフトステップ| . |素早く移動しながら攻撃できます。攻撃中の移動速度と回避が一時的にアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|回避|+3%|+6%|+9%|+12%|+15%}}
+}}
+|5}}
+{{ListViewSkill|ツインアロー| . |敵に二本の矢を同時に発射します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|166% x 2回|171% x 2回|177% x 2回|182% x 2回|188% x 2回}}
+}}
+|5}}
+{{ListViewSkill|コンセントレーション| . |集中して一時的に自分のクリティカル発生をアップさせます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|クリティカル発生|+2%|+4%|+6%|+8%|+10%}}
+}}
+|5}}
+{{ListViewSkill|後方跳躍| . |見ている方向の反対の方向へ跳躍します。跳躍中はダメージを受けず、跳躍直後は非戦闘状態になります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|後方跳躍の距離|90|100|110|120|130}}
+}}
+|5}}
 
 |}
 
@@ -67,6 +118,8 @@ List View=
 |}
 </tabber>
 
+nan
+
 ==クラス関係==
 <tabber>
 適合=
@@ -86,7 +139,11 @@ List View=
 nan
 
 ==ギャラリー==
-nan
+<gallery spacing="small" captionalign="center">
+ToS_Archer(M).gif|男アーチャー
+ToS_Archer(F).gif|女アーチャー
+ToS ArcherConcept.jpg|アーチャー コンセプトアート
+</gallery>
 
 ==トリビア==
 nan
@@ -98,5 +155,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.805383
+* Automatic generated at 2020-02-02 17:16:30.991446
 {{PageProgress|2}}

@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -44,16 +54,44 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|バラージ| . |地面に向けて扇形に5本の矢を発射します。[スロー]状態の敵に50%の追加ダメージを与えます。|15}}
-{{ListViewSkill|ハイアンカリング| . |矢の先で標的を狙い、一直線上にいる敵を貫通させます。ハイアンカリングによる攻撃を受けた敵はクリティカル抵抗が5秒間ダウンします。|15}}
-{{ListViewSkill|ステディエイム| . |安定した姿勢で敵を狙います。ミサイル属性の攻撃ダメージがアップします。弓を使った攻撃は追加上昇効果があります。|15}}
+{{ListViewSkill|バラージ| . |地面に向けて扇形に5本の矢を発射します。[スロー]状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|86% X 5回|100% X 5回|114% X 5回|129% X 5回|143% X 5回|158% X 5回|172% X 5回|186% X 5回|201% X 5回|215% X 5回|230% X 5回|244% X 5回|258% X 5回|273% X 5回|287% X 5回}}
+}}
+|15}}
+{{ListViewSkill|ハイアンカリング| . |矢の先で標的を狙い、一直線上にいる敵を貫通させます。ハイアンカリングによる攻撃を受けた敵はクリティカル抵抗が5秒間ダウンします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|466%|481%|496%|512%|527%|543%|558%|573%|589%|604%|620%|635%|650%|666%|681%}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20}}
+}}
+|15}}
+{{ListViewSkill|ステディエイム| . |安定した姿勢で敵を狙います。ミサイル属性の攻撃ダメージがアップします。弓を使った攻撃は追加上昇効果があります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|弓攻撃を除いたミサイル攻撃時のダメージ|+1%|+2%|+3%|+4%|+5%|+6%|+7%|+8%|+9%|+10%|+11%|+12%|+13%|+14%|+15%}}
+{{SkillAdditionalInfoTemplate|弓攻撃時のダメージ|+1.5%|+3%|+4.5%|+6%|+7.5%|+9%|+10.5%|+12%|+13.5%|+15%|+16.5%|+18%|+19.5%|+21%|+22.5%}}
+}}
+|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|クリティカルショット| . |対象にクリティカル率の高い矢を発射します。クリティカルショットが命中すると詠唱者のクリティカル発生時最終ダメージをアップさせます。|10}}
-{{ListViewSkill|スパイラルアロー| . |螺旋の矢で敵を攻撃します。 矢は敵に食い込み、複数回のダメージを与えます。攻撃を受けた対象は30秒間、連打数増加デバフにかかり、その敵はスパイラルアローの攻撃を受ける度に連打数が増加します。またスパイラルアローは対象の防御力を一定量無視し、クリティカル発生率が増加します。[スロー]状態の敵に50%の追加ダメージを与えます。|10}}
+{{ListViewSkill|クリティカルショット| . |対象にクリティカル率の高い矢を発射します。クリティカルショットが命中すると詠唱者のクリティカル発生時最終ダメージをアップさせます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数 |202%|254%|307%|360%|412%|465%|518%|570%|623%|676%}}
+}}
+|10}}
+{{ListViewSkill|スパイラルアロー| . |螺旋の矢で敵を攻撃します。 矢は敵に食い込み、複数回のダメージを与えます。攻撃を受けた対象は30秒間、連打数増加デバフにかかり、その敵はスパイラルアローの攻撃を受ける度に連打数が増加します。またスパイラルアローは対象の防御力を一定量無視し、クリティカル発生率が増加します。[スロー]状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数|89% x 6回|112% x 6回|135% x 6回|158% x 6回|182% x 6回|205% x 6回|228% x 6回|252% x 6回|275% x 6回|298% x 6回}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|バウンスショット| . |この攻撃で対象を攻撃すると矢が砕けて周辺に弾け飛びます。バウンスショットに当たった敵は一定の確率でスロー状態になります。|5}}
+{{ListViewSkill|バウンスショット| . |この攻撃で対象を攻撃すると矢が砕けて周辺に弾け飛びます。バウンスショットに当たった敵は一定の確率でスロー状態になります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|236%|472%|709%|946%|1183%}}
+{{SkillAdditionalInfoTemplate|適用対象|6|6|6|6|6}}
+{{SkillAdditionalInfoTemplate|[スロー]確率|50%|50%|50%|50%|50%}}
+}}
+|5}}
 
 |}
 
@@ -80,6 +118,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -112,5 +152,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.817388
+* Automatic generated at 2020-02-02 17:16:31.001446
 {{PageProgress|2}}

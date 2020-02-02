@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -44,13 +54,37 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ラストライツ| . |自分の基本攻撃に聖属性を付与します。一定時間基本攻撃をすると、聖属性の追加打撃が適用され、体力が40%以下になると効果がさらにアップします。|15}}
-{{ListViewSkill|アスパーゲルム| . |自分の武器に聖水を仕込み、基本攻撃を行う度に前方に撒きます。|15}}
-{{ListViewSkill|ビナシオ| . |一定時間自分の攻撃速度がアップします。ビナシオバフ中は基本攻撃の攻撃速度がアップします。|15}}
+{{ListViewSkill|ラストライツ| . |自分の基本攻撃に聖属性を付与します。一定時間基本攻撃をすると、聖属性の追加打撃が適用され、体力が40%以下になると効果がさらにアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|聖属性追加攻撃 +|229|300|370|440|511|581|651|722|792|862|933|1003|1073|1144|1214}}
+{{SkillAdditionalInfoTemplate|持続時間|180秒|210秒|240秒|270秒|300秒|330秒|360秒|390秒|420秒|450秒|480秒|510秒|540秒|570秒|600秒}}
+}}
+|15}}
+{{ListViewSkill|アスパーゲルム| . |自分の武器に聖水を仕込み、基本攻撃を行う度に前方に撒きます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|90%|93%|96%|99%|102%|105%|108%|111%|114%|117%|120%|123%|126%|129%|132%}}
+{{SkillAdditionalInfoTemplate|持続時間|60秒|120秒|180秒|240秒|300秒|360秒|420秒|480秒|540秒|600秒|660秒|720秒|780秒|840秒|900秒}}
+}}
+|15}}
+{{ListViewSkill|ビナシオ| . |一定時間自分の攻撃速度がアップします。ビナシオバフ中は基本攻撃の攻撃速度がアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|攻撃速度|+70|+85|+100|+115|+130|+145|+160|+175|+190|+205|+220|+235|+250|+265|+280}}
+{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}
+}}
+|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ビルド カペラ| . |マントで作った簡易祈祷所を設置します。カペラの近くにいる味方は聖属性攻撃のダメージがアップします。|10}}
-{{ListViewSkill|パラクレートスタイム| . |祈りによってノックバック、ノックダウンに対する抵抗力が発生します。|10}}
+{{ListViewSkill|ビルド カペラ| . |マントで作った簡易祈祷所を設置します。カペラの近くにいる味方は聖属性攻撃のダメージがアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|カペラ持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}
+{{SkillAdditionalInfoTemplate|神聖属性ダメージ|+10%|+20%|+30%|+40%|+50%|+60%|+70%|+80%|+90%|+100%}}
+}}
+|10}}
+{{ListViewSkill|パラクレートスタイム| . |祈りによってノックバック、ノックダウンに対する抵抗力が発生します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|持続時間 |12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
 {{ListViewSkill|ビジブルタレント| . |自分の潜在力が一時的に発現されます。 バフ適用時間中は基本攻撃によるダメージ数値を別々に累積し、バフが終わった際に基本攻撃をすると累積した数値をそのまま敵に与えます。 スキルレベルが増加するほどクールタイムが減少します。|5}}
@@ -72,6 +106,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -104,5 +140,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.893442
+* Automatic generated at 2020-02-02 17:16:31.077446
 {{PageProgress|2}}

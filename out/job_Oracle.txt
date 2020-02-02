@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -48,20 +58,54 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|アーケインエナジー| . |自分とPTメンバーにアーケインエナジーバフをかけます。 バフを受けた時点のSP、スタミナを保存して、保存されたSPとスタミナ値より消耗した値が多い場合、バフ終了後に消耗したSP、スタミナを回復させてくれます。|15}}
+{{ListViewSkill|アーケインエナジー| . |自分とPTメンバーにアーケインエナジーバフをかけます。 バフを受けた時点のSP、スタミナを保存して、保存されたSPとスタミナ値より消耗した値が多い場合、バフ終了後に消耗したSP、スタミナを回復させてくれます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|持続時間 |1秒|2秒|3秒|4秒|5秒|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒}}
+}}
+|15}}
 {{ListViewSkill|クレアボイアンス| . |モンスターが落とすアイテムを事前に予知します。|1}}
-{{ListViewSkill|カウンタースペル| . |使用者周辺の魔法陣を除去して、敵から受ける魔法攻撃ダメージを減少させる魔法陣を召喚します。|15}}
-{{ListViewSkill|プロフェシー| . |周辺PTメンバーに一般解除可能な全てのデバフが無効になる効果を一時的に付与します。|1}}
+{{ListViewSkill|カウンタースペル| . |使用者周辺の魔法陣を除去して、敵から受ける魔法攻撃ダメージを減少させる魔法陣を召喚します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|魔法ダメージ|-7%|-9%|-11%|-13%|-15%|-17%|-19%|-21%|-23%|-25%|-27%|-29%|-31%|-33%|-35%}}
+{{SkillAdditionalInfoTemplate|魔法陣持続時間|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒}}
+}}
+|15}}
+{{ListViewSkill|プロフェシー| . |周辺PTメンバーに一般解除可能な全てのデバフが無効になる効果を一時的に付与します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|1}}|
+{{SkillAdditionalInfoTemplate|持続時間|1秒}}
+}}
+|1}}
 {{ListViewSkill|2}}
 |-
 {{ListViewSkill|リセット| . |敵が落とすアイテムを他のアイテムに変更します。アイテム変更が確定すると、教えてもらえます。|1}}
-{{ListViewSkill|デスヴァーディクト| . |敵に死を宣告して、対象が受けるダメージを大幅に増加させます。かけた敵がボスモンスターの場合、持続時間とダメージ増加効果が半分に減少します。|10}}
-{{ListViewSkill|ディヴァインマイト| . |一時的に自分とPTメンバーのスキルレベルを1アップさせます。|10}}
+{{ListViewSkill|デスヴァーディクト| . |敵に死を宣告して、対象が受けるダメージを大幅に増加させます。かけた敵がボスモンスターの場合、持続時間とダメージ増加効果が半分に減少します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|ダメージ|+5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}
+{{SkillAdditionalInfoTemplate|適用対象数|6|7|8|9|10|11|12|13|14|15}}
+{{SkillAdditionalInfoTemplate|持続時間|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒}}
+}}
+|10}}
+{{ListViewSkill|ディヴァインマイト| . |一時的に自分とPTメンバーのスキルレベルを1アップさせます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|適用回数|1回|2回|3回|4回|5回|6回|7回|8回|9回|10回}}
+{{SkillAdditionalInfoTemplate|持続時間|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒}}
+}}
+|10}}
 {{ListViewSkill|スイッチジェンダー| . |キャラクターの性別を変更できるショップを開きます。アイテム|1}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|フォアテル| . |敵の攻撃を防御する魔法陣を召喚します。魔法陣の中にいると敵から受けるダメージが減少します。|5}}
-{{ListViewSkill|ツイストオブフェイト| . |指定した敵の最大HPに基づいて固定的なダメージを与える代わりに、攻撃後は与えたダメージの2倍、敵のHPが持続的に回復します。ボスモンスターにはダメージが半分しか適用されず、フィールドボスモンスターには適用されません。ギルドアジトでは使用できません。ツイストオブフェイトの攻撃は最大ダメージを超えることができます。|5}}
+{{ListViewSkill|フォアテル| . |敵の攻撃を防御する魔法陣を召喚します。魔法陣の中にいると敵から受けるダメージが減少します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|受けるダメージ|-6%|-12%|-18%|-24%|-30%}}
+{{SkillAdditionalInfoTemplate|魔法陣の持続時間|10秒|10秒|10秒|10秒|10秒}}
+}}
+|5}}
+{{ListViewSkill|ツイストオブフェイト| . |指定した敵の最大HPに基づいて固定的なダメージを与える代わりに、攻撃後は与えたダメージの2倍、敵のHPが持続的に回復します。ボスモンスターにはダメージが半分しか適用されず、フィールドボスモンスターには適用されません。ギルドアジトでは使用できません。ツイストオブフェイトの攻撃は最大ダメージを超えることができます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|最大HPの|1%～ n%ダメージ8|9%～ n%ダメージ16|17%～ n%ダメージ24|25%～ n%ダメージ32|33%～ n%ダメージ40}}
+{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒}}
+}}
+|5}}
 
 |}
 
@@ -86,6 +130,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -118,5 +164,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.879417
+* Automatic generated at 2020-02-02 17:16:31.063446
 {{PageProgress|2}}

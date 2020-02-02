@@ -14,7 +14,31 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+
+==ステータス倍率==
+'''{{PAGENAME}}''' は以下に示すステータス倍率を持っています。
+{{PercentageBar|HP|EE8811|75|width=450|fieldWidth=120}}
+{{PercentageBar|SP|1188EE|60|width=450|fieldWidth=120}}
+{{PercentageBar|回避|11BB11|150|width=450|fieldWidth=120}}
+{{PercentageBar|クリティカル発生|EE1111|150|width=450|fieldWidth=120}}
+{{PercentageBar|攻撃速度|FFAA00|110|width=450|fieldWidth=120}}
+
+==武器==
+他のクラス系統とは異なり、,'''{{PAGENAME}}'''' のダメージはサブウェポンによるものです。全体的には以下に示す装備ができます。
+* 拳銃
+* ダガー
+* 片手剣
+* 盾
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -39,11 +63,35 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|クローキング| . |一時的に体を隠して敵に見えない状態になります。コンパニオンに搭乗した状態では移動速度が4減少し、コンパニオンも身を隠します。敵に与えるダメージがアップするバフが付与され、攻撃またはジャンプ時に効果が解除されます。チームバトルリーグ、水晶鉱山、コロニー戦では戦闘状態でクローキングを使用できません。それ以外の一般地域では戦闘状態でも使用できます。|5}}
-{{ListViewSkill|ダガースラッシュ| . |手に持った短剣を左右に素早く二回振り回して敵にダメージを与えます。ダガースラッシュ使用時、3秒間[ダガースラッシュ:鋭利な刃]バフが適用されて短剣専用攻撃のダメージがバフスタック1につき7%アップします。|5}}
-{{ListViewSkill|オブリークファイア| . |拳銃を発射して敵を攻撃します。当たった対象の近くにいる敵に跳弾し追加で攻撃します。[ジョリーロジャー]旗周囲ではオブリークファイアの跳弾が追加で発生します。|5}}
-{{ListViewSkill|ダブルアタック| . |一定時間クリティカル発生率がアップし、補助武器で基本攻撃をすると一定確率で連打が発動します。|5}}
-{{ListViewSkill|フリーステップ| . |身のこなしを軽くし、一定時間回避がアップします。|5}}
+{{ListViewSkill|クローキング| . |一時的に体を隠して敵に見えない状態になります。コンパニオンに搭乗した状態では移動速度が4減少し、コンパニオンも身を隠します。敵に与えるダメージがアップするバフが付与され、攻撃またはジャンプ時に効果が解除されます。チームバトルリーグ、水晶鉱山、コロニー戦では戦闘状態でクローキングを使用できません。それ以外の一般地域では戦闘状態でも使用できます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|敵攻撃時のダメージ|+12%|+14%|+16%|+18%|+20%}}
+{{SkillAdditionalInfoTemplate|持続時間|12秒|14秒|16秒|18秒|20秒}}
+}}
+|5}}
+{{ListViewSkill|ダガースラッシュ| . |手に持った短剣を左右に素早く二回振り回して敵にダメージを与えます。ダガースラッシュ使用時、3秒間[ダガースラッシュ:鋭利な刃]バフが適用されて短剣専用攻撃のダメージがバフスタック1につき7%アップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|154% x 2回|159% x 2回|164% x 2回|169% x 2回|174% x 2回}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|3|3|3|3|3}}
+}}
+|5}}
+{{ListViewSkill|オブリークファイア| . |拳銃を発射して敵を攻撃します。当たった対象の近くにいる敵に跳弾し追加で攻撃します。[ジョリーロジャー]旗周囲ではオブリークファイアの跳弾が追加で発生します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|254%|262%|270%|279%|287%}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1}}
+}}
+|5}}
+{{ListViewSkill|ダブルアタック| . |一定時間クリティカル発生率がアップし、補助武器で基本攻撃をすると一定確率で連打が発動します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|追加ダメージ |5%|10%|15%|20%|25%}}
+{{SkillAdditionalInfoTemplate|連打発動確率|40%|40%|40%|40%|40%}}
+}}
+|5}}
+{{ListViewSkill|フリーステップ| . |身のこなしを軽くし、一定時間回避がアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|回避|+4%|+8%|+12%|+16%|+20%}}
+}}
+|5}}
 
 |}
 
@@ -64,6 +112,8 @@ List View=
 |}
 </tabber>
 
+nan
+
 ==クラス関係==
 <tabber>
 適合=
@@ -83,7 +133,10 @@ List View=
 nan
 
 ==ギャラリー==
-nan
+<gallery spacing="small" captionalign="center">
+ToS_Scout(M).gif|女 スカウト
+ToS_Scout(F).gif|男 スカウト
+</gallery>
 
 ==トリビア==
 nan
@@ -95,5 +148,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.919019
+* Automatic generated at 2020-02-02 17:16:31.103446
 {{PageProgress|2}}

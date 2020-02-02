@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -50,22 +60,77 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ダブルガンスタンス| . |右手装備の拳銃を両手に持ち、二丁拳銃で戦うスタンスに転換します。 バレットマーカースキルを使うことができ、基本攻撃が変更されます。(自動武器スワップでスキルを使用できません。)|5}}
-{{ListViewSkill|シルバーバレット| . |拳銃を使用するすべての攻撃が聖属性に変更されるバフを自分にかけます。|15}}
-{{ListViewSkill|テイズ| . |電流弾を敵に撃ち込み、対象がダメージを受ける度に雷属性追加ダメージを受けます。テイズにかかった敵にエレクトリックショック使用時テイズの持続回数が増加します。|15}}
-{{ListViewSkill|ナパームバレット| . |爆発させ前方の敵に炎属性ダメージを与えます。ラクリメイター範囲内の敵にナパームバレット使用すると、催涙効果が消え爆発ダメージを与えます。|15}}
-{{ListViewSkill|フルメタルジャケット| . |敵の防御力の半分を無視する強力な一発を放ちます。|15}}
-{{ListViewSkill|R.I.P.| . |二丁拳銃で前方の敵に連続攻撃を行います。|15}}
-{{ListViewSkill|ブラッディオーバードライブ| . |両手に持った拳銃を乱射して自分周辺の敵を攻撃します。 スキル使用中、ノックバックやノックダウンを無効化します。|15}}
+{{ListViewSkill|ダブルガンスタンス| . |右手装備の拳銃を両手に持ち、二丁拳銃で戦うスタンスに転換します。 バレットマーカースキルを使うことができ、基本攻撃が変更されます。(自動武器スワップでスキルを使用できません。){{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|基本攻撃の攻撃力|100%|103%|106%|109%|113%}}
+}}
+|5}}
+{{ListViewSkill|シルバーバレット| . |拳銃を使用するすべての攻撃が聖属性に変更されるバフを自分にかけます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|持続時間 |18秒|21秒|24秒|27秒|30秒|33秒|36秒|39秒|42秒|45秒|48秒|51秒|54秒|57秒|60秒}}
+}}
+|15}}
+{{ListViewSkill|テイズ| . |電流弾を敵に撃ち込み、対象がダメージを受ける度に雷属性追加ダメージを受けます。テイズにかかった敵にエレクトリックショック使用時テイズの持続回数が増加します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|184%|214%|245%|276%|307%|337%|368%|399%|430%|461%|491%|522%|553%|584%|615%}}
+{{SkillAdditionalInfoTemplate|持続時間|18秒|21秒|24秒|27秒|30秒|33秒|36秒|39秒|42秒|45秒|48秒|51秒|54秒|57秒|60秒}}
+{{SkillAdditionalInfoTemplate|持続回数|10回|10回|10回|10回|10回|10回|10回|10回|10回|10回|10回|10回|10回|10回|10回}}
+}}
+|15}}
+{{ListViewSkill|ナパームバレット| . |爆発させ前方の敵に炎属性ダメージを与えます。ラクリメイター範囲内の敵にナパームバレット使用すると、催涙効果が消え爆発ダメージを与えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|1611%|1879%|2148%|2416%|2685%|2954%|3222%|3491%|3759%|4028%|4297%|4565%|4834%|5102%|5371%}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}
+}}
+|15}}
+{{ListViewSkill|フルメタルジャケット| . |敵の防御力の半分を無視する強力な一発を放ちます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|1222%|1425%|1629%|1833%|2037%|2241%|2445%|2649%|2853%|3057%|3260%|3464%|3668%|3872%|4076%}}
+}}
+|15}}
+{{ListViewSkill|R.I.P.| . |二丁拳銃で前方の敵に連続攻撃を行います。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|323% x 7回|376% x 7回|430% x 7回|484% x 7回|538% x 7回|592% x 7回|646% x 7回|700% x 7回|754% x 7回|808% x 7回|862% x 7回|915% x 7回|969% x 7回|1023% x 7回|1077% x 7回}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}
+}}
+|15}}
+{{ListViewSkill|ブラッディオーバードライブ| . |両手に持った拳銃を乱射して自分周辺の敵を攻撃します。 スキル使用中、ノックバックやノックダウンを無効化します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|158% x 20回|184% x 20回|210% x 20回|237% x 20回|263% x 20回|290% x 20回|316% x 20回|342% x 20回|369% x 20回|395% x 20回|422% x 20回|448% x 20回|474% x 20回|501% x 20回|527% x 20回}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|20|20|20|20|20|20|20|20|20|20|20|20|20|20|20}}
+}}
+|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|スマッシュバレット| . |単一の敵に身体の中で爆発するスマッシュバレットを発射します。 スマッシュバレットの持続ダメージは時間が経つほどダメージが徐々に減少します。スマッシュバレットの持続ダメージは属性と防御力を無視します。|10}}
-{{ListViewSkill|トレーサーバレット| . |自分の命中率をアップするバフを付与します。|10}}
-{{ListViewSkill|モザンビークドリル| . |単一の敵を二丁拳銃で4回攻撃します。|10}}
+{{ListViewSkill|スマッシュバレット| . |単一の敵に身体の中で爆発するスマッシュバレットを発射します。 スマッシュバレットの持続ダメージは時間が経つほどダメージが徐々に減少します。スマッシュバレットの持続ダメージは属性と防御力を無視します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数|310%|390%|471%|551%|632%|712%|793%|873%|954%|1034%}}
+}}
+|10}}
+{{ListViewSkill|トレーサーバレット| . |自分の命中率をアップするバフを付与します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|命中|+12%|+14%|+16%|+18%|+20%|+22%|+24%|+26%|+28%|+30%}}
+{{SkillAdditionalInfoTemplate|持続時間|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒}}
+}}
+|10}}
+{{ListViewSkill|モザンビークドリル| . |単一の敵を二丁拳銃で4回攻撃します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数|195% x 4回|245% x 4回|296% x 4回|347% x 4回|398% x 4回|448% x 4回|499% x 4回|550% x 4回|601% x 4回|652% x 4回}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|フリーズバレット| . |拳銃を使用する基本攻撃が一定確率で敵を凍らせるバフを自分に付与します。|5}}
-{{ListViewSkill|アウトレイジ| . |移動しながらターゲットの敵と周辺の敵に向かって乱射します。基本攻撃が2連打に適用され、ダメージと攻撃速度がアップします。[ダブルガンスタンス]の基本攻撃の攻撃力に追加攻撃力が合算されます。スキル使用中は基本攻撃のみ使用可能です。|5}}
+{{ListViewSkill|フリーズバレット| . |拳銃を使用する基本攻撃が一定確率で敵を凍らせるバフを自分に付与します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|氷結確率|30%|30%|30%|30%|30%}}
+{{SkillAdditionalInfoTemplate|持続時間|16秒|17秒|18秒|19秒|20秒}}
+}}
+|5}}
+{{ListViewSkill|アウトレイジ| . |移動しながらターゲットの敵と周辺の敵に向かって乱射します。基本攻撃が2連打に適用され、ダメージと攻撃速度がアップします。[ダブルガンスタンス]の基本攻撃の攻撃力に追加攻撃力が合算されます。スキル使用中は基本攻撃のみ使用可能です。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|基本攻撃追加スキル係数|46%|93%|140%|187%|234%}}
+}}
+|5}}
 
 |}
 
@@ -101,6 +166,8 @@ List View=
 |}
 </tabber>
 
+nan
+
 ==クラス関係==
 <tabber>
 適合=
@@ -132,5 +199,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.958203
+* Automatic generated at 2020-02-02 17:16:31.142446
 {{PageProgress|2}}

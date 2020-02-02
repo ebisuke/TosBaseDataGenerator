@@ -8,13 +8,44 @@
 その長きにわたり行われてきた武器と戦術により、魔法の発展に劣らずソードマンの威容を誇ります。ソードマン系統は全ての系統の中で最も高いHPと防御力を持ち、敵陣では安定して戦うことができます。
 
 ==伝承==
-千年以上の長きにわたり、ソードマンは王国軍の基本兵科であり、新たな冒険者に選ばれています。多くの戦士がソードマンから始め、経験を積むことで王国の歴史に名を刻んでいます。
+千年以上の長きにわたり、ソードマンは王国軍の基本兵科であり、新たな冒険者に選ばれています。多くの戦士がソードマンから始め、経験を積むことで王国の
+歴史に名を刻んでいます。
 
 ==背景==
 nan
 ==アイコンとコスチューム==
 nan
+
+
+==ステータス倍率==
+'''{{PAGENAME}}'''系統 は以下のステータス倍率を持っています。
+{{PercentageBar|HP|EE8811|100|width=450|fieldWidth=120}}
+{{PercentageBar|HP回復力|DD6600|120|width=450|fieldWidth=120}}
+{{PercentageBar|SP|1188EE|60|width=450|fieldWidth=120}}
+{{PercentageBar|物理防御力|EE1111|300|width=450|fieldWidth=120}}
+{{PercentageBar|魔法防御力|00AAFF|300|width=450|fieldWidth=120}}
+{{PercentageBar|ブロック|9944DD|150|width=450|fieldWidth=120}}
+
+==武器==
+'''{{PAGENAME}}''' は以下に示す武器を使用できます。
+*[[片手槍]]
+*[[両手槍]]
+*[[レイピア]]
+*[[片手剣]]
+*[[両手剣]]
+*[[片手鈍器]]
+*[[ダガー]]
+*[[シールド]]
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -40,12 +71,34 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|スラスト| . |敵を武器の先で強く突き後ろに押し出します。|5}}
-{{ListViewSkill|バッシュ| . |強い攻撃で敵にダメージを与えます。|5}}
-{{ListViewSkill|デアデビル| . |覚悟を決めて一時的に自分の物理攻撃のダメージをアップさせます。|5}}
-{{ListViewSkill|ベアー| . |覚悟を決めて一時的に自分が受けるダメージをダウンさせます。|5}}
-{{ListViewSkill|ペインバリア| . |一定時間体が硬直せず、押されたり倒れなくなります。使用直後に一時的にスタン、アレスト、移動不可、呪い、氷結、石化を除いた一般解除可能な全てのデバフにかからなくなり、ペインバリアの持続時間中は状態異常に対する効果抵抗の確率が増加します。|5}}
-{{ListViewSkill|リベレート| . |一時的に力を解放して周辺の敵の目に付くようになります。バフ持続時間中は自分の攻撃でモンスターに適用されるヘイト値がアップします。|1}}
+{{ListViewSkill|スラスト| . |10|47|敵を武器の先で強く突き後ろに押し出します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|277%|286%|295%|304%|313%}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}
+}}
+|5}}
+{{ListViewSkill|バッシュ| . |10|49|強い攻撃で敵にダメージを与えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|197%|203%|210%|216%|223%}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}
+}}
+|5}}
+{{ListViewSkill|デアデビル| . |60|168|覚悟を決めて一時的に自分の物理攻撃のダメージをアップさせます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|物理攻撃ダメージ|+2%|+4%|+6%|+8%|+10%}}
+}}
+|5}}
+{{ListViewSkill|ベアー| . |60|168|覚悟を決めて一時的に自分が受けるダメージをダウンさせます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|受けるダメージ|-2%|-4%|-6%|-8%|-10%}}
+}}
+|5}}
+{{ListViewSkill|ペインバリア| . |30|134|一定時間体が硬直せず、押されたり倒れなくなります。使用直後に一時的にスタン、アレスト、移動不可、呪い、氷結、石化を除いた一般解除可能な全てのデバフにかからなくなり、ペインバリアの持続時間中は状態異常に対する効果抵抗の確率が増加します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|ペインバリアの持続時間|10秒|15秒|20秒|25秒|30秒}}
+}}
+|5}}
+{{ListViewSkill|リベレート| . |60|180|一時的に力を解放して周辺の敵の目に付くようになります。バフ持続時間中は自分の攻撃でモンスターに適用されるヘイト値がアップします。|1}}
 
 |}
 
@@ -70,6 +123,47 @@ List View=
 |}
 </tabber>
 
+
+== クラスごとの互換性 ==
+{| class="wikitable"
+|-
+! rowspan="2" | 
+! colspan="2" | [[剣]]
+! rowspan="2" | [[レイピア]]
+! colspan="2" | [[槍]]
+! rowspan="2" | [[鈍器]]
+! rowspan="2" | [[シールド]]
+! rowspan="2" | [[ダガー]]
+! rowspan="2" | [[騎乗]]
+! rowspan="2" | 歩行
+|-
+! [[片手剣|片手]]
+! [[両手剣|両手]]
+! [[片手槍|片手]]
+! [[両手槍|両手]]
+|-
+|
+{{SymbolTable|{{TextLink|ソードマン|2}}|O|O|O|O|O|O|O|O|O|O}}
+{{SymbolTable|{{TextLink|バーバリアン|2}}|O|O|O|O|O|O|O|O|A|O}}
+{{SymbolTable|{{TextLink|ブロッサムブレーダー|2}}|O|O|X|X|X|X|O|O|O|O}}
+{{SymbolTable|{{TextLink|カタフラクト|2}}|A|X|X|O|O|X|O|O|O|X}}
+{{SymbolTable|{{TextLink|ドッペルゾルドナー|2}}|A|O|A|A|A|X|A|A|X|O}}
+{{SymbolTable|{{TextLink|ドラグーン|2}}|X|X|X|O|O|X|O|O|O|O}}
+{{SymbolTable|{{TextLink|フェンサー|2}}|X|X|O|X|X|X|O|O|X|O}}
+{{SymbolTable|{{TextLink|ハッカペル|2}}|O|X|X|Y|X|O|O|O|O|X}}
+{{SymbolTable|{{TextLink|ハイランダー|2}}|A|O|A|A|A|A|O|O|A|O}}
+{{SymbolTable|{{TextLink|ホプライト|2}}|A|X|X|O|O|X|O|O|O|O}}
+{{SymbolTable|{{TextLink|ランサー|2}}|X|X|X|X|O|X|X|X|O|X}}
+{{SymbolTable|{{TextLink|マタドール|2}}|X|X|O|X|X|X|O|O|X|O}}
+{{SymbolTable|{{TextLink|ムルミロ|2}}|O|X|O|O|X|O|O|A|X|O}}
+{{SymbolTable|{{TextLink|ムエタイ|2}}|O|O|O|O|O|O|O|O|X|O}}
+{{SymbolTable|{{TextLink|ペルタスト|2}}|O|X|O|O|X|O|O|X|A|O}}
+{{SymbolTable|{{TextLink|レティアリイ|2}}|A|A|O|O|A|A|A|O|X|O}}
+{{SymbolTable|{{TextLink|ロデレロ|2}}|O|X|O|O|X|O|O|X|O|O}}
+{{SymbolTable|{{TextLink|テンプラー|2}}|O|O|O|A|A|O|O|O|O|O}}
+|}
+{{CompatibilitySymbols}}
+
 ==クラス関係==
 <tabber>
 適合=
@@ -89,7 +183,11 @@ List View=
 nan
 
 ==ギャラリー==
-nan
+<gallery spacing="small" captionalign="center">
+ToS_Swordsman(M).gif|男 ソードマン
+ToS_Swordsman(F).gif|女 ソードマン
+ToS SwordsmanConcept.jpg|ソードマンのコンセプトアート
+</gallery>
 
 ==トリビア==
 nan
@@ -101,5 +199,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.653458
+* Automatic generated at 2020-02-02 17:44:02.426579
 {{PageProgress|2}}

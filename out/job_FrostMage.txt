@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -45,17 +55,55 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|アイスボルト| . |氷の矢を放って敵にダメージを与え、一定の確率で氷結状態にします。|15}}
-{{ListViewSkill|アイスパイク| . |氷の棘を作って敵にダメージを与え、氷結状態にします。*ボスモンスター氷結不可*[PVP]10%の確率で氷結状態|15}}
-{{ListViewSkill|アイスウォール| . |氷の壁を作って敵を閉じ込め、接近した敵を一定の確率で氷結状態にします|15}}
+{{ListViewSkill|アイスボルト| . |氷の矢を放って敵にダメージを与え、一定の確率で氷結状態にします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|257%x 2回|299%x 2回|342%x 2回|385%x 2回|428%x 2回|471%x 2回|514%x 2回|557%x 2回|600%x 2回|643%x 2回|686%x 2回|728%x 2回|771%x 2回|814%x 2回|857%x 2回}}
+{{SkillAdditionalInfoTemplate|[氷結]持続時間|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒}}
+}}
+|15}}
+{{ListViewSkill|アイスパイク| . |氷の棘を作って敵にダメージを与え、氷結状態にします。*ボスモンスター氷結不可*[PVP]10%の確率で氷結状態{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|1097%|1279%|1462%|1645%|1828%|2011%|2194%|2377%|2560%|2743%|2925%|3108%|3291%|3474%|3657%}}
+{{SkillAdditionalInfoTemplate|[氷結]持続時間|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒}}
+}}
+|15}}
+{{ListViewSkill|アイスウォール| . |氷の壁を作って敵を閉じ込め、接近した敵を一定の確率で氷結状態にします{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|343%|354%|365%|377%|388%|400%|411%|422%|434%|445%|457%|468%|479%|491%|502%}}
+{{SkillAdditionalInfoTemplate|アイスウォール|2個|3個|4個|5個|6個|7個|8個|9個|10個|11個|12個|13個|14個|15個|16個}}
+{{SkillAdditionalInfoTemplate|[氷結]持続時間|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒}}
+{{SkillAdditionalInfoTemplate|アイスウォール持続時間|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒}}
+}}
+|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|アイスブラスト| . |前方にいる氷結または寒気状態の敵、アイスウォール周辺の敵にダメージを与えます。|10}}
-{{ListViewSkill|サブゼロシールド| . |一瞬、氷のシールドを生成し、近くにいる敵の攻撃を防御します。防御に成功すると受けるダメージが半減し、攻撃してきた敵を一定の確率で氷結させます。PVPゾーンでは攻撃を受ける度に最大SPの3%を消費します。|10}}
-{{ListViewSkill|スノーローリング| . |巨大な雪玉に乗って敵を押しつぶします。スノーローリングが終わる時周辺にヘビーグラビティがある場合、敵はノックダウンしません|10}}
+{{ListViewSkill|アイスブラスト| . |前方にいる氷結または寒気状態の敵、アイスウォール周辺の敵にダメージを与えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|[氷結]対象にスキル係数|308%|388%|468%|548%|628%|708%|788%|868%|948%|1028%}}
+}}
+|10}}
+{{ListViewSkill|サブゼロシールド| . |一瞬、氷のシールドを生成し、近くにいる敵の攻撃を防御します。防御に成功すると受けるダメージが半減し、攻撃してきた敵を一定の確率で氷結させます。PVPゾーンでは攻撃を受ける度に最大SPの3%を消費します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|攻撃した敵[氷結]確率|15%|20%|25%|30%|35%|40%|45%|50%|55%|60%}}
+{{SkillAdditionalInfoTemplate|[氷結]持続時間|3秒|3秒|3秒|3秒|3秒|3秒|3秒|3秒|3秒|3秒}}
+}}
+|10}}
+{{ListViewSkill|スノーローリング| . |巨大な雪玉に乗って敵を押しつぶします。スノーローリングが終わる時周辺にヘビーグラビティがある場合、敵はノックダウンしません{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数|490%|617%|744%|871%|998%|1125%|1252%|1379%|1506%|1633%}}
+{{SkillAdditionalInfoTemplate|適用対象数|2|4|6|8|10|12|14|16|18|20}}
+{{SkillAdditionalInfoTemplate|持続時間|4秒|5秒|6秒|7秒|8秒|9秒|10秒|10秒|10秒|10秒}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|フロストピラー| . |地面に氷の木を召喚して周辺の対象にダメージを与え、氷結状態にします。(PVPゾーンでは氷結の持続時間が半分になります。)|5}}
+{{ListViewSkill|フロストピラー| . |地面に氷の木を召喚して周辺の対象にダメージを与え、氷結状態にします。(PVPゾーンでは氷結の持続時間が半分になります。){{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|スキル係数|356%|712%|1069%|1425%|1782%}}
+{{SkillAdditionalInfoTemplate|氷の木持続時間|6秒|7秒|8秒|9秒|10秒}}
+{{SkillAdditionalInfoTemplate|クリオライト|1個消費|1個消費|1個消費|1個消費|1個消費}}
+}}
+|5}}
 
 |}
 
@@ -88,6 +136,8 @@ List View=
 |}
 </tabber>
 
+nan
+
 ==クラス関係==
 <tabber>
 適合=
@@ -119,5 +169,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.746085
+* Automatic generated at 2020-02-02 17:16:30.933446
 {{PageProgress|2}}

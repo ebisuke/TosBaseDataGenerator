@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -25,7 +35,7 @@ Tree View=
 |-
 ! Lv1
 {{TreeViewCell|クイッケン}}<br/><br/>
-{{TreeViewCell|シュリンクボディ|ダメージ追加}}<br/><br/>
+{{TreeViewCell|シュリンクボディ|移動速度アップ|ダメージ追加}}<br/><br/>
 {{TreeViewCell|スウェルボディ|移動速度ダウン|ダメージ追加}}<br/><br/>
 |-
 ! Lv16
@@ -44,22 +54,48 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|クイッケン| . |自分とPTメンバーの基本攻撃速度を一時的にアップさせます。|15}}
-{{ListViewSkill|シュリンクボディ| . |モンスターの体を小さくします。|15}}
-{{ListViewSkill|スウェルボディ| . |モンスターの体を大きくします。対象は最大体力が2倍になり、経験値、ドロップするアイテムの数が2倍になります。|15}}
+{{ListViewSkill|クイッケン| . |自分とPTメンバーの基本攻撃速度を一時的にアップさせます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|基本攻撃速度|+25|+35|+45|+55|+65|+75|+85|+95|+105|+115|+125|+135|+145|+155|+165}}
+{{SkillAdditionalInfoTemplate|持続時間|36秒|42秒|48秒|54秒|60秒|66秒|72秒|78秒|84秒|90秒|96秒|102秒|108秒|114秒|120秒}}
+{{SkillAdditionalInfoTemplate|魔法の粉 |1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}
+}}
+|15}}
+{{ListViewSkill|シュリンクボディ| . |モンスターの体を小さくします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|適用対象|3|4|4|5|5|6|6|7|7|8|8|9|9|10|10}}
+{{SkillAdditionalInfoTemplate|持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}
+}}
+|15}}
+{{ListViewSkill|スウェルボディ| . |モンスターの体を大きくします。対象は最大体力が2倍になり、経験値、ドロップするアイテムの数が2倍になります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|適用対象|3|4|4|5|5|6|6|7|7|8|8|9|9|10|10}}
+{{SkillAdditionalInfoTemplate|持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}
+}}
+|15}}
 {{ListViewSkill|2}}
 |-
 {{ListViewSkill|リバーシ| . |敵が召喚した魔法陣の主を自分に変更します。|1}}
-{{ListViewSkill|スウェルハンズ| . |自分とPTメンバーの両手を一時的に大きくして最大物理攻撃力と、最大魔法攻撃力を上昇させます。 左手に補助武器を着用している時、補助武器攻撃力が上昇し、盾を着用している時は物理防御力が上昇します。スウェルハンズズバフ中にブレイクブリック使用時、敵の兜を外すことができます。|10}}
+{{ListViewSkill|スウェルハンズ| . |自分とPTメンバーの両手を一時的に大きくして最大物理攻撃力と、最大魔法攻撃力を上昇させます。 左手に補助武器を着用している時、補助武器攻撃力が上昇し、盾を着用している時は物理防御力が上昇します。スウェルハンズズバフ中にブレイクブリック使用時、敵の兜を外すことができます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|最大攻撃力|+57|+87|+117|+146|+176|+206|+236|+265|+295|+325}}
+{{SkillAdditionalInfoTemplate|魔法の粉|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|スウェルブレイン| . |自分とPTメンバーの頭を大きくし、一定時間ルーティングチャンスをアップさせます。ルーティングチャンスがアップするほど未鑑定装備アイテムのドロップ率が上がります。|5}}
+{{ListViewSkill|スウェルブレイン| . |自分とPTメンバーの頭を大きくし、一定時間ルーティングチャンスをアップさせます。ルーティングチャンスがアップするほど未鑑定装備アイテムのドロップ率が上がります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|ルーティングチャンス|+100|+200|+300|+400|+500}}
+{{SkillAdditionalInfoTemplate|魔法の粉|2個消費|2個消費|2個消費|2個消費|2個消費}}
+}}
+|5}}
 
 |}
 
 {| class="wikitable" border="1" cellpadding="1" cellspacing="1" style="width: 800px;"
 {{ListViewAttribute}}
-{{ListViewAttribute|{s16}シュリンクボディ|移動速度アップ|100|3|[シュリンクボディ]にかかったモンスターは移動速度が特性レベル1につき10%アップ<br/><br/>物理、魔法攻撃力が特性レベル1につき25%ダウン<br/><br/>キャラクターには効果が適用されない<br/><br/>SP消費20%アップ}}
+{{ListViewAttribute|シュリンクボディ|移動速度アップ|100|3|[シュリンクボディ]にかかったモンスターは移動速度が特性レベル1につき10%アップ<br/><br/>物理、魔法攻撃力が特性レベル1につき25%ダウン<br/><br/>キャラクターには効果が適用されない<br/><br/>SP消費20%アップ}}
 {{ListViewAttribute|シュリンクボディ|ダメージ追加|300|3|[シュリンクボディ]によって大きさが変わる度に特性レベル1につき物理攻撃力の20%の追加ダメージ<br/><br/>SP消費30%アップ}}
 {{ListViewAttribute|スウェルボディ|移動速度ダウン|100|3|[スウェルボディ]にかかったモンスターは移動速度が特性レベル1につき15%ダウン<br/><br/>物理、魔法攻撃力が特性レベル1につき10%アップ<br/><br/>キャラクターには効果が適用されない<br/><br/>SP消費20%アップ}}
 {{ListViewAttribute|スウェルボディ|ダメージ追加|300|3|[スウェルボディ]によって大きさが変わる度に特性レベル1につき物理攻撃力の20%の追加ダメージ<br/><br/>SP消費30%アップ}}
@@ -73,6 +109,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -105,5 +143,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.940025
+* Automatic generated at 2020-02-02 17:16:31.123446
 {{PageProgress|2}}

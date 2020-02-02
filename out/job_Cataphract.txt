@@ -14,7 +14,17 @@
 nan
 ==アイコンとコスチューム==
 nan
+
+nan
+
 ==スキルと特性==
+{| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
+! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
+|-
+| ステータスに依存する係数は、以下の値を仮定しております。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+|}
+
 <tabber>
 Tree View=
 {| class="wikitable"
@@ -30,7 +40,7 @@ Tree View=
 {{TreeViewCell|アクロバティックマウント|強化}}<br/><br/>
 |-
 ! Lv16
-{{TreeViewCell|ドゥームスパイク|強化|上級強化}}<br/><br/>
+{{TreeViewCell|ドゥームスパイク|強化|ノックダウン除去|上級強化}}<br/><br/>
 {{TreeViewCell|トロット}}<br/><br/>
 |-
 ! Lv31
@@ -45,17 +55,53 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|インペイラー| . |小型、中型モンスターを槍で貫通させて持ち歩きます。そのモンスターは物理、魔法防御力が減少し、回避やブロックが発生しません。そのモンスターを利用して他の敵を攻撃することができ、攻撃すると必ずクリティカルが発生します。シャープスピアバフが適用中の場合は攻撃回数が2回増加します。|15}}
-{{ListViewSkill|アースウェーブ| . |武器で地面を叩きつけ、敵を攻撃します。攻撃を受けた敵はその場で倒れます。倒れた敵に与えるダメージがアップします。|15}}
-{{ListViewSkill|スティードチャージ| . |前方へ突進して敵に衝突し、ダメージを与えます。クリティカルが発生した場合、敵は3秒間スロー状態になります。|15}}
-{{ListViewSkill|アクロバティックマウント| . |搭乗状態でのみ使用可能なスキルのダメージがアップするバフを付与します。使用するスキルのSPを追加で消費します。搭乗を解除、またはSPが足りない場合はバフが消えます。|5}}
+{{ListViewSkill|インペイラー| . |小型、中型モンスターを槍で貫通させて持ち歩きます。そのモンスターは物理、魔法防御力が減少し、回避やブロックが発生しません。そのモンスターを利用して他の敵を攻撃することができ、攻撃すると必ずクリティカルが発生します。シャープスピアバフが適用中の場合は攻撃回数が2回増加します。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|447%|461%|476%|491%|506%|521%|535%|550%|565%|580%|595%|609%|624%|639%|654%}}
+{{SkillAdditionalInfoTemplate|持続時間|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒|21秒|22秒|23秒}}
+}}
+|15}}
+{{ListViewSkill|アースウェーブ| . |武器で地面を叩きつけ、敵を攻撃します。攻撃を受けた敵はその場で倒れます。倒れた敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|106% x 5回|123% x 5回|141% x 5回|159% x 5回|176% x 5回|194% x 5回|212% x 5回|229% x 5回|247% x 5回|265% x 5回|283% x 5回|300% x 5回|318% x 5回|336% x 5回|353% x 5回}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|8|8|8|8|8|8|8|8|8|8|8|8|8|8|8}}
+}}
+|15}}
+{{ListViewSkill|スティードチャージ| . |前方へ突進して敵に衝突し、ダメージを与えます。クリティカルが発生した場合、敵は3秒間スロー状態になります。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|15}}|
+{{SkillAdditionalInfoTemplate|スキル係数|339%|350%|361%|372%|383%|395%|406%|417%|428%|439%|451%|462%|473%|484%|495%}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|5|5|5|5|5|5|5|5|5|5|5|5|5|5|5}}
+}}
+|15}}
+{{ListViewSkill|アクロバティックマウント| . |搭乗状態でのみ使用可能なスキルのダメージがアップするバフを付与します。使用するスキルのSPを追加で消費します。搭乗を解除、またはSPが足りない場合はバフが消えます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|ダメージアップ|10%|15%|20%|25%|30%}}
+{{SkillAdditionalInfoTemplate|SP消費|5%追加|10%追加|15%追加|20%追加|25%追加}}
+}}
+|5}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ドゥームスパイク| . |敵を槍の先で強く突きます。この攻撃は最小クリティカル率が補正されます。|10}}
-{{ListViewSkill|トロット| . |搭乗中の移動速度が増加します。バフ中は5秒ごとにSPを持続的に消費します。搭乗を解除するか、SPが足りない場合はバフが解除されます。|10}}
+{{ListViewSkill|ドゥームスパイク| . |敵を槍の先で強く突きます。この攻撃は最小クリティカル率が補正されます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|スキル係数|170%x 5回|214%x 5回|258%x 5回|302%x 5回|347%x 5回|391%x 5回|435%x 5回|480%x 5回|524%x 5回|568%x 5回}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率 |8|8|8|8|8|8|8|8|8|8}}
+{{SkillAdditionalInfoTemplate|最小クリティカル率|11%|12%|13%|14%|15%|16%|17%|18%|19%|20%}}
+}}
+|10}}
+{{ListViewSkill|トロット| . |搭乗中の移動速度が増加します。バフ中は5秒ごとにSPを持続的に消費します。搭乗を解除するか、SPが足りない場合はバフが解除されます。{{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|10}}|
+{{SkillAdditionalInfoTemplate|移動速度|+6|+7|+8|+9|+10|+11|+12|+13|+14|+15}}
+}}
+|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ラッシュ| . |頭上で槍を回しながら前方の敵を突破します。 敵のブロックを無視します。恐怖デバフにかかった敵はクリティカル発生率が2倍で適用されます。(自動武器スワップでスキルを使用することはできません。)|5}}
+{{ListViewSkill|ラッシュ| . |頭上で槍を回しながら前方の敵を突破します。 敵のブロックを無視します。恐怖デバフにかかった敵はクリティカル発生率が2倍で適用されます。(自動武器スワップでスキルを使用することはできません。){{SkillInfoBoxTemplate|
+{{SkillLevelTemplate|5}}|
+{{SkillAdditionalInfoTemplate|0.3秒ごとにスキル係数|141%|283%|425%|567%|709%}}
+{{SkillAdditionalInfoTemplate|広域攻撃比率|8|8|8|8|8}}
+{{SkillAdditionalInfoTemplate|0.3秒ごとにSP |11消費|12消費|13消費|14消費|15消費}}
+}}
+|5}}
 
 |}
 
@@ -68,7 +114,7 @@ List View=
 {{ListViewAttribute|スティードチャージ|強化|1|100|[スティードチャージ]のスキル係数が特性レベル1につき0.5%アップ<br/> <br/>最高レベルになるとさらに10%アップ}}
 {{ListViewAttribute|アクロバティックマウント|強化|1|100|[アクロバティックマウント]の搭乗専用スキルダメージアップ効果が特性レベル1につき0.5%アップ<br/> <br/> 最高レベルマスター時10%追加アップ}}
 {{ListViewAttribute|ドゥームスパイク|強化|1|100|[ドゥームスパイク]のスキル係数が特性レベル1につき0.5%アップ<br/><br/>最高レベルになるとさらに10%アップ}}
-{{ListViewAttribute|{s15}ドゥームスパイク|ノックダウン除去|1|1|[ドゥームスパイク]のノックバック除去<br/><br/>この特性がONの場合、100%ノックバックが発生しない<br/><br/>SP消耗10%アップ}}
+{{ListViewAttribute|ドゥームスパイク|ノックダウン除去|1|1|[ドゥームスパイク]のノックバック除去<br/><br/>この特性がONの場合、100%ノックバックが発生しない<br/><br/>SP消耗10%アップ}}
 {{ListViewAttribute|ラッシュ|強化|1|100|[ラッシュ]のスキル係数が特性レベル1につき0.5%アップ<br/><br/>最高レベルになるとさらに10%アップ}}
 
 |-
@@ -82,6 +128,8 @@ List View=
 
 |}
 </tabber>
+
+nan
 
 ==クラス関係==
 <tabber>
@@ -114,5 +162,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-01 23:06:14.680972
+* Automatic generated at 2020-02-02 17:16:30.878446
 {{PageProgress|2}}
