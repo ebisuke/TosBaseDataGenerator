@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -57,28 +58,28 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ステイクスタッケイド| . |接近した敵を攻撃するステイクスタッケイドを設置します。打撃回数を全て消耗するとステイクスタッケイドは消えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ステイクスタッケイド| . |35|131|接近した敵を攻撃するステイクスタッケイドを設置します。打撃回数を全て消耗するとステイクスタッケイドは消えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|195%x 3回|227%x 3回|260%x 3回|292%x 3回|325%x 3回|357%x 3回|390%x 3回|422%x 3回|455%x 3回|487%x 3回|520%x 3回|552%x 3回|585%x 3回|617%x 3回|650%x 3回}}
 {{SkillAdditionalInfoTemplate|最大持続時間|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒}}
 {{SkillAdditionalInfoTemplate|打撃回数|15回|15回|15回|15回|15回|15回|15回|15回|15回|15回|15回|15回|15回|15回|15回}}
 }}
 |15}}
-{{ListViewSkill|クレイモア| . |前方に散弾を発射してダメージを与えるトラップを設置します。 このトラップはスイッチを押して作動させます。[グレネード]適用対象にクレイモア使用時、クレイモア攻撃が確定クリティカルで発生します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クレイモア| . |20|116|前方に散弾を発射してダメージを与えるトラップを設置します。 このトラップはスイッチを押して作動させます。[グレネード]適用対象にクレイモア使用時、クレイモア攻撃が確定クリティカルで発生します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|2446%|2853%|3261%|3669%|4076%|4484%|4892%|5299%|5707%|6115%|6523%|6930%|7338%|7746%|8153%}}
 {{SkillAdditionalInfoTemplate|被撃対象|5|5|5|5|5|5|5|5|5|5|5|5|5|5|5}}
 {{SkillAdditionalInfoTemplate|トラップキット|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費|5個消費}}
 }}
 |15}}
-{{ListViewSkill|パンジステイク | . |敵が踏むと竹柵が飛び上がる罠を設置します。この罠を踏んだ対象は、後ろに飛ばされます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|パンジステイク | . |40|150|敵が踏むと竹柵が飛び上がる罠を設置します。この罠を踏んだ対象は、後ろに飛ばされます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|1143%|1333%|1524%|1714%|1905%|2095%|2286%|2476%|2667%|2857%|3048%|3238%|3429%|3619%|3810%}}
 {{SkillAdditionalInfoTemplate|持続時間|35秒|40秒|45秒|50秒|55秒|60秒|65秒|70秒|75秒|80秒|85秒|90秒|95秒|100秒|105秒}}
 {{SkillAdditionalInfoTemplate|トラップキット|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費|10個消費}}
 }}
 |15}}
-{{ListViewSkill|スプリングトラップ| . |踏むと後ろに弾け飛ぶスプリングトラップを設置します。スプリングトラップによる攻撃を受けた敵はデバフにかかり、持続時間の間はスプリングトラップに対して免疫状態になり、弾け飛ばずにダメージのみを受けます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|スプリングトラップ| . |40|137|踏むと後ろに弾け飛ぶスプリングトラップを設置します。スプリングトラップによる攻撃を受けた敵はデバフにかかり、持続時間の間はスプリングトラップに対して免疫状態になり、弾け飛ばずにダメージのみを受けます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|662%|772%|882%|993%|1103%|1214%|1324%|1434%|1545%|1655%|1766%|1876%|1986%|2097%|2207%}}
 {{SkillAdditionalInfoTemplate|トラップキット|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費}}
@@ -86,20 +87,20 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|デトネイトトラップ| . |設置された一部のトラップを爆発させて敵にダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|デトネイトトラップ| . |20|136|設置された一部のトラップを爆発させて敵にダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|1}}|
 {{SkillAdditionalInfoTemplate|スキル係数|485%}}
 {{SkillAdditionalInfoTemplate|爆破数|4個}}
 }}
 |1}}
-{{ListViewSkill|ブルームトラップ| . |半径内にいる敵にダメージを与える回転型トラップを設置します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ブルームトラップ| . |30|157|半径内にいる敵にダメージを与える回転型トラップを設置します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|250% x攻撃回数|314% x攻撃回数|379% x攻撃回数|444% x攻撃回数|509% x攻撃回数|574% x攻撃回数|639% x攻撃回数|704% x攻撃回数|769% x攻撃回数|834% x攻撃回数}}
 {{SkillAdditionalInfoTemplate|トラップキット|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費}}
 }}
 |10}}
-{{ListViewSkill|カヴァー| . |自分が設置したサッパー[設置物]を隠して敵に気付かれないようにします。|1}}
-{{ListViewSkill|レッグホールドトラップ| . |前方に敵の移動を妨害するトラップを3つ設置します。トラップを踏んだ敵は移動不可状態になります。レッグホールドトラップはデトネイトトラップの対象に該当しません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|カヴァー| . |20|144|自分が設置したサッパー[設置物]を隠して敵に気付かれないようにします。|1}}
+{{ListViewSkill|レッグホールドトラップ| . |35|94|前方に敵の移動を妨害するトラップを3つ設置します。トラップを踏んだ敵は移動不可状態になります。レッグホールドトラップはデトネイトトラップの対象に該当しません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|664%|836%|1008%|1180%|1353%|1525%|1697%|1870%|2042%|2214%}}
 {{SkillAdditionalInfoTemplate|トラップキット|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費}}
@@ -107,7 +108,7 @@ List View=
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|スパイクシューター| . |自分の前に前方に矢が発射されるトラップを設置します。トラップは一定間隔で矢を発射し、スキルレベルが高くなるほどワイヤーが長くなって多くの矢が発射されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|スパイクシューター| . |60|176|自分の前に前方に矢が発射されるトラップを設置します。トラップは一定間隔で矢を発射し、スキルレベルが高くなるほどワイヤーが長くなって多くの矢が発射されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|1.5秒ごとにスキル係数|293%|293%|293%|293%|293%}}
 {{SkillAdditionalInfoTemplate|設置の長さ|12|19|26|33|40}}
@@ -180,5 +181,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.005446
+* Automatic generated at 2020-02-02 17:53:29.996088
 {{PageProgress|2}}

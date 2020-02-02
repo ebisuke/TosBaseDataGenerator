@@ -1,3 +1,4 @@
+-- dummies
 ui={
      GetFrame=function(str)
           return {
@@ -6,6 +7,13 @@ ui={
                end
           }
      end
+}
+session={
+     party={
+          GetPartyMemberList=function (typ)
+               return nil
+          end
+     }
 }
 globalself={}
 function GetSkill(self,clsid,level)
@@ -22,6 +30,7 @@ function GetSkill(self,clsid,level)
                LvUpSpendPoison=tonumber(self:getSkillArgByName(clsid,"LvUpSpendPoison")),
                BasicPoison=tonumber(self:getSkillArgByName(clsid,"BasicPoison")),
                BasicCoolDown=tonumber(self:getSkillArgByName(clsid,"BasicCoolDown")),
+               MinCoolDown=tonumber(self:getSkillArgByName(clsid,"MinCoolDown")),
           }
      else
 
@@ -88,6 +97,46 @@ function GetAbility(skill)
      return nil
 end
 
+
+function GetSumValueByItem(pc,skill,name)
+     return pc[name]+skill[name]
+end
+function IsPVPServer()
+     return 0
+end
+function IsPVPField()
+     return 0
+end
+function IsRaidField()
+     return 0
+end
+function IsServerObj(pc)
+     return 0
+end
+function IsServerSection(pc)
+     return 0
+end
+function GetMyJobHistoryString()
+     return ""
+end
+function GetJobHistoryString()
+     return ""
+end
+function IS_PC(pc)
+     return true
+end
+function IsBattleState(pc)
+     return 0
+end
+function GetClassByNameFromList(cls,classname)
+     return globalself.getSkillByName(classname)
+end
+function SCR_GET_SPEND_ITEM_Alchemist_SprinkleHPPotion()
+     return {NumberArg1=802}
+end
+function SCR_GET_SPEND_ITEM_Alchemist_SprinkleSPPotion()
+     return {NumberArg1=184}
+end
 function CalcCaption(self,caption,clsid,level)
      -- acq sfr
      local sfrscr=self:getSkillArgByName(clsid,caption)
@@ -111,37 +160,4 @@ function CalcValue(self,prop,clsid,level)
      return _G[sfrscr](GetSkill(self,clsid,level))
 
 
-end
-function GetSumValueByItem(pc,skill,name)
-     return pc[name]+skill[name]
-end
-function IsPVPServer()
-     return 0
-end
-function IsPVPField()
-     return 0
-end
-function IsRaidField()
-     return 0
-end
-function IsServerObj(pc)
-     return 0
-end
-function GetMyJobHistoryString()
-     return ""
-end
-function GetJobHistoryString()
-     return ""
-end
-function IS_PC(pc)
-     return true
-end
-function GetClassByNameFromList(cls,classname)
-     return globalself.getSkillByName(classname)
-end
-function SCR_GET_SPEND_ITEM_Alchemist_SprinkleHPPotion()
-     return {NumberArg1=802}
-end
-function SCR_GET_SPEND_ITEM_Alchemist_SprinkleSPPotion()
-     return {NumberArg1=184}
 end

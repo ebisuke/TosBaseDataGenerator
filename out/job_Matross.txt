@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -54,20 +55,20 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ファイアアンドラン| . |自分の足の下に大砲を向けて発砲し、周辺の敵にダメージを与えて後方へ跳躍します。スキル使用中にはダメージを受けません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ファイアアンドラン| . |15|117|自分の足の下に大砲を向けて発砲し、周辺の敵にダメージを与えて後方へ跳躍します。スキル使用中にはダメージを受けません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|717%|836%|956%|1075%|1195%|1314%|1434%|1554%|1673%|1793%|1912%|2032%|2152%|2271%|2391%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}
 {{SkillAdditionalInfoTemplate|跳躍距離|90|90|90|90|90|90|90|90|90|90|90|90|90|90|90}}
 }}
 |15}}
-{{ListViewSkill|ボンバーメント| . |ターゲットした敵に発砲します。攻撃した敵を中心に円形の範囲に爆発が起こります。バズーカ状態では周辺攻撃対象の数が2倍になります。 [煙幕弾]状態の敵に50％の追加ダメージが適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ボンバーメント| . |20|78|ターゲットした敵に発砲します。攻撃した敵を中心に円形の範囲に爆発が起こります。バズーカ状態では周辺攻撃対象の数が2倍になります。 [煙幕弾]状態の敵に50％の追加ダメージが適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|341%|397%|454%|511%|568%|625%|682%|739%|796%|853%|910%|966%|1023%|1080%|1137%}}
 {{SkillAdditionalInfoTemplate|周辺の攻撃を受ける敵の数|3|3|4|4|4|5|5|6|6|6|7|7|7|8|8}}
 }}
 |15}}
-{{ListViewSkill|メナスショット| . |キャノンを肩に担いで空に向けて発砲します。自分を基準に周辺の範囲内にいる敵はパニックデバフがかかります。パニックデバフの効果は次の通りです。 *一般モンスター:行動不可 *ボスモンスター:効果なし *敵キャラクター:移動不可{{SkillInfoBoxTemplate|
+{{ListViewSkill|メナスショット| . |30|157|キャノンを肩に担いで空に向けて発砲します。自分を基準に周辺の範囲内にいる敵はパニックデバフがかかります。パニックデバフの効果は次の通りです。 *一般モンスター:行動不可 *ボスモンスター:効果なし *敵キャラクター:移動不可{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|攻撃を受ける対象の数|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18}}
 {{SkillAdditionalInfoTemplate|デバフ持続時間|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒}}
@@ -75,13 +76,13 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|クラウチングストライク| . |両手でキャノンを持ち、地面に振り下ろして周辺の敵にダメージを与えます。攻撃された敵はその場ですぐにノックダウンされます。 [煙幕弾]状態の敵に100％の追加ダメージが適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クラウチングストライク| . |10|104|両手でキャノンを持ち、地面に振り下ろして周辺の敵にダメージを与えます。攻撃された敵はその場ですぐにノックダウンされます。 [煙幕弾]状態の敵に100％の追加ダメージが適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|443%|557%|672%|787%|902%|1017%|1132%|1247%|1362%|1477%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|12|12|12|12|12|12|12|12|12|12}}
 }}
 |10}}
-{{ListViewSkill|ロアー| . |自身が使用しているキャノンの威力を増加させ、しばらくの間、キャノンを使用する攻撃とスキルのダメージが増加します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ロアー| . |60|196|自身が使用しているキャノンの威力を増加させ、しばらくの間、キャノンを使用する攻撃とスキルのダメージが増加します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|キャノンを利用した攻撃ダメージ|+6%|+12%|+18%|+24%|+30%|+36%|+42%|+48%|+54%|+60%}}
 {{SkillAdditionalInfoTemplate|バフ持続時間|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒|45秒}}
@@ -89,7 +90,7 @@ List View=
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|キャニスターショット| . |指定された位置に一定時間敵を集める重力の球を発射します。持続時間が終了すると重力の球は爆発して引き寄せられた敵と周辺の敵にダメージを与え、引き寄せられた敵をノックダウン状態にします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|キャニスターショット| . |40|144|指定された位置に一定時間敵を集める重力の球を発射します。持続時間が終了すると重力の球は爆発して引き寄せられた敵と周辺の敵にダメージを与え、引き寄せられた敵をノックダウン状態にします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|1700%|3400%|5100%|6800%|8500%}}
 {{SkillAdditionalInfoTemplate|持続時間|5秒|5秒|5秒|5秒|5秒}}
@@ -158,5 +159,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.036446
+* Automatic generated at 2020-02-02 17:53:30.028086
 {{PageProgress|2}}

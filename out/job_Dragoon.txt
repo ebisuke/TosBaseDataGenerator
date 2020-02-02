@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -56,43 +57,43 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ドラゴントゥース| . |回転させた槍の遠心力で前方の敵を攻撃します。槍で攻撃するとクリティカルダメージがアップし、両手槍で攻撃すると敵の防御力を50%無視します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ドラゴントゥース| . |30|35|回転させた槍の遠心力で前方の敵を攻撃します。槍で攻撃するとクリティカルダメージがアップし、両手槍で攻撃すると敵の防御力を50%無視します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数 |561%x 6回|654%x 6回|748%x 6回|842%x 6回|935%x 6回|1029%x 6回|1123%x 6回|1216%x 6回|1310%x 6回|1404%x 6回|1497%x 6回|1591%x 6回|1685%x 6回|1779%x 6回|1872%x 6回}}
 }}
 |15}}
-{{ListViewSkill|サーペンティン| . |槍を利用して前方の敵を連続攻撃します。 移動不可、あるいは移動速度減少デバフにかかった敵は無条件でクリティカルが適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|サーペンティン| . |15|109|槍を利用して前方の敵を連続攻撃します。 移動不可、あるいは移動速度減少デバフにかかった敵は無条件でクリティカルが適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|222% x 7回|259% x 7回|296% x 7回|333% x 7回|370% x 7回|408% x 7回|445% x 7回|482% x 7回|519% x 7回|556% x 7回|594% x 7回|631% x 7回|668% x 7回|705% x 7回|742% x 7回}}
 }}
 |15}}
-{{ListViewSkill|ゲイボルグ| . |前方に向かって槍を投げて範囲内の多数の敵に無条件で命中する攻撃を行います。攻撃を受けた敵はしばらくの間、近接物理属性攻撃に弱くなります。[スロー]または[移動不可]状態の敵に2連打で適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ゲイボルグ| . |40|106|前方に向かって槍を投げて範囲内の多数の敵に無条件で命中する攻撃を行います。攻撃を受けた敵はしばらくの間、近接物理属性攻撃に弱くなります。[スロー]または[移動不可]状態の敵に2連打で適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|2370%|2765%|3160%|3555%|3950%|4345%|4740%|5135%|5530%|5925%|6320%|6715%|7110%|7505%|7900%}}
 }}
 |15}}
-{{ListViewSkill|ドラゴンソアー| . |飛び上がった反動を利用して槍を大きく振り回し、前方の敵を攻撃します。攻撃を受けた敵は衝撃状態になり、[スロー]または[移動不可]状態の敵に攻撃すると防御力を一部無視します。空中型の敵にダメージが増加します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ドラゴンソアー| . |15|68|飛び上がった反動を利用して槍を大きく振り回し、前方の敵を攻撃します。攻撃を受けた敵は衝撃状態になり、[スロー]または[移動不可]状態の敵に攻撃すると防御力を一部無視します。空中型の敵にダメージが増加します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|53% x5回|61% x5回|70% x5回|79% x5回|88% x5回|97% x5回|106% x5回|115% x5回|124% x5回|133% x5回|142% x5回|150% x5回|159% x5回|168% x5回|177% x5回}}
 }}
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ディスローン| . |前方の敵に槍を突き刺し移動不可状態にします。ボスモンスターに使用すると相手の移動速度や基本攻撃速度がダウンします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ディスローン| . |20|92|前方の敵に槍を突き刺し移動不可状態にします。ボスモンスターに使用すると相手の移動速度や基本攻撃速度がダウンします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|929% x 2回|1170% x 2回|1411% x 2回|1652% x 2回|1893% x 2回|2134% x 2回|2375% x 2回|2616% x 2回|2857% x 2回|3098% x 2回}}
 {{SkillAdditionalInfoTemplate|敵[拘束]持続時間|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒|5秒}}
 {{SkillAdditionalInfoTemplate|ボスモンスターに対する状態異常の持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}
 }}
 |10}}
-{{ListViewSkill|ドラグーンヘルメット| . |ドラグーンヘルメットを着用します。 ヘルメットを着用するとすべてのドラグーンのスキルが強化されて敵に与えるダメージが増加しますが、移動速度が5減少され、ドラグーンスキル使用時にさらに多くのSPを消耗します。 精神ステータスに比例してSP消耗量が減少します。ヘルメットを着用した状態で再度使用すればヘルメットを脱ぎます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ドラグーンヘルメット| . |10|0|ドラグーンヘルメットを着用します。 ヘルメットを着用するとすべてのドラグーンのスキルが強化されて敵に与えるダメージが増加しますが、移動速度が5減少され、ドラグーンスキル使用時にさらに多くのSPを消耗します。 精神ステータスに比例してSP消耗量が減少します。ヘルメットを着用した状態で再度使用すればヘルメットを脱ぎます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|1}}|
 {{SkillAdditionalInfoTemplate|ドラグーンスキルダメージ |+50%}}
 {{SkillAdditionalInfoTemplate|ドラグーンスキルSP消耗量 +|50%}}
 {{SkillAdditionalInfoTemplate| * (精神係数 -|50%適用中)}}
 }}
 |1}}
-{{ListViewSkill|ドラゴンフィアー| . |自分の広域攻撃比率がアップし、周辺の敵には[スロー]デバフを付与します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ドラゴンフィアー| . |30|134|自分の広域攻撃比率がアップし、周辺の敵には[スロー]デバフを付与します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|持続時間|12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒}}
 {{SkillAdditionalInfoTemplate|スローデバフ適用対象数|1|2|3|4|5|6|7|8|9|10}}
@@ -101,7 +102,7 @@ List View=
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ドラゴンフォール| . |空中に飛び上がってから指定した地点の地面を叩きつけ、広範囲に強力なダメージを与えます。衝撃状態になった敵には2連打で適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ドラゴンフォール| . |40|145|空中に飛び上がってから指定した地点の地面を叩きつけ、広範囲に強力なダメージを与えます。衝撃状態になった敵には2連打で適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|524% x3回|1048% x3回|1572% x3回|2096% x3回|2620% x3回}}
 }}
@@ -167,5 +168,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:30.899446
+* Automatic generated at 2020-02-02 17:53:29.887082
 {{PageProgress|2}}

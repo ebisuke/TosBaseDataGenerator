@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,26 +56,26 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|キャノンショット| . |砲弾を発射します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|キャノンショット| . |5|69|砲弾を発射します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|603%|703%|804%|904%|1005%|1105%|1206%|1307%|1407%|1508%|1608%|1709%|1810%|1910%|2011%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|5|5|5|5|5|5|5|5|5|5|5|5|5|5|5}}
 }}
 |15}}
-{{ListViewSkill|シーズバースト| . |地面に向けて曲射砲を発射します。敵の構造物に対して5倍のダメージを与えます。シーズバースト使用中にノックバック、ノックダウンしません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|シーズバースト| . |10|123|地面に向けて曲射砲を発射します。敵の構造物に対して5倍のダメージを与えます。シーズバースト使用中にノックバック、ノックダウンしません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|2321%|2707%|3094%|3481%|3868%|4255%|4642%|5029%|5416%|5803%|6189%|6576%|6963%|7350%|7737%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15|15|15|15|15|15|15|15|15|15|15}}
 {{SkillAdditionalInfoTemplate|フルチャージ時間|0.1秒|0.2秒|0.30000000000000004秒|0.4秒|0.5秒|0.6000000000000001秒|0.7000000000000001秒|0.8秒|0.9秒|1秒|1.1秒|1.2000000000000002秒|1.3秒|1.4000000000000001秒|1.5秒}}
 }}
 |15}}
-{{ListViewSkill|キャノンブラスト| . |前方にいる多数の敵を対象に広がる砲弾を発射して攻撃します。プレート防御対象の敵の防具を一定確率で破壊します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|キャノンブラスト| . |25|117|前方にいる多数の敵を対象に広がる砲弾を発射して攻撃します。プレート防御対象の敵の防具を一定確率で破壊します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|1535%|1790%|2046%|2302%|2558%|2814%|3070%|3326%|3582%|3838%|4093%|4349%|4605%|4861%|5117%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}
 }}
 |15}}
-{{ListViewSkill|煙幕弾| . |指定された範囲にグレネードを発射し、範囲内の敵に失明効果を付与します。範囲内にいる隠れていた敵は姿を現します。グレネードの範囲にいる敵は最大ダメージを超過してダメージを受けます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|煙幕弾| . |25|124|指定された範囲にグレネードを発射し、範囲内の敵に失明効果を付与します。範囲内にいる隠れていた敵は姿を現します。グレネードの範囲にいる敵は最大ダメージを超過してダメージを受けます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|煙幕弾の持続時間|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒|21秒|22秒}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}
@@ -82,20 +83,20 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|キャノンバラージ| . |指定した敵にキャノン砲を連続発射して攻撃します。攻撃を受けた敵は一定確率でスタン状態になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|キャノンバラージ| . |30|123|指定した敵にキャノン砲を連続発射して攻撃します。攻撃を受けた敵は一定確率でスタン状態になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|533% x 3回|671% x 3回|809% x 3回|947% x 3回|1086% x 3回|1224% x 3回|1362% x 3回|1501% x 3回|1639% x 3回|1777% x 3回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|5|5|5|5|5|5|5|5|5|5}}
 }}
 |10}}
-{{ListViewSkill|バズーカ| . |集中力が高めるため、膝をついた状態の姿勢になります。バズーカ状態ではキャノン基本攻撃のダメージ、攻撃速度、攻撃範囲が上昇して、キャノン攻撃の射程距離と広域攻撃比率が増加します。近くに自分または味方のパヴィスがある場合ノックバック、ノックダウンにかからなくなります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|バズーカ| . |0|0|集中力が高めるため、膝をついた状態の姿勢になります。バズーカ状態ではキャノン基本攻撃のダメージ、攻撃速度、攻撃範囲が上昇して、キャノン攻撃の射程距離と広域攻撃比率が増加します。近くに自分または味方のパヴィスがある場合ノックバック、ノックダウンにかからなくなります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|1}}|
 {{SkillAdditionalInfoTemplate|キャノン基本攻撃射程距離|+80}}
 }}
 |1}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|スウィーピングキャノン| . |前方に砲台を生成します。広範囲の敵にダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|スウィーピングキャノン| . |40|157|前方に砲台を生成します。広範囲の敵にダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|2147%|4294%|6441%|8588%|10735%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|20|20|20|20|20}}
@@ -163,5 +164,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.025446
+* Automatic generated at 2020-02-02 17:53:30.017088
 {{PageProgress|2}}

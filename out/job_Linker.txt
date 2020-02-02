@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -54,14 +55,14 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|アンバインド| . |連結されたすべてのリンクを解除します。|1}}
-{{ListViewSkill|フィジカルリンク| . |PTメンバーにリンクをかけてダメージを分けます。アンバインドで解除できます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|アンバインド| . |0|22|連結されたすべてのリンクを解除します。|1}}
+{{ListViewSkill|フィジカルリンク| . |20|134|PTメンバーにリンクをかけてダメージを分けます。アンバインドで解除できます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|最大リンク数|4個|5個|6個|7個|8個|9個|10個|11個|12個|13個|14個|15個|16個|17個|18個}}
 {{SkillAdditionalInfoTemplate|持続時間|70秒|80秒|90秒|100秒|110秒|120秒|130秒|140秒|150秒|160秒|170秒|180秒|190秒|200秒|210秒}}
 }}
 |15}}
-{{ListViewSkill|ジョイントペナルティー| . |敵をつなげて同時にダメージを与えるようにします。アンバインドで解除できます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ジョイントペナルティー| . |10|100|敵をつなげて同時にダメージを与えるようにします。アンバインドで解除できます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|最大リンク数|3個|3個|4個|4個|5個|5個|6個|6個|7個|7個|8個|8個|9個|9個|10個}}
 {{SkillAdditionalInfoTemplate|持続時間|7秒|7秒|7秒|7秒|7秒|7秒|7秒|7秒|7秒|7秒|7秒|7秒|7秒|7秒|7秒}}
@@ -69,12 +70,12 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ハングマンズノット| . |リンクを絞って連結された敵を詠唱者の前に集めます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ハングマンズノット| . |8|95|リンクを絞って連結された敵を詠唱者の前に集めます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|[拘束] 持続時間|1.2秒|1.4秒|1.6秒|1.8秒|2秒|2.2秒|2.4000000000000004秒|2.6秒|2.8秒|3秒}}
 }}
 |10}}
-{{ListViewSkill|エレクトリックショック| . |対象を繋ぎ雷ダメージを与えます。1度に1対象にのみ使用できます。アンバインドスキルで解除できます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|エレクトリックショック| . |15|99|対象を繋ぎ雷ダメージを与えます。1度に1対象にのみ使用できます。アンバインドスキルで解除できます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|159%|200%|241%|282%|323%|365%|406%|447%|488%|529%}}
 {{SkillAdditionalInfoTemplate|持続時間|3.5秒|4秒|4.5秒|5秒|5.5秒|6秒|6.5秒|7秒|7.5秒|8秒}}
@@ -82,7 +83,7 @@ List View=
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|アンビリカルコード| . |自分の能力値の一部分を仲間に共有します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|アンビリカルコード| . |60|179|自分の能力値の一部分を仲間に共有します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|持続時間|6秒|7秒|8秒|9秒|10秒}}
 }}
@@ -141,5 +142,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.130446
+* Automatic generated at 2020-02-02 17:53:30.121083
 {{PageProgress|2}}

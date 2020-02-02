@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -53,41 +54,41 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|コンスクリプト| . |部隊員を招集するフォーメーションを生成します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|コンスクリプト| . |22|0|部隊員を招集するフォーメーションを生成します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|部隊員|4人招集可能|5人招集可能|6人招集可能|7人招集可能|8人招集可能}}
 }}
 |5}}
-{{ListViewSkill|ファランクス| . |ファランクスフォーメーションに転換します。全部隊員のブロック能力を最前列の3人に集中させます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ファランクス| . |0|0|ファランクスフォーメーションに転換します。全部隊員のブロック能力を最前列の3人に集中させます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|0}}|
 {{SkillAdditionalInfoTemplate|追加ブロック}}
 }}
 |0}}
-{{ListViewSkill|テルシオ| . |テルシオフォーメーションに転換します。全ての部隊員の防御力を最前列の3人に集中させ、敵の注意を引き付けます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|テルシオ| . |0|0|テルシオフォーメーションに転換します。全ての部隊員の防御力を最前列の3人に集中させ、敵の注意を引き付けます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|0}}|
 {{SkillAdditionalInfoTemplate|追加防御力}}
 }}
 |0}}
-{{ListViewSkill|ウィング| . |ウィングフォーメーションに転換します。フォーメーション内に入った敵は防御力がダウンし、リーダーめがけて突進します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ウィング| . |0|0|ウィングフォーメーションに転換します。フォーメーション内に入った敵は防御力がダウンし、リーダーめがけて突進します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|0}}|
 {{SkillAdditionalInfoTemplate|防御力}}
 }}
 |0}}
-{{ListViewSkill|ウェッジ| . |ウェッジフォーメーションに転換します。全部隊員の攻撃力を先頭に立った部隊員1人に集中させます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ウェッジ| . |0|0|ウェッジフォーメーションに転換します。全部隊員の攻撃力を先頭に立った部隊員1人に集中させます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|0}}|
 {{SkillAdditionalInfoTemplate|部隊員に攻撃力}}
 {{SkillAdditionalInfoTemplate|攻撃時、}}
 }}
 |0}}
-{{ListViewSkill|シルトロン| . |シルトロンフォーメーションに転換します。全部隊員が武器を構えて止まり、敵の突進を防ぎます。|0}}
-{{ListViewSkill|テストゥード| . |テストゥードフォーメーションに転換します。部隊員全員の防御力をアップさせ、ゆっくり移動します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|シルトロン| . |0|0|シルトロンフォーメーションに転換します。全部隊員が武器を構えて止まり、敵の突進を防ぎます。|0}}
+{{ListViewSkill|テストゥード| . |0|0|テストゥードフォーメーションに転換します。部隊員全員の防御力をアップさせ、ゆっくり移動します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|0}}|
 {{SkillAdditionalInfoTemplate|攻撃力}}
 {{SkillAdditionalInfoTemplate|追加防御力}}
 }}
 |0}}
-{{ListViewSkill|ローテート| . |フォーメーションの方向をリーダーの視線の方向に合わせて整えます。|0}}
-{{ListViewSkill|特戦隊型| . |隊員を招集するフォーメーションになります。フォーメーションに入った隊員はしばらくの間クールタイムが半分になります。持続時間はスキルレベル、メンバー数によって増加します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ローテート| . |0|0|フォーメーションの方向をリーダーの視線の方向に合わせて整えます。|0}}
+{{ListViewSkill|特戦隊型| . |120|0|隊員を招集するフォーメーションになります。フォーメーションに入った隊員はしばらくの間クールタイムが半分になります。持続時間はスキルレベル、メンバー数によって増加します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|0}}|
 {{SkillAdditionalInfoTemplate|持続時間最小}}
 }}
@@ -142,5 +143,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:30.871446
+* Automatic generated at 2020-02-02 17:53:29.859082
 {{PageProgress|2}}

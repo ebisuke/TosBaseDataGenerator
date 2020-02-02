@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,47 +56,47 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|デプロイパヴィス| . |敵の攻撃を防ぐ自立式の盾を設置します。攻撃対象がいない敵はパヴィスを優先攻撃対象として認識します。パヴィス設置でダメージを受けた敵は出血状態になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|デプロイパヴィス| . |35|124|敵の攻撃を防ぐ自立式の盾を設置します。攻撃対象がいない敵はパヴィスを優先攻撃対象として認識します。パヴィス設置でダメージを受けた敵は出血状態になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|332%|343%|354%|365%|376%|387%|398%|409%|420%|431%|442%|453%|464%|475%|486%}}
 {{SkillAdditionalInfoTemplate|攻撃|20回防御|25回防御|30回防御|35回防御|40回防御|45回防御|50回防御|55回防御|60回防御|65回防御|70回防御|75回防御|80回防御|85回防御|90回防御}}
 {{SkillAdditionalInfoTemplate|パヴィス持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}
 }}
 |15}}
-{{ListViewSkill|スキャッターカルトロップ| . |地面にカルトロップを投げます。 カルトロップを踏んだ敵はダメージを受け、スローにかかります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|スキャッターカルトロップ| . |30|136|地面にカルトロップを投げます。 カルトロップを踏んだ敵はダメージを受け、スローにかかります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|387%|451%|516%|580%|645%|709%|774%|839%|903%|968%|1032%|1097%|1162%|1226%|1291%}}
 {{SkillAdditionalInfoTemplate||1個投擲|2個投擲|3個投擲|4個投擲|5個投擲|6個投擲|7個投擲|8個投擲|9個投擲|10個投擲|11個投擲|12個投擲|13個投擲|14個投擲|15個投擲}}
 {{SkillAdditionalInfoTemplate|カルトロップ持続時間|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒}}
 }}
 |15}}
-{{ListViewSkill|ストーンショット| . |石の弾丸を発射して対象を押し退けます。 対象は一定確率でスタン状態になります。恐怖状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ストーンショット| . |15|52|石の弾丸を発射して対象を押し退けます。 対象は一定確率でスタン状態になります。恐怖状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|383%|447%|511%|575%|639%|703%|767%|831%|895%|959%|1023%|1087%|1151%|1215%|1279%}}
 {{SkillAdditionalInfoTemplate|[スタン]確率|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%}}
 {{SkillAdditionalInfoTemplate|[スタン]持続時間|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒}}
 }}
 |15}}
-{{ListViewSkill|ラピッドファイア| . |複数の矢を弩に装填した後、対象に連続で発射します。恐怖状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ラピッドファイア| . |15|85|複数の矢を弩に装填した後、対象に連続で発射します。恐怖状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|82% x5 ~ 9回|95% x5 ~ 9回|109% x5 ~ 9回|123% x5 ~ 9回|136% x5 ~ 9回|150% x5 ~ 9回|164% x5 ~ 9回|177% x5 ~ 9回|191% x5 ~ 9回|205% x5 ~ 9回|219% x5 ~ 9回|232% x5 ~ 9回|246% x5 ~ 9回|260% x5 ~ 9回|273% x5 ~ 9回}}
 }}
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ニーリングショット| . |集中力を高めるために膝をつき攻撃します。攻撃力と射程距離、攻撃速度がアップします。ニーリングショットを再度使用するとニーリングショット状態が解除されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ニーリングショット| . |0|0|集中力を高めるために膝をつき攻撃します。攻撃力と射程距離、攻撃速度がアップします。ニーリングショットを再度使用するとニーリングショット状態が解除されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|1}}|
 {{SkillAdditionalInfoTemplate|物理攻撃力|+15%}}
 }}
 |1}}
-{{ListViewSkill|ティアダウン| . |前面にある彫刻や障害物を撤去しつつ、近くの敵にダメージを与えます。次のものを撤去できます。*ヴァカリネ女神像を除いたティルトルビーの彫刻*アイスウォール*パヴィス、ステイクスタッケイド*ボスモンスターが召喚する各種トラップ{{SkillInfoBoxTemplate|
+{{ListViewSkill|ティアダウン| . |45|108|前面にある彫刻や障害物を撤去しつつ、近くの敵にダメージを与えます。次のものを撤去できます。*ヴァカリネ女神像を除いたティルトルビーの彫刻*アイスウォール*パヴィス、ステイクスタッケイド*ボスモンスターが召喚する各種トラップ{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|476%|499%|523%|547%|571%|594%|618%|642%|666%|690%}}
 }}
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ブロックアンドショット| . |しばらくの間ブロック率がアップします。 ブロックアンドショットバフ中はブロック後に自分の次の攻撃に追加ダメージが適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ブロックアンドショット| . |60|196|しばらくの間ブロック率がアップします。 ブロックアンドショットバフ中はブロック後に自分の次の攻撃に追加ダメージが適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|ブロック|+20%|+40%|+60%|+80%|+100%}}
 }}
@@ -157,5 +158,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:30.997446
+* Automatic generated at 2020-02-02 17:53:29.988082
 {{PageProgress|2}}

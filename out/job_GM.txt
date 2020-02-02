@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -49,11 +50,11 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|HP、SP回復力アップ| . |HP、SP回復能力がアップします。|1}}
-{{ListViewSkill|ステータスアップ| . |全てのステータス能力値がアップします。|1}}
-{{ListViewSkill|クールタイム減少| . |スキルクールタイムがダウンします。|1}}
-{{ListViewSkill|攻撃力アップ| . |物理攻撃力、魔法攻撃力がアップします。|1}}
-{{ListViewSkill|防御力アップ| . |物理防御力、魔法防御力がアップします。|1}}
+{{ListViewSkill|HP、SP回復力アップ| . |0|13|HP、SP回復能力がアップします。|1}}
+{{ListViewSkill|ステータスアップ| . |0|13|全てのステータス能力値がアップします。|1}}
+{{ListViewSkill|クールタイム減少| . |0|13|スキルクールタイムがダウンします。|1}}
+{{ListViewSkill|攻撃力アップ| . |0|13|物理攻撃力、魔法攻撃力がアップします。|1}}
+{{ListViewSkill|防御力アップ| . |0|13|物理防御力、魔法防御力がアップします。|1}}
 
 |}
 
@@ -99,5 +100,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.151447
+* Automatic generated at 2020-02-02 17:53:30.143083
 {{PageProgress|2}}

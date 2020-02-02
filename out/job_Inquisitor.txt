@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,25 +56,25 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ゴッドスマッシュ| . |武器を高く持ち上げた後、強く振り下ろします。鈍器または両手鈍器を使うと追加ダメージを与えます。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ゴッドスマッシュ| . |15|90|武器を高く持ち上げた後、強く振り下ろします。鈍器または両手鈍器を使うと追加ダメージを与えます。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|606%|707%|808%|909%|1010%|1111%|1213%|1314%|1415%|1516%|1617%|1719%|1820%|1921%|2022%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|4|4|4|4|4|4|4|4|4|4|4|4|4|4|4}}
 }}
 |15}}
-{{ListViewSkill|ペアーオブアングイッシュ| . |地面にペアーオブアングイッシュを設置し、近づいた敵にダメージを与えます。ペアーオブアングイッシュ付近で魔法を使う敵がいると自動的に飛びかかり、さらに大きなダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ペアーオブアングイッシュ| . |30|127|地面にペアーオブアングイッシュを設置し、近づいた敵にダメージを与えます。ペアーオブアングイッシュ付近で魔法を使う敵がいると自動的に飛びかかり、さらに大きなダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|609%|710%|812%|913%|1015%|1116%|1218%|1319%|1421%|1522%|1624%|1725%|1827%|1928%|2030%}}
 {{SkillAdditionalInfoTemplate|設置可能数|5|5|5|5|5|5|5|5|5|5|5|5|5|5|5}}
 }}
 |15}}
-{{ListViewSkill|ブレーキングホイール| . |ホイールを召喚して周囲の敵にダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ブレーキングホイール| . |45|172|ホイールを召喚して周囲の敵にダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|0.3秒ごとにスキル係数|186%|217%|248%|279%|310%|342%|373%|404%|435%|466%|498%|529%|560%|591%|622%}}
 {{SkillAdditionalInfoTemplate|持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}
 }}
 |15}}
-{{ListViewSkill|マレウスマレフィカーム| . |魔道書の力を解放して敵にダメージを与えます。マレウスマレフィカームで攻撃された敵の魔法攻撃力に比例して追加ダメージを与えます。また、攻撃された敵は知能と精神が半減し、マレウスマレフィカームのデバフが持続する間は魔法攻撃時の消費SPが2倍になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|マレウスマレフィカーム| . |28|147|魔道書の力を解放して敵にダメージを与えます。マレウスマレフィカームで攻撃された敵の魔法攻撃力に比例して追加ダメージを与えます。また、攻撃された敵は知能と精神が半減し、マレウスマレフィカームのデバフが持続する間は魔法攻撃時の消費SPが2倍になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|476% x 7回|555% x 7回|635% x 7回|714% x 7回|794% x 7回|873% x 7回|953% x 7回|1032% x 7回|1112% x 7回|1191% x 7回|1271% x 7回|1350% x 7回|1430% x 7回|1509% x 7回|1589% x 7回}}
 {{SkillAdditionalInfoTemplate|被撃者の魔法攻撃力の|6%追加ダメージ|12%追加ダメージ|18%追加ダメージ|24%追加ダメージ|30%追加ダメージ|36%追加ダメージ|42%追加ダメージ|48%追加ダメージ|54%追加ダメージ|60%追加ダメージ|66%追加ダメージ|72%追加ダメージ|78%追加ダメージ|84%追加ダメージ|90%追加ダメージ}}
@@ -81,19 +82,19 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|アイアンメイデン| . |アイアンメイデンを召喚し、ボスモンスターを除いた中型以下の大きさの敵を閉じ込めます。閉じ込められた敵は一定時間動けなくなり、悪魔型の敵は持続的にダメージを受けます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|アイアンメイデン| . |30|142|アイアンメイデンを召喚し、ボスモンスターを除いた中型以下の大きさの敵を閉じ込めます。閉じ込められた敵は一定時間動けなくなり、悪魔型の敵は持続的にダメージを受けます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|持続時間|4.5秒|5秒|5.5秒|6秒|6.5秒|7秒|7.5秒|8秒|8.5秒|9秒}}
 }}
 |10}}
-{{ListViewSkill|ジャッジメント| . |前方範囲内の敵の種族を悪魔型に変更します。変更された敵は聖属性攻撃で10%の追加ダメージを受けます。ボスには等級に応じて異なる持続時間が適用されます。 *ユニークレイドボス: 50% *レジェンドレイドボス : 25% *ボルタ : 12.5%{{SkillInfoBoxTemplate|
+{{ListViewSkill|ジャッジメント| . |40|165|前方範囲内の敵の種族を悪魔型に変更します。変更された敵は聖属性攻撃で10%の追加ダメージを受けます。ボスには等級に応じて異なる持続時間が適用されます。 *ユニークレイドボス: 50% *レジェンドレイドボス : 25% *ボルタ : 12.5%{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|持続時間|16秒|17秒|18秒|19秒|20秒|21秒|22秒|23秒|24秒|25秒}}
 }}
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ブレストリッパー| . |巨大なハサミを召喚し、前方の敵を連続で攻撃します。スキル使用中は敵に攻撃を受けてもキャンセルされず、悪魔型の敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ブレストリッパー| . |55|187|巨大なハサミを召喚し、前方の敵を連続で攻撃します。スキル使用中は敵に攻撃を受けてもキャンセルされず、悪魔型の敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|450%|900%|1350%|1800%|2250%}}
 {{SkillAdditionalInfoTemplate|対象数|11|11|11|11|11}}
@@ -165,5 +166,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.089446
+* Automatic generated at 2020-02-02 17:53:30.082082
 {{PageProgress|2}}

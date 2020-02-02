@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -54,17 +55,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|集中砲火| . |敵に多くの銃弾を集中射撃します。 [暗黒]状態の敵に30%追加ダメージが適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|集中砲火| . |20|107|敵に多くの銃弾を集中射撃します。 [暗黒]状態の敵に30%追加ダメージが適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|220% x 10回|256% x 10回|293% x 10回|330% x 10回|367% x 10回|403% x 10回|440% x 10回|477% x 10回|514% x 10回|551% x 10回|587% x 10回|624% x 10回|661% x 10回|698% x 10回|735% x 10回}}
 }}
 |15}}
-{{ListViewSkill|カラコール| . |前方に向けて射撃し、自分は後ろに下がります。攻撃を受けた敵は一定時間ミサイル攻撃で受けるダメージがアップします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|カラコール| . |15|115|前方に向けて射撃し、自分は後ろに下がります。攻撃を受けた敵は一定時間ミサイル攻撃で受けるダメージがアップします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|1384%|1614%|1845%|2076%|2307%|2538%|2769%|3000%|3231%|3462%|3692%|3923%|4154%|4385%|4616%}}
 }}
 |15}}
-{{ListViewSkill|リマソン| . |搭乗時の機動力を使って素早く走りつつ、敵を射撃します。リマソンが活性化している間は移動しながら拳銃の基本攻撃ができます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|リマソン| . |60|0|搭乗時の機動力を使って素早く走りつつ、敵を射撃します。リマソンが活性化している間は移動しながら拳銃の基本攻撃ができます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|拳銃基本攻撃ダメージ|+42%|+49%|+56%|+63%|+70%|+77%|+84%|+91%|+98%|+105%|+112%|+119%|+126%|+133%|+140%}}
 {{SkillAdditionalInfoTemplate|攻撃する度にSP |12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗|12消耗}}
@@ -72,19 +73,19 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|リトリートショット| . |移動する方向の後方を向いて射撃しながら走ります。(自動武器スワップでスキルを使用できません。){{SkillInfoBoxTemplate|
+{{ListViewSkill|リトリートショット| . |20|112|移動する方向の後方を向いて射撃しながら走ります。(自動武器スワップでスキルを使用できません。){{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|0.3秒ごとにスキル係数|163% x 打撃回数|205% x 打撃回数|248% x 打撃回数|290% x 打撃回数|333% x 打撃回数|375% x 打撃回数|418% x 打撃回数|461% x 打撃回数|503% x 打撃回数|546% x 打撃回数}}
 }}
 |10}}
-{{ListViewSkill|エヴァシブアクション| . |コンパニオン搭乗時、一定時間の間回避率がアップします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|エヴァシブアクション| . |60|168|コンパニオン搭乗時、一定時間の間回避率がアップします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|回避率アップ|2%|4%|6%|8%|10%|12%|14%|16%|18%|20%}}
 }}
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|アサルトファイア| . |移動しながら前に向かって射撃します。 前方にいる敵はダメージを受けます。 [暗黒]状態の敵に30%追加ダメージが適用されます。(自動武器スワップでスキルをしようできません。){{SkillInfoBoxTemplate|
+{{ListViewSkill|アサルトファイア| . |15|106|移動しながら前に向かって射撃します。 前方にいる敵はダメージを受けます。 [暗黒]状態の敵に30%追加ダメージが適用されます。(自動武器スワップでスキルをしようできません。){{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|0.2秒ごとにスキル係数|96%|192%|288%|384%|480%}}
 }}
@@ -150,5 +151,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.137446
+* Automatic generated at 2020-02-02 17:53:30.129083
 {{PageProgress|2}}

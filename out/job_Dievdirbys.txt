@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,20 +56,20 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ヴァカリネ女神像| . |黄昏の星の女神ヴァカリネ像を彫刻します。女神像を通じて他の地域へワープできます。|1}}
-{{ListViewSkill|ジェミナ女神像| . |大地の女神ジェミナ像を彫刻します。女神像周辺の仲間たちはスキル使用時のSP消耗量が減少し、SP回復時間が短縮されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ヴァカリネ女神像| . |85|217|黄昏の星の女神ヴァカリネ像を彫刻します。女神像を通じて他の地域へワープできます。|1}}
+{{ListViewSkill|ジェミナ女神像| . |60|187|大地の女神ジェミナ像を彫刻します。女神像周辺の仲間たちはスキル使用時のSP消耗量が減少し、SP回復時間が短縮されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|SP |-1.5%|-3%|-4.5%|-6%|-7.5%|-9%|-10.5%|-12%|-13.5%|-15%|-16.5%|-18%|-19.5%|-21%|-22.5%}}
 {{SkillAdditionalInfoTemplate|女神像持続時間|17秒|19秒|21秒|23秒|25秒|27秒|29秒|31秒|33秒|35秒|37秒|39秒|41秒|43秒|45秒}}
 }}
 |15}}
-{{ListViewSkill|カーヴ| . |彫刻刀で対象を攻撃します。植物型モンスターには追加ダメージボーナスが適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|カーヴ| . |35|84|彫刻刀で対象を攻撃します。植物型モンスターには追加ダメージボーナスが適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|78% x 5回|80% x 5回|83% x 5回|85% x 5回|88% x 5回|91% x 5回|93% x 5回|96% x 5回|98% x 5回|101% x 5回|104% x 5回|106% x 5回|109% x 5回|111% x 5回|114% x 5回}}
 {{SkillAdditionalInfoTemplate|植物型モンスター追加ダメージ +|5%|10%|15%|20%|25%|30%|35%|40%|45%|50%|55%|60%|65%|70%|75%}}
 }}
 |15}}
-{{ListViewSkill|フクロウの彫像| . |周辺の敵を攻撃する守護のフクロウの像を彫刻します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|フクロウの彫像| . |15|120|周辺の敵を攻撃する守護のフクロウの像を彫刻します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|召喚獣スキル係数|36%|48%|60%|72%|84%|96%|108%|120%|132%|144%|156%|168%|180%|192%|204%}}
 {{SkillAdditionalInfoTemplate|防御回数|50回|50回|50回|50回|50回|50回|50回|50回|50回|50回|50回|50回|50回|50回|50回}}
@@ -77,13 +78,13 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ライマ女神像| . |運命の女神ライマ像を彫刻します。周辺のPTメンバーたちのスキルのクールタイムが減少し、敵はクールタイムが増加して移動速度がダウンします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ライマ女神像| . |50|172|運命の女神ライマ像を彫刻します。周辺のPTメンバーたちのスキルのクールタイムが減少し、敵はクールタイムが増加して移動速度がダウンします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|PTメンバークールタイム|-2%|-4%|-6%|-8%|-10%|-12%|-14%|-16%|-18%|-20%}}
 {{SkillAdditionalInfoTemplate|敵移動速度|-10%|-10%|-10%|-10%|-10%|-10%|-10%|-10%|-10%|-10%}}
 }}
 |10}}
-{{ListViewSkill|世界樹の彫刻| . |近くの敵を沈黙状態にし、回避がダウンする神聖な世界樹を彫刻します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|世界樹の彫刻| . |60|187|近くの敵を沈黙状態にし、回避がダウンする神聖な世界樹を彫刻します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|敵回避|-4%|-8%|-12%|-16%|-20%|-24%|-28%|-32%|-36%|-40%}}
 {{SkillAdditionalInfoTemplate|彫像持続時間|17秒|19秒|21秒|23秒|25秒|27秒|29秒|31秒|33秒|35秒}}
@@ -91,7 +92,7 @@ List View=
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|アウシュリネ女神像| . |明星の女神アウシュリネ像を彫刻します。アウシュリネ像の近くで別の彫像を設置すると彫像の能力値が増幅されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|アウシュリネ女神像| . |70|202|明星の女神アウシュリネ像を彫刻します。アウシュリネ像の近くで別の彫像を設置すると彫像の能力値が増幅されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|-ジェミナ女神像範囲を出てもバフ|60秒持続|120秒持続|180秒持続|240秒持続|300秒持続}}
 {{SkillAdditionalInfoTemplate|-ライマ女神像範囲を出てもバフ|60秒持続|120秒持続|180秒持続|240秒持続|300秒持続}}
@@ -151,5 +152,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.059446
+* Automatic generated at 2020-02-02 17:53:30.052082
 {{PageProgress|2}}

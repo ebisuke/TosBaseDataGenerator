@@ -205,5 +205,4 @@ def generateJobTree(conv:DicConverter):
     for j in conv.skilltable.job.iterrows():
         #print(j[1]["EngName"])
         tree.jobs.append(generateJob(conv,j[1]))
-        break
     return tree

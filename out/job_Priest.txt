@@ -64,8 +64,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -99,28 +100,28 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|アスパーション| . |聖水を撒いて自分と仲間の物理防御力をアップさせます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|アスパーション| . |20|172|聖水を撒いて自分と仲間の物理防御力をアップさせます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|物理防御力|+1.15%|+2.3%|+3.4499999999999997%|+4.6%|+5.75%|+6.8999999999999995%|+8.049999999999999%|+9.2%|+10.35%|+11.5%|+12.649999999999999%|+13.799999999999999%|+14.95%|+16.099999999999998%|+17.25%}}
 }}
 |15}}
-{{ListViewSkill|モンストランス| . |前方にいる敵の回避をダウンさせます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|モンストランス| . |20|180|前方にいる敵の回避をダウンさせます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|敵の回避|-8%|-11%|-14%|-17%|-20%|-23%|-26%|-29%|-32%|-35%|-38%|-41%|-44%|-47%|-50%}}
 }}
 |15}}
-{{ListViewSkill|ブレッシング| . |PTメンバーと仲間の攻撃に追加ダメージを付与する祝福を与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ブレッシング| . |35|195|PTメンバーと仲間の攻撃に追加ダメージを付与する祝福を与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|追加ダメージ+|206|267|328|389|450|510|571|632|693|754}}
 {{SkillAdditionalInfoTemplate|味方|2人に追加付与|2人に追加付与|2人に追加付与|2人に追加付与|2人に追加付与|2人に追加付与|2人に追加付与|2人に追加付与|2人に追加付与|2人に追加付与}}
 }}
 |10}}
-{{ListViewSkill|リザレクション| . |戦闘不能状態に陥った対象を回復させます。チームバトルリーグでは、1ラウンドにつき1回復活可能です。{{SkillInfoBoxTemplate|
+{{ListViewSkill|リザレクション| . |30|180|戦闘不能状態に陥った対象を回復させます。チームバトルリーグでは、1ラウンドにつき1回復活可能です。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|戦闘不能回復後、HP|10%回復|20%回復|30%回復|40%回復|50%回復}}
 }}
 |5}}
-{{ListViewSkill|ターンアンデッド| . |前方の敵に神聖属性魔法ダメージを与え、確率でキャラクターおよびボスモンスターを除いた変異型または悪魔型敵を一度に片付けます。マレウスマレフィカームデバフにかかった変異型または悪魔型がターンアンデッドに当たると3秒間スタン状態になります。エンクラテイアバフ適用中は、ターンアンデッドの広域攻撃比率が50%増加します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ターンアンデッド| . |15|142|前方の敵に神聖属性魔法ダメージを与え、確率でキャラクターおよびボスモンスターを除いた変異型または悪魔型敵を一度に片付けます。マレウスマレフィカームデバフにかかった変異型または悪魔型がターンアンデッドに当たると3秒間スタン状態になります。エンクラテイアバフ適用中は、ターンアンデッドの広域攻撃比率が50%増加します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|328%|338%|349%|360%|371%|382%|393%|404%|415%|426%|437%|447%|458%|469%|480%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23}}
@@ -128,13 +129,13 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|サクラメント| . |自分とPTメンバーの基本攻撃に一時的に神聖属性を付与します。ラストライツバフを受けた状態ではサクラメントバフが適用されません。敵に基本攻撃した際、聖属性追加攻撃が発動されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|サクラメント| . |90|262|自分とPTメンバーの基本攻撃に一時的に神聖属性を付与します。ラストライツバフを受けた状態ではサクラメントバフが適用されません。敵に基本攻撃した際、聖属性追加攻撃が発動されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|聖属性追加攻撃 +|206|267|328|389|450|510|571|632|693|754}}
 {{SkillAdditionalInfoTemplate|持続時間|900秒|1000秒|1100秒|1200秒|1300秒|1400秒|1500秒|1600秒|1700秒|1800秒}}
 }}
 |10}}
-{{ListViewSkill|リバイブ| . |戦闘不能状態を一度防ぎます。[ファナティシズム：殉教]特性がONの状態でファナティシズムバフが活性化中ならばリバイブの効果は適用されず、[ファナティシズム：殉教]効果が優先適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|リバイブ| . |120|270|戦闘不能状態を一度防ぎます。[ファナティシズム：殉教]特性がONの状態でファナティシズムバフが活性化中ならばリバイブの効果は適用されず、[ファナティシズム：殉教]効果が優先適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|HP |10%回復|20%回復|30%回復|40%回復|50%回復}}
 {{SkillAdditionalInfoTemplate||1秒間無敵状態|2秒間無敵状態|3秒間無敵状態|4秒間無敵状態|5秒間無敵状態}}
@@ -143,7 +144,7 @@ List View=
 |5}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|マスヒール| . |周辺の仲間たちのHPを回復させます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|マスヒール| . |30|150|周辺の仲間たちのHPを回復させます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|治癒係数|422%|624%|827%|1030%|1232%}}
 }}
@@ -228,5 +229,5 @@ REF Priest Habit.jpg|Catholic nuns with different variations of habit.
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.046446
+* Automatic generated at 2020-02-02 17:53:30.039083
 {{PageProgress|2}}

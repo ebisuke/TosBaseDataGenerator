@@ -22,8 +22,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,31 +56,31 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|クナイ| . |前方に向かってクナイを放ち、多数の敵を攻撃します。分身がスキルを使用するとダメージが2倍で適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クナイ| . |25|76|前方に向かってクナイを放ち、多数の敵を攻撃します。分身がスキルを使用するとダメージが2倍で適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|143% x 5回|167% x 5回|191% x 5回|215% x 5回|239% x 5回|263% x 5回|287% x 5回|311% x 5回|335% x 5回|359% x 5回|383% x 5回|407% x 5回|431% x 5回|455% x 5回|479% x 5回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}}
 }}
 |15}}
-{{ListViewSkill|忍法 木遁の術| . |丸太で作った人形で敵を騙し、騙された敵の隙を狙って反撃します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|忍法 木遁の術| . |35|117|丸太で作った人形で敵を騙し、騙された敵の隙を狙って反撃します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|持続時間|20秒|25秒|30秒|35秒|40秒|45秒|50秒|55秒|60秒|65秒|70秒|75秒|80秒|85秒|90秒}}
 }}
 |15}}
-{{ListViewSkill|忍法 火遁の術| . |所持中の火薬を前方に向かって連続で爆発させて多数の敵を攻撃します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|忍法 火遁の術| . |20|70|所持中の火薬を前方に向かって連続で爆発させて多数の敵を攻撃します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|362%|422%|482%|543%|603%|664%|724%|784%|845%|905%|966%|1026%|1086%|1147%|1207%}}
 }}
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|忍法 分身の術| . |術法で自分の分身を作ります。分身は基本的に近くの敵を自動攻撃し、主が使用するシノビ攻撃スキルを真似します。分身が持続中の際にはキャラクターは持続的にSTAが消耗して、STAが0になると分身が消えます。 分身が真似するスキルを使用すると、忍法 分身の術スキルレベルに応じてSPが追加され、分身の個数に比例してクールタイムが追加で増加します。分身が真似するスキルには特性は適用されません。分身は押されたり倒れたりしません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|忍法 分身の術| . |45|128|術法で自分の分身を作ります。分身は基本的に近くの敵を自動攻撃し、主が使用するシノビ攻撃スキルを真似します。分身が持続中の際にはキャラクターは持続的にSTAが消耗して、STAが0になると分身が消えます。 分身が真似するスキルを使用すると、忍法 分身の術スキルレベルに応じてSPが追加され、分身の個数に比例してクールタイムが追加で増加します。分身が真似するスキルには特性は適用されません。分身は押されたり倒れたりしません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|持続時間|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒}}
 {{SkillAdditionalInfoTemplate|分身|1体召喚|2体召喚|3体召喚|3体召喚|3体召喚|3体召喚|3体召喚|3体召喚|3体召喚|3体召喚}}
 }}
 |10}}
-{{ListViewSkill|忍法 微塵の術| . |持っていた火薬を爆発させて周辺の敵を攻撃します。微塵の術を使った自分もダメージを受け、体力が不足している時には戦闘不能状態になることもあります。再び姿を現した時は[隠身]し、分身が微塵の術を使う場合、忍法 分身の術が解除されます。ハルシネーションスモークで[幻覚]状態になった敵は忍法 微塵の術が2連打で適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|忍法 微塵の術| . |50|141|持っていた火薬を爆発させて周辺の敵を攻撃します。微塵の術を使った自分もダメージを受け、体力が不足している時には戦闘不能状態になることもあります。再び姿を現した時は[隠身]し、分身が微塵の術を使う場合、忍法 分身の術が解除されます。ハルシネーションスモークで[幻覚]状態になった敵は忍法 微塵の術が2連打で適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|2549%|3210%|3871%|4532%|5193%|5854%|6515%|7176%|7837%|8498%}}
 {{SkillAdditionalInfoTemplate|HP |7000消費|6500消費|6000消費|5500消費|5000消費|4500消費|4000消費|3500消費|3000消費|2500消費}}
@@ -87,7 +88,7 @@ List View=
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|忍法 雷遁の術| . |手の中で雷の力を凝縮させて爆破させます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|忍法 雷遁の術| . |25|78|手の中で雷の力を凝縮させて爆破させます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|566%|1132%|1698%|2264%|2831%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|5|5|5|5|5}}
@@ -150,5 +151,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.121446
+* Automatic generated at 2020-02-02 17:53:30.112086
 {{PageProgress|2}}

@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,27 +56,27 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ワゴンホイール| . |武器で敵を思いっきり打ち上げ、吹き飛ばします。[衝撃]デバフにかかった敵に与えるダメージがアップします。敵にワゴンホイールでダメージを与えた後、カーターストロークでダメージを与えるとワゴンホイールのクールタイムが初期化されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ワゴンホイール| . |10|100|武器で敵を思いっきり打ち上げ、吹き飛ばします。[衝撃]デバフにかかった敵に与えるダメージがアップします。敵にワゴンホイールでダメージを与えた後、カーターストロークでダメージを与えるとワゴンホイールのクールタイムが初期化されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|340%|469%|599%|728%|858%|988%|1117%|1247%|1376%|1506%|1636%|1765%|1895%|2024%|2154%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15|15|15|15|15|15|15|15|15|15|15}}
 }}
 |15}}
-{{ListViewSkill|カーターストローク| . |力を集めて武器で地面を叩きつけ、敵を攻撃します。ノックダウンした敵に与えるダメージが2倍アップします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|カーターストローク| . |10|105|力を集めて武器で地面を叩きつけ、敵を攻撃します。ノックダウンした敵に与えるダメージが2倍アップします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|416% x 4回|450% x 4回|485% x 4回|519% x 4回|554% x 4回|588% x 4回|623% x 4回|657% x 4回|692% x 4回|726% x 4回|761% x 4回|795% x 4回|830% x 4回|864% x 4回|899% x 4回}}
 {{SkillAdditionalInfoTemplate|キャスティング時間|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒|0.5秒}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15|15|15|15|15|15|15|15|15|15|15}}
 }}
 |15}}
-{{ListViewSkill|クラウン| . |敵の頭部を強く打ち下ろして攻撃します。敵は一時的に衝撃状態になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クラウン| . |15|100|敵の頭部を強く打ち下ろして攻撃します。敵は一時的に衝撃状態になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|849%|990%|1132%|1273%|1415%|1557%|1698%|1840%|1981%|2123%|2265%|2406%|2548%|2689%|2831%}}
 {{SkillAdditionalInfoTemplate|[衝撃]持続時間|5.5秒|6秒|6.5秒|7秒|7.5秒|8秒|8.5秒|9秒|9.5秒|10秒|10.5秒|11秒|11.5秒|12秒|12.5秒}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0}}
 }}
 |15}}
-{{ListViewSkill|クロスカット| . |敵の方へ前進し、敵の中心を十字に斬って出血状態にさせます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クロスカット| . |20|106|敵の方へ前進し、敵の中心を十字に斬って出血状態にさせます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|811% x 2回|946% x 2回|1081% x 2回|1216% x 2回|1352% x 2回|1487% x 2回|1622% x 2回|1758% x 2回|1893% x 2回|2028% x 2回|2164% x 2回|2299% x 2回|2434% x 2回|2569% x 2回|2705% x 2回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}}
@@ -83,13 +84,13 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|クロスガード| . |両手剣を使ってブロック可能な防御姿勢を取ります。防御された直後の敵は詠唱者の斬り攻撃に弱い状態になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クロスガード| . |0|0|両手剣を使ってブロック可能な防御姿勢を取ります。防御された直後の敵は詠唱者の斬り攻撃に弱い状態になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|ブロック率|+1%|+2%|+3%|+4%|+5%|+6%|+7%|+8%|+9%|+10%}}
 {{SkillAdditionalInfoTemplate|[硬直]した敵への追加ダメージ|100%|105%|110%|115%|120%|125%|130%|135%|140%|145%}}
 }}
 |10}}
-{{ListViewSkill|スカイライナー| . |敵を左右に大きく斬り付けます。出血状態の敵に追加打撃と追加ダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|スカイライナー| . |15|54|敵を左右に大きく斬り付けます。出血状態の敵に追加打撃と追加ダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|193% x 2回|243% x 2回|293% x 2回|343% x 2回|394% x 2回|444% x 2回|494% x 2回|545% x 2回|595% x 2回|645% x 2回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1}}
@@ -97,7 +98,7 @@ List View=
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ムリネ| . |剣を円を描くように振り、前方の敵に連続攻撃を加えます。衝撃状態の敵に与えるダメージがアップし、搭乗状態の場合はさらにアップします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ムリネ| . |30|80|剣を円を描くように振り、前方の敵に連続攻撃を加えます。衝撃状態の敵に与えるダメージがアップし、搭乗状態の場合はさらにアップします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|129%x 5回|258%x 5回|387%x 5回|516%x 5回|646%x 5回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1}}
@@ -166,5 +167,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:30.860447
+* Automatic generated at 2020-02-02 17:53:29.848082
 {{PageProgress|2}}

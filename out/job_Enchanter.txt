@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,19 +56,19 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|アジリティ| . |自分とPTメンバーの靴にスタミナ消費量がダウンし、移動速度がアップするバフをかけます。靴を着用していないとアジリティバフが適用されません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|アジリティ| . |40|156|自分とPTメンバーの靴にスタミナ消費量がダウンし、移動速度がアップするバフをかけます。靴を着用していないとアジリティバフが適用されません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|STA消費量|-1%|-2%|-3%|-4%|-5%|-6%|-7%|-8%|-9%|-10%|-11%|-12%|-13%|-14%|-15%}}
 }}
 |15}}
-{{ListViewSkill|エンチャントアーマー| . |防具アイテムにエンチャントオプションを付与する店を開きます。|5}}
-{{ListViewSkill|エンチャントライトニング| . |自分とPTメンバーに雷属性追加ダメージバフを付与します。雷属性追加ダメージは使用者の[敏捷 ]能力値に応じて効果がアップします。また、近接攻撃とミサイル攻撃の場合、雷属性を付与します。(シルバーバレットバフと同時に適用されている場合はシルバーバレットの神聖属性付与が優先的に適用されます。){{SkillInfoBoxTemplate|
+{{ListViewSkill|エンチャントアーマー| . |0|0|防具アイテムにエンチャントオプションを付与する店を開きます。|5}}
+{{ListViewSkill|エンチャントライトニング| . |60|168|自分とPTメンバーに雷属性追加ダメージバフを付与します。雷属性追加ダメージは使用者の[敏捷 ]能力値に応じて効果がアップします。また、近接攻撃とミサイル攻撃の場合、雷属性を付与します。(シルバーバレットバフと同時に適用されている場合はシルバーバレットの神聖属性付与が優先的に適用されます。){{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|雷属性追加ダメージ|+187|+275|+363|+450|+538|+626|+714|+801|+889|+977|+1065|+1152|+1240|+1328|+1416}}
 {{SkillAdditionalInfoTemplate|エンチャント弾|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}
 }}
 |15}}
-{{ListViewSkill|エンチャントグローブ| . |自分とPTメンバーのグローブに命中がアップする効果を付与します。グローブを着用していないとエンチャントグローブバフが適用されません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|エンチャントグローブ| . |60|179|自分とPTメンバーのグローブに命中がアップする効果を付与します。グローブを着用していないとエンチャントグローブバフが適用されません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|命中|+12%|+14%|+16%|+18%|+20%|+22%|+24%|+26%|+28%|+30%|+32%|+34%|+36%|+38%|+40%}}
 {{SkillAdditionalInfoTemplate|エンチャント弾|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費}}
@@ -75,20 +76,20 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|エンチャントアース| . |自分とPTメンバーの防具に地属性エンチャントを行い、盾を着用しなくてもブロックできるようにします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|エンチャントアース| . |60|168|自分とPTメンバーの防具に地属性エンチャントを行い、盾を着用しなくてもブロックできるようにします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|ブロック率|+7%|+9%|+11%|+13%|+15%|+17%|+19%|+21%|+23%|+25%}}
 {{SkillAdditionalInfoTemplate|エンチャント弾|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}
 }}
 |10}}
-{{ListViewSkill|ライトニングハンズ| . |自分に一時的にバフを付与します。ライトニングハンズバフ中は敵に基本攻撃を行うと、雷属性追加攻撃が発動します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ライトニングハンズ| . |60|181|自分に一時的にバフを付与します。ライトニングハンズバフ中は敵に基本攻撃を行うと、雷属性追加攻撃が発動します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|雷属性追加スキル係数|25%|26%|27%|28%|30%|31%|32%|34%|35%|36%}}
 }}
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|オーバーリインフォース| . |自分とPTメンバーの補助武器の強化数値をスキルレベルに合わせてアップさせます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|オーバーリインフォース| . |60|168|自分とPTメンバーの補助武器の強化数値をスキルレベルに合わせてアップさせます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|強化数値|+1|+2|+3|+4|+5}}
 {{SkillAdditionalInfoTemplate|エンチャント弾|2個消費|2個消費|2個消費|2個消費|2個消費}}
@@ -150,5 +151,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.127446
+* Automatic generated at 2020-02-02 17:53:30.119082
 {{PageProgress|2}}

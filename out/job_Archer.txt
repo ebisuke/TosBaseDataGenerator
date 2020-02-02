@@ -37,8 +37,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -66,33 +67,33 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|マルチショット| . |指定した位置に数発の矢を素早く発射します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|マルチショット| . |25|117|指定した位置に数発の矢を素早く発射します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|68% x 10回|70% x 10回|72% x 10回|74% x 10回|77% x 10回}}
 }}
 |5}}
-{{ListViewSkill|オブリークショット| . |攻撃すると、近くにいる1体の敵に矢が飛んでいきます。オブリークショットに当たった敵は一定の確率でスロー状態になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|オブリークショット| . |15|58|攻撃すると、近くにいる1体の敵に矢が飛んでいきます。オブリークショットに当たった敵は一定の確率でスロー状態になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|241%|249%|257%|265%|273%}}
 {{SkillAdditionalInfoTemplate|[スロー]確率|50%|50%|50%|50%|50%}}
 }}
 |5}}
-{{ListViewSkill|スウィフトステップ| . |素早く移動しながら攻撃できます。攻撃中の移動速度と回避が一時的にアップします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|スウィフトステップ| . |60|196|素早く移動しながら攻撃できます。攻撃中の移動速度と回避が一時的にアップします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|回避|+3%|+6%|+9%|+12%|+15%}}
 }}
 |5}}
-{{ListViewSkill|ツインアロー| . |敵に二本の矢を同時に発射します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ツインアロー| . |15|56|敵に二本の矢を同時に発射します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|166% x 2回|171% x 2回|177% x 2回|182% x 2回|188% x 2回}}
 }}
 |5}}
-{{ListViewSkill|コンセントレーション| . |集中して一時的に自分のクリティカル発生をアップさせます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|コンセントレーション| . |60|196|集中して一時的に自分のクリティカル発生をアップさせます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|クリティカル発生|+2%|+4%|+6%|+8%|+10%}}
 }}
 |5}}
-{{ListViewSkill|後方跳躍| . |見ている方向の反対の方向へ跳躍します。跳躍中はダメージを受けず、跳躍直後は非戦闘状態になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|後方跳躍| . |15|45|見ている方向の反対の方向へ跳躍します。跳躍中はダメージを受けず、跳躍直後は非戦闘状態になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|後方跳躍の距離|90|100|110|120|130}}
 }}
@@ -155,5 +156,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:30.991446
+* Automatic generated at 2020-02-02 17:53:29.981083
 {{PageProgress|2}}

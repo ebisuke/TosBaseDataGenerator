@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -56,42 +57,42 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ルースト| . |鷹が待機する止まり木を設置します。鷹が再び飛ぶと、ルーストを除いた全てのファルコナースキルのクールタイムが初期化されます。|1}}
-{{ListViewSkill|サークリング| . |自分の広域攻撃比率が増加します。詠唱後、5秒間周辺に隠れている対象を探します。持続的にSPを消費し、SPが足りなくなるとバフが解除されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ルースト| . |90|131|鷹が待機する止まり木を設置します。鷹が再び飛ぶと、ルーストを除いた全てのファルコナースキルのクールタイムが初期化されます。|1}}
+{{ListViewSkill|サークリング| . |0|0|自分の広域攻撃比率が増加します。詠唱後、5秒間周辺に隠れている対象を探します。持続的にSPを消費し、SPが足りなくなるとバフが解除されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|広域攻撃比率|+1|+2|+3|+4|+5}}
 }}
 |5}}
-{{ListViewSkill|フェーザント| . |訓練時に使用した人形を投げて、それを攻撃させます。ダメージを受けた敵は一定の確率でスタン状態になります。野獣型の敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|フェーザント| . |30|149|訓練時に使用した人形を投げて、それを攻撃させます。ダメージを受けた敵は一定の確率でスタン状態になります。野獣型の敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|1929%|2250%|2572%|2893%|3215%|3536%|3858%|4179%|4501%|4822%|5144%|5465%|5787%|6108%|6430%}}
 }}
 |15}}
-{{ListViewSkill|ハンギングショット| . |鷹につかまります。つかまっている間は敵からの近接攻撃を受けず、基本攻撃で敵にダメージを与えることができます。(自動武器スワップは使用できません。){{SkillInfoBoxTemplate|
+{{ListViewSkill|ハンギングショット| . |100|222|鷹につかまります。つかまっている間は敵からの近接攻撃を受けず、基本攻撃で敵にダメージを与えることができます。(自動武器スワップは使用できません。){{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|持続時間|15秒|16秒|17秒|18秒|19秒|20秒|21秒|22秒|23秒|24秒|25秒|26秒|27秒|28秒|29秒}}
 }}
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ソニックストライク| . |鷹を素早く滑降させ、指定した位置にいる敵を攻撃します。 攻撃された敵は一定確率で暗黒デバフにかかります。 野獣型の敵に与えるダメージが増加します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ソニックストライク| . |35|148|鷹を素早く滑降させ、指定した位置にいる敵を攻撃します。 攻撃された敵は一定確率で暗黒デバフにかかります。 野獣型の敵に与えるダメージが増加します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|528％x 6回|665％x 6回|802％x 6回|939％x 6回|1076％x 6回|1213％x 6回|1350％x 6回|1487％x 6回|1624％x 6回|1761％x 6回}}
 }}
 |10}}
-{{ListViewSkill|エイミング| . |鷹の活動範囲内にいる敵を対象にすると、射程距離外でも攻撃を成功させることができます。スキルレベルに応じて攻撃範囲が広くなります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|エイミング| . |75|216|鷹の活動範囲内にいる敵を対象にすると、射程距離外でも攻撃を成功させることができます。スキルレベルに応じて攻撃範囲が広くなります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|持続時間 |15秒|20秒|25秒|30秒|35秒|40秒|45秒|50秒|55秒|60秒}}
 }}
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|トマホーク| . |鷹が滑降した位置に大爆発を起こします。爆発に巻き込まれた敵は[炎デバフ]にかかります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|トマホーク| . |50|170|鷹が滑降した位置に大爆発を起こします。爆発に巻き込まれた敵は[炎デバフ]にかかります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|1644%|3288%|4933%|6577%|8222%}}
 }}
 |5}}
-{{ListViewSkill|ファーストストライク| . |主の近くにいる敵をフェーザントまたはソニックストライクで自動攻撃します。通常のソニックストライクよりもダメージは少ないですが、デバフは適用されます。持続的にSPを消費して、SPが不足するとバフが解除されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ファーストストライク| . |0|26|主の近くにいる敵をフェーザントまたはソニックストライクで自動攻撃します。通常のソニックストライクよりもダメージは少ないですが、デバフは適用されます。持続的にSPを消費して、SPが不足するとバフが解除されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|1}}|
 {{SkillAdditionalInfoTemplate|5秒当たりSP|90消費}}
 }}
@@ -155,5 +156,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.022446
+* Automatic generated at 2020-02-02 17:53:30.014084
 {{PageProgress|2}}

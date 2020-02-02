@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,41 +56,41 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|シャドウソーン| . |敵の影から鋭利な棘を突き出し敵を攻撃します。 シャドウソーンで攻撃された敵は3秒間[暗黒]状態になります。シャドウソーンスキルはブロックと回避が不可能です。{{SkillInfoBoxTemplate|
+{{ListViewSkill|シャドウソーン| . |15|90|敵の影から鋭利な棘を突き出し敵を攻撃します。 シャドウソーンで攻撃された敵は3秒間[暗黒]状態になります。シャドウソーンスキルはブロックと回避が不可能です。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|549%|640%|732%|823%|915%|1006%|1098%|1190%|1281%|1373%|1464%|1556%|1648%|1739%|1831%}}
 }}
 |15}}
-{{ListViewSkill|シャドウコンジュレーション| . |自分の影を前方に伸ばし、敵を攻撃します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|シャドウコンジュレーション| . |15|155|自分の影を前方に伸ばし、敵を攻撃します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数 |311%|362%|414%|466%|518%|570%|622%|674%|726%|778%|830%|881%|933%|985%|1037%}}
 }}
 |15}}
-{{ListViewSkill|シャドウプール| . |影の中に隠れて地面を移動します。この状態では敵の攻撃を受けません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|シャドウプール| . |50|261|影の中に隠れて地面を移動します。この状態では敵の攻撃を受けません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|持続時間 |0.5秒|1秒|1.5秒|2秒|2.5秒}}
 }}
 |5}}
-{{ListViewSkill|ハルシネーション| . |影分身を召喚して代わりにダメージを負わせます。分身のHPは本体のHPに比率して適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ハルシネーション| . |60|280|影分身を召喚して代わりにダメージを負わせます。分身のHPは本体のHPに比率して適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|分身のHP比率|30%|35%|40%|45%|50%|55%|60%|65%|70%|75%|80%|85%|90%|95%|100%}}
 }}
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|シャドウコンデンセイション| . |敵と味方から影を取り出し、小さな球に圧縮します。影を取られた対象が敵の場合は[暗黒]デバフがかかり、球は3秒後に爆発します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|シャドウコンデンセイション| . |30|205|敵と味方から影を取り出し、小さな球に圧縮します。影を取られた対象が敵の場合は[暗黒]デバフがかかり、球は3秒後に爆発します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|379%x最大5回|477%x最大5回|575%x最大5回|674%x最大5回|772%x最大5回|871%x最大5回|969%x最大5回|1067%x最大5回|1166%x最大5回|1264%x最大5回}}
 }}
 |10}}
-{{ListViewSkill|シャドウファッター| . |指定した範囲の敵の影に釘を突き刺し、移動不可状態にします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|シャドウファッター| . |25|177|指定した範囲の敵の影に釘を突き刺し、移動不可状態にします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|持続時間 |4秒|5秒|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒}}
 }}
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|インファナルシャドウ| . |敵の影を本体から引き離します。影を攻撃でき、影が受けたダメージに比例して本体にダメージを与えます。影の体力が0になると効果は消えます。対象がボスまたはキャラクターの場合はダメージが25%しか適用されません。本体がキャラクターの場合はシャドウマンサースキルで影を攻撃すると本体に一時的な硬直が発生し、本体が影と接触すると影が消えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|インファナルシャドウ| . |30|187|敵の影を本体から引き離します。影を攻撃でき、影が受けたダメージに比例して本体にダメージを与えます。影の体力が0になると効果は消えます。対象がボスまたはキャラクターの場合はダメージが25%しか適用されません。本体がキャラクターの場合はシャドウマンサースキルで影を攻撃すると本体に一時的な硬直が発生し、本体が影と接触すると影が消えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|持続時間|7秒|9秒|11秒|13秒|15秒}}
 {{SkillAdditionalInfoTemplate|ダメージ比率|20%|40%|60%|80%|100%}}
@@ -151,5 +152,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:30.975446
+* Automatic generated at 2020-02-02 17:53:29.965083
 {{PageProgress|2}}

@@ -21,7 +21,7 @@ class SFRCalc:
             self.lua.execute(s)
 
     def getSkillByName(self, name):
-        print(name)
+        #print(name)
         return self.table.skill[self.table.skill["ClassName"] == name].to_dict(orient="records")[0]
     def getSkillArgByName(self,clsid,name):
         if(name!=None):

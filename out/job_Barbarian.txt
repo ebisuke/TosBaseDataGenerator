@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,25 +56,25 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|インバウエル| . |敵を強く突いた後、蹴り飛ばします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|インバウエル| . |15|102|敵を強く突いた後、蹴り飛ばします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|956%|1115%|1274%|1434%|1593%|1752%|1912%|2071%|2231%|2390%|2549%|2709%|2868%|3028%|3187%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|2|2|2|2|2|2|2|2|2|2|2|2|2|2|2}}
 }}
 |15}}
-{{ListViewSkill|ストンピングキック| . |ジャンプ中や空中にいる時、下にいる敵を強く踏み付けてダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ストンピングキック| . |30|60|ジャンプ中や空中にいる時、下にいる敵を強く踏み付けてダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|382%|394%|407%|420%|432%|445%|458%|470%|483%|496%|509%|521%|534%|547%|559%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}}
 }}
 |15}}
-{{ListViewSkill|クリーブ| . |身体を回転させ、遠心力を用いて敵に強力な攻撃を行います。攻撃が的中するとクリティカル発生率がアップし、スタンデバフにかかった敵に与えるダメージがアップします。また、命中した敵に一定時間の間、斬属性攻撃のダメージをアップさせます。攻撃を受けた敵はその場に倒れます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クリーブ| . |10|93|身体を回転させ、遠心力を用いて敵に強力な攻撃を行います。攻撃が的中するとクリティカル発生率がアップし、スタンデバフにかかった敵に与えるダメージがアップします。また、命中した敵に一定時間の間、斬属性攻撃のダメージをアップさせます。攻撃を受けた敵はその場に倒れます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|853%|995%|1137%|1279%|1421%|1563%|1706%|1848%|1990%|2132%|2274%|2417%|2559%|2701%|2843%}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3}}
 }}
 |15}}
-{{ListViewSkill|ウォークライ| . |一時的に周辺の敵の防御力をダウンさせ、周辺にいる対象の数に比例して敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ウォークライ| . |30|134|一時的に周辺の敵の防御力をダウンさせ、周辺にいる対象の数に比例して敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|物理ダメージ|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%|+1 x [適用対象数x 2.5]%}}
 {{SkillAdditionalInfoTemplate|物理ダメージ増加持続時間|12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒|32秒|34秒|36秒|38秒|40秒}}
@@ -81,13 +82,13 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|サイズム| . |地面を揺るがす攻撃で敵の攻撃を止めます。敵は一定の確率でスタン状態になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|サイズム| . |15|94|地面を揺るがす攻撃で敵の攻撃を止めます。敵は一定の確率でスタン状態になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|396% x 3回|499% x 3回|602% x 3回|705% x 3回|808% x 3回|911% x 3回|1014% x 3回|1117% x 3回|1220% x 3回|1323% x 3回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|16|16|16|16|16|16|16|16|16|16}}
 }}
 |10}}
-{{ListViewSkill|フレンジー| . |基本攻撃速度が増加し、攻撃するほど敵に与えるダメージが増加する状態になります。攻撃しない時間が3秒続くと、スタックが1段階ずつ減少します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|フレンジー| . |1|101|基本攻撃速度が増加し、攻撃するほど敵に与えるダメージが増加する状態になります。攻撃しない時間が3秒続くと、スタックが1段階ずつ減少します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|1重複につき敵に与えるダメージ|+2%|+2%|+2%|+2%|+2%|+2%|+2%|+2%|+2%|+2%}}
 {{SkillAdditionalInfoTemplate|最大重複回数|+2回{nl基本攻撃速度160アップ|+4回{nl基本攻撃速度170アップ|+6回{nl基本攻撃速度180アップ|+8回{nl基本攻撃速度190アップ|+10回{nl基本攻撃速度200アップ|+12回{nl基本攻撃速度210アップ|+14回{nl基本攻撃速度220アップ|+16回{nl基本攻撃速度230アップ|+18回{nl基本攻撃速度240アップ|+20回{nl基本攻撃速度250アップ}}
@@ -95,7 +96,7 @@ List View=
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|パウンシング| . |前方に突撃して、道を塞ぐ敵を攻撃します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|パウンシング| . |30|123|前方に突撃して、道を塞ぐ敵を攻撃します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|0.3秒ごとにスキル係数|98%|197%|296%|395%|494%}}
 }}
@@ -159,5 +160,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:30.875446
+* Automatic generated at 2020-02-02 17:53:29.863083
 {{PageProgress|2}}

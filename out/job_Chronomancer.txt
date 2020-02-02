@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -55,43 +56,43 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|サムサラ| . |時間を操り、モンスターが死んだ後その場に再び現れるようにします。モンスターの近くで使用してこそ効力を発揮します。生き返らせたモンスターにはサムサラスキルを再度使用することができません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|サムサラ| . |120|271|時間を操り、モンスターが死んだ後その場に再び現れるようにします。モンスターの近くで使用してこそ効力を発揮します。生き返らせたモンスターにはサムサラスキルを再度使用することができません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}
 {{SkillAdditionalInfoTemplate|時間の結晶の破片|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費|3個消費}}
 }}
 |15}}
-{{ListViewSkill|ストップ| . |指定した位置内にいる敵の時間を一時的に止めます。敵は時間が止まっている間、一切のダメージを受けません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ストップ| . |30|271|指定した位置内にいる敵の時間を一時的に止めます。敵は時間が止まっている間、一切のダメージを受けません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|時間の結晶の破片|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}
 }}
 |15}}
-{{ListViewSkill|スロー| . |時間を操って敵の移動速度をダウンさせます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|スロー| . |15|187|時間を操って敵の移動速度をダウンさせます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|移動速度|-9|-11|-12|-14|-15|-17|-18|-20|-21|-23|-24|-26|-27|-29|-30}}
 }}
 |15}}
-{{ListViewSkill|タイムフォワード| . |範囲内にいる敵のスキルの中からランダムで一つのスキルのクールタイムを延長します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|タイムフォワード| . |50|224|範囲内にいる敵のスキルの中からランダムで一つのスキルのクールタイムを延長します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|クールタイム|+3秒|+6秒|+9秒|+12秒|+15秒|+18秒|+21秒|+24秒|+27秒|+30秒|+33秒|+36秒|+39秒|+42秒|+45秒}}
 }}
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|バックマスキング| . |自分周辺の時間を操作して瞬間的に以前の状態に戻します。バックマスキングを魔法陣に対して使用すると該当の魔法陣の持続時間を戻すことができます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|バックマスキング| . |120|308|自分周辺の時間を操作して瞬間的に以前の状態に戻します。バックマスキングを魔法陣に対して使用すると該当の魔法陣の持続時間を戻すことができます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|バックマスキング範囲 |60|70|80|90|100|110|120|130|140|150}}
 {{SkillAdditionalInfoTemplate|時間の結晶|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}
 }}
 |10}}
-{{ListViewSkill|クイックキャスト| . |スキルのキャストタイムを減少させます。減少する時間は本来の時間の最大90%までです。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クイックキャスト| . |60|280|スキルのキャストタイムを減少させます。減少する時間は本来の時間の最大90%までです。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|キャスティング時間|-5%|-10%|-15%|-20%|-25%|-30%|-35%|-40%|-45%|-50%}}
 }}
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|パス| . |自分とPTメンバーのスキルのクールタイムを縮めます。適用されたスキルは該当スキルを使用するまで重複適用されません。[パス]スキル適用時、[タイムトラベル後遺症]デバフにかかります。[タイムトラベル後遺症]デバフが適用される間は[パス]スキルの効果を受けられません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|パス| . |50|280|自分とPTメンバーのスキルのクールタイムを縮めます。適用されたスキルは該当スキルを使用するまで重複適用されません。[パス]スキル適用時、[タイムトラベル後遺症]デバフにかかります。[タイムトラベル後遺症]デバフが適用される間は[パス]スキルの効果を受けられません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|残りのクールタイム|-4%|-8%|-12%|-16%|-20%}}
 {{SkillAdditionalInfoTemplate|時間の結晶の破片|10個消費|10個消費|10個消費|10個消費|10個消費}}
@@ -154,5 +155,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:30.947446
+* Automatic generated at 2020-02-02 17:53:29.936082
 {{PageProgress|2}}

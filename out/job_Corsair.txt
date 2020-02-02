@@ -21,8 +21,9 @@ nan
 {| class="mw-collapsible mw-collapsed wikitable" data-expandtext="Show" data-collapsetext="Hide"
 ! style="background-color:#FFFFFF; color:#FFFFFF"| ステータスに依存するスキル係数について
 |-
-| ステータスに依存する係数は、以下の値を仮定しております。<br/>
-LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0
+| ステータスに依存する係数は、以下の値を仮定しています。<br/>
+LV:300 HP:100000 最小・最大攻撃力:10000 各(STR,INT,CON,SPR,DEX)ステータス:300 AOE:0 </br>
+消費SPはキャラクターレベル300、スキルレベル最大取得、特性未適用時のものです。
 |}
 
 <tabber>
@@ -57,18 +58,18 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ダストデビル| . |回転しながら敵に連打攻撃を行います。攻撃を受けた敵は一時的に行動が制限されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ダストデビル| . |15|72|回転しながら敵に連打攻撃を行います。攻撃を受けた敵は一時的に行動が制限されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|352% x 3回|399% x 3回|446% x 3回|493% x 3回|540% x 3回|587% x 3回|634% x 3回|681% x 3回|728% x 3回|775% x 3回|822% x 3回|870% x 3回|917% x 3回|964% x 3回|1011% x 3回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|8|8|8|8|8|8|8|8|8|8|8|8|8|8|8}}
 }}
 |15}}
-{{ListViewSkill|サブウェポンキャンセル| . |主な武器と補助武器攻撃を早く連携することができます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|サブウェポンキャンセル| . |60|168|主な武器と補助武器攻撃を早く連携することができます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|1}}|
 {{SkillAdditionalInfoTemplate|追加ダメージ|105%}}
 }}
 |1}}
-{{ListViewSkill|ヘキセンドロッパー| . |両手に持った武器で連打攻撃を加えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ヘキセンドロッパー| . |20|94|両手に持った武器で連打攻撃を加えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|15}}|
 {{SkillAdditionalInfoTemplate|スキル係数|288% x 7回|324% x 7回|361% x 7回|397% x 7回|434% x 7回|470% x 7回|507% x 7回|543% x 7回|580% x 7回|616% x 7回|653% x 7回|689% x 7回|726% x 7回|762% x 7回|799% x 7回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|8|8|8|8|8|8|8|8|8|8|8|8|8|8|8}}
@@ -76,35 +77,35 @@ List View=
 |15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ブルタリティ| . |自分に斬、突、銃、打タイプの攻撃ダメージがアップするバフをかけます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ブルタリティ| . |5|0|自分に斬、突、銃、打タイプの攻撃ダメージがアップするバフをかけます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|斬、突、銃、打のダメージ|+4%|+8%|+12%|+16%|+20%|+24%|+28%|+32%|+36%|+40%}}
 }}
 |10}}
-{{ListViewSkill|ジョリーロジャー| . |海賊団の戦闘能力をアップさせる海賊旗を設置します。海賊旗の周辺で連続して敵を打撃すると、コンボが発動します。コンボを100回達成するとダメージがアップするフィーバーバフが発動されます。コンボは海賊旗を掲げた後1回のみ発動し、PTに属していなければなりません。{{SkillInfoBoxTemplate|
+{{ListViewSkill|ジョリーロジャー| . |60|168|海賊団の戦闘能力をアップさせる海賊旗を設置します。海賊旗の周辺で連続して敵を打撃すると、コンボが発動します。コンボを100回達成するとダメージがアップするフィーバーバフが発動されます。コンボは海賊旗を掲げた後1回のみ発動し、PTに属していなければなりません。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|ダメージ|+2%|+4%|+6%|+8%|+10%|+12%|+14%|+16%|+18%|+20%}}
 {{SkillAdditionalInfoTemplate|フィーバー持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}
 }}
 |10}}
-{{ListViewSkill|アイアンフック| . |敵をフックで捕獲します。{{SkillInfoBoxTemplate|
+{{ListViewSkill|アイアンフック| . |25|106|敵をフックで捕獲します。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|捕獲時間|5秒|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒}}
 }}
 |10}}
-{{ListViewSkill|キールハウリング| . |アイアンフックで捕獲した敵を引きずりながらダメージを与えます。引きずられた敵は沈黙状態になります。{{SkillInfoBoxTemplate|
+{{ListViewSkill|キールハウリング| . |25|108|アイアンフックで捕獲した敵を引きずりながらダメージを与えます。引きずられた敵は沈黙状態になります。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|10}}|
 {{SkillAdditionalInfoTemplate|スキル係数|362% x2回|380% x2回|398% x2回|416% x2回|434% x2回|452% x2回|470% x2回|488% x2回|506% x2回|524% x2回}}
 }}
 |10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|クイックアンドデッド| . |前方の敵に向かって補助武器である拳銃を連射してダメージを与えます。クイックアンドデッドの攻撃は15%の確率でクリティカルが適用されます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|クイックアンドデッド| . |20|112|前方の敵に向かって補助武器である拳銃を連射してダメージを与えます。クイックアンドデッドの攻撃は15%の確率でクリティカルが適用されます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|291%x 6回|443%x 6回|595%x 6回|747%x 6回|899%x 6回}}
 }}
 |5}}
-{{ListViewSkill|インペールダガー| . |前方の敵に移動し、補助武器の短剣で連続で突いてダメージを与えます。{{SkillInfoBoxTemplate|
+{{ListViewSkill|インペールダガー| . |15|94|前方の敵に移動し、補助武器の短剣で連続で突いてダメージを与えます。{{SkillInfoBoxTemplate|
 {{SkillLevelTemplate|5}}|
 {{SkillAdditionalInfoTemplate|スキル係数|679% x 3回|850% x 3回|1022% x 3回|1193% x 3回|1365% x 3回}}
 {{SkillAdditionalInfoTemplate|広域攻撃比率|5|5|5|5|5}}
@@ -172,5 +173,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 17:16:31.117446
+* Automatic generated at 2020-02-02 17:53:30.109083
 {{PageProgress|2}}
