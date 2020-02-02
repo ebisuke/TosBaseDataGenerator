@@ -30,10 +30,10 @@ def dicprocess():
             s.cd.append(sfrc.CalcValue("CoolDown", s.clsid, 1) / 1000.0)
             s.sp.append(sfrc.CalcValue("SpendSP", s.clsid, s.maxlv))
             for c in s.variables:
-                for lv in range(1,s.maxlv+1):
-                    c.value.append(sfrc.CalcCaption(c.caption,s.clsid, lv))
-                    if(c.caption2!=None):
-                        c.value2.append(sfrc.CalcCaption(c.caption2, s.clsid, lv))
+                sc: TosStructure.SkillCaption = c
+                for idx in range(0,len(sc.vars)):
+                    for lv in range(1,s.maxlv+1):
+                        sc.realvars[idx].append(sfrc.CalcCaption(sc.vars[idx],s.clsid, lv))
     ToWiki.exportJobTree("./out", tree, opt)
     return tree
 def ensure(name):

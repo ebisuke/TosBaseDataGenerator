@@ -50,17 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|シモニー| . |0|1|0|自分が持っているスキルを呪文書にして誰でも使えるようにします。作成するスキル呪文書は最高レベルの呪文書しか作ることができません。(ディヴァインマイトの効果は適用されません)|1}}
-{{ListViewSkill|インダルゲンティア| . |142|1|30|周辺の味方にインダルゲンティアバフを付与します。インダルゲンティアバフが持続する間対象を一定周期で回復させます。パトロンセイントバフ中なら回復量が10%増加されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|1秒当たりの治癒係数|76％|86％|96％|106％|116％|126％|136％|146％|156％|166％|176％|186％|196％|206％|216％}}<br/>{{SkillAdditionalInfoTemplate|味方| 4人治療| 5人治療| 6人治療| 7人治療| 8人治療| 9人治療|10人治療|11人治療|12人治療|13人治療|14人治療|15人治療|16人治療|17人治療|18人治療}}<br/>}}<br/>|15}}
-{{ListViewSkill|ディサーンイーヴィル| . |127|1|15|敵にダメージを与えながらかかっている有害なデバフの持続時間を強制的に延長させます。敵がかかっているデバフ個数に比例してディサーンイーヴィルのダメージが増加し、一度持続時間が増加したデバフは再び増加しません。ディサーンイーヴィルにかかった敵が神聖属性の魔法陣に入る時、周辺の敵にディサーンイーヴィルデバフを移します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|100%|107%|114%|121%|128%|136%|143%|150%|157%|164%|172%|179%|186%|193%|200%}}<br/>{{SkillAdditionalInfoTemplate|デバフの残り時間の|+30%だけ|+35%だけ|+40%だけ|+45%だけ|+50%だけ|+55%だけ|+60%だけ|+65%だけ|+70%だけ|+75%だけ|+80%だけ|+85%だけ|+90%だけ|+95%だけ|+100%だけ}}<br/>{{SkillAdditionalInfoTemplate|個数あたりディサーンイーヴィルダメージ |+ 2%|+ 4%|+ 6%|+ 8%|+10%|+12%|+14%|+16%|+18%|+20%|+22%|+24%|+26%|+28%|+30%}}<br/>}}<br/>|15}}
+{{ListViewSkill|シモニー| . |0|1|0|自分が持っているスキルを呪文書にして誰でも使えるようにします。作成するスキル呪文書は最高レベルの呪文書しか作ることができません。(ディヴァインマイトの効果は適用されません){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|呪文書は使用すると消えます。|2}}<br/>{{SkillTitleOnlyTemplate|製作可能な呪文書|2}}<br/>{{SkillTitleOnlyTemplate|* キュア|2}}<br/>{{SkillTitleOnlyTemplate| * オークラス、ザルチャイ、ダイノ|2}}<br/>{{SkillTitleOnlyTemplate| * モンストランス、ターンアンデッド|2}}<br/>{{SkillTitleOnlyTemplate| * リストレーション、バリア|2}}<br/>{{SkillTitleOnlyTemplate| * アーケインエナジー、クレアボイアンス|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|インダルゲンティア| . |142|1|30|周辺の味方にインダルゲンティアバフを付与します。インダルゲンティアバフが持続する間対象を一定周期で回復させます。パトロンセイントバフ中なら回復量が10%増加されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillTitleOnlyTemplate|1秒当たりの治癒係数|16}}<br/>{{SkillAdditionalInfoTemplate|味方|4人治療|5人治療|6人治療|7人治療|8人治療|9人治療|10人治療|11人治療|12人治療|13人治療|14人治療|15人治療|16人治療|17人治療|18人治療}}<br/>{{SkillTitleOnlyTemplate|持続時間10秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ディサーンイーヴィル| . |127|1|15|敵にダメージを与えながらかかっている有害なデバフの持続時間を強制的に延長させます。敵がかかっているデバフ個数に比例してディサーンイーヴィルのダメージが増加し、一度持続時間が増加したデバフは再び増加しません。ディサーンイーヴィルにかかった敵が神聖属性の魔法陣に入る時、周辺の敵にディサーンイーヴィルデバフを移します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|100%|107%|114%|121%|128%|136%|143%|150%|157%|164%|172%|179%|186%|193%|200%}}<br/>{{SkillAdditionalInfoTemplate|デバフの残り時間の|30%だけアップ(最小5秒)|35%だけアップ(最小5秒)|40%だけアップ(最小5秒)|45%だけアップ(最小5秒)|50%だけアップ(最小5秒)|55%だけアップ(最小5秒)|60%だけアップ(最小5秒)|65%だけアップ(最小5秒)|70%だけアップ(最小5秒)|75%だけアップ(最小5秒)|80%だけアップ(最小5秒)|85%だけアップ(最小5秒)|90%だけアップ(最小5秒)|95%だけアップ(最小5秒)|100%だけアップ(最小5秒)}}<br/>{{SkillAdditionalInfoTemplate|個数あたりディサーンイーヴィルダメージ |2%アップ(最大5個)|4%アップ(最大5個)|6%アップ(最大5個)|8%アップ(最大5個)|10%アップ(最大5個)|12%アップ(最大5個)|14%アップ(最大5個)|16%アップ(最大5個)|18%アップ(最大5個)|20%アップ(最大5個)|22%アップ(最大5個)|24%アップ(最大5個)|26%アップ(最大5個)|28%アップ(最大5個)|30%アップ(最大5個)}}<br/>}}<br/>|15}}
 {{ListViewSkill|オブレイション| . |0|1|0|仲間たちのアイテムを買い取る奉献箱を開設します。街には設置できず、フィールドの女神像の周辺にのみ設置できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|最大購入数|100|200|300|400|500}}<br/>}}<br/>|5}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|インクリースマジックDEF| . |262|1|87|自分とPTメンバーの魔法防御力を一時的にアップさせます。詠唱者の精神に比例して魔法防御力の数値が変わります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|魔法防御力|+1.725%|+3.45%|+5.175%|+6.9%|+8.625%|+10.35%|+12.075%|+13.8%|+15.525%|+17.25%}}<br/>{{SkillAdditionalInfoTemplate|聖水| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費}}<br/>}}<br/>|10}}
-{{ListViewSkill|デカトス| . |92|3|20|神に捧げるために貯めた金銭で敵を攻撃します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|512%|547%|583%|619%|654%|690%|726%|761%|797%|833%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率 | 5| 5| 5| 5| 5| 5| 5| 5| 5| 5}}<br/>{{SkillAdditionalInfoTemplate|シルバー|300消費|300消費|300消費|300消費|300消費|300消費|300消費|300消費|300消費|300消費}}<br/>}}<br/>|10}}
+{{ListViewSkill|インクリースマジックDEF| . |262|1|87|自分とPTメンバーの魔法防御力を一時的にアップさせます。詠唱者の精神に比例して魔法防御力の数値が変わります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|魔法防御力|1.725%アップ|3.45%アップ|5.175%アップ|6.9%アップ|8.625%アップ|10.35%アップ|12.075%アップ|13.8%アップ|15.525%アップ|17.25%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|11}}<br/>{{SkillAdditionalInfoTemplate|聖水|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}<br/>}}<br/>|10}}
+{{ListViewSkill|デカトス| . |92|3|20|神に捧げるために貯めた金銭で敵を攻撃します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|512%|547%|583%|619%|654%|690%|726%|761%|797%|833%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率 |5|5|5|5|5|5|5|5|5|5}}<br/>{{SkillAdditionalInfoTemplate|シルバー|300消費|300消費|300消費|300消費|300消費|300消費|300消費|300消費|300消費|300消費}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|スペルショップ| . |0|1|0|祝福バフを販売する商店を開設します。 ダンジョン地域で設置すると価格が上がります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|バフ持続時間| 6分|12分|18分|24分|30分}}<br/>}}<br/>|5}}
+{{ListViewSkill|スペルショップ| . |0|1|0|祝福バフを販売する商店を開設します。 ダンジョン地域で設置すると価格が上がります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillTitleOnlyTemplate|登録可能なバフ|6}}<br/>{{SkillTitleOnlyTemplate| *祝福: 神聖追加攻撃|6}}<br/>{{SkillTitleOnlyTemplate| *祝福: 神聖属性ダメージ|6}}<br/>{{SkillTitleOnlyTemplate| *祝福: 魔法防御力増加|6}}<br/>{{SkillTitleOnlyTemplate| *祝福: 物理防御力増加|6}}<br/>{{SkillAdditionalInfoTemplate|バフ持続時間|6分|12分|18分|24分|30分}}<br/>}}<br/>|5}}
 
 |}
 
@@ -120,5 +120,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.789151
+* Automatic generated at 2020-02-03 00:16:38.847608
 {{PageProgress|2}}

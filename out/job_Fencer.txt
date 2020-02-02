@@ -51,18 +51,18 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|セプトエトワール| . |102|1|15|敵を連続して突き、ダメージを与えます。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|285% x 8回|301% x 8回|317% x 8回|333% x 8回|349% x 8回|365% x 8回|381% x 8回|397% x 8回|413% x 8回|429% x 8回|445% x 8回|461% x 8回|477% x 8回|493% x 8回|509% x 8回}}<br/>}}<br/>|15}}
-{{ListViewSkill|エスキーヴタッチ| . |95|1|10|迅速に動いて敵の攻撃を回避直後に、前方に向かって連続攻撃を行います。(PVPサーバーではバフの持続時間が4秒に変更されます。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|500% x 5回|540% x 5回|581% x 5回|622% x 5回|663% x 5回|703% x 5回|744% x 5回|785% x 5回|826% x 5回|867% x 5回|907% x 5回|948% x 5回|989% x 5回|1030% x 5回|1071% x 5回}}<br/>}}<br/>|15}}
-{{ListViewSkill|フランコネード| . |54|5|20|レイピアを使って下から上に突き上げる複合的な攻撃を行います。スキル使用中、敵の物理攻撃に対するブロックが増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|528% x 2回|582% x 2回|636% x 2回|690% x 2回|745% x 2回|799% x 2回|853% x 2回|908% x 2回|962% x 2回|1016% x 2回|1070% x 2回|1125% x 2回|1179% x 2回|1233% x 2回|1288% x 2回}}<br/>}}<br/>|15}}
+{{ListViewSkill|セプトエトワール| . |102|1|15|敵を連続して突き、ダメージを与えます。敵の防御力を一部無視します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|285% x 8回|301% x 8回|317% x 8回|333% x 8回|349% x 8回|365% x 8回|381% x 8回|397% x 8回|413% x 8回|429% x 8回|445% x 8回|461% x 8回|477% x 8回|493% x 8回|509% x 8回}}<br/>{{SkillTitleOnlyTemplate|敵の防御力50%無視|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|エスキーヴタッチ| . |95|1|10|迅速に動いて敵の攻撃を回避直後に、前方に向かって連続攻撃を行います。(PVPサーバーではバフの持続時間が4秒に変更されます。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|500% x 5回|540% x 5回|581% x 5回|622% x 5回|663% x 5回|703% x 5回|744% x 5回|785% x 5回|826% x 5回|867% x 5回|907% x 5回|948% x 5回|989% x 5回|1030% x 5回|1071% x 5回}}<br/>{{SkillTitleOnlyTemplate|スキル使用の中で回避100%増加|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|フランコネード| . |54|5|20|レイピアを使って下から上に突き上げる複合的な攻撃を行います。スキル使用中、敵の物理攻撃に対するブロックが増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|528% x 2回|582% x 2回|636% x 2回|690% x 2回|745% x 2回|799% x 2回|853% x 2回|908% x 2回|962% x 2回|1016% x 2回|1070% x 2回|1125% x 2回|1179% x 2回|1233% x 2回|1288% x 2回}}<br/>{{SkillTitleOnlyTemplate|スキル使用中でブロック100%増加|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|アタックコンポーゼ| . |47|5|10|前方の敵を突いてダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|438% x 2回|450% x 2回|463% x 2回|476% x 2回|489% x 2回|502% x 2回|514% x 2回|527% x 2回|540% x 2回|553% x 2回|566% x 2回|578% x 2回|591% x 2回|604% x 2回|617% x 2回}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|プレパレーション| . |123|1|19|剣先を回転させて敵の近接攻撃を防ぐと同時に次の攻撃を準備します。この動作の後に行う突属性攻撃は最初の1回に限りダメージが2倍になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|最大維持時間| 3秒| 3秒| 3秒| 3秒| 3秒}}<br/>}}<br/>|5}}
-{{ListViewSkill|バレストラフェンテ| . |111|1|15|前方へ素早く移動して攻撃します。 攻撃された敵はクリティカル抵抗が減少します。バックスライドスキルを保有時、バレストラフェンテ使用後バックスライドスキルのクールタイムが初期化になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|747%|784%|821%|859%|896%|934%|971%|1008%|1046%|1083%}}<br/>}}<br/>|10}}
-{{ListViewSkill|エペ・ギャルド| . |0|1|5|装着した盾の物理防御力を無力化する代わりに突き攻撃時クリティカルダメージが増すような姿勢をとります。ロデレロクラスを取得している場合、盾の物理防御力は無効化されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル時最終ダメージ|+38%|+41%|+44%|+47%|+50%}}<br/>}}<br/>|5}}
+{{ListViewSkill|プレパレーション| . |123|1|19|剣先を回転させて敵の近接攻撃を防ぐと同時に次の攻撃を準備します。この動作の後に行う突属性攻撃は最初の1回に限りダメージが2倍になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillTitleOnlyTemplate|スキル使用中の間、ブロック100%増加|6}}<br/>{{SkillAdditionalInfoTemplate|最大維持時間|3秒|3秒|3秒|3秒|3秒}}<br/>{{SkillTitleOnlyTemplate|バフ持続時間45秒|6}}<br/>}}<br/>|5}}
+{{ListViewSkill|バレストラフェンテ| . |111|1|15|前方へ素早く移動して攻撃します。 攻撃された敵はクリティカル抵抗が減少します。バックスライドスキルを保有時、バレストラフェンテ使用後バックスライドスキルのクールタイムが初期化になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|747%|784%|821%|859%|896%|934%|971%|1008%|1046%|1083%}}<br/>{{SkillTitleOnlyTemplate|最大被撃対象10体|11}}<br/>{{SkillTitleOnlyTemplate|敵のクリティカル抵抗20%ダウン|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|エペ・ギャルド| . |0|1|5|装着した盾の物理防御力を無力化する代わりに突き攻撃時クリティカルダメージが増すような姿勢をとります。ロデレロクラスを取得している場合、盾の物理防御力は無効化されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillTitleOnlyTemplate|レイピアで突き攻撃時、|6}}<br/>{{SkillAdditionalInfoTemplate|クリティカル時最終ダメージ|38%アップ|41%アップ|44%アップ|47%アップ|50%アップ}}<br/>{{SkillTitleOnlyTemplate|5秒当たりSP30ダウン|6}}<br/>}}<br/>|5}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|フレーシュ| . |80|3|20|敵に3連続突き攻撃をします。この攻撃は敵に対してクリティカル発生率が高く適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |480% x 3回|527% x 3回|574% x 3回|621% x 3回|669% x 3回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃割合 | 1| 1| 1| 1| 1}}<br/>}}<br/>|5}}
+{{ListViewSkill|フレーシュ| . |80|3|20|敵に3連続突き攻撃をします。この攻撃は敵に対してクリティカル発生率が高く適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |480% x 3回|527% x 3回|574% x 3回|621% x 3回|669% x 3回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃割合 |1|1|1|1|1}}<br/>{{SkillTitleOnlyTemplate|クリティカル発生2倍適用|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -123,5 +123,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.609151
+* Automatic generated at 2020-02-03 00:16:38.639608
 {{PageProgress|2}}

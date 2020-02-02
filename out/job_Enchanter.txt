@@ -50,17 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|アジリティ| . |156|1|40|自分とPTメンバーの靴にスタミナ消費量がダウンし、移動速度がアップするバフをかけます。靴を着用していないとアジリティバフが適用されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|STA消費量|- 1%|- 2%|- 3%|- 4%|- 5%|- 6%|- 7%|- 8%|- 9%|-10%|-11%|-12%|-13%|-14%|-15%}}<br/>}}<br/>|15}}
-{{ListViewSkill|エンチャントアーマー| . |0|1|0|防具アイテムにエンチャントオプションを付与する店を開きます。|5}}
-{{ListViewSkill|エンチャントライトニング| . |168|1|60|自分とPTメンバーに雷属性追加ダメージバフを付与します。雷属性追加ダメージは使用者の[敏捷 ]能力値に応じて効果がアップします。また、近接攻撃とミサイル攻撃の場合、雷属性を付与します。(シルバーバレットバフと同時に適用されている場合はシルバーバレットの神聖属性付与が優先的に適用されます。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|雷属性追加ダメージ|+187|+275|+363|+450|+538|+626|+714|+801|+889|+977|+1065|+1152|+1240|+1328|+1416}}<br/>{{SkillAdditionalInfoTemplate|エンチャント弾| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費}}<br/>}}<br/>|15}}
-{{ListViewSkill|エンチャントグローブ| . |179|1|60|自分とPTメンバーのグローブに命中がアップする効果を付与します。グローブを着用していないとエンチャントグローブバフが適用されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|命中|+12%|+14%|+16%|+18%|+20%|+22%|+24%|+26%|+28%|+30%|+32%|+34%|+36%|+38%|+40%}}<br/>{{SkillAdditionalInfoTemplate|エンチャント弾| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費}}<br/>}}<br/>|15}}
+{{ListViewSkill|アジリティ| . |156|1|40|自分とPTメンバーの靴にスタミナ消費量がダウンし、移動速度がアップするバフをかけます。靴を着用していないとアジリティバフが適用されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|STA消費量|1%ダウン|2%ダウン|3%ダウン|4%ダウン|5%ダウン|6%ダウン|7%ダウン|8%ダウン|9%ダウン|10%ダウン|11%ダウン|12%ダウン|13%ダウン|14%ダウン|15%ダウン}}<br/>{{SkillTitleOnlyTemplate|移動速度3アップ|16}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|エンチャントアーマー| . |0|1|0|防具アイテムにエンチャントオプションを付与する店を開きます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillTitleOnlyTemplate|レベルによって付与できるオプションの種類増加|6}}<br/>{{SkillTitleOnlyTemplate|5レベルマスター|6}}<br/>}}<br/>|5}}
+{{ListViewSkill|エンチャントライトニング| . |168|1|60|自分とPTメンバーに雷属性追加ダメージバフを付与します。雷属性追加ダメージは使用者の[敏捷 ]能力値に応じて効果がアップします。また、近接攻撃とミサイル攻撃の場合、雷属性を付与します。(シルバーバレットバフと同時に適用されている場合はシルバーバレットの神聖属性付与が優先的に適用されます。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|雷属性追加ダメージ|187アップ|275アップ|363アップ|450アップ|538アップ|626アップ|714アップ|801アップ|889アップ|977アップ|1065アップ|1152アップ|1240アップ|1328アップ|1416アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間 30分|16}}<br/>{{SkillAdditionalInfoTemplate|エンチャント弾|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}<br/>}}<br/>|15}}
+{{ListViewSkill|エンチャントグローブ| . |179|1|60|自分とPTメンバーのグローブに命中がアップする効果を付与します。グローブを着用していないとエンチャントグローブバフが適用されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|命中|12%アップ|14%アップ|16%アップ|18%アップ|20%アップ|22%アップ|24%アップ|26%アップ|28%アップ|30%アップ|32%アップ|34%アップ|36%アップ|38%アップ|40%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|16}}<br/>{{SkillAdditionalInfoTemplate|エンチャント弾|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費|2個消費}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|エンチャントアース| . |168|1|60|自分とPTメンバーの防具に地属性エンチャントを行い、盾を着用しなくてもブロックできるようにします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|ブロック率|+ 7%|+ 9%|+11%|+13%|+15%|+17%|+19%|+21%|+23%|+25%}}<br/>{{SkillAdditionalInfoTemplate|エンチャント弾| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費}}<br/>}}<br/>|10}}
-{{ListViewSkill|ライトニングハンズ| . |181|1|60|自分に一時的にバフを付与します。ライトニングハンズバフ中は敵に基本攻撃を行うと、雷属性追加攻撃が発動します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|雷属性追加スキル係数|25%|26%|27%|28%|30%|31%|32%|34%|35%|36%}}<br/>}}<br/>|10}}
+{{ListViewSkill|エンチャントアース| . |168|1|60|自分とPTメンバーの防具に地属性エンチャントを行い、盾を着用しなくてもブロックできるようにします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|ブロック率|7%アップ|9%アップ|11%アップ|13%アップ|15%アップ|17%アップ|19%アップ|21%アップ|23%アップ|25%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|11}}<br/>{{SkillAdditionalInfoTemplate|エンチャント弾|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}<br/>}}<br/>|10}}
+{{ListViewSkill|ライトニングハンズ| . |181|1|60|自分に一時的にバフを付与します。ライトニングハンズバフ中は敵に基本攻撃を行うと、雷属性追加攻撃が発動します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|雷属性追加スキル係数|25%|26%|27%|28%|30%|31%|32%|34%|35%|36%}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|オーバーリインフォース| . |168|1|60|自分とPTメンバーの補助武器の強化数値をスキルレベルに合わせてアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|強化数値|+ 1|+ 2|+ 3|+ 4|+ 5}}<br/>{{SkillAdditionalInfoTemplate|エンチャント弾| 2個消費| 2個消費| 2個消費| 2個消費| 2個消費}}<br/>}}<br/>|5}}
+{{ListViewSkill|オーバーリインフォース| . |168|1|60|自分とPTメンバーの補助武器の強化数値をスキルレベルに合わせてアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|強化数値|1アップ|2アップ|3アップ|4アップ|5アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間300秒|6}}<br/>{{SkillAdditionalInfoTemplate|エンチャント弾|2個消費|2個消費|2個消費|2個消費|2個消費}}<br/>}}<br/>|5}}
 
 |}
 
@@ -117,5 +117,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.847152
+* Automatic generated at 2020-02-03 00:16:38.913607
 {{PageProgress|2}}

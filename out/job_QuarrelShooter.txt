@@ -50,17 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|デプロイパヴィス| . |124|2|35|敵の攻撃を防ぐ自立式の盾を設置します。攻撃対象がいない敵はパヴィスを優先攻撃対象として認識します。パヴィス設置でダメージを受けた敵は出血状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|332%|343%|354%|365%|376%|387%|398%|409%|420%|431%|442%|453%|464%|475%|486%}}<br/>{{SkillAdditionalInfoTemplate|攻撃|20回防御|25回防御|30回防御|35回防御|40回防御|45回防御|50回防御|55回防御|60回防御|65回防御|70回防御|75回防御|80回防御|85回防御|90回防御}}<br/>{{SkillAdditionalInfoTemplate|パヴィス持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|スキャッターカルトロップ| . |136|1|30|地面にカルトロップを投げます。 カルトロップを踏んだ敵はダメージを受け、スローにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|387%|451%|516%|580%|645%|709%|774%|839%|903%|968%|1032%|1097%|1162%|1226%|1291%}}<br/>{{SkillAdditionalInfoTemplate|| 1個投擲| 2個投擲| 3個投擲| 4個投擲| 5個投擲| 6個投擲| 7個投擲| 8個投擲| 9個投擲|10個投擲|11個投擲|12個投擲|13個投擲|14個投擲|15個投擲}}<br/>{{SkillAdditionalInfoTemplate|カルトロップ持続時間|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|ストーンショット| . |52|5|15|石の弾丸を発射して対象を押し退けます。 対象は一定確率でスタン状態になります。恐怖状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|383%|447%|511%|575%|639%|703%|767%|831%|895%|959%|1023%|1087%|1151%|1215%|1279%}}<br/>{{SkillAdditionalInfoTemplate|[スタン]確率|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%}}<br/>{{SkillAdditionalInfoTemplate|[スタン]持続時間| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒| 4秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|ラピッドファイア| . |85|3|15|複数の矢を弩に装填した後、対象に連続で発射します。恐怖状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|82% x5 ~ 9回|95% x5 ~ 9回|109% x5 ~ 9回|123% x5 ~ 9回|136% x5 ~ 9回|150% x5 ~ 9回|164% x5 ~ 9回|177% x5 ~ 9回|191% x5 ~ 9回|205% x5 ~ 9回|219% x5 ~ 9回|232% x5 ~ 9回|246% x5 ~ 9回|260% x5 ~ 9回|273% x5 ~ 9回}}<br/>}}<br/>|15}}
+{{ListViewSkill|デプロイパヴィス| . |124|2|35|敵の攻撃を防ぐ自立式の盾を設置します。攻撃対象がいない敵はパヴィスを優先攻撃対象として認識します。パヴィス設置でダメージを受けた敵は出血状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|332%|343%|354%|365%|376%|387%|398%|409%|420%|431%|442%|453%|464%|475%|486%}}<br/>{{SkillAdditionalInfoTemplate|攻撃|20回防御|25回防御|30回防御|35回防御|40回防御|45回防御|50回防御|55回防御|60回防御|65回防御|70回防御|75回防御|80回防御|85回防御|90回防御}}<br/>{{SkillAdditionalInfoTemplate|パヴィス持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>{{SkillTitleOnlyTemplate|{#339999}{ol}[出血]{/}{/}持続時間5秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|スキャッターカルトロップ| . |136|1|30|地面にカルトロップを投げます。 カルトロップを踏んだ敵はダメージを受け、スローにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|387%|451%|516%|580%|645%|709%|774%|839%|903%|968%|1032%|1097%|1162%|1226%|1291%}}<br/>{{SkillAdditionalInfoTemplate||1個投擲|2個投擲|3個投擲|4個投擲|5個投擲|6個投擲|7個投擲|8個投擲|9個投擲|10個投擲|11個投擲|12個投擲|13個投擲|14個投擲|15個投擲}}<br/>{{SkillAdditionalInfoTemplate|カルトロップ持続時間|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒}}<br/>{{SkillTitleOnlyTemplate|{#339999}{ol}[スロー]{/}{/}持続時間7秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ストーンショット| . |52|5|15|石の弾丸を発射して対象を押し退けます。 対象は一定確率でスタン状態になります。恐怖状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|383%|447%|511%|575%|639%|703%|767%|831%|895%|959%|1023%|1087%|1151%|1215%|1279%}}<br/>{{SkillAdditionalInfoTemplate|{#339999}{ol}[スタン]{/}{/}確率|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%|50%}}<br/>{{SkillAdditionalInfoTemplate|{#339999}{ol}[スタン]{/}{/}持続時間|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒|4秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|ラピッドファイア| . |85|3|15|複数の矢を弩に装填した後、対象に連続で発射します。恐怖状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|82% x5 ~ 9回|95% x5 ~ 9回|109% x5 ~ 9回|123% x5 ~ 9回|136% x5 ~ 9回|150% x5 ~ 9回|164% x5 ~ 9回|177% x5 ~ 9回|191% x5 ~ 9回|205% x5 ~ 9回|219% x5 ~ 9回|232% x5 ~ 9回|246% x5 ~ 9回|260% x5 ~ 9回|273% x5 ~ 9回}}<br/>{{SkillTitleOnlyTemplate|最大装填時間1秒|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ニーリングショット| . |0|1|0|集中力を高めるために膝をつき攻撃します。攻撃力と射程距離、攻撃速度がアップします。ニーリングショットを再度使用するとニーリングショット状態が解除されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|物理攻撃力|+15%}}<br/>}}<br/>|1}}
+{{ListViewSkill|ニーリングショット| . |0|1|0|集中力を高めるために膝をつき攻撃します。攻撃力と射程距離、攻撃速度がアップします。ニーリングショットを再度使用するとニーリングショット状態が解除されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|物理攻撃力|15%アップ}}<br/>{{SkillTitleOnlyTemplate|射程距離35アップ|2}}<br/>{{SkillTitleOnlyTemplate|基本攻撃速度250アップ|2}}<br/>}}<br/>|1}}
 {{ListViewSkill|ティアダウン| . |108|3|45|前面にある彫刻や障害物を撤去しつつ、近くの敵にダメージを与えます。次のものを撤去できます。*ヴァカリネ女神像を除いたティルトルビーの彫刻*アイスウォール*パヴィス、ステイクスタッケイド*ボスモンスターが召喚する各種トラップ{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|476%|499%|523%|547%|571%|594%|618%|642%|666%|690%}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ブロックアンドショット| . |196|1|60|しばらくの間ブロック率がアップします。 ブロックアンドショットバフ中はブロック後に自分の次の攻撃に追加ダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ブロック|+20%|+40%|+60%|+80%|+100%}}<br/>}}<br/>|5}}
+{{ListViewSkill|ブロックアンドショット| . |196|1|60|しばらくの間ブロック率がアップします。 ブロックアンドショットバフ中はブロック後に自分の次の攻撃に追加ダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ブロック|20%アップ|40%アップ|60%アップ|80%アップ|100%アップ}}<br/>{{SkillTitleOnlyTemplate|ダメージ50%アップ|6}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -118,5 +118,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.714151
+* Automatic generated at 2020-02-03 00:16:38.759608
 {{PageProgress|2}}

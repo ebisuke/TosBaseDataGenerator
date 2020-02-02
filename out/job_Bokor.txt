@@ -53,19 +53,19 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|召喚獣強制攻撃| . |0|1|1|ターゲットになった対象を召喚獣が強制攻撃します。|1}}
-{{ListViewSkill|召喚獣強制攻撃取消| . |0|1|1|強制攻撃を取り消してランダムに敵を攻撃します。|1}}
-{{ListViewSkill|召喚解除| . |0|1|1|召喚された召喚獣を除去します。|1}}
-{{ListViewSkill|ヘキシング| . |149|1|10|敵に呪いをかけて魔法防御力を減少させ、HPが回復できないようにします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|魔法防御力|- 8%|-8.5%|- 9%|-9.5%|-10%|-10.5%|-11%|-11.5%|-12%|-12.5%|-13%|-13.5%|-14%|-14.5%|-15%}}<br/>{{SkillAdditionalInfoTemplate|[ヘキシング]持続時間| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒|21秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|エフィジー| . |109|3|5|[ヘキシング]のかかった敵を操り、遠くからダメージを与えます。連続して使用すると、三回詠唱する度に追加ダメージボーナスが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|458%|534%|611%|687%|764%|840%|917%|993%|1070%|1146%|1223%|1299%|1376%|1452%|1529%}}<br/>{{SkillAdditionalInfoTemplate|3回目攻撃ボーナス|1.6倍 ~ 2.3倍|1.67倍 ~ 2.39倍|1.74倍 ~ 2.48倍|1.81倍 ~ 2.57倍|1.88倍 ~ 2.66倍|1.95倍 ~ 2.75倍|2.02倍 ~ 2.84倍|2.09倍 ~ 2.93倍|2.16倍 ~ 3.02倍|2.23倍 ~ 3.11倍|2.3倍 ~ 3.2倍|2.37倍 ~ 3.29倍|2.44倍 ~ 3.38倍|2.51倍 ~ 3.47倍|2.58倍 ~ 3.56倍}}<br/>}}<br/>|15}}
-{{ListViewSkill|ゾンビフィー| . |177|1|25|ゾンビ8匹を召喚します。 現在召喚されている場合は最大召喚可能人数までしか召喚されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|ゾンビカプセル| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費}}<br/>}}<br/>|15}}
+{{ListViewSkill|召喚獣強制攻撃| . |0|1|1|ターゲットになった対象を召喚獣が強制攻撃します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|召喚獣強制攻撃取消| . |0|1|1|強制攻撃を取り消してランダムに敵を攻撃します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|召喚解除| . |0|1|1|召喚された召喚獣を除去します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|ヘキシング| . |149|1|10|敵に呪いをかけて魔法防御力を減少させ、HPが回復できないようにします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|魔法防御力|8%ダウン|8.5%ダウン|9%ダウン|9.5%ダウン|10%ダウン|10.5%ダウン|11%ダウン|11.5%ダウン|12%ダウン|12.5%ダウン|13%ダウン|13.5%ダウン|14%ダウン|14.5%ダウン|15%ダウン}}<br/>{{SkillAdditionalInfoTemplate|{#339999}{ol}[ヘキシング]{/}{/}持続時間|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒|21秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|エフィジー| . |109|3|5|[ヘキシング]のかかった敵を操り、遠くからダメージを与えます。連続して使用すると、三回詠唱する度に追加ダメージボーナスが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|458%|534%|611%|687%|764%|840%|917%|993%|1070%|1146%|1223%|1299%|1376%|1452%|1529%}}<br/>{{SkillAdditionalInfoTemplate|3回目攻撃ボーナス1.6倍 ~ |2.3倍|2.39倍|2.48倍|2.57倍|2.66倍|2.75倍|2.84倍|2.93倍|3.02倍|3.11倍|3.2倍|3.29倍|3.38倍|3.47倍|3.56倍}}<br/>}}<br/>|15}}
+{{ListViewSkill|ゾンビフィー| . |177|1|25|ゾンビ8匹を召喚します。 現在召喚されている場合は最大召喚可能人数までしか召喚されません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillTitleOnlyTemplate|最大ゾンビ8匹の召喚|16}}<br/>{{SkillTitleOnlyTemplate|レベル上昇に応じてゾンビダメージが上昇|16}}<br/>{{SkillAdditionalInfoTemplate|ゾンビカプセル|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|マカンダル| . |261|1|50|自分と仲間に痛みを感じなくする護符を投げます。 この効果にかかっている間はダメージを受けませんが、バフが終わると累積したダメージを一度に受けます。対象の最大HP 2倍までダメージが累積し、この累積値を超過すると無敵効果が即時解除されます。(この時、マカンダルバフが消えるわけではないので、累積したダメージをすぐに受けることはありません。)[シャドウプール]、[ストップ：休み時間]状態ではダメージを受けません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|無敵持続時間 |5.5秒| 6秒|6.5秒| 7秒|7.5秒| 8秒|8.5秒| 9秒|9.5秒|10秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|ブワカイマン| . |168|1|10|ゾンビたちに祭りを開くよう指示します。ゾンビたちはノックバック、ノックダウンせず、受けるダメージが減少し、ゾンビに触れた敵はダメージを受けます。ゾンビたちの力の平均ステータス数値が追加ダメージとして適用されます。[暗黒]状態の敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|召喚獣スキル係数|591%|744%|897%|1051%|1204%|1357%|1511%|1664%|1818%|1971%}}<br/>}}<br/>|10}}
+{{ListViewSkill|マカンダル| . |261|1|50|自分と仲間に痛みを感じなくする護符を投げます。 この効果にかかっている間はダメージを受けませんが、バフが終わると累積したダメージを一度に受けます。対象の最大HP 2倍までダメージが累積し、この累積値を超過すると無敵効果が即時解除されます。(この時、マカンダルバフが消えるわけではないので、累積したダメージをすぐに受けることはありません。)[シャドウプール]、[ストップ：休み時間]状態ではダメージを受けません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|無敵持続時間 |5.5秒|6秒|6.5秒|7秒|7.5秒|8秒|8.5秒|9秒|9.5秒|10秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|ブワカイマン| . |168|1|10|ゾンビたちに祭りを開くよう指示します。ゾンビたちはノックバック、ノックダウンせず、受けるダメージが減少し、ゾンビに触れた敵はダメージを受けます。ゾンビたちの力の平均ステータス数値が追加ダメージとして適用されます。[暗黒]状態の敵に与えるダメージがアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|召喚獣スキル係数|591%|744%|897%|1051%|1204%|1357%|1511%|1664%|1818%|1971%}}<br/>{{SkillTitleOnlyTemplate|持続時間5秒|11}}<br/>{{SkillTitleOnlyTemplate|[暗黒]状態の敵に25%の追加ダメージ|11}}<br/>{{SkillTitleOnlyTemplate|召喚されたゾンビ必要|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|サムディヴェヴェ| . |263|1|50|死のロア（精霊）であるサムディを象徴する紋様を地面に設置します。この紋様周辺にいる自分とゾンビたちの移動速度と最大HPがアップします。自分には半分の効果のみ適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|最大HP|+ 0|+ 0|+ 0|+ 0|+ 0}}<br/>{{SkillAdditionalInfoTemplate|移動速度 |+ 4|+ 5|+ 6|+ 7|+ 8}}<br/>{{SkillAdditionalInfoTemplate|持続時間|50秒|60秒|70秒|80秒|90秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|サムディヴェヴェ| . |263|1|50|死のロア（精霊）であるサムディを象徴する紋様を地面に設置します。この紋様周辺にいる自分とゾンビたちの移動速度と最大HPがアップします。自分には半分の効果のみ適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|最大HP|0アップ|0アップ|0アップ|0アップ|0アップ}}<br/>{{SkillAdditionalInfoTemplate|移動速度 |4アップ|5アップ|6アップ|7アップ|8アップ}}<br/>{{SkillAdditionalInfoTemplate|持続時間|50秒|60秒|70秒|80秒|90秒}}<br/>{{SkillTitleOnlyTemplate|紋様持続時間15秒|6}}<br/>}}<br/>|5}}
 {{ListViewSkill|ダムバラ| . |174|1|1|指定した位置の近くにいるゾンビたちを爆発させて近くにいる敵にダメージを与えます。、ゾンビのHP5%が闇属性の追加ダメージが増加して適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|特殊ゾンビスキル係数|434%|868%|1303%|1737%|2172%}}<br/>{{SkillAdditionalInfoTemplate|一般ゾンビスキル係数|106%|212%|319%|425%|532%}}<br/>}}<br/>|5}}
 
 |}
@@ -126,5 +126,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.704152
+* Automatic generated at 2020-02-03 00:16:38.747608
 {{PageProgress|2}}

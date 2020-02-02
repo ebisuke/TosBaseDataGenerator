@@ -49,16 +49,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ラストライツ| . |202|1|40|自分の基本攻撃に聖属性を付与します。一定時間基本攻撃をすると、聖属性の追加打撃が適用され、体力が40%以下になると効果がさらにアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|聖属性追加攻撃 +|229|300|370|440|511|581|651|722|792|862|933|1003|1073|1144|1214}}<br/>{{SkillAdditionalInfoTemplate|持続時間|180秒|210秒|240秒|270秒|300秒|330秒|360秒|390秒|420秒|450秒|480秒|510秒|540秒|570秒|600秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|アスパーゲルム| . |232|1|60|自分の武器に聖水を仕込み、基本攻撃を行う度に前方に撒きます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|90%|93%|96%|99%|102%|105%|108%|111%|114%|117%|120%|123%|126%|129%|132%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|60秒|120秒|180秒|240秒|300秒|360秒|420秒|480秒|540秒|600秒|660秒|720秒|780秒|840秒|900秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|ビナシオ| . |195|1|40|一定時間自分の攻撃速度がアップします。ビナシオバフ中は基本攻撃の攻撃速度がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|攻撃速度|+70|+85|+100|+115|+130|+145|+160|+175|+190|+205|+220|+235|+250|+265|+280}}<br/>{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|ラストライツ| . |202|1|40|自分の基本攻撃に聖属性を付与します。一定時間基本攻撃をすると、聖属性の追加打撃が適用され、体力が40%以下になると効果がさらにアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|聖属性追加攻撃 +|229|300|370|440|511|581|651|722|792|862|933|1003|1073|1144|1214}}<br/>{{SkillAdditionalInfoTemplate|持続時間|180秒|210秒|240秒|270秒|300秒|330秒|360秒|390秒|420秒|450秒|480秒|510秒|540秒|570秒|600秒}}<br/>{{SkillTitleOnlyTemplate|ギスロティス1個消費|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|アスパーゲルム| . |232|1|60|自分の武器に聖水を仕込み、基本攻撃を行う度に前方に撒きます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|90%|93%|96%|99%|102%|105%|108%|111%|114%|117%|120%|123%|126%|129%|132%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|60秒|120秒|180秒|240秒|300秒|360秒|420秒|480秒|540秒|600秒|660秒|720秒|780秒|840秒|900秒}}<br/>{{SkillTitleOnlyTemplate|聖水1個消費|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ビナシオ| . |195|1|40|一定時間自分の攻撃速度がアップします。ビナシオバフ中は基本攻撃の攻撃速度がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|攻撃速度|70アップ|85アップ|100アップ|115アップ|130アップ|145アップ|160アップ|175アップ|190アップ|205アップ|220アップ|235アップ|250アップ|265アップ|280アップ}}<br/>{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ビルド カペラ| . |240|1|65|マントで作った簡易祈祷所を設置します。カペラの近くにいる味方は聖属性攻撃のダメージがアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|カペラ持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>{{SkillAdditionalInfoTemplate|神聖属性ダメージ|+10%|+20%|+30%|+40%|+50%|+60%|+70%|+80%|+90%|+100%}}<br/>}}<br/>|10}}
+{{ListViewSkill|ビルド カペラ| . |240|1|65|マントで作った簡易祈祷所を設置します。カペラの近くにいる味方は聖属性攻撃のダメージがアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|カペラ持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>{{SkillAdditionalInfoTemplate|神聖属性ダメージ|10%増加|20%増加|30%増加|40%増加|50%増加|60%増加|70%増加|80%増加|90%増加|100%増加}}<br/>{{SkillTitleOnlyTemplate|マント1個消費|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|パラクレートスタイム| . |180|1|30|祈りによってノックバック、ノックダウンに対する抵抗力が発生します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 |12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ビジブルタレント| . |195|1|40|自分の潜在力が一時的に発現されます。 バフ適用時間中は基本攻撃によるダメージ数値を別々に累積し、バフが終わった際に基本攻撃をすると累積した数値をそのまま敵に与えます。 スキルレベルが増加するほどクールタイムが減少します。|5}}
+{{ListViewSkill|ビジブルタレント| . |195|1|40|自分の潜在力が一時的に発現されます。 バフ適用時間中は基本攻撃によるダメージ数値を別々に累積し、バフが終わった際に基本攻撃をすると累積した数値をそのまま敵に与えます。 スキルレベルが増加するほどクールタイムが減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillTitleOnlyTemplate|ダメージ蓄積時間10秒|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -111,5 +111,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.797151
+* Automatic generated at 2020-02-03 00:16:38.856608
 {{PageProgress|2}}

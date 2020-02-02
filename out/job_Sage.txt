@@ -51,18 +51,18 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|女神の示す道| . |0|1|0|現在地の座標を保存したり、自分とPTメンバーが利用できるポータルを作成します。ポータル利用後はクールタイムが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|ポータル登録可能数| 3個| 3個| 3個| 3個| 3個| 3個| 3個| 3個| 3個| 3個| 3個| 3個| 3個| 3個| 3個}}<br/>{{SkillAdditionalInfoTemplate|ポータルのクールタイム|30分|29分|28分|27分|26分|25分|24分|23分|22分|21分|20分|19分|18分|17分|16分}}<br/>}}<br/>|15}}
+{{ListViewSkill|女神の示す道| . |0|1|0|現在地の座標を保存したり、自分とPTメンバーが利用できるポータルを作成します。ポータル利用後はクールタイムが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|ポータル登録可能数|3個|3個|3個|3個|3個|3個|3個|3個|3個|3個|3個|3個|3個|3個|3個}}<br/>{{SkillAdditionalInfoTemplate|ポータルのクールタイム|30分|29分|28分|27分|26分|25分|24分|23分|22分|21分|20分|19分|18分|17分|16分}}<br/>{{SkillTitleOnlyTemplate|ポータル持続時間15秒|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|マイクロディメンション| . |118|3|15|スペースを小さく歪曲して敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|395%|461%|527%|593%|659%|725%|791%|857%|923%|989%|1055%|1121%|1187%|1253%|1319%}}<br/>}}<br/>|15}}
-{{ListViewSkill|アルティメットディメンション| . |195|1|20|スペースを大きく歪曲し、指定範囲内の敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.3秒当たりのスキル係数|209%|243%|278%|313%|348%|383%|418%|453%|488%|523%|558%|592%|627%|662%|697%}}<br/>}}<br/>|15}}
-{{ListViewSkill|ブリンク| . |224|2|30|自分がいた場所に残像を残して、任意の位置に瞬間移動します。残像はしばらくの間その場に残って挑発状態になったモンスターのターゲットとなります。瞬間移動時に周辺にいたPTメンバーと一緒に移動します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|残像の持続時間| 2秒| 4秒| 6秒| 8秒|10秒|12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|アルティメットディメンション| . |195|1|20|スペースを大きく歪曲し、指定範囲内の敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.3秒当たりのスキル係数|209%|243%|278%|313%|348%|383%|418%|453%|488%|523%|558%|592%|627%|662%|697%}}<br/>{{SkillTitleOnlyTemplate|持続時間1.5秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ブリンク| . |224|2|30|自分がいた場所に残像を残して、任意の位置に瞬間移動します。残像はしばらくの間その場に残って挑発状態になったモンスターのターゲットとなります。瞬間移動時に周辺にいたPTメンバーと一緒に移動します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|残像の持続時間|2秒|4秒|6秒|8秒|10秒|12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒}}<br/>{{SkillTitleOnlyTemplate|周辺100の範囲内のPTメンバーと一緒に移動|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ミサイルホール| . |271|1|45|一定時間の間、自分とPTメンバーにミサイル攻撃と魔法攻撃を最大限に抑える効果を付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 |5.5秒| 6秒|6.5秒| 7秒|7.5秒| 8秒|8.5秒| 9秒|9.5秒|10秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|ポータルショップ| . |0|1|0|ポータルを開ける商店を開設します。ポータルスキルを習得すると使用でき、ポータルスキルで保存した位置にのみ移動できます。|1}}
-{{ListViewSkill|ディメンション・コンプレッション| . |171|1|15|指定した単一の敵の周辺空間を圧縮し、敵にダメージを与えます。チャージ時間が長いほど敵に与えるダメージもアップします。周辺の敵が攻撃を受けた敵のところに集まります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|250%x 4回|314%x 4回|379%x 4回|444%x 4回|509%x 4回|574%x 4回|639%x 4回|704%x 4回|769%x 4回|834%x 4回}}<br/>}}<br/>|10}}
+{{ListViewSkill|ミサイルホール| . |271|1|45|一定時間の間、自分とPTメンバーにミサイル攻撃と魔法攻撃を最大限に抑える効果を付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 |5.5秒|6秒|6.5秒|7秒|7.5秒|8秒|8.5秒|9秒|9.5秒|10秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|ポータルショップ| . |0|1|0|ポータルを開ける商店を開設します。ポータルスキルを習得すると使用でき、ポータルスキルで保存した位置にのみ移動できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|ポータル開始可能数3回|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|ディメンション・コンプレッション| . |171|1|15|指定した単一の敵の周辺空間を圧縮し、敵にダメージを与えます。チャージ時間が長いほど敵に与えるダメージもアップします。周辺の敵が攻撃を受けた敵のところに集まります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|250%x 4回|314%x 4回|379%x 4回|444%x 4回|509%x 4回|574%x 4回|639%x 4回|704%x 4回|769%x 4回|834%x 4回}}<br/>{{SkillTitleOnlyTemplate|最大チャージ時間2秒|11}}<br/>{{SkillTitleOnlyTemplate|敵に与えるダメージ最大2倍アップ|11}}<br/>{{SkillTitleOnlyTemplate|集まる個体数最大15|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ホールオブダークネス| . |261|1|50|敵に[暗黒]デバフをかけるホールを地面に召喚します。ホールが消える時にその上にいる敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|2403%|4806%|7209%|9612%|12015%}}<br/>{{SkillAdditionalInfoTemplate|被撃対象数|10|10|10|10|10}}<br/>}}<br/>|5}}
+{{ListViewSkill|ホールオブダークネス| . |261|1|50|敵に[暗黒]デバフをかけるホールを地面に召喚します。ホールが消える時にその上にいる敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|2403%|4806%|7209%|9612%|12015%}}<br/>{{SkillTitleOnlyTemplate|魔法陣持続時間3秒|6}}<br/>{{SkillAdditionalInfoTemplate|被撃対象数|10|10|10|10|10}}<br/>{{SkillTitleOnlyTemplate|[暗黒]デバフ持続時間15秒|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -131,5 +131,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.676151
+* Automatic generated at 2020-02-03 00:16:38.716608
 {{PageProgress|2}}

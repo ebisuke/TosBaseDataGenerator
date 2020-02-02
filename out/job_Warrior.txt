@@ -67,10 +67,10 @@ List View=
 |-
 {{ListViewSkill|スラスト| . |47|5|10|敵を武器の先で強く突き後ろに押し出します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|277%|286%|295%|304%|313%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}<br/>}}<br/>|5}}
 {{ListViewSkill|バッシュ| . |49|5|10|強い攻撃で敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|197%|203%|210%|216%|223%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10}}<br/>}}<br/>|5}}
-{{ListViewSkill|デアデビル| . |168|1|60|覚悟を決めて一時的に自分の物理攻撃のダメージをアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|物理攻撃ダメージ|+ 2%|+ 4%|+ 6%|+ 8%|+10%}}<br/>}}<br/>|5}}
-{{ListViewSkill|ベアー| . |168|1|60|覚悟を決めて一時的に自分が受けるダメージをダウンさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|- 2%|- 4%|- 6%|- 8%|-10%}}<br/>}}<br/>|5}}
-{{ListViewSkill|ペインバリア| . |134|1|30|一定時間体が硬直せず、押されたり倒れなくなります。使用直後に一時的にスタン、アレスト、移動不可、呪い、氷結、石化を除いた一般解除可能な全てのデバフにかからなくなり、ペインバリアの持続時間中は状態異常に対する効果抵抗の確率が増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ペインバリアの持続時間|10秒|15秒|20秒|25秒|30秒}}<br/>}}<br/>|5}}
-{{ListViewSkill|リベレート| . |180|1|60|一時的に力を解放して周辺の敵の目に付くようになります。バフ持続時間中は自分の攻撃でモンスターに適用されるヘイト値がアップします。|1}}
+{{ListViewSkill|デアデビル| . |168|1|60|覚悟を決めて一時的に自分の物理攻撃のダメージをアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|物理攻撃ダメージ|2%アップ|4%アップ|6%アップ|8%アップ|10%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|6}}<br/>}}<br/>|5}}
+{{ListViewSkill|ベアー| . |168|1|60|覚悟を決めて一時的に自分が受けるダメージをダウンさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|2%ダウン|4%ダウン|6%ダウン|8%ダウン|10%ダウン}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|6}}<br/>}}<br/>|5}}
+{{ListViewSkill|ペインバリア| . |134|1|30|一定時間体が硬直せず、押されたり倒れなくなります。使用直後に一時的にスタン、アレスト、移動不可、呪い、氷結、石化を除いた一般解除可能な全てのデバフにかからなくなり、ペインバリアの持続時間中は状態異常に対する効果抵抗の確率が増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ペインバリアの持続時間|10秒|15秒|20秒|25秒|30秒}}<br/>{{SkillTitleOnlyTemplate|状態異常 免疫持続時間3秒|6}}<br/>}}<br/>|5}}
+{{ListViewSkill|リベレート| . |180|1|60|一時的に力を解放して周辺の敵の目に付くようになります。バフ持続時間中は自分の攻撃でモンスターに適用されるヘイト値がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|ヘイト値500%アップ|2}}<br/>{{SkillTitleOnlyTemplate|持続時間30秒|2}}<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
 
 |}
 
@@ -171,5 +171,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.567151
+* Automatic generated at 2020-02-03 00:16:38.593610
 {{PageProgress|2}}

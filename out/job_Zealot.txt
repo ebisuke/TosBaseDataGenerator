@@ -51,16 +51,16 @@ List View=
 {{ListViewSkill|1}}
 |-
 {{ListViewSkill|インバーナーブル| . |210|1|50|自分がノックバック、ノックダウン無効状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 |21秒|22秒|23秒|24秒|25秒|26秒|27秒|28秒|29秒|30秒|31秒|32秒|33秒|34秒|35秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|イモレーション| . |144|2|40|周辺の敵を燃やし、炎属性ダメージを与えますが、自分の身も火に燃えてHPが減ります。 このダメージで死ぬことはありません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとに|212%位炎属性ダメージ|247%位炎属性ダメージ|283%位炎属性ダメージ|318%位炎属性ダメージ|354%位炎属性ダメージ|389%位炎属性ダメージ|425%位炎属性ダメージ|460%位炎属性ダメージ|496%位炎属性ダメージ|531%位炎属性ダメージ|567%位炎属性ダメージ|602%位炎属性ダメージ|638%位炎属性ダメージ|673%位炎属性ダメージ|709%位炎属性ダメージ}}<br/>}}<br/>|15}}
-{{ListViewSkill|ビーディアイズ| . |150|1|10|瞬時に敵の背後に移動します。ビーディアイズ使用後にクリティカル発生率がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|最大移動距離|105|110|115|120|125|130|135|140|145|150|155|160|165|170|175}}<br/>{{SkillAdditionalInfoTemplate|クリティカル発生|+ 3%|+ 6%|+ 9%|+12%|+15%|+18%|+21%|+24%|+27%|+30%|+33%|+36%|+39%|+42%|+45%}}<br/>}}<br/>|15}}
-{{ListViewSkill|ファナティシズム| . |180|1|30|敵に与えるダメージをアップさせます。バフ適用中にHP回復はできません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate||+10%ダメージ|+15%ダメージ|+20%ダメージ|+25%ダメージ|+30%ダメージ|+35%ダメージ|+40%ダメージ|+45%ダメージ|+50%ダメージ|+55%ダメージ|+60%ダメージ|+65%ダメージ|+70%ダメージ|+75%ダメージ|+80%ダメージ}}<br/>}}<br/>|15}}
+{{ListViewSkill|イモレーション| . |144|2|40|周辺の敵を燃やし、炎属性ダメージを与えますが、自分の身も火に燃えてHPが減ります。 このダメージで死ぬことはありません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillTitleOnlyTemplate|0.5秒ごとに最大HPの1%位減少|16}}<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとに|212%位炎属性ダメージ|247%位炎属性ダメージ|283%位炎属性ダメージ|318%位炎属性ダメージ|354%位炎属性ダメージ|389%位炎属性ダメージ|425%位炎属性ダメージ|460%位炎属性ダメージ|496%位炎属性ダメージ|531%位炎属性ダメージ|567%位炎属性ダメージ|602%位炎属性ダメージ|638%位炎属性ダメージ|673%位炎属性ダメージ|709%位炎属性ダメージ}}<br/>{{SkillTitleOnlyTemplate|持続時間5秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ビーディアイズ| . |150|1|10|瞬時に敵の背後に移動します。ビーディアイズ使用後にクリティカル発生率がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|最大移動距離|105|110|115|120|125|130|135|140|145|150|155|160|165|170|175}}<br/>{{SkillAdditionalInfoTemplate|クリティカル発生|3%アップ|6%アップ|9%アップ|12%アップ|15%アップ|18%アップ|21%アップ|24%アップ|27%アップ|30%アップ|33%アップ|36%アップ|39%アップ|42%アップ|45%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間5秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ファナティシズム| . |180|1|30|敵に与えるダメージをアップさせます。バフ適用中にHP回復はできません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillTitleOnlyTemplate|持続時間15秒|16}}<br/>{{SkillAdditionalInfoTemplate||10%ダメージアップ|15%ダメージアップ|20%ダメージアップ|25%ダメージアップ|30%ダメージアップ|35%ダメージアップ|40%ダメージアップ|45%ダメージアップ|50%ダメージアップ|55%ダメージアップ|60%ダメージアップ|65%ダメージアップ|70%ダメージアップ|75%ダメージアップ|80%ダメージアップ}}<br/>{{SkillTitleOnlyTemplate|ヒーリングファクタースキルと重複使用不可|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ファナティックイリュージョン| . |0|1|20|自分の体に電気を流し、近接した敵にダメージを与えます。持続的にSPを消費し、SPが足りない場合は効果が解除されます。雷属性抵抗力がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|1秒ごとにスキル係数|180%|216%|252%|288%|324%|360%|396%|432%|468%|504%}}<br/>{{SkillAdditionalInfoTemplate|1秒ごとにSP消費|25|25|25|25|25|25|25|25|25|25}}<br/>{{SkillAdditionalInfoTemplate|雷属性抵抗力 |+10%|+20%|+30%|+40%|+50%|+60%|+70%|+80%|+90%|+100%}}<br/>}}<br/>|10}}
-{{ListViewSkill|ブラインドフェイス| . |0|1|40|自分の残りのSPの50%を消費し、持続時間中に聖属性追加攻撃を行います。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|消耗したSP x |20%の追加攻撃|40%の追加攻撃|60%の追加攻撃|80%の追加攻撃|100%の追加攻撃|120%の追加攻撃|140%の追加攻撃|160%の追加攻撃|180%の追加攻撃|200%の追加攻撃}}<br/>}}<br/>|10}}
+{{ListViewSkill|ファナティックイリュージョン| . |0|1|20|自分の体に電気を流し、近接した敵にダメージを与えます。持続的にSPを消費し、SPが足りない場合は効果が解除されます。雷属性抵抗力がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|1秒ごとにスキル係数|180%|216%|252%|288%|324%|360%|396%|432%|468%|504%}}<br/>{{SkillTitleOnlyTemplate|持続時間15秒|11}}<br/>{{SkillTitleOnlyTemplate|1秒ごとにSP消費|11}}<br/>{{SkillAdditionalInfoTemplate|雷属性抵抗力 |10%アップ|20%アップ|30%アップ|40%アップ|50%アップ|60%アップ|70%アップ|80%アップ|90%アップ|100%アップ}}<br/>}}<br/>|10}}
+{{ListViewSkill|ブラインドフェイス| . |0|1|40|自分の残りのSPの50%を消費し、持続時間中に聖属性追加攻撃を行います。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillTitleOnlyTemplate|持続時間40秒|11}}<br/>{{SkillAdditionalInfoTemplate|消耗したSP x |20%の追加攻撃|40%の追加攻撃|60%の追加攻撃|80%の追加攻撃|100%の追加攻撃|120%の追加攻撃|140%の追加攻撃|160%の追加攻撃|180%の追加攻撃|200%の追加攻撃}}<br/>{{SkillTitleOnlyTemplate|攻撃可能回数20回|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|エンファシストラスト| . |165|1|30|周辺の敵に攻撃を受けると聖属性ダメージを与えるデバフを付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|208%|416%|625%|834%|1043%}}<br/>{{SkillAdditionalInfoTemplate|持続時間 |17秒|19秒|21秒|23秒|25秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|エンファシストラスト| . |165|1|30|周辺の敵に攻撃を受けると聖属性ダメージを与えるデバフを付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|208%|416%|625%|834%|1043%}}<br/>{{SkillAdditionalInfoTemplate|持続時間 |17秒|19秒|21秒|23秒|25秒}}<br/>{{SkillTitleOnlyTemplate|攻撃可能回数10回|6}}<br/>{{SkillTitleOnlyTemplate|適用対象数10|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -120,5 +120,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.816152
+* Automatic generated at 2020-02-03 00:16:38.878608
 {{PageProgress|2}}

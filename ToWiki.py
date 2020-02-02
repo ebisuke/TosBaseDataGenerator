@@ -168,10 +168,21 @@ def generateListView(job:TosStructure.Job):
 
             for vv in s.variables:
                 vary:TosStructure.SkillCaption = vv
-                sfrdesc += "{{SkillAdditionalInfoTemplate|" + vary.title
-                for value in range(0,len(vary.value)):
-                    sfrdesc += "|" + vary.tostr(value)
-                sfrdesc+="}}\n"
+                tempdesc=""
+                tempdesc += "{{SkillAdditionalInfoTemplate|" + vary.getTitle()
+                colspan=1
+                for lv in range(1,s.maxlv+1):
+                    if vary.tostr(lv-1)=="":
+                        colspan+=1
+                    else:
+                        colspan=1
+                        tempdesc += "|" + vary.tostr(lv-1)
+
+                tempdesc+="}}\n"
+                if colspan>1:
+                    sfrdesc += "{{SkillTitleOnlyTemplate|"+vary.getTitle()+"|"+str(colspan)+"}}\n"
+                else:
+                    sfrdesc += tempdesc
             # # sp consumption
             # sfrdesc += "{{SkillAdditionalInfoTemplate|" + "消費SP"
             # for value in s.sp:

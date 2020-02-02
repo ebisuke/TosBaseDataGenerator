@@ -51,16 +51,16 @@ List View=
 {{ListViewSkill|1}}
 |-
 {{ListViewSkill|ファイアボール| . |84|3|15|強力な火炎エネルギーを集めて敵に発射します。敵に的中すると爆発し、周辺の敵に火炎ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|923%|1077%|1231%|1385%|1539%|1693%|1847%|2001%|2155%|2309%|2463%|2617%|2771%|2925%|3079%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}<br/>}}<br/>|15}}
-{{ListViewSkill|ファイアーウォール| . |186|2|30|火炎の壁を作って接近した敵に持続的な炎属性ダメージを与えます。攻撃を受けた敵はノックバックされます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|122% x 5回|126% x 5回|130% x 5回|134% x 5回|138% x 5回|142% x 5回|146% x 5回|150% x 5回|154% x 5回|158% x 5回|163% x 5回|167% x 5回|171% x 5回|175% x 5回|179% x 5回}}<br/>}}<br/>|15}}
-{{ListViewSkill|エンチャントファイア| . |280|1|60|自分の攻撃に一時的に炎属性を付与します。敵にエナジーボルト、基本攻撃時、炎属性追加攻撃が発動されます。周辺に召喚獣がいる場合、召喚獣にもエンチャントファイアが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|炎属性追加ダメージ|+69|+114|+159|+204|+249|+294|+339|+384|+429|+474|+519|+564|+609|+654|+699}}<br/>{{SkillAdditionalInfoTemplate|属性追加攻撃+|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000}}<br/>}}<br/>|15}}
-{{ListViewSkill|フレイムグラウンド| . |205|1|30|自分を中心に火炎魔法陣を描きます。敵は持続的に炎属性ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|248%|289%|331%|372%|414%|455%|497%|538%|580%|621%|663%|704%|746%|787%|829%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ファイアーウォール| . |186|2|30|火炎の壁を作って接近した敵に持続的な炎属性ダメージを与えます。攻撃を受けた敵はノックバックされます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|122% x5回|126% x5回|130% x5回|134% x5回|138% x5回|142% x5回|146% x5回|150% x5回|154% x5回|158% x5回|163% x5回|167% x5回|171% x5回|175% x5回|179% x5回}}<br/>{{SkillTitleOnlyTemplate|ファイアウォール8個|16}}<br/>{{SkillTitleOnlyTemplate|持続時間15秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|エンチャントファイア| . |280|1|60|自分の攻撃に一時的に炎属性を付与します。敵にエナジーボルト、基本攻撃時、炎属性追加攻撃が発動されます。周辺に召喚獣がいる場合、召喚獣にもエンチャントファイアが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|炎属性追加ダメージ|69アップ|114アップ|159アップ|204アップ|249アップ|294アップ|339アップ|384アップ|429アップ|474アップ|519アップ|564アップ|609アップ|654アップ|699アップ}}<br/>{{SkillAdditionalInfoTemplate|属性追加攻撃+|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000|1000}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|フレイムグラウンド| . |205|1|30|自分を中心に火炎魔法陣を描きます。敵は持続的に炎属性ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|248%|289%|331%|372%|414%|455%|497%|538%|580%|621%|663%|704%|746%|787%|829%}}<br/>{{SkillTitleOnlyTemplate|持続時間8秒|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ファイアピラー| . |233|1|45|火炎柱を召喚して敵にダメージを与えます。ファイアピラーにレイズを使えばファイアピラーのダメージが連打で適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|127%|160%|193%|226%|259%|292%|325%|358%|391%|424%}}<br/>}}<br/>|10}}
-{{ListViewSkill|ヘルブレス| . |0|1|45|前方めがけて持続的に火を噴き、敵を攻撃します。前方の敵や詠唱者周辺の敵は持続的に炎属性ダメージを受け、一定確率で炎属性攻撃の追加ダメージを受けます。ヘルブレス中は近接攻撃を防御する効果が与えられます。(ボースモンスターの攻撃は除外){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|0.3秒ごとにスキル係数|119%|149%|180%|211%|242%|273%|304%|335%|366%|397%}}<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにSP |20消費|20消費|20消費|20消費|20消費|20消費|20消費|20消費|20消費|20消費}}<br/>{{SkillAdditionalInfoTemplate|パイライト| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費| 1個消費}}<br/>}}<br/>|10}}
+{{ListViewSkill|ファイアピラー| . |233|1|45|火炎柱を召喚して敵にダメージを与えます。ファイアピラーにレイズを使えばファイアピラーのダメージが連打で適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|127%|160%|193%|226%|259%|292%|325%|358%|391%|424%}}<br/>{{SkillTitleOnlyTemplate|持続時間10秒|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|ヘルブレス| . |0|1|45|前方めがけて持続的に火を噴き、敵を攻撃します。前方の敵や詠唱者周辺の敵は持続的に炎属性ダメージを受け、一定確率で炎属性攻撃の追加ダメージを受けます。ヘルブレス中は近接攻撃を防御する効果が与えられます。(ボースモンスターの攻撃は除外){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|0.3秒ごとにスキル係数|119%|149%|180%|211%|242%|273%|304%|335%|366%|397%}}<br/>{{SkillTitleOnlyTemplate|0.5秒ごとにSP |11}}<br/>{{SkillAdditionalInfoTemplate|パイライト|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費|1個消費}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|プロミネンス| . |254|1|45|プロミネンスを召喚し、指定の位置を移動しながら対象にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|621%|683%|745%|807%|869%}}<br/>{{SkillAdditionalInfoTemplate|生成回数| 4回| 4回| 4回| 4回| 4回}}<br/>}}<br/>|5}}
+{{ListViewSkill|プロミネンス| . |254|1|45|プロミネンスを召喚し、指定の位置を移動しながら対象にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|621%|683%|745%|807%|869%}}<br/>{{SkillTitleOnlyTemplate|生成数4個|6}}<br/>{{SkillAdditionalInfoTemplate|生成回数|4回|4回|4回|4回|4回}}<br/>}}<br/>|5}}
 
 |}
 
@@ -126,5 +126,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.644152
+* Automatic generated at 2020-02-03 00:16:38.679608
 {{PageProgress|2}}

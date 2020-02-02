@@ -48,15 +48,15 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|コンスクリプト| . |0|1|22|部隊員を招集するフォーメーションを生成します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|部隊員| 4人招集可能| 5人招集可能| 6人招集可能| 7人招集可能| 8人招集可能}}<br/>}}<br/>|5}}
-{{ListViewSkill|ファランクス| . |0|1|0|ファランクスフォーメーションに転換します。全部隊員のブロック能力を最前列の3人に集中させます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|追加ブロック}}<br/>}}<br/>|0}}
-{{ListViewSkill|テルシオ| . |0|1|0|テルシオフォーメーションに転換します。全ての部隊員の防御力を最前列の3人に集中させ、敵の注意を引き付けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|追加防御力}}<br/>}}<br/>|0}}
-{{ListViewSkill|ウィング| . |0|1|0|ウィングフォーメーションに転換します。フォーメーション内に入った敵は防御力がダウンし、リーダーめがけて突進します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|防御力}}<br/>}}<br/>|0}}
-{{ListViewSkill|ウェッジ| . |0|1|0|ウェッジフォーメーションに転換します。全部隊員の攻撃力を先頭に立った部隊員1人に集中させます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|部隊員に攻撃力}}<br/>{{SkillAdditionalInfoTemplate|攻撃時、}}<br/>}}<br/>|0}}
-{{ListViewSkill|シルトロン| . |0|1|0|シルトロンフォーメーションに転換します。全部隊員が武器を構えて止まり、敵の突進を防ぎます。|0}}
-{{ListViewSkill|テストゥード| . |0|1|0|テストゥードフォーメーションに転換します。部隊員全員の防御力をアップさせ、ゆっくり移動します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|攻撃力}}<br/>{{SkillAdditionalInfoTemplate|追加防御力}}<br/>}}<br/>|0}}
-{{ListViewSkill|ローテート| . |0|1|0|フォーメーションの方向をリーダーの視線の方向に合わせて整えます。|0}}
-{{ListViewSkill|特戦隊型| . |0|1|120|隊員を招集するフォーメーションになります。フォーメーションに入った隊員はしばらくの間クールタイムが半分になります。持続時間はスキルレベル、メンバー数によって増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|持続時間最小}}<br/>}}<br/>|0}}
+{{ListViewSkill|コンスクリプト| . |0|1|22|部隊員を招集するフォーメーションを生成します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|部隊員|4人招集可能|5人招集可能|6人招集可能|7人招集可能|8人招集可能}}<br/>}}<br/>|5}}
+{{ListViewSkill|ファランクス| . |0|1|0|ファランクスフォーメーションに転換します。全部隊員のブロック能力を最前列の3人に集中させます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|追加ブロック}}<br/>{{SkillAdditionalInfoTemplate|2秒ごとにSP1%ずつ消耗}}<br/>}}<br/>|0}}
+{{ListViewSkill|テルシオ| . |0|1|0|テルシオフォーメーションに転換します。全ての部隊員の防御力を最前列の3人に集中させ、敵の注意を引き付けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|追加防御力}}<br/>{{SkillAdditionalInfoTemplate|2秒ごとにSP1%ずつ消耗}}<br/>}}<br/>|0}}
+{{ListViewSkill|ウィング| . |0|1|0|ウィングフォーメーションに転換します。フォーメーション内に入った敵は防御力がダウンし、リーダーめがけて突進します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|防御力}}<br/>{{SkillAdditionalInfoTemplate|2秒ごとにSPを1%ずつ消耗}}<br/>}}<br/>|0}}
+{{ListViewSkill|ウェッジ| . |0|1|0|ウェッジフォーメーションに転換します。全部隊員の攻撃力を先頭に立った部隊員1人に集中させます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|部隊員に攻撃力}}<br/>{{SkillAdditionalInfoTemplate|攻撃時、}}<br/>{{SkillAdditionalInfoTemplate|2秒ごとにSP1%ずつ消耗}}<br/>}}<br/>|0}}
+{{ListViewSkill|シルトロン| . |0|1|0|シルトロンフォーメーションに転換します。全部隊員が武器を構えて止まり、敵の突進を防ぎます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|2秒ごとにSP1%ずつ消耗}}<br/>{{SkillAdditionalInfoTemplate|1レベルマスター}}<br/>}}<br/>|0}}
+{{ListViewSkill|テストゥード| . |0|1|0|テストゥードフォーメーションに転換します。部隊員全員の防御力をアップさせ、ゆっくり移動します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|攻撃力}}<br/>{{SkillAdditionalInfoTemplate|ダウンした攻撃力の分だけ防御力アップ}}<br/>{{SkillAdditionalInfoTemplate|追加防御力}}<br/>{{SkillAdditionalInfoTemplate|2秒ごとにSP1%ずつ消耗}}<br/>}}<br/>|0}}
+{{ListViewSkill|ローテート| . |0|1|0|フォーメーションの方向をリーダーの視線の方向に合わせて整えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|リーダーの方向に合わせて再整列}}<br/>{{SkillAdditionalInfoTemplate|1レベルマスター}}<br/>}}<br/>|0}}
+{{ListViewSkill|特戦隊型| . |0|1|120|隊員を招集するフォーメーションになります。フォーメーションに入った隊員はしばらくの間クールタイムが半分になります。持続時間はスキルレベル、メンバー数によって増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|0}}|<br/>{{SkillAdditionalInfoTemplate|クールタイム50%ダウン}}<br/>{{SkillAdditionalInfoTemplate|持続時間最小}}<br/>}}<br/>|0}}
 
 |}
 
@@ -107,5 +107,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.583152
+* Automatic generated at 2020-02-03 00:16:38.611608
 {{PageProgress|2}}

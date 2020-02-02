@@ -51,18 +51,18 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ヒーリングファクター| . |195|1|45|対象に一時的に超再生能力を付与します。回復周期時点でバフを受けた時のHPより少ない状態の場合に回復します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|5秒ごとに治癒係数|1020%|1157%|1295%|1432%|1570%|1707%|1845%|1982%|2120%|2257%|2395%|2532%|2670%|2807%|2945%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ヒーリングファクター| . |195|1|45|対象に一時的に超再生能力を付与します。回復周期時点でバフを受けた時のHPより少ない状態の場合に回復します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillTitleOnlyTemplate|5秒ごとに治癒係数|16}}<br/>{{SkillTitleOnlyTemplate|持続時間45秒|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|インシネレーション| . |124|2|15|デバフにかかった敵を燃やします。敵に適用されていたデバフの数に比例し、炎状態の持続時間が長くなります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate||0.5秒当たりのスキル係数72%|0.5秒当たりのスキル係数84%|0.5秒当たりのスキル係数96%|0.5秒当たりのスキル係数108%|0.5秒当たりのスキル係数120%|0.5秒当たりのスキル係数133%|0.5秒当たりのスキル係数145%|0.5秒当たりのスキル係数157%|0.5秒当たりのスキル係数169%|0.5秒当たりのスキル係数181%|0.5秒当たりのスキル係数194%|0.5秒当たりのスキル係数206%|0.5秒当たりのスキル係数218%|0.5秒当たりのスキル係数230%|0.5秒当たりのスキル係数242%}}<br/>{{SkillAdditionalInfoTemplate|基本持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|フュミゲート| . |217|1|45|仲間のデバフを治療する燻蒸消毒薬を噴射します。該当範囲内の仲間たちのスタン、アレスト、移動不可、スローを除いた一般解除可能な全てのデバフが全て解除されます。|1}}
-{{ListViewSkill|モダフィニル| . |217|1|45|一定時間自分とPTメンバーの移動速度がアップします。モダフィニルバフを受ける対象のキャラクターレベルと詠唱者の精神ステータスの比率によって追加比率が適用され、最大+100%まで適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|移動速度|+ 7|+ 8|+ 9|+10|+11|+12|+13|+14|+15|+16}}<br/>{{SkillAdditionalInfoTemplate|持続時間|24秒|28秒|32秒|36秒|40秒|44秒|48秒|52秒|56秒|60秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|ビークマスク| . |225|1|60|ビークマスクを被ります。この仮面の前面には特殊な薬品が塗られており、敵の一般解除可能な全てのバフを防ぎます。(ただしスタン、ホールド、移動不可、スローは防げません。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|60秒}}<br/>}}<br/>|1}}
+{{ListViewSkill|フュミゲート| . |217|1|45|仲間のデバフを治療する燻蒸消毒薬を噴射します。該当範囲内の仲間たちのスタン、アレスト、移動不可、スローを除いた一般解除可能な全てのデバフが全て解除されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|一般解除可能なデバフ除去|2}}<br/>{{SkillTitleOnlyTemplate|最大5人適用|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|モダフィニル| . |217|1|45|一定時間自分とPTメンバーの移動速度がアップします。モダフィニルバフを受ける対象のキャラクターレベルと詠唱者の精神ステータスの比率によって追加比率が適用され、最大+100%まで適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|移動速度|7アップ|8アップ|9アップ|10アップ|11アップ|12アップ|13アップ|14アップ|15アップ|16アップ}}<br/>{{SkillAdditionalInfoTemplate|持続時間|24秒|28秒|32秒|36秒|40秒|44秒|48秒|52秒|56秒|60秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|ビークマスク| . |225|1|60|ビークマスクを被ります。この仮面の前面には特殊な薬品が塗られており、敵の一般解除可能な全てのバフを防ぎます。(ただしスタン、ホールド、移動不可、スローは防げません。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|60秒}}<br/>{{SkillTitleOnlyTemplate|一般解除可能なデバフ100%無効|2}}<br/>}}<br/>|1}}
 {{ListViewSkill|2}}
 |-
 {{ListViewSkill|ペストスチーム| . |150|1|20|前方へペストスチームを噴射し、持続的なダメージを与えます。影響を受けた敵は一定確率で周囲に毒を伝染させます。インシネレーションを使用すると追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|0.5秒ごとにスキル係数|149%|187%|226%|265%|304%|342%|381%|420%|459%|498%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒|15秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|パンデミック| . |142|1|25|指定された範囲内の敵にかかっているデバフが周辺に拡散されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|最大| 5名適用| 7名適用| 9名適用|11名適用|13名適用|15名適用|17名適用|19名適用|21名適用|23名適用}}<br/>}}<br/>|10}}
+{{ListViewSkill|パンデミック| . |142|1|25|指定された範囲内の敵にかかっているデバフが周辺に拡散されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|最大|5名適用|7名適用|9名適用|11名適用|13名適用|15名適用|17名適用|19名適用|21名適用|23名適用}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|メサドン| . |195|1|30|自分とPTメンバーたちにノックバック、ノックダウン無効化およびキャスティングが中断されない効果を付与し、スタン、アレスト、移動不可、スローを除いた一般解除可能な全てのデバフを防ぐ効果を付与します。メサドンバフが適用中の場合は回避とブロックが減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|持続時間| 6秒| 7秒| 8秒| 9秒|10秒}}<br/>{{SkillAdditionalInfoTemplate|回避、ブロック|-18%|-16%|-14%|-12%|-10%}}<br/>}}<br/>|5}}
+{{ListViewSkill|メサドン| . |195|1|30|自分とPTメンバーたちにノックバック、ノックダウン無効化およびキャスティングが中断されない効果を付与し、スタン、アレスト、移動不可、スローを除いた一般解除可能な全てのデバフを防ぐ効果を付与します。メサドンバフが適用中の場合は回避とブロックが減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|6秒|7秒|8秒|9秒|10秒}}<br/>{{SkillAdditionalInfoTemplate|回避、ブロック|18%ダウン|16%ダウン|14%ダウン|12%ダウン|10%ダウン}}<br/>}}<br/>|5}}
 
 |}
 
@@ -119,5 +119,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.801152
+* Automatic generated at 2020-02-03 00:16:38.861608
 {{PageProgress|2}}

@@ -50,17 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|エレクトロキュート| . |173|1|10|電気の鎖を放出し前方の敵を連続攻撃します。コーリングストーム範囲内でエレクトロキュート使用時適用対象数が2倍に増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |411% x 4回|479% x 4回|548% x 4回|616% x 4回|685% x 4回|753% x 4回|822% x 4回|890% x 4回|959% x 4回|1027% x 4回|1096% x 4回|1164% x 4回|1233% x 4回|1301% x 4回|1370% x 4回}}<br/>{{SkillAdditionalInfoTemplate|適用対象| 3| 4| 4| 5| 5| 6| 6| 7| 7| 8| 8| 9| 9|10|10}}<br/>}}<br/>|15}}
-{{ListViewSkill|ヘイル| . |243|1|40|指定した位置に氷の塊をたくさん落とし敵に持続的なダメージを与えます。敵の大きさに合わせてダメージが増加します。小型対象はダメージ150%、中型対象はダメージ100%、大型対象はダメージ50%アップ [氷結]状態の敵にヘイル攻撃がクリティカルで的中した時、与えるダメージが増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |156%|182%|208%|234%|260%|286%|312%|338%|364%|390%|416%|442%|468%|494%|520%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|ストームダスト| . |187|1|20|指定位置に砂の嵐を生成します。嵐内の敵は持続的に地属性ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.3秒ごとにスキル係数|241%|281%|321%|362%|402%|443%|483%|523%|564%|604%|645%|685%|725%|766%|806%}}<br/>{{SkillAdditionalInfoTemplate|対象数|14|16|18|20|22|24|26|28|30|32|34|36|38|40|42}}<br/>}}<br/>|15}}
+{{ListViewSkill|エレクトロキュート| . |173|1|10|電気の鎖を放出し前方の敵を連続攻撃します。コーリングストーム範囲内でエレクトロキュート使用時適用対象数が2倍に増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |411% x 4回|479% x 4回|548% x 4回|616% x 4回|685% x 4回|753% x 4回|822% x 4回|890% x 4回|959% x 4回|1027% x 4回|1096% x 4回|1164% x 4回|1233% x 4回|1301% x 4回|1370% x 4回}}<br/>{{SkillTitleOnlyTemplate|キャスティング時間0.5秒|16}}<br/>{{SkillAdditionalInfoTemplate|適用対象|3|4|4|5|5|6|6|7|7|8|8|9|9|10|10}}<br/>}}<br/>|15}}
+{{ListViewSkill|ヘイル| . |243|1|40|指定した位置に氷の塊をたくさん落とし敵に持続的なダメージを与えます。敵の大きさに合わせてダメージが増加します。小型対象はダメージ150%、中型対象はダメージ100%、大型対象はダメージ50%アップ [氷結]状態の敵にヘイル攻撃がクリティカルで的中した時、与えるダメージが増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |156%|182%|208%|234%|260%|286%|312%|338%|364%|390%|416%|442%|468%|494%|520%}}<br/>{{SkillTitleOnlyTemplate|キャスティング時間1秒|16}}<br/>{{SkillAdditionalInfoTemplate|持続時間|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒|10秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|ストームダスト| . |187|1|20|指定位置に砂の嵐を生成します。嵐内の敵は持続的に地属性ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.3秒ごとにスキル係数|241%|281%|321%|362%|402%|443%|483%|523%|564%|604%|645%|685%|725%|766%|806%}}<br/>{{SkillAdditionalInfoTemplate|対象数|14|16|18|20|22|24|26|28|30|32|34|36|38|40|42}}<br/>{{SkillTitleOnlyTemplate|持続時間5.4秒|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|ファイアクロー| . |194|2|15|指定位置を中心として広がる炎を噴き出させて敵を攻撃します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|149%|173%|198%|223%|248%|273%|298%|323%|348%|373%|398%|422%|447%|472%|497%}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|エレメンタルエッセンス| . |205|1|20|相手の弱点属性で攻撃すると相性効果がアップするバフを付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|相性効果|+10%|+20%|+30%|+40%|+50%|+60%|+70%|+80%|+90%|+100%}}<br/>}}<br/>|10}}
-{{ListViewSkill|ストーンカース| . |243|1|60|敵を一時的に石化状態にします。石化状態になった敵は炎属性、念属性を除いた全ての攻撃で受けるダメージがダウンし、炎属性、念属性攻撃に追加ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 | 2秒| 3秒| 4秒| 5秒| 6秒| 7秒| 8秒| 9秒|10秒|11秒}}<br/>{{SkillAdditionalInfoTemplate|適用対象 | 5| 5| 5| 5| 5| 5| 5| 5| 5| 5}}<br/>}}<br/>|10}}
+{{ListViewSkill|エレメンタルエッセンス| . |205|1|20|相手の弱点属性で攻撃すると相性効果がアップするバフを付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|相性効果|10%アップ|20%アップ|30%アップ|40%アップ|50%アップ|60%アップ|70%アップ|80%アップ|90%アップ|100%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間20秒|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|ストーンカース| . |243|1|60|敵を一時的に石化状態にします。石化状態になった敵は炎属性、念属性を除いた全ての攻撃で受けるダメージがダウンし、炎属性、念属性攻撃に追加ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 |2秒|3秒|4秒|5秒|6秒|7秒|8秒|9秒|10秒|11秒}}<br/>{{SkillTitleOnlyTemplate|キャスティング時間1秒|11}}<br/>{{SkillAdditionalInfoTemplate|適用対象 |5|5|5|5|5|5|5|5|5|5}}<br/>{{SkillTitleOnlyTemplate|炎属性、念属性攻撃に50%追加ダメージ|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|メテオ| . |224|1|30|指定した位置に隕石を落とし、敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|2406%|4812%|7219%|9625%|12032%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|30|30|30|30|30}}<br/>}}<br/>|5}}
+{{ListViewSkill|メテオ| . |224|1|30|指定した位置に隕石を落とし、敵にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|2406%|4812%|7219%|9625%|12032%}}<br/>{{SkillTitleOnlyTemplate|キャスティング時間2秒|6}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|30|30|30|30|30}}<br/>}}<br/>|5}}
 
 |}
 
@@ -126,5 +126,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.671151
+* Automatic generated at 2020-02-03 00:16:38.710608
 {{PageProgress|2}}

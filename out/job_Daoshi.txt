@@ -52,17 +52,17 @@ List View=
 {{ListViewSkill|1}}
 |-
 {{ListViewSkill|ビゴンデーモン| . |205|1|10|設置した護符の効果をすぐに発動させます。トライディザスター、クリーピングデス、エレベートマジックスクエアは爆発して周囲にダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|290%|338%|387%|435%|484%|532%|581%|629%|678%|726%|775%|823%|872%|920%|969%}}<br/>}}<br/>|15}}
-{{ListViewSkill|クリーピングデス| . |134|1|35|前方へゆっくりと移動する護符を設置します。この護符が当たった敵には連続的にダメージを与え、ビゴンデーモン発動時は追加ダメージを発生させます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|875% x  1回|875% x  2回|875% x  3回|875% x  4回|875% x  5回|875% x  6回|875% x  7回|875% x  8回|875% x  9回|875% x 10回|875% x 11回|875% x 12回|875% x 13回|875% x 14回|875% x 15回}}<br/>}}<br/>|15}}
-{{ListViewSkill|ライトニングチャーム| . |187|1|30|稲妻の力のこもった護符を発動し、自分に与えます。 魔法スキル攻撃をするたびに確率的に与えたダメージの一定割合で敵に電気ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|追加攻撃ダメージ|50%}}<br/>}}<br/>|1}}
-{{ListViewSkill|エレベートマジックスクエア| . |130|3|20|前方に生成された魔法陣が空中型の敵にも効果を与えられるように変更する魔法陣を生成します。ビゴンデーモン発動時は追加ダメージを与えます。|1}}
+{{ListViewSkill|クリーピングデス| . |134|1|35|前方へゆっくりと移動する護符を設置します。この護符が当たった敵には連続的にダメージを与え、ビゴンデーモン発動時は追加ダメージを発生させます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|875% x 1回|875% x 2回|875% x 3回|875% x 4回|875% x 5回|875% x 6回|875% x 7回|875% x 8回|875% x 9回|875% x 10回|875% x 11回|875% x 12回|875% x 13回|875% x 14回|875% x 15回}}<br/>{{SkillTitleOnlyTemplate|槐黄紙3枚必要|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ライトニングチャーム| . |187|1|30|稲妻の力のこもった護符を発動し、自分に与えます。 魔法スキル攻撃をするたびに確率的に与えたダメージの一定割合で敵に電気ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|追加攻撃ダメージ|50%}}<br/>{{SkillTitleOnlyTemplate|発動確率40%|2}}<br/>{{SkillTitleOnlyTemplate|持続時間30秒|2}}<br/>{{SkillTitleOnlyTemplate|槐黄紙1枚必要|2}}<br/>{{SkillTitleOnlyTemplate|1レベルマスタ|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|エレベートマジックスクエア| . |130|3|20|前方に生成された魔法陣が空中型の敵にも効果を与えられるように変更する魔法陣を生成します。ビゴンデーモン発動時は追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|持続時間12秒|2}}<br/>{{SkillTitleOnlyTemplate|槐黄紙3枚必要|2}}<br/>}}<br/>|1}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|コーリングストーム| . |185|1|25|雨や風を呼び起こす護符を設置します。効果範囲内の敵にダメージを与えます。雷攻撃にはボーナスダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|コーリングストームスキル係数|306%|321%|336%|351%|367%|382%|397%|413%|428%|443%}}<br/>{{SkillAdditionalInfoTemplate|雷攻撃ダメージ|+ 5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}<br/>{{SkillAdditionalInfoTemplate|コーリングストームの持続時間| 4秒| 5秒| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|トライディザスター| . |177|1|30|炎、氷、雷属性に弱くなる護符を設置します。護符の周辺にいる敵は炎、氷、雷属性の攻撃に対して受けるダメージがアップします。護符が爆発してダメージを受けた敵は炎、氷、雷の3つの属性のダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|護符持続時間|12秒|24秒|36秒|48秒|60秒|72秒|84秒|96秒|108秒|120秒}}<br/>{{SkillAdditionalInfoTemplate|火、氷、雷属性ダメージ|+ 5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}<br/>}}<br/>|10}}
-{{ListViewSkill|ディバインパニッシュメント| . |221|3|30|敵1体に天罰を下します。チャージ時間に比例してダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1271%|1600%|1930%|2259%|2589%|2919%|3248%|3578%|3907%|4237%}}<br/>}}<br/>|10}}
+{{ListViewSkill|コーリングストーム| . |185|1|25|雨や風を呼び起こす護符を設置します。効果範囲内の敵にダメージを与えます。雷攻撃にはボーナスダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|コーリングストームスキル係数|306%|321%|336%|351%|367%|382%|397%|413%|428%|443%}}<br/>{{SkillAdditionalInfoTemplate|雷攻撃ダメージ|5%アップ|10%アップ|15%アップ|20%アップ|25%アップ|30%アップ|35%アップ|40%アップ|45%アップ|50%アップ}}<br/>{{SkillAdditionalInfoTemplate|コーリングストームの持続時間|4秒|5秒|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒}}<br/>{{SkillTitleOnlyTemplate|槐黄紙2枚必要|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|トライディザスター| . |177|1|30|炎、氷、雷属性に弱くなる護符を設置します。護符の周辺にいる敵は炎、氷、雷属性の攻撃に対して受けるダメージがアップします。護符が爆発してダメージを受けた敵は炎、氷、雷の3つの属性のダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|護符持続時間|12秒|24秒|36秒|48秒|60秒|72秒|84秒|96秒|108秒|120秒}}<br/>{{SkillAdditionalInfoTemplate|火、氷、雷属性ダメージ|5%増加|10%増加|15%増加|20%増加|25%増加|30%増加|35%増加|40%増加|45%増加|50%増加}}<br/>{{SkillTitleOnlyTemplate|槐黄紙2枚必要|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|ディバインパニッシュメント| . |221|3|30|敵1体に天罰を下します。チャージ時間に比例してダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1271%|1600%|1930%|2259%|2589%|2919%|3248%|3578%|3907%|4237%}}<br/>{{SkillTitleOnlyTemplate|槐黄紙3枚必要|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ファントムエラディケイション| . |130|3|30|自分の背後に複数の護符を召喚して前方の敵を攻撃します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|104% x 8回|208% x 8回|313% x 8回|418% x 8回|523% x 8回}}<br/>}}<br/>|5}}
+{{ListViewSkill|ファントムエラディケイション| . |130|3|30|自分の背後に複数の護符を召喚して前方の敵を攻撃します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|104% x 8回|208% x 8回|313% x 8回|418% x 8回|523% x 8回}}<br/>{{SkillTitleOnlyTemplate|被撃対象15|6}}<br/>{{SkillTitleOnlyTemplate|槐黄紙3枚必要|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -124,5 +124,5 @@ nan
 nan
 {{ClassFooter|5}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.700151
+* Automatic generated at 2020-02-03 00:16:38.743608
 {{PageProgress|2}}

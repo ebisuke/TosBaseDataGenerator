@@ -50,15 +50,15 @@ List View=
 {{ListViewSkill|1}}
 |-
 {{ListViewSkill|バラージ| . |94|3|25|地面に向けて扇形に5本の矢を発射します。[スロー]状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|86% X 5回|100% X 5回|114% X 5回|129% X 5回|143% X 5回|158% X 5回|172% X 5回|186% X 5回|201% X 5回|215% X 5回|230% X 5回|244% X 5回|258% X 5回|273% X 5回|287% X 5回}}<br/>}}<br/>|15}}
-{{ListViewSkill|ハイアンカリング| . |109|2|15|矢の先で標的を狙い、一直線上にいる敵を貫通させます。ハイアンカリングによる攻撃を受けた敵はクリティカル抵抗が5秒間ダウンします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|466%|481%|496%|512%|527%|543%|558%|573%|589%|604%|620%|635%|650%|666%|681%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 6| 7| 8| 9|10|11|12|13|14|15|16|17|18|19|20}}<br/>}}<br/>|15}}
-{{ListViewSkill|ステディエイム| . |196|1|60|安定した姿勢で敵を狙います。ミサイル属性の攻撃ダメージがアップします。弓を使った攻撃は追加上昇効果があります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|弓攻撃を除いたミサイル攻撃時のダメージ|+ 1%|+ 2%|+ 3%|+ 4%|+ 5%|+ 6%|+ 7%|+ 8%|+ 9%|+10%|+11%|+12%|+13%|+14%|+15%}}<br/>{{SkillAdditionalInfoTemplate|弓攻撃時のダメージ|+1.5%|+ 3%|+4.5%|+ 6%|+7.5%|+ 9%|+10.5%|+12%|+13.5%|+15%|+16.5%|+18%|+19.5%|+21%|+22.5%}}<br/>}}<br/>|15}}
+{{ListViewSkill|ハイアンカリング| . |109|2|15|矢の先で標的を狙い、一直線上にいる敵を貫通させます。ハイアンカリングによる攻撃を受けた敵はクリティカル抵抗が5秒間ダウンします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|466%|481%|496%|512%|527%|543%|558%|573%|589%|604%|620%|635%|650%|666%|681%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20}}<br/>{{SkillTitleOnlyTemplate|敵のクリティカル抵抗10%ダウン|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ステディエイム| . |196|1|60|安定した姿勢で敵を狙います。ミサイル属性の攻撃ダメージがアップします。弓を使った攻撃は追加上昇効果があります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|弓攻撃を除いたミサイル攻撃時のダメージ|1%アップ|2%アップ|3%アップ|4%アップ|5%アップ|6%アップ|7%アップ|8%アップ|9%アップ|10%アップ|11%アップ|12%アップ|13%アップ|14%アップ|15%アップ}}<br/>{{SkillAdditionalInfoTemplate|弓攻撃時のダメージ|1.5%アップ|3%アップ|4.5%アップ|6%アップ|7.5%アップ|9%アップ|10.5%アップ|12%アップ|13.5%アップ|15%アップ|16.5%アップ|18%アップ|19.5%アップ|21%アップ|22.5%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|クリティカルショット| . |52|5|10|対象にクリティカル率の高い矢を発射します。クリティカルショットが命中すると詠唱者のクリティカル発生時最終ダメージをアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |202%|254%|307%|360%|412%|465%|518%|570%|623%|676%}}<br/>}}<br/>|10}}
-{{ListViewSkill|スパイラルアロー| . |113|1|15|螺旋の矢で敵を攻撃します。 矢は敵に食い込み、複数回のダメージを与えます。攻撃を受けた対象は30秒間、連打数増加デバフにかかり、その敵はスパイラルアローの攻撃を受ける度に連打数が増加します。またスパイラルアローは対象の防御力を一定量無視し、クリティカル発生率が増加します。[スロー]状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|89% x  6回|112% x  6回|135% x  6回|158% x  6回|182% x  6回|205% x  6回|228% x  6回|252% x  6回|275% x  6回|298% x  6回}}<br/>}}<br/>|10}}
+{{ListViewSkill|クリティカルショット| . |52|5|10|対象にクリティカル率の高い矢を発射します。クリティカルショットが命中すると詠唱者のクリティカル発生時最終ダメージをアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |202%|254%|307%|360%|412%|465%|518%|570%|623%|676%}}<br/>{{SkillTitleOnlyTemplate|最大クリティカル率適用|11}}<br/>{{SkillTitleOnlyTemplate|最大重複数5|11}}<br/>{{SkillTitleOnlyTemplate|1重複ごとにクリティカル時最終ダメージ10%アップ|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|スパイラルアロー| . |113|1|15|螺旋の矢で敵を攻撃します。 矢は敵に食い込み、複数回のダメージを与えます。攻撃を受けた対象は30秒間、連打数増加デバフにかかり、その敵はスパイラルアローの攻撃を受ける度に連打数が増加します。またスパイラルアローは対象の防御力を一定量無視し、クリティカル発生率が増加します。[スロー]状態の敵に50%の追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|89% x 6回|112% x 6回|135% x 6回|158% x 6回|182% x 6回|205% x 6回|228% x 6回|252% x 6回|275% x 6回|298% x 6回}}<br/>{{SkillTitleOnlyTemplate|クリティカル発生+50%適用|11}}<br/>{{SkillTitleOnlyTemplate|敵の防御力無視20%|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|バウンスショット| . |82|3|20|この攻撃で対象を攻撃すると矢が砕けて周辺に弾け飛びます。バウンスショットに当たった敵は一定の確率でスロー状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|236%|472%|709%|946%|1183%}}<br/>{{SkillAdditionalInfoTemplate|適用対象| 6| 6| 6| 6| 6}}<br/>{{SkillAdditionalInfoTemplate|[スロー]確率|50%|50%|50%|50%|50%}}<br/>}}<br/>|5}}
+{{ListViewSkill|バウンスショット| . |82|3|20|この攻撃で対象を攻撃すると矢が砕けて周辺に弾け飛びます。バウンスショットに当たった敵は一定の確率でスロー状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|236%|472%|709%|946%|1183%}}<br/>{{SkillAdditionalInfoTemplate|適用対象|6|6|6|6|6}}<br/>{{SkillAdditionalInfoTemplate|{#339999}{ol}[スロー]{/}{/}確率|50%|50%|50%|50%|50%}}<br/>{{SkillTitleOnlyTemplate|{#339999}{ol}[スロー]{/}{/}持続時間7秒|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -119,5 +119,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.718152
+* Automatic generated at 2020-02-03 00:16:38.763609
 {{PageProgress|2}}

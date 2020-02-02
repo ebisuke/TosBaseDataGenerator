@@ -49,16 +49,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|オークラス| . |172|1|60|聖なるたいまつを召喚し、たいまつの近くにいるとデバフの持続時間が減少します。近くで近接、魔法攻撃をすると炎属性の追加ダメージを与えます。詠唱者の知能と精神力によって追加ダメージが増加します。クリティカル時、詠唱者の治癒力に比例してHPが回復されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|近接、魔法攻撃時の炎属性追加ダメージ|790適用|880適用|970適用|1060適用|1150適用|1240適用|1330適用|1420適用|1510適用|1600適用|1690適用|1780適用|1870適用|1960適用|2050適用}}<br/>}}<br/>|15}}
-{{ListViewSkill|ザルチャイ| . |195|1|30|仲間のクリティカル能力をアップさせたり、敵のクリティカル能力をダウンさせる魔法陣を生成します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|味方の魔法クリティカルダメージ|+ 2%|+ 4%|+ 6%|+ 8%|+10%|+12%|+14%|+16%|+18%|+20%|+22%|+24%|+26%|+28%|+30%}}<br/>{{SkillAdditionalInfoTemplate|味方の物理クリティカルダメージ|+ 1%|+ 2%|+ 3%|+ 4%|+ 5%|+ 6%|+ 7%|+ 8%|+ 9%|+10%|+11%|+12%|+13%|+14%|+15%}}<br/>{{SkillAdditionalInfoTemplate|敵のクリティカル抵抗|- 1%|- 2%|- 3%|- 4%|- 5%|- 6%|- 7%|- 8%|- 9%|-10%|-11%|-12%|-13%|-14%|-15%}}<br/>}}<br/>|15}}
-{{ListViewSkill|ザイバス| . |94|3|20|雷神の力で敵に雷を落とす魔法陣を生成します。ヒットすると25%の確率で敵が0.2秒間硬直します。使用時、3秒間移動速度が10増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.3秒当たりスキル係数|59%|68%|78%|88%|98%|108%|118%|128%|138%|148%|158%|167%|177%|187%|197%}}<br/>{{SkillAdditionalInfoTemplate|攻撃回数| 5回| 6回| 7回| 8回| 9回|10回|11回|12回|13回|14回|15回|16回|17回|18回|19回}}<br/>}}<br/>|15}}
+{{ListViewSkill|オークラス| . |172|1|60|聖なるたいまつを召喚し、たいまつの近くにいるとデバフの持続時間が減少します。近くで近接、魔法攻撃をすると炎属性の追加ダメージを与えます。詠唱者の知能と精神力によって追加ダメージが増加します。クリティカル時、詠唱者の治癒力に比例してHPが回復されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillTitleOnlyTemplate|たいまつ持続時間30秒|16}}<br/>{{SkillAdditionalInfoTemplate|近接、魔法攻撃時の炎属性追加ダメージ|790適用|880適用|970適用|1060適用|1150適用|1240適用|1330適用|1420適用|1510適用|1600適用|1690適用|1780適用|1870適用|1960適用|2050適用}}<br/>}}<br/>|15}}
+{{ListViewSkill|ザルチャイ| . |195|1|30|仲間のクリティカル能力をアップさせたり、敵のクリティカル能力をダウンさせる魔法陣を生成します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|味方の魔法クリティカルダメージ|2%アップ|4%アップ|6%アップ|8%アップ|10%アップ|12%アップ|14%アップ|16%アップ|18%アップ|20%アップ|22%アップ|24%アップ|26%アップ|28%アップ|30%アップ}}<br/>{{SkillAdditionalInfoTemplate|味方の物理クリティカルダメージ|1%アップ|2%アップ|3%アップ|4%アップ|5%アップ|6%アップ|7%アップ|8%アップ|9%アップ|10%アップ|11%アップ|12%アップ|13%アップ|14%アップ|15%アップ}}<br/>{{SkillAdditionalInfoTemplate|敵のクリティカル抵抗|1%減少|2%減少|3%減少|4%減少|5%減少|6%減少|7%減少|8%減少|9%減少|10%減少|11%減少|12%減少|13%減少|14%減少|15%減少}}<br/>}}<br/>|15}}
+{{ListViewSkill|ザイバス| . |94|3|20|雷神の力で敵に雷を落とす魔法陣を生成します。ヒットすると25%の確率で敵が0.2秒間硬直します。使用時、3秒間移動速度が10増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|0.3秒当たりスキル係数|59%|68%|78%|88%|98%|108%|118%|128%|138%|148%|158%|167%|177%|187%|197%}}<br/>{{SkillAdditionalInfoTemplate|攻撃回数|5回|6回|7回|8回|9回|10回|11回|12回|13回|14回|15回|16回|17回|18回|19回}}<br/>{{SkillTitleOnlyTemplate|魔法陣持続時間5秒|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ダイノ| . |210|1|50|自分の命中と最小クリティカル確率をアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|命中|+ 5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}<br/>{{SkillAdditionalInfoTemplate|最小クリティカル確率|+1.5%|+ 3%|+4.5%|+ 6%|+7.5%|+ 9%|+10.5%|+12%|+13.5%|+15%}}<br/>{{SkillAdditionalInfoTemplate|持続時間|12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|ディヴァインスティグマ| . |195|1|30|敵に烙印を刻み、炎属性魔法ダメージを与えます。烙印が刻まれた敵はダメージがアップし、倒すと力と知能が一時的にアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|363%|457%|551%|645%|739%|833%|927%|1021%|1115%|1209%}}<br/>{{SkillAdditionalInfoTemplate|力、知能|+ 1%|+ 2%|+ 3%|+ 4%|+ 5%|+ 6%|+ 7%|+ 8%|+ 9%|+10%}}<br/>{{SkillAdditionalInfoTemplate|効果持続時間|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒}}<br/>{{SkillAdditionalInfoTemplate|敵にダメージ|+ 5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}<br/>}}<br/>|10}}
+{{ListViewSkill|ダイノ| . |210|1|50|自分の命中と最小クリティカル確率をアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|命中|5%アップ|10%アップ|15%アップ|20%アップ|25%アップ|30%アップ|35%アップ|40%アップ|45%アップ|50%アップ}}<br/>{{SkillAdditionalInfoTemplate|最小クリティカル確率|1.5%アップ|3%アップ|4.5%アップ|6%アップ|7.5%アップ|9%アップ|10.5%アップ|12%アップ|13.5%アップ|15%アップ}}<br/>{{SkillAdditionalInfoTemplate|持続時間|12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|ディヴァインスティグマ| . |195|1|30|敵に烙印を刻み、炎属性魔法ダメージを与えます。烙印が刻まれた敵はダメージがアップし、倒すと力と知能が一時的にアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|363%|457%|551%|645%|739%|833%|927%|1021%|1115%|1209%}}<br/>{{SkillAdditionalInfoTemplate|力、知能|1%増加|2%増加|3%増加|4%増加|5%増加|6%増加|7%増加|8%増加|9%増加|10%増加}}<br/>{{SkillAdditionalInfoTemplate|効果持続時間|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒}}<br/>{{SkillTitleOnlyTemplate|烙印持続時間15秒|11}}<br/>{{SkillAdditionalInfoTemplate|敵にダメージ|5%増加|10%増加|15%増加|20%増加|25%増加|30%増加|35%増加|40%増加|45%増加|50%増加}}<br/>{{SkillTitleOnlyTemplate|烙印適用対象数5|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|メルスティス| . |270|1|90|メルスティスバフ中、一定の確率で敵に最大10重複が可能な[メルトダウン]デバフをかけ、対象と周囲の敵に広域ダメージを与えます。デバフ確率：基本攻撃75%、スキル攻撃25%{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|2秒当たり[重複数]* |200固定ダメージ|400固定ダメージ|600固定ダメージ|800固定ダメージ|1000固定ダメージ}}<br/>}}<br/>|5}}
+{{ListViewSkill|メルスティス| . |270|1|90|メルスティスバフ中、一定の確率で敵に最大10重複が可能な[メルトダウン]デバフをかけ、対象と周囲の敵に広域ダメージを与えます。デバフ確率：基本攻撃75%、スキル攻撃25%{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillTitleOnlyTemplate|バフ持続時間60秒|6}}<br/>{{SkillTitleOnlyTemplate|[メルトダウン]持続時間：20秒|6}}<br/>{{SkillTitleOnlyTemplate|物理、魔法防御力[重複数]*1%ダウン|6}}<br/>{{SkillTitleOnlyTemplate|2秒当たり[重複数]* |6}}<br/>{{SkillTitleOnlyTemplate|ホーリーパウダー5個消費|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -116,5 +116,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.768152
+* Automatic generated at 2020-02-03 00:16:38.823608
 {{PageProgress|2}}

@@ -62,10 +62,10 @@ List View=
 {{ListViewSkill|1}}
 |-
 {{ListViewSkill|マルチショット| . |117|2|25|指定した位置に数発の矢を素早く発射します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|68% x 10回|70% x 10回|72% x 10回|74% x 10回|77% x 10回}}<br/>}}<br/>|5}}
-{{ListViewSkill|オブリークショット| . |58|5|15|攻撃すると、近くにいる1体の敵に矢が飛んでいきます。オブリークショットに当たった敵は一定の確率でスロー状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|241%|249%|257%|265%|273%}}<br/>{{SkillAdditionalInfoTemplate|[スロー]確率|50%|50%|50%|50%|50%}}<br/>}}<br/>|5}}
-{{ListViewSkill|スウィフトステップ| . |196|1|60|素早く移動しながら攻撃できます。攻撃中の移動速度と回避が一時的にアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|回避|+ 3%|+ 6%|+ 9%|+12%|+15%}}<br/>}}<br/>|5}}
+{{ListViewSkill|オブリークショット| . |58|5|15|攻撃すると、近くにいる1体の敵に矢が飛んでいきます。オブリークショットに当たった敵は一定の確率でスロー状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|241%|249%|257%|265%|273%}}<br/>{{SkillAdditionalInfoTemplate|{#339999}{ol}[スロー]{/}{/}確率|50%|50%|50%|50%|50%}}<br/>{{SkillTitleOnlyTemplate|{#339999}{ol}[スロー]{/}{/}持続時間7秒|6}}<br/>}}<br/>|5}}
+{{ListViewSkill|スウィフトステップ| . |196|1|60|素早く移動しながら攻撃できます。攻撃中の移動速度と回避が一時的にアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|回避|3%アップ|6%アップ|9%アップ|12%アップ|15%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|6}}<br/>}}<br/>|5}}
 {{ListViewSkill|ツインアロー| . |56|5|15|敵に二本の矢を同時に発射します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|166% x 2回|171% x 2回|177% x 2回|182% x 2回|188% x 2回}}<br/>}}<br/>|5}}
-{{ListViewSkill|コンセントレーション| . |196|1|60|集中して一時的に自分のクリティカル発生をアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル発生|+ 2%|+ 4%|+ 6%|+ 8%|+10%}}<br/>}}<br/>|5}}
+{{ListViewSkill|コンセントレーション| . |196|1|60|集中して一時的に自分のクリティカル発生をアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル発生|2%アップ|4%アップ|6%アップ|8%アップ|10%アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|6}}<br/>}}<br/>|5}}
 {{ListViewSkill|後方跳躍| . |45|1|15|見ている方向の反対の方向へ跳躍します。跳躍中はダメージを受けず、跳躍直後は非戦闘状態になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|後方跳躍の距離|90|100|110|120|130}}<br/>}}<br/>|5}}
 
 |}
@@ -125,5 +125,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.707152
+* Automatic generated at 2020-02-03 00:16:38.751608
 {{PageProgress|2}}

@@ -44,48 +44,118 @@ class Job:
     costumeandoutfits=""
     ctrltype=""
 class SkillCaption:
-    prefix=""
-    title=""
-    caption=""
-    prefix2 = ""
-    caption2=None
-    suffix=""
-    value=[]
-    value2 = []
-    def __init__(self,title,caption,suffix):
+    # prefix=""
+    # title=""
+    # caption=""
+    # prefix2 = ""
+    # caption2=None
+    # suffix=""
+    # value=[]
+    # value2 = []
 
-        title=re.sub("^\*","",title)
+    vars=[]
+    texts=[]
+    realvars=[[]]
+    def __st(self,v):
+        return "%2g" % v
+    def __init__(self,s):
 
-        self.title=tf.removestuff(title)
-        self.caption = tf.removestuff(caption)
-        self.caption2=None
-        self.suffix = tf.removestuff(suffix)
-        self.value=[]
-        self.value2 = []
-        m=re.search("(.*?)(アップ|上昇|増加)",suffix)
-        if(m!=None):
-            self.prefix="+"
-            self.suffix=m.group(1)
-        m = re.search("(.*?)(ダウン|減少|下降)",suffix)
-        if(m!=None):
-            self.prefix = "-"
-            self.suffix = m.group(1)
-        m = re.search("^(.*?)#\{(.*?)\}#(.*)$",suffix)
-        if (m != None):
-            suf2=m.group(3)
-            if(len(suf2)>4):
-                self.prefix2 = m.group(1)+" n"+suf2
-                self.caption2 = m.group(2)
-                self.suffix = ""
+        vars=re.findall("#{(.*?)}#",s)
+        texts=re.split("(#{.*?}#)",s)
+        texts=[v for v in texts if not v.startswith("#{")]
+        self.vars=vars
+        self.texts = texts
+        self.realvars=[[] for v in vars]
+    def isNumberStarted(self):
+        if len(self.texts)>0 and re.match("^\d",self.texts[0])!=None:
+            return True
+        return False
+    def getTitle(self):
+        if len(self.texts)>0 and len(self.vars)>0:
+            if self.vars[0]=="SkillFactor":
+                return self.texts[0]
             else:
-                self.prefix2=m.group(1)
-                self.caption2 = m.group(2)
-                self.suffix=m.group(3)
-    def tostr(self,idx):
-        if(self.caption2==None):
-            return self.prefix+"{:2g}".format(self.value[idx])+self.suffix
-        else:
-            return self.prefix + "{:2g}".format(self.value[idx]) + self.prefix2 + "{:2g}".format(self.value2[idx]) + self.suffix
+                if not self.isNumberStarted():
+
+                    return self.texts[0]
+                else:
+                    if len(self.vars) == 1:
+                        return self.texts[0]
+                    if len(self.realvars[0])>0:
+                        if len(self.texts) > 1:
+                            return self.texts[0]+tf.ns(self.realvars[0][0])+ self.texts[1]
+                        else:
+                            return self.texts[0] + tf.ns(self.realvars[0][0])
+                    else:
+                        if len(self.texts) > 1:
+                            return self.texts[0]+self.vars[0]+ self.texts[1]
+                        else:
+                            return self.texts[0] + self.vars[0]
+        if(len(self.texts)>0):
+            return self.texts[0]
+
+    def getContent(self, lvidx):
+        if len(self.texts) > 0 and len(self.vars) > 0:
+            if self.vars[0] == "SkillFactor":
+                #sfr weaving
+                s=""
+                for i in range(0,len(self.realvars)):
+
+                    s +=tf.ns(self.realvars[i][lvidx])
+                    s += self.texts[i+1]
+                #s += self.texts[len(self.realvars)]
+                return s
+            else:
+                # after sfr weaving
+                s = ""
+                startidx=0
+                if self.isNumberStarted():
+                   startidx=1
+                for i in range(startidx, len(self.realvars) ):
+
+                    s += tf.ns(self.realvars[i][lvidx])
+                    s += self.texts[i + 1]
+                return s
+
+        return ""
+
+        # title=re.sub("^\*","",title)
+        #
+        # self.title=tf.removestuff(title)
+        # self.caption = tf.removestuff(caption)
+        # self.caption2=None
+        # self.suffix = tf.removestuff(suffix)
+        # self.value=[]
+        # self.value2 = []
+        # m=re.search("(.*?)(アップ|上昇|増加|追加)",suffix)
+        # if(m!=None):
+        #     self.prefix="+"
+        #     self.suffix=m.group(1)
+        # m = re.search("(.*?)(ダウン|減少|下降)",suffix)
+        # if(m!=None):
+        #     self.prefix = "-"
+        #     self.suffix = m.group(1)
+        #
+        # m = re.search("(.*?)#\{(.*?)\}#(.*)$",suffix)
+        #
+        # if (m != None):
+        #     suf2=m.group(3)
+        #     if(len(suf2)>4):
+        #         self.prefix2 = m.group(1)+" n"+suf2
+        #         self.caption2 = m.group(2)
+        #         self.suffix = ""
+        #     else:
+        #         self.prefix2=m.group(1)
+        #         self.caption2 = m.group(2)
+        #         self.suffix=m.group(3)
+    def tostr(self,lvidx):
+        # weaving
+        return self.getContent(lvidx)
+
+        # if(self.caption2==None):
+        #     return self.prefix+"{:2g}".format(self.value[idx])+self.suffix
+        # else:
+        #     return self.prefix + "{:2g}".format(self.value[idx]) + self.prefix2 + "{:2g}".format(self.value2[idx]) + self.suffix
 
 class Skill:
     description=""
@@ -154,9 +224,12 @@ def generateSkills(conv:DicConverter,job:Job,skillname:str):
     skill.name= conv.dictable.krtojp(pa["Name"].item())
     skill.variables=[]
     for s in skill.caption2.split("{nl}"):
-        m=re.search("^(.*?)#\{(.*?)\}#(.*)$",s)
-        if m!=None:
-            skill.variables.append(SkillCaption(m.group(1),m.group(2),m.group(3)))
+
+        # SFR First
+
+        # m=re.search("(.*?)#\{(.*?)\}#(.*)$",s)
+
+        skill.variables.append(SkillCaption(s))
 
     skill.attributes=[]
     for attr in conv.skilltable.ability[conv.skilltable.ability["SkillCategory"]==skillname].iterrows():
@@ -210,5 +283,7 @@ def generateJobTree(conv:DicConverter):
     tree=JobTree()
     for j in conv.skilltable.job.iterrows():
         #print(j[1]["EngName"])
+        #if j[1]["EngName"]=="Exorcist":
         tree.jobs.append(generateJob(conv,j[1]))
+        #break
     return tree

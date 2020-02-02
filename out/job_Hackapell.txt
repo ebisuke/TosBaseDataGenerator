@@ -51,16 +51,16 @@ List View=
 {{ListViewSkill|1}}
 |-
 {{ListViewSkill|スカルプグニン| . |54|5|20|敵の上部を狙って素早く斬攻撃をします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|148% x 4回|172% x 4回|197% x 4回|222% x 4回|246% x 4回|271% x 4回|296% x 4回|320% x 4回|345% x 4回|370% x 4回|395% x 4回|419% x 4回|444% x 4回|469% x 4回|493% x 4回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}<br/>}}<br/>|15}}
-{{ListViewSkill|ストームボルト| . |93|2|10|強力な突き攻撃をします。攻撃された敵は斬属性攻撃によるダメージが増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|142% x5回|165% x5回|189% x5回|213% x5回|237% x5回|261% x5回|285% x5回|309% x5回|333% x5回|357% x5回|381% x5回|404% x5回|428% x5回|452% x5回|476% x5回}}<br/>}}<br/>|15}}
-{{ListViewSkill|カヴァリチャージ| . |105|1|20|前方へ突進し、敵と衝突してダメージを与えて[衝撃]状態にします。カヴァリチャージ使用後、一定時間物理、魔法防御力がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|444%|484%|524%|564%|604%|644%|684%|724%|764%|804%|844%|884%|924%|964%|1004%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5| 5}}<br/>}}<br/>|15}}
-{{ListViewSkill|ヘルムチョッパー| . |70|3|20|敵の上部を連続攻撃し、[スタン]の状態にします。フレンジーバフが適用中はヘルムチョッパーの攻撃範囲が大きくなり、スタンの持続時間が4秒に変更されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|363% x2回|423% x2回|484% x2回|544% x2回|605% x2回|665% x2回|726% x2回|787% x2回|847% x2回|908% x2回|968% x2回|1029% x2回|1090% x2回|1150% x2回|1211% x2回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3| 3}}<br/>{{SkillAdditionalInfoTemplate|[スタン]持続時間|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|ストームボルト| . |93|2|10|強力な突き攻撃をします。攻撃された敵は斬属性攻撃によるダメージが増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|142% x5回|165% x5回|189% x5回|213% x5回|237% x5回|261% x5回|285% x5回|309% x5回|333% x5回|357% x5回|381% x5回|404% x5回|428% x5回|452% x5回|476% x5回}}<br/>{{SkillTitleOnlyTemplate|デバフ持続時間10秒|16}}<br/>{{SkillTitleOnlyTemplate|斬り攻撃ダメージ50%アップ|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|カヴァリチャージ| . |105|1|20|前方へ突進し、敵と衝突してダメージを与えて[衝撃]状態にします。カヴァリチャージ使用後、一定時間物理、魔法防御力がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|444%|484%|524%|564%|604%|644%|684%|724%|764%|804%|844%|884%|924%|964%|1004%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|5|5|5|5|5|5|5|5|5|5|5|5|5|5|5}}<br/>{{SkillTitleOnlyTemplate|}物理、魔法防御力100%アップ|16}}<br/>{{SkillTitleOnlyTemplate| * バフで増加した数値を除いた基本能力値基準|16}}<br/>{{SkillTitleOnlyTemplate|[カヴァリチャージ]バフ持続時間10秒|16}}<br/>{{SkillTitleOnlyTemplate|[衝撃]持続時間10秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ヘルムチョッパー| . |70|3|20|敵の上部を連続攻撃し、[スタン]の状態にします。フレンジーバフが適用中はヘルムチョッパーの攻撃範囲が大きくなり、スタンの持続時間が4秒に変更されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|363% x2回|423% x2回|484% x2回|544% x2回|605% x2回|665% x2回|726% x2回|787% x2回|847% x2回|908% x2回|968% x2回|1029% x2回|1090% x2回|1150% x2回|1211% x2回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|3|3|3|3|3|3|3|3|3|3|3|3|3|3|3}}<br/>{{SkillAdditionalInfoTemplate|[スタン]持続時間|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒|2.5秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ハッカペル| . |168|1|45|雄叫びをあげて突撃態勢に入ります。ハッカペル使用時、ハッカペルを除いたハッカペルスキルのクールタイムが減少します。|1}}
-{{ListViewSkill|グラインドカッター| . |67|3|15|片手剣で前方の敵を連続で斬り付けます。カヴァリチャージバフ中は広域攻撃比率が10増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|132% x 5回|166% x 5回|200% x 5回|235% x 5回|269% x 5回|304% x 5回|338% x 5回|372% x 5回|407% x 5回|441% x 5回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6}}<br/>}}<br/>|10}}
+{{ListViewSkill|ハッカペル| . |168|1|45|雄叫びをあげて突撃態勢に入ります。ハッカペル使用時、ハッカペルを除いたハッカペルスキルのクールタイムが減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|スキルクールタイム15秒ダウン|2}}<br/>{{SkillTitleOnlyTemplate|1レベルマスタ|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|グラインドカッター| . |67|3|15|片手剣で前方の敵を連続で斬り付けます。カヴァリチャージバフ中は広域攻撃比率が10増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|132% x 5回|166% x 5回|200% x 5回|235% x 5回|269% x 5回|304% x 5回|338% x 5回|372% x 5回|407% x 5回|441% x 5回}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|6|6|6|6|6|6|6|6|6|6}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|インフィニットアサルト| . |105|2|20|前方に高速突進し、敵を攻撃して元の場所に戻ります。インフィニットアサルト使用後一定時間移動速度が増加します。使用した瞬間、[カヴァリチャージ]バフ中ならば、[カヴァリチャージ]の持続時間が1.5秒増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|437% x 2回|875% x 2回|1313% x 2回|1751% x 2回|2189% x 2回}}<br/>{{SkillAdditionalInfoTemplate|移動速度|+ 3|+ 6|+ 9|+12|+15}}<br/>}}<br/>|5}}
+{{ListViewSkill|インフィニットアサルト| . |105|2|20|前方に高速突進し、敵を攻撃して元の場所に戻ります。インフィニットアサルト使用後一定時間移動速度が増加します。使用した瞬間、[カヴァリチャージ]バフ中ならば、[カヴァリチャージ]の持続時間が1.5秒増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|437% x 2回|875% x 2回|1313% x 2回|1751% x 2回|2189% x 2回}}<br/>{{SkillTitleOnlyTemplate|被撃対象12|6}}<br/>{{SkillAdditionalInfoTemplate|移動速度|3アップ|6アップ|9アップ|12アップ|15アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間3秒|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -120,5 +120,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.636152
+* Automatic generated at 2020-02-03 00:16:38.671608
 {{PageProgress|2}}

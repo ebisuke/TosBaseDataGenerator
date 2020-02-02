@@ -49,16 +49,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|クイックドロー| . |63|5|15|拳銃を素早く発砲し前方の敵を攻撃します。[ピースメーカー：無気力]、[沈黙]状態の敵に50％追加ダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|588%|673%|758%|844%|929%|1015%|1100%|1185%|1271%|1356%|1442%|1527%|1612%|1698%|1783%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6| 6}}<br/>}}<br/>|15}}
-{{ListViewSkill|ファニング| . |92|2|15|前方の一定範囲に拳銃を発砲します。キーを押している間、スキルが発動しキーを離すと発砲を停止します。[ピースメーカー：無気力]、[沈黙]状態の敵に50％追加ダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|147% x 26回|160% x 26回|173% x 26回|186% x 26回|199% x 26回|212% x 26回|225% x 26回|238% x 26回|251% x 26回|264% x 26回|278% x 26回|291% x 26回|304% x 26回|317% x 26回|330% x 26回}}<br/>}}<br/>|15}}
-{{ListViewSkill|ウェストライド| . |134|1|30|拳銃を装填し攻撃が一定回数必ず命中するバフを自分に付与します。バフ重複数を使い切るとバフは解除されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|命中回数| 3回| 3回| 4回| 4回| 5回| 5回| 5回| 6回| 6回| 7回| 7回| 7回| 8回| 8回| 9回}}<br/>{{SkillAdditionalInfoTemplate|バフ持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|クイックドロー| . |63|5|15|拳銃を素早く発砲し前方の敵を攻撃します。[ピースメーカー：無気力]、[沈黙]状態の敵に50％追加ダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|588%|673%|758%|844%|929%|1015%|1100%|1185%|1271%|1356%|1442%|1527%|1612%|1698%|1783%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|6|6|6|6|6|6|6|6|6|6|6|6|6|6|6}}<br/>}}<br/>|15}}
+{{ListViewSkill|ファニング| . |92|2|15|前方の一定範囲に拳銃を発砲します。キーを押している間、スキルが発動しキーを離すと発砲を停止します。[ピースメーカー：無気力]、[沈黙]状態の敵に50％追加ダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|147% x 26回|160% x 26回|173% x 26回|186% x 26回|199% x 26回|212% x 26回|225% x 26回|238% x 26回|251% x 26回|264% x 26回|278% x 26回|291% x 26回|304% x 26回|317% x 26回|330% x 26回}}<br/>{{SkillTitleOnlyTemplate|適用対象数1~2|16}}<br/>{{SkillTitleOnlyTemplate|最大持続時間3秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ウェストライド| . |134|1|30|拳銃を装填し攻撃が一定回数必ず命中するバフを自分に付与します。バフ重複数を使い切るとバフは解除されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|命中回数|3回|3回|4回|4回|5回|5回|5回|6回|6回|7回|7回|7回|8回|8回|9回}}<br/>{{SkillAdditionalInfoTemplate|バフ持続時間|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒|30秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|ピースメーカー| . |95|1|15|ターゲットした敵に会心の弾丸を撃ち、敵の防御を無視するダメージを与え、[ピースメーカー: 沈黙]と[ピースメーカー: 無気力]状態にします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|584%|613%|642%|671%|700%|730%|759%|788%|817%|846%}}<br/>{{SkillAdditionalInfoTemplate|[沈黙]持続時間| 3秒| 3秒| 3秒| 3秒| 3秒| 3秒| 3秒| 3秒| 3秒| 3秒}}<br/>{{SkillAdditionalInfoTemplate|[ピースメーカー：無気力]持続時間| 3秒|3.5秒| 4秒|4.5秒| 5秒|5.5秒| 6秒|6.5秒| 7秒|7.5秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|リデンプション| . |168|1|40|一定時間、最終回避率が100％増加し移動速度がアップするバフを自分に付与します。必ず命中する攻撃は回避できません。リデンプションバフ中に回避した数だけリデンプションバフが追加で持続します。(重複発動されません。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|移動速度|+ 1|+ 2|+ 3|+ 4|+ 5|+ 6|+ 7|+ 8|+ 9|+10}}<br/>{{SkillAdditionalInfoTemplate|持続時間|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|ピースメーカー| . |95|1|15|ターゲットした敵に会心の弾丸を撃ち、敵の防御を無視するダメージを与え、[ピースメーカー: 沈黙]と[ピースメーカー: 無気力]状態にします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|584%|613%|642%|671%|700%|730%|759%|788%|817%|846%}}<br/>{{SkillTitleOnlyTemplate|防御無視50%|11}}<br/>{{SkillAdditionalInfoTemplate|[沈黙]持続時間|3秒|3秒|3秒|3秒|3秒|3秒|3秒|3秒|3秒|3秒}}<br/>{{SkillAdditionalInfoTemplate|[ピースメーカー：無気力]持続時間|3秒|3.5秒|4秒|4.5秒|5秒|5.5秒|6秒|6.5秒|7秒|7.5秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|リデンプション| . |168|1|40|一定時間、最終回避率が100％増加し移動速度がアップするバフを自分に付与します。必ず命中する攻撃は回避できません。リデンプションバフ中に回避した数だけリデンプションバフが追加で持続します。(重複発動されません。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|移動速度|1アップ|2アップ|3アップ|4アップ|5アップ|6アップ|7アップ|8アップ|9アップ|10アップ}}<br/>{{SkillAdditionalInfoTemplate|持続時間|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒|20秒}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|エイミングショット| . |92|2|25|狙った敵を正確に照準し必ず命中する射撃をします。 ダメージを受けた敵はバフが解除され、解除されたバフ数に応じた追加ダメージを与えます。照準が長いほどバフを多く解除できる確率が増加します。[ピースメーカー：無気力]、[沈黙]状態の敵に50％追加ダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |892%|1324%|1756%|2189%|2621%}}<br/>{{SkillAdditionalInfoTemplate|最大バフ解除数 | 3| 3| 3| 3| 3}}<br/>{{SkillAdditionalInfoTemplate|解除されたバフ1つにつき追加ダメージ |50%|50%|50%|50%|50%}}<br/>}}<br/>|5}}
+{{ListViewSkill|エイミングショット| . |92|2|25|狙った敵を正確に照準し必ず命中する射撃をします。 ダメージを受けた敵はバフが解除され、解除されたバフ数に応じた追加ダメージを与えます。照準が長いほどバフを多く解除できる確率が増加します。[ピースメーカー：無気力]、[沈黙]状態の敵に50％追加ダメージが適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |892%|1324%|1756%|2189%|2621%}}<br/>{{SkillAdditionalInfoTemplate|最大バフ解除数 |3|3|3|3|3}}<br/>{{SkillAdditionalInfoTemplate|解除されたバフ1つにつき追加ダメージ |50%|50%|50%|50%|50%}}<br/>}}<br/>|5}}
 
 |}
 
@@ -117,5 +117,5 @@ nan
 nan
 {{ClassFooter|3}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.870152
+* Automatic generated at 2020-02-03 00:16:38.939608
 {{PageProgress|2}}

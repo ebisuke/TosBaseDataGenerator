@@ -50,17 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|コーシング| . |124|2|35|コンパニオンが敵に噛みつき行動不可状態にします。出血ダメージを与え物理と魔法防御力を減少させます。(対象がキャラクタ、ボスモンスターの場合は行動不可状態が適用されません。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|950% x3回|1108% x3回|1267% x3回|1425% x3回|1584% x3回|1742% x3回|1901% x3回|2059% x3回|2218% x3回|2376% x3回|2535% x3回|2693% x3回|2852% x3回|3010% x3回|3169% x3回}}<br/>{{SkillAdditionalInfoTemplate|物理、魔法防御力|-5.5%|- 6%|-6.5%|- 7%|-7.5%|- 8%|-8.5%|- 9%|-9.5%|-10%|-10.5%|-11%|-11.5%|-12%|-12.5%}}<br/>}}<br/>|15}}
-{{ListViewSkill|ラッシュドッグ| . |118|1|10|コンパニオンを指定した位置に突撃させます。 ラッシュドッグが当たった敵は50%の確率でスタンになります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|283% x 5回|330% x 5回|377% x 5回|424% x 5回|471% x 5回|519% x 5回|566% x 5回|613% x 5回|660% x 5回|707% x 5回|755% x 5回|802% x 5回|849% x 5回|896% x 5回|943% x 5回}}<br/>}}<br/>|15}}
-{{ListViewSkill|リトリーヴ| . |114|2|25|コンパニオンが対象を噛んで主人の元に連れてきます。対象は行動不可状態になり3回にかけてダメージを受けます。(対象がキャラクターの場合、持続時間は半分に減少し、ボスモンスターの場合は行動不可が適用されません。)リトリーヴによって攻撃を受けた敵はスキル終了後に出血デバフにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|625% x3回|729% x3回|833% x3回|937% x3回|1041% x3回|1145% x3回|1250% x3回|1354% x3回|1458% x3回|1562% x3回|1666% x3回|1771% x3回|1875% x3回|1979% x3回|2083% x3回}}<br/>}}<br/>|15}}
-{{ListViewSkill|プレイズ| . |131|1|1|コンパニオンの能力を一時的に引き上げ、ハンタースキルのダメージが増加しノックバック・ノックダウンに免疫なります。さらにコンパニオンが主人の位置に即時召喚され、HPが回復します。 (コンパニオンが気絶した状態でも適用されます。)|1}}
+{{ListViewSkill|コーシング| . |124|2|35|コンパニオンが敵に噛みつき行動不可状態にします。出血ダメージを与え物理と魔法防御力を減少させます。(対象がキャラクタ、ボスモンスターの場合は行動不可状態が適用されません。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|950% x3回|1108% x3回|1267% x3回|1425% x3回|1584% x3回|1742% x3回|1901% x3回|2059% x3回|2218% x3回|2376% x3回|2535% x3回|2693% x3回|2852% x3回|3010% x3回|3169% x3回}}<br/>{{SkillAdditionalInfoTemplate|物理、魔法防御力|5.5%ダウン|6%ダウン|6.5%ダウン|7%ダウン|7.5%ダウン|8%ダウン|8.5%ダウン|9%ダウン|9.5%ダウン|10%ダウン|10.5%ダウン|11%ダウン|11.5%ダウン|12%ダウン|12.5%ダウン}}<br/>{{SkillTitleOnlyTemplate|持続時間5.5秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ラッシュドッグ| . |118|1|10|コンパニオンを指定した位置に突撃させます。 ラッシュドッグが当たった敵は50%の確率でスタンになります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|283% x 5回|330% x 5回|377% x 5回|424% x 5回|471% x 5回|519% x 5回|566% x 5回|613% x 5回|660% x 5回|707% x 5回|755% x 5回|802% x 5回|849% x 5回|896% x 5回|943% x 5回}}<br/>{{SkillTitleOnlyTemplate|被撃対象数10|16}}<br/>{{SkillTitleOnlyTemplate|スタン持続時間4秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|リトリーヴ| . |114|2|25|コンパニオンが対象を噛んで主人の元に連れてきます。対象は行動不可状態になり3回にかけてダメージを受けます。(対象がキャラクターの場合、持続時間は半分に減少し、ボスモンスターの場合は行動不可が適用されません。)リトリーヴによって攻撃を受けた敵はスキル終了後に出血デバフにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|625% x3回|729% x3回|833% x3回|937% x3回|1041% x3回|1145% x3回|1250% x3回|1354% x3回|1458% x3回|1562% x3回|1666% x3回|1771% x3回|1875% x3回|1979% x3回|2083% x3回}}<br/>{{SkillTitleOnlyTemplate|持続時間5秒|16}}<br/>{{SkillTitleOnlyTemplate|[出血]持続時間20秒|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|プレイズ| . |131|1|1|コンパニオンの能力を一時的に引き上げ、ハンタースキルのダメージが増加しノックバック・ノックダウンに免疫なります。さらにコンパニオンが主人の位置に即時召喚され、HPが回復します。 (コンパニオンが気絶した状態でも適用されます。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|ハンタースキルダメージ30％増加|2}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|2}}<br/>}}<br/>|1}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|グロウリング| . |176|1|45|コンパニオンが吠えて敵を威嚇します。 グロウリングにかかった敵は行動不可及び移動負荷状態に陥って、ミサイル攻撃に弱くなります。 (ボスモンスター及び敵キャラクターは恐怖機能が適用されません。)コンパニオンと主人の距離が250以上ならコンパニオンはグロウリングを行いません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|ミサイル攻撃時ダメージ|+1.5%|+ 3%|+4.5%|+ 6%|+7.5%|+ 9%|+10.5%|+12%|+13.5%|+15%}}<br/>}}<br/>|10}}
-{{ListViewSkill|ハウリング| . |131|1|30|コンパニオンが鳴き声で敵を威嚇します。 デバフにかかった敵のクリティカル抵抗が減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル抵抗|- 4%|- 8%|-12%|-16%|-20%|-24%|-28%|-32%|-36%|-40%}}<br/>}}<br/>|10}}
+{{ListViewSkill|グロウリング| . |176|1|45|コンパニオンが吠えて敵を威嚇します。 グロウリングにかかった敵は行動不可及び移動負荷状態に陥って、ミサイル攻撃に弱くなります。 (ボスモンスター及び敵キャラクターは恐怖機能が適用されません。)コンパニオンと主人の距離が250以上ならコンパニオンはグロウリングを行いません。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillTitleOnlyTemplate|デバフ再適用周期4秒|11}}<br/>{{SkillAdditionalInfoTemplate|ミサイル攻撃時ダメージ|1.5%増加|3%増加|4.5%増加|6%増加|7.5%増加|9%増加|10.5%増加|12%増加|13.5%増加|15%増加}}<br/>{{SkillTitleOnlyTemplate|グロウリングAI持続時間30秒|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|ハウリング| . |131|1|30|コンパニオンが鳴き声で敵を威嚇します。 デバフにかかった敵のクリティカル抵抗が減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|クリティカル抵抗|4%ダウン|8%ダウン|12%ダウン|16%ダウン|20%ダウン|24%ダウン|28%ダウン|32%ダウン|36%ダウン|40%ダウン}}<br/>{{SkillTitleOnlyTemplate|持続時間15秒|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ハウンディング| . |144|1|20|コンパニオンの感覚が鋭敏になり、隠れた敵を探すのが上手になります。 コンパニオンは周辺に隠れている対象を探し出し、使用者はルーティングチャンスが増加します。 発見された敵は恐怖デバフにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ルーティングチャンス|+100|+200|+300|+400|+500}}<br/>}}<br/>|5}}
+{{ListViewSkill|ハウンディング| . |144|1|20|コンパニオンの感覚が鋭敏になり、隠れた敵を探すのが上手になります。 コンパニオンは周辺に隠れている対象を探し出し、使用者はルーティングチャンスが増加します。 発見された敵は恐怖デバフにかかります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|ルーティングチャンス|100増加|200増加|300増加|400増加|500増加}}<br/>{{SkillTitleOnlyTemplate|隠れている対象感知5回|6}}<br/>{{SkillTitleOnlyTemplate|ハウンディングバフ持続時間90秒|6}}<br/>{{SkillTitleOnlyTemplate|恐怖デバフ持続時間3秒|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -117,5 +117,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.710152
+* Automatic generated at 2020-02-03 00:16:38.754608
 {{PageProgress|2}}

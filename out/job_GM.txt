@@ -44,11 +44,11 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|HP、SP回復力アップ| . |13|1|0|HP、SP回復能力がアップします。|1}}
-{{ListViewSkill|ステータスアップ| . |13|1|0|全てのステータス能力値がアップします。|1}}
-{{ListViewSkill|クールタイム減少| . |13|1|0|スキルクールタイムがダウンします。|1}}
-{{ListViewSkill|攻撃力アップ| . |13|1|0|物理攻撃力、魔法攻撃力がアップします。|1}}
-{{ListViewSkill|防御力アップ| . |13|1|0|物理防御力、魔法防御力がアップします。|1}}
+{{ListViewSkill|HP、SP回復力アップ| . |13|1|0|HP、SP回復能力がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|HP回復100アップ|2}}<br/>{{SkillTitleOnlyTemplate|SP回復100アップ|2}}<br/>{{SkillTitleOnlyTemplate|再生時間5秒ダウン|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|ステータスアップ| . |13|1|0|全てのステータス能力値がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|全てのステータス能力値10%アップ|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|クールタイム減少| . |13|1|0|スキルクールタイムがダウンします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|スキルクールタイム10%ダウン|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|攻撃力アップ| . |13|1|0|物理攻撃力、魔法攻撃力がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|物理攻撃力10%アップ|2}}<br/>{{SkillTitleOnlyTemplate|魔法攻撃力10%アップ|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|防御力アップ| . |13|1|0|物理防御力、魔法防御力がアップします。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|物理防御力10%アップ|2}}<br/>{{SkillTitleOnlyTemplate|魔法防御力10%アップ|2}}<br/>}}<br/>|1}}
 
 |}
 
@@ -94,5 +94,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.871152
+* Automatic generated at 2020-02-03 00:16:38.940608
 {{PageProgress|2}}

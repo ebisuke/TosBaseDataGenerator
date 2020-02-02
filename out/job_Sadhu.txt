@@ -50,17 +50,17 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|アウトオブボディ| . |0|1|15|自分のアストラルを離脱させます。アストラルは本体の周辺でのみ動くことができます。アストラル状態では回避がアップし、受けるダメージ量が減少します。アストラル離脱時、そしてアウトオブボディスキル使用時、アストラル周辺に爆発を起こしてダメージを与えます。本体はノックバック、ノックダウンが無効になります。ポゼッションにかかった敵に使用時、クールタイムが初期化されます。アストラルを活用してデバフをかけた場合、アストラルを回収するとかけていたデバフは消えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|2013%|2348%|2684%|3019%|3355%|3690%|4026%|4361%|4697%|5032%|5368%|5703%|6039%|6374%|6710%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1| 1}}<br/>{{SkillAdditionalInfoTemplate|アストラル移動範囲|180|180|180|180|180|180|180|180|180|180|180|180|180|180|180}}<br/>{{SkillAdditionalInfoTemplate|回避|+ 1%|+ 2%|+ 3%|+ 4%|+ 5%|+ 6%|+ 7%|+ 8%|+ 9%|+10%|+11%|+12%|+13%|+14%|+15%}}<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|- 2%|- 4%|- 6%|- 8%|-10%|-12%|-14%|-16%|-18%|-20%|-22%|-24%|-26%|-28%|-30%}}<br/>}}<br/>|15}}
-{{ListViewSkill|プラクリティ| . |165|1|15|幽体がいる場所に本体を移動させてまた合体し、合体した位置に敵を攻撃する魔法陣を召喚します。幽体離脱状態でのみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|1秒当たりスキル係数|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%}}<br/>{{SkillAdditionalInfoTemplate|魔法陣持続時間|3.3秒|3.6秒|3.9秒|4.2秒|4.5秒|4.8秒|5.1秒|5.4秒|5.7秒| 6秒|6.3秒|6.6秒|6.9秒|7.2秒|7.5秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|アウトオブボディ| . |0|1|15|自分のアストラルを離脱させます。アストラルは本体の周辺でのみ動くことができます。アストラル状態では回避がアップし、受けるダメージ量が減少します。アストラル離脱時、そしてアウトオブボディスキル使用時、アストラル周辺に爆発を起こしてダメージを与えます。本体はノックバック、ノックダウンが無効になります。ポゼッションにかかった敵に使用時、クールタイムが初期化されます。アストラルを活用してデバフをかけた場合、アストラルを回収するとかけていたデバフは消えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|2013%|2348%|2684%|3019%|3355%|3690%|4026%|4361%|4697%|5032%|5368%|5703%|6039%|6374%|6710%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}}<br/>{{SkillAdditionalInfoTemplate|アストラル移動範囲|180|180|180|180|180|180|180|180|180|180|180|180|180|180|180}}<br/>{{SkillAdditionalInfoTemplate|回避|1%アップ|2%アップ|3%アップ|4%アップ|5%アップ|6%アップ|7%アップ|8%アップ|9%アップ|10%アップ|11%アップ|12%アップ|13%アップ|14%アップ|15%アップ}}<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|2%ダウン|4%ダウン|6%ダウン|8%ダウン|10%ダウン|12%ダウン|14%ダウン|16%ダウン|18%ダウン|20%ダウン|22%ダウン|24%ダウン|26%ダウン|28%ダウン|30%ダウン}}<br/>{{SkillTitleOnlyTemplate|アストラル移動速度55|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|プラクリティ| . |165|1|15|幽体がいる場所に本体を移動させてまた合体し、合体した位置に敵を攻撃する魔法陣を召喚します。幽体離脱状態でのみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|1秒当たりスキル係数|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%|2100%}}<br/>{{SkillTitleOnlyTemplate|対象数10|16}}<br/>{{SkillAdditionalInfoTemplate|魔法陣持続時間|3.3秒|3.6秒|3.9秒|4.2秒|4.5秒|4.8秒|5.1秒|5.4秒|5.7秒|6秒|6.3秒|6.6秒|6.9秒|7.2秒|7.5秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|エクスプロージョン| . |150|1|15|抜け出た幽体を爆発させて周辺の敵にダメージを与えます。攻撃を受けた敵は5秒間エクスプロージョンのダメージの一定比率分の念属性魔法ダメージを受けます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|1231%|1436%|1641%|1846%|2052%|2257%|2462%|2668%|2873%|3078%|3284%|3489%|3694%|3899%|4105%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|10|10|10|10|10|10|10|10|10|10|10|10|10|10|10}}<br/>}}<br/>|15}}
-{{ListViewSkill|アストラル復帰| . |0|1|0|離脱したアストラルを復帰させます。アストラル離脱状態のみ使用可能です。|1}}
+{{ListViewSkill|アストラル復帰| . |0|1|0|離脱したアストラルを復帰させます。アストラル離脱状態のみ使用可能です。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
 {{ListViewSkill|2}}
 |-
 {{ListViewSkill|ヴァシタシディ| . |180|1|20|本体周辺に幽体を複数に分けて同時に爆発させて敵にダメージを与えます。ヴァシタシディの使用中、ノックバック、ノックダウンが無効になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|3193%|4021%|4849%|5677%|6505%|7333%|8161%|8989%|9817%|10645%}}<br/>{{SkillAdditionalInfoTemplate|広域攻撃比率|15|15|15|15|15|15|15|15|15|15}}<br/>}}<br/>|10}}
-{{ListViewSkill|ポゼッション| . |150|1|20|敵を縛り付けると同時にダメージを与えます。ボスモンスターは縛れませんが、アウトオブボディのクールタイムは初期化されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |3078%|3876%|4674%|5472%|6270%|7068%|7866%|8664%|9462%|10260%}}<br/>}}<br/>|10}}
+{{ListViewSkill|ポゼッション| . |150|1|20|敵を縛り付けると同時にダメージを与えます。ボスモンスターは縛れませんが、アウトオブボディのクールタイムは初期化されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |3078%|3876%|4674%|5472%|6270%|7068%|7866%|8664%|9462%|10260%}}<br/>{{SkillTitleOnlyTemplate|適用対象1|11}}<br/>{{SkillTitleOnlyTemplate|移動不可4秒|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|プラーナ| . |240|1|60|魔法攻撃すると、最小クリティカル確率が適用され、自分の最小魔法攻撃力に比例する念属性追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒}}<br/>{{SkillAdditionalInfoTemplate|魔法攻撃力比例念属性追加ダメージ| 8%|11%|14%|17%|20%}}<br/>{{SkillAdditionalInfoTemplate|最小クリティカル確率|+ 3%|+ 6%|+ 9%|+12%|+15%}}<br/>}}<br/>|5}}
+{{ListViewSkill|プラーナ| . |240|1|60|魔法攻撃すると、最小クリティカル確率が適用され、自分の最小魔法攻撃力に比例する念属性追加ダメージを与えます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒}}<br/>{{SkillAdditionalInfoTemplate|魔法攻撃力比例念属性追加ダメージ|8%|11%|14%|17%|20%}}<br/>{{SkillAdditionalInfoTemplate|最小クリティカル確率|3%アップ|6%アップ|9%アップ|12%アップ|15%アップ}}<br/>}}<br/>|5}}
 
 |}
 
@@ -117,5 +117,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.775151
+* Automatic generated at 2020-02-03 00:16:38.831608
 {{PageProgress|2}}

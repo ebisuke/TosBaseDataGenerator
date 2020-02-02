@@ -53,20 +53,20 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|アーケインエナジー| . |0|1|60|自分とPTメンバーにアーケインエナジーバフをかけます。 バフを受けた時点のSP、スタミナを保存して、保存されたSPとスタミナ値より消耗した値が多い場合、バフ終了後に消耗したSP、スタミナを回復させてくれます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 | 1秒| 2秒| 3秒| 4秒| 5秒| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|クレアボイアンス| . |165|1|20|モンスターが落とすアイテムを事前に予知します。|1}}
-{{ListViewSkill|カウンタースペル| . |180|1|50|使用者周辺の魔法陣を除去して、敵から受ける魔法攻撃ダメージを減少させる魔法陣を召喚します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|魔法ダメージ|- 7%|- 9%|-11%|-13%|-15%|-17%|-19%|-21%|-23%|-25%|-27%|-29%|-31%|-33%|-35%}}<br/>{{SkillAdditionalInfoTemplate|魔法陣持続時間|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|プロフェシー| . |240|1|60|周辺PTメンバーに一般解除可能な全てのデバフが無効になる効果を一時的に付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|持続時間| 1秒}}<br/>}}<br/>|1}}
+{{ListViewSkill|アーケインエナジー| . |0|1|60|自分とPTメンバーにアーケインエナジーバフをかけます。 バフを受けた時点のSP、スタミナを保存して、保存されたSPとスタミナ値より消耗した値が多い場合、バフ終了後に消耗したSP、スタミナを回復させてくれます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|持続時間 |1秒|2秒|3秒|4秒|5秒|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|クレアボイアンス| . |165|1|20|モンスターが落とすアイテムを事前に予知します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|リセット使用後、|2}}<br/>{{SkillTitleOnlyTemplate|リアルタイムで更新|2}}<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|カウンタースペル| . |180|1|50|使用者周辺の魔法陣を除去して、敵から受ける魔法攻撃ダメージを減少させる魔法陣を召喚します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|魔法ダメージ|7%ダウン|9%ダウン|11%ダウン|13%ダウン|15%ダウン|17%ダウン|19%ダウン|21%ダウン|23%ダウン|25%ダウン|27%ダウン|29%ダウン|31%ダウン|33%ダウン|35%ダウン}}<br/>{{SkillTitleOnlyTemplate|周辺の敵の魔法陣除去|16}}<br/>{{SkillAdditionalInfoTemplate|魔法陣持続時間|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|プロフェシー| . |240|1|60|周辺PTメンバーに一般解除可能な全てのデバフが無効になる効果を一時的に付与します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|1秒}}<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|リセット| . |223|2|150|敵が落とすアイテムを他のアイテムに変更します。アイテム変更が確定すると、教えてもらえます。|1}}
-{{ListViewSkill|デスヴァーディクト| . |180|1|30|敵に死を宣告して、対象が受けるダメージを大幅に増加させます。かけた敵がボスモンスターの場合、持続時間とダメージ増加効果が半分に減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|ダメージ|+ 5%|+10%|+15%|+20%|+25%|+30%|+35%|+40%|+45%|+50%}}<br/>{{SkillAdditionalInfoTemplate|適用対象数| 6| 7| 8| 9|10|11|12|13|14|15}}<br/>{{SkillAdditionalInfoTemplate|持続時間|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|ディヴァインマイト| . |187|1|25|一時的に自分とPTメンバーのスキルレベルを1アップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|適用回数| 1回| 2回| 3回| 4回| 5回| 6回| 7回| 8回| 9回|10回}}<br/>{{SkillAdditionalInfoTemplate|持続時間|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒}}<br/>}}<br/>|10}}
-{{ListViewSkill|スイッチジェンダー| . |0|2|0|キャラクターの性別を変更できるショップを開きます。アイテム|1}}
+{{ListViewSkill|リセット| . |223|2|150|敵が落とすアイテムを他のアイテムに変更します。アイテム変更が確定すると、教えてもらえます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|ドロップアイテム変更|2}}<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
+{{ListViewSkill|デスヴァーディクト| . |180|1|30|敵に死を宣告して、対象が受けるダメージを大幅に増加させます。かけた敵がボスモンスターの場合、持続時間とダメージ増加効果が半分に減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|ダメージ|5%増加|10%増加|15%増加|20%増加|25%増加|30%増加|35%増加|40%増加|45%増加|50%増加}}<br/>{{SkillAdditionalInfoTemplate|適用対象数|6|7|8|9|10|11|12|13|14|15}}<br/>{{SkillAdditionalInfoTemplate|持続時間|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒|25秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|ディヴァインマイト| . |187|1|25|一時的に自分とPTメンバーのスキルレベルを1アップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|適用回数|1回|2回|3回|4回|5回|6回|7回|8回|9回|10回}}<br/>{{SkillAdditionalInfoTemplate|持続時間|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒|60秒}}<br/>}}<br/>|10}}
+{{ListViewSkill|スイッチジェンダー| . |0|2|0|キャラクターの性別を変更できるショップを開きます。アイテム{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|1}}|<br/>{{SkillTitleOnlyTemplate|1レベルマスター|2}}<br/>}}<br/>|1}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|フォアテル| . |295|1|40|敵の攻撃を防御する魔法陣を召喚します。魔法陣の中にいると敵から受けるダメージが減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|- 6%|-12%|-18%|-24%|-30%}}<br/>{{SkillAdditionalInfoTemplate|魔法陣の持続時間|10秒|10秒|10秒|10秒|10秒}}<br/>}}<br/>|5}}
-{{ListViewSkill|ツイストオブフェイト| . |187|1|35|指定した敵の最大HPに基づいて固定的なダメージを与える代わりに、攻撃後は与えたダメージの2倍、敵のHPが持続的に回復します。ボスモンスターにはダメージが半分しか適用されず、フィールドボスモンスターには適用されません。ギルドアジトでは使用できません。ツイストオブフェイトの攻撃は最大ダメージを超えることができます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|最大HPの| 1%～ n%ダメージ 8| 9%～ n%ダメージ16|17%～ n%ダメージ24|25%～ n%ダメージ32|33%～ n%ダメージ40}}<br/>{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|フォアテル| . |295|1|40|敵の攻撃を防御する魔法陣を召喚します。魔法陣の中にいると敵から受けるダメージが減少します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|受けるダメージ|6%ダウン|12%ダウン|18%ダウン|24%ダウン|30%ダウン}}<br/>{{SkillAdditionalInfoTemplate|魔法陣の持続時間|10秒|10秒|10秒|10秒|10秒}}<br/>}}<br/>|5}}
+{{ListViewSkill|ツイストオブフェイト| . |187|1|35|指定した敵の最大HPに基づいて固定的なダメージを与える代わりに、攻撃後は与えたダメージの2倍、敵のHPが持続的に回復します。ボスモンスターにはダメージが半分しか適用されず、フィールドボスモンスターには適用されません。ギルドアジトでは使用できません。ツイストオブフェイトの攻撃は最大ダメージを超えることができます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|最大HPの|1%～8%ダメージ|9%～16%ダメージ|17%～24%ダメージ|25%～32%ダメージ|33%～40%ダメージ}}<br/>{{SkillAdditionalInfoTemplate|持続時間|30秒|30秒|30秒|30秒|30秒}}<br/>}}<br/>|5}}
 
 |}
 
@@ -125,5 +125,5 @@ nan
 nan
 {{ClassFooter|2}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.782152
+* Automatic generated at 2020-02-03 00:16:38.839608
 {{PageProgress|2}}

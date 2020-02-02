@@ -50,16 +50,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|ラムムアイ| . |0|1|0|両手を空け素手で攻撃するラムムアイスタンスに変更します。ムエタイスキルを使用でき、基本攻撃が変更されます。スキルレベルがアップするほど基本攻撃の攻撃速度がアップします。基本攻撃が当たった敵は5秒間[衝撃]状態になり、[衝撃]状態の敵をムエタイスキルで攻撃すると50%の確率で追加打が発生します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|攻撃力|55% x 2回|58% x 2回|61% x 2回|64% x 2回|67% x 2回|70% x 2回|73% x 2回|76% x 2回|79% x 2回|82% x 2回|85% x 2回|88% x 2回|91% x 2回|94% x 2回|97% x 2回}}<br/>{{SkillAdditionalInfoTemplate|基本攻撃速度|+20|+40|+60|+80|+100|+120|+140|+160|+180|+200|+220|+240|+260|+280|+300}}<br/>}}<br/>|15}}
-{{ListViewSkill|テッサイ| . |89|1|5|敵の下半身に強い蹴りを入れ、敵を1.5秒間移動不可の状態にします。対象が小型もしくはボスモンスターの場合は追加ダメージが適用されます。ラムムアイバフ適用中のみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|131%x 2回|152%x 2回|174%x 2回|196%x 2回|218%x 2回|240%x 2回|262%x 2回|284%x 2回|306%x 2回|328%x 2回|350%x 2回|371%x 2回|393%x 2回|415%x 2回|437%x 2回}}<br/>}}<br/>|15}}
-{{ListViewSkill|ソークラーン| . |90|1|6|敵を肘で斬りつけるように攻撃します。攻撃を受けた敵は[出血]状態になります。ノックダウン状態の敵には追加ダメージが適用されます。ラムムアイバフ適用中のみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|158%x 2回|184%x 2回|210%x 2回|237%x 2回|263%x 2回|290%x 2回|316%x 2回|342%x 2回|369%x 2回|395%x 2回|422%x 2回|448%x 2回|474%x 2回|501%x 2回|527%x 2回}}<br/>{{SkillAdditionalInfoTemplate|[出血]持続時間| 6秒| 7秒| 8秒| 9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|ラムムアイ| . |0|1|0|両手を空け素手で攻撃するラムムアイスタンスに変更します。ムエタイスキルを使用でき、基本攻撃が変更されます。スキルレベルがアップするほど基本攻撃の攻撃速度がアップします。基本攻撃が当たった敵は5秒間[衝撃]状態になり、[衝撃]状態の敵をムエタイスキルで攻撃すると50%の確率で追加打が発生します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|攻撃力|55% x 2回|58% x 2回|61% x 2回|64% x 2回|67% x 2回|70% x 2回|73% x 2回|76% x 2回|79% x 2回|82% x 2回|85% x 2回|88% x 2回|91% x 2回|94% x 2回|97% x 2回}}<br/>{{SkillAdditionalInfoTemplate|基本攻撃速度|20アップ|40アップ|60アップ|80アップ|100アップ|120アップ|140アップ|160アップ|180アップ|200アップ|220アップ|240アップ|260アップ|280アップ|300アップ}}<br/>}}<br/>|15}}
+{{ListViewSkill|テッサイ| . |89|1|5|敵の下半身に強い蹴りを入れ、敵を1.5秒間移動不可の状態にします。対象が小型もしくはボスモンスターの場合は追加ダメージが適用されます。ラムムアイバフ適用中のみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|131%x 2回|152%x 2回|174%x 2回|196%x 2回|218%x 2回|240%x 2回|262%x 2回|284%x 2回|306%x 2回|328%x 2回|350%x 2回|371%x 2回|393%x 2回|415%x 2回|437%x 2回}}<br/>{{SkillTitleOnlyTemplate|小型敵またはボスモンスターへのダメージ50%アップ|16}}<br/>{{SkillTitleOnlyTemplate|ラムムアイスタンス転換後に使用可能|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|ソークラーン| . |90|1|6|敵を肘で斬りつけるように攻撃します。攻撃を受けた敵は[出血]状態になります。ノックダウン状態の敵には追加ダメージが適用されます。ラムムアイバフ適用中のみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|158%x 2回|184%x 2回|210%x 2回|237%x 2回|263%x 2回|290%x 2回|316%x 2回|342%x 2回|369%x 2回|395%x 2回|422%x 2回|448%x 2回|474%x 2回|501%x 2回|527%x 2回}}<br/>{{SkillAdditionalInfoTemplate|[出血]持続時間|6秒|7秒|8秒|9秒|10秒|11秒|12秒|13秒|14秒|15秒|16秒|17秒|18秒|19秒|20秒}}<br/>{{SkillTitleOnlyTemplate| *ボスモンスターには3秒だけ持続|16}}<br/>{{SkillTitleOnlyTemplate|ノックダウン状態の敵に追加ダメージ50%|16}}<br/>{{SkillTitleOnlyTemplate|ラムムアイスタンス転換後に使用可能|16}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|テットロン| . |91|1|8|敵を蹴り上げて攻撃します。攻撃を受けた敵はぐるぐると回りながらノックダウンします。[移動不可]状態の敵には追加ダメージが適用されます。ラムムアイバフ適用中のみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|408%|513%|619%|725%|831%|937%|1042%|1148%|1254%|1360%}}<br/>}}<br/>|10}}
-{{ListViewSkill|カウロイ| . |96|1|10|敵を飛び膝蹴りで攻撃します。[テットロン]状態の敵には追加ダメージが適用されます。ラムムアイバフ適用中のみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |468%|589%|711%|832%|954%|1075%|1197%|1319%|1440%|1562%}}<br/>}}<br/>|10}}
+{{ListViewSkill|テットロン| . |91|1|8|敵を蹴り上げて攻撃します。攻撃を受けた敵はぐるぐると回りながらノックダウンします。[移動不可]状態の敵には追加ダメージが適用されます。ラムムアイバフ適用中のみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|408%|513%|619%|725%|831%|937%|1042%|1148%|1254%|1360%}}<br/>{{SkillTitleOnlyTemplate|[移動不可]状態の敵に追加ダメージ50%|11}}<br/>{{SkillTitleOnlyTemplate|ラムムアイスタンス転換後に使用可能|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|カウロイ| . |96|1|10|敵を飛び膝蹴りで攻撃します。[テットロン]状態の敵には追加ダメージが適用されます。ラムムアイバフ適用中のみ使用できます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数 |468%|589%|711%|832%|954%|1075%|1197%|1319%|1440%|1562%}}<br/>{{SkillTitleOnlyTemplate|[テットロン]状態の敵に追加ダメージ100%|11}}<br/>{{SkillTitleOnlyTemplate|ラムムアイスタンス転換後に使用可能|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|ムエタイの心得| . |190|1|90|ムエタイの心得バフの間テッサイ、ソークラーン、テットロン、カウロイスキルのクールタイムが0.5秒に変更されます。[ラムムアイ]バフの追加打発生確率がアップします。持続時間が終わる時テッサイ、ソークラーン、テットロン、カウロイスキルのクールタイム30秒が適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|11秒|12秒|13秒|14秒|15秒}}<br/>{{SkillAdditionalInfoTemplate|追加打発生確率|+10%|+20%|+30%|+40%|+50%}}<br/>}}<br/>|5}}
+{{ListViewSkill|ムエタイの心得| . |190|1|90|ムエタイの心得バフの間テッサイ、ソークラーン、テットロン、カウロイスキルのクールタイムが0.5秒に変更されます。[ラムムアイ]バフの追加打発生確率がアップします。持続時間が終わる時テッサイ、ソークラーン、テットロン、カウロイスキルのクールタイム30秒が適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|持続時間|11秒|12秒|13秒|14秒|15秒}}<br/>{{SkillAdditionalInfoTemplate|追加打発生確率|10%アップ|20%アップ|30%アップ|40%アップ|50%アップ}}<br/>}}<br/>|5}}
 
 |}
 
@@ -116,5 +116,5 @@ nan
 nan
 {{ClassFooter|4}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.628151
+* Automatic generated at 2020-02-03 00:16:38.661608
 {{PageProgress|2}}

@@ -50,16 +50,16 @@ List View=
 {| class="wikitable"
 {{ListViewSkill|1}}
 |-
-{{ListViewSkill|鑑定| . |0|1|60|未鑑定アイテムを鑑定できる商店を開設します。スキルレベルが高いほど、アイテムオプションの数が追加される確率が増加します。|15}}
-{{ListViewSkill|フォージェリ| . |235|1|300|アプレイサー自身が着用したアクセサリのイミテーションを展示します。本人を除いたPTメンバーは展示された模造品を着用できるようになります。模造品を利用する場合、自分のアクセサリーの代わりに模造品の効果が適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|バフ持続時間|400秒|500秒|600秒|700秒|800秒|900秒|1000秒|1100秒|1200秒|1300秒|1400秒|1500秒|1600秒|1700秒|1800秒}}<br/>}}<br/>|15}}
-{{ListViewSkill|ブラインドサイド| . |96|3|40|虫眼鏡を利用し、敵の弱点を見つけて攻撃します。ダメージを受けた敵を基準に一定範囲内の対象は、クリティカル発生率が上昇します。(ブラインドサイドの効果はキャラクターのクリティカル発生と別に適用されます。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|390%|433%|476%|519%|562%|605%|648%|691%|734%|777%|820%|863%|906%|949%|992%}}<br/>{{SkillAdditionalInfoTemplate|[アウトウィークポイント]状態の敵に| 6%の確率でクリティカル| 7%の確率でクリティカル| 8%の確率でクリティカル| 9%の確率でクリティカル|10%の確率でクリティカル|11%の確率でクリティカル|12%の確率でクリティカル|13%の確率でクリティカル|14%の確率でクリティカル|15%の確率でクリティカル|16%の確率でクリティカル|17%の確率でクリティカル|18%の確率でクリティカル|19%の確率でクリティカル|20%の確率でクリティカル}}<br/>{{SkillAdditionalInfoTemplate|持続時間|12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒|32秒|34秒|36秒|38秒|40秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|鑑定| . |0|1|60|未鑑定アイテムを鑑定できる商店を開設します。スキルレベルが高いほど、アイテムオプションの数が追加される確率が増加します。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillTitleOnlyTemplate|アイテムオプションの数追加確率増加|16}}<br/>}}<br/>|15}}
+{{ListViewSkill|フォージェリ| . |235|1|300|アプレイサー自身が着用したアクセサリのイミテーションを展示します。本人を除いたPTメンバーは展示された模造品を着用できるようになります。模造品を利用する場合、自分のアクセサリーの代わりに模造品の効果が適用されます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillTitleOnlyTemplate|模造品テーブル持続時間30秒|16}}<br/>{{SkillAdditionalInfoTemplate|バフ持続時間|400秒|500秒|600秒|700秒|800秒|900秒|1000秒|1100秒|1200秒|1300秒|1400秒|1500秒|1600秒|1700秒|1800秒}}<br/>}}<br/>|15}}
+{{ListViewSkill|ブラインドサイド| . |96|3|40|虫眼鏡を利用し、敵の弱点を見つけて攻撃します。ダメージを受けた敵を基準に一定範囲内の対象は、クリティカル発生率が上昇します。(ブラインドサイドの効果はキャラクターのクリティカル発生と別に適用されます。){{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|15}}|<br/>{{SkillAdditionalInfoTemplate|スキル係数|390%|433%|476%|519%|562%|605%|648%|691%|734%|777%|820%|863%|906%|949%|992%}}<br/>{{SkillAdditionalInfoTemplate|[アウトウィークポイント]状態の敵に|6%の確率でクリティカル|7%の確率でクリティカル|8%の確率でクリティカル|9%の確率でクリティカル|10%の確率でクリティカル|11%の確率でクリティカル|12%の確率でクリティカル|13%の確率でクリティカル|14%の確率でクリティカル|15%の確率でクリティカル|16%の確率でクリティカル|17%の確率でクリティカル|18%の確率でクリティカル|19%の確率でクリティカル|20%の確率でクリティカル}}<br/>{{SkillAdditionalInfoTemplate|持続時間|12秒|14秒|16秒|18秒|20秒|22秒|24秒|26秒|28秒|30秒|32秒|34秒|36秒|38秒|40秒}}<br/>}}<br/>|15}}
 {{ListViewSkill|2}}
 |-
-{{ListViewSkill|デバリュエーション| . |131|1|30|一定の確率で前方にいる敵キャラクター装備の強化数値や超越数値を0に変更します。敵がモンスターの場合、物理/魔法攻撃力と物理/魔法防御力が減少します。ボスモンスターの場合、減少する数値が半分になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|適用対象| 1| 2| 3| 4| 5| 6| 7| 8| 9|10}}<br/>{{SkillAdditionalInfoTemplate|モンスター物理、魔法攻撃力|-15%|-15%|-15%|-15%|-15%|-15%|-15%|-15%|-15%|-15%}}<br/>{{SkillAdditionalInfoTemplate|モンスター物理、魔法防御力|-15%|-15%|-15%|-15%|-15%|-15%|-15%|-15%|-15%|-15%}}<br/>}}<br/>|10}}
-{{ListViewSkill|インシュアランス| . |209|1|60|自分が戦闘不能になった時多くのペナルティーが減少する保険をかけます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|装備耐久度ペナルティー|- 6%|-12%|-18%|-24%|-30%|-36%|-42%|-48%|-54%|-60%}}<br/>{{SkillAdditionalInfoTemplate|祝福された欠片消滅ペナルティー|- 5%|-10%|-15%|-20%|-25%|-30%|-35%|-40%|-45%|-50%}}<br/>}}<br/>|10}}
+{{ListViewSkill|デバリュエーション| . |131|1|30|一定の確率で前方にいる敵キャラクター装備の強化数値や超越数値を0に変更します。敵がモンスターの場合、物理/魔法攻撃力と物理/魔法防御力が減少します。ボスモンスターの場合、減少する数値が半分になります。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillTitleOnlyTemplate|デバリュエーション確率50%|11}}<br/>{{SkillAdditionalInfoTemplate|適用対象|1|2|3|4|5|6|7|8|9|10}}<br/>{{SkillAdditionalInfoTemplate|モンスター物理、魔法攻撃力|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン}}<br/>{{SkillAdditionalInfoTemplate|モンスター物理、魔法防御力|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン|15%ダウン}}<br/>{{SkillTitleOnlyTemplate|モンスター対象持続時間120秒|11}}<br/>{{SkillTitleOnlyTemplate|キャラクター対象持続時間20秒|11}}<br/>}}<br/>|10}}
+{{ListViewSkill|インシュアランス| . |209|1|60|自分が戦闘不能になった時多くのペナルティーが減少する保険をかけます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|10}}|<br/>{{SkillAdditionalInfoTemplate|装備耐久度ペナルティー|6%減少|12%減少|18%減少|24%減少|30%減少|36%減少|42%減少|48%減少|54%減少|60%減少}}<br/>{{SkillAdditionalInfoTemplate|祝福された欠片消滅ペナルティー|5%減少|10%減少|15%減少|20%減少|25%減少|30%減少|35%減少|40%減少|45%減少|50%減少}}<br/>{{SkillTitleOnlyTemplate|持続時間30秒|11}}<br/>}}<br/>|10}}
 {{ListViewSkill|3}}
 |-
-{{ListViewSkill|オーバーエスティメート| . |209|1|60|自分のメインの武器強化数値をアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|強化数値|+ 3|+ 4|+ 5|+ 6|+ 7}}<br/>}}<br/>|5}}
+{{ListViewSkill|オーバーエスティメート| . |209|1|60|自分のメインの武器強化数値をアップさせます。{{SkillInfoBoxTemplate|<br/>{{SkillLevelTemplate|5}}|<br/>{{SkillAdditionalInfoTemplate|強化数値|3アップ|4アップ|5アップ|6アップ|7アップ}}<br/>{{SkillTitleOnlyTemplate|持続時間30分|6}}<br/>}}<br/>|5}}
 
 |}
 
@@ -112,5 +112,5 @@ nan
 nan
 {{ClassFooter|1}}
 ==履歴==
-* Automatic generated at 2020-02-02 20:52:44.737152
+* Automatic generated at 2020-02-03 00:16:38.786608
 {{PageProgress|2}}
